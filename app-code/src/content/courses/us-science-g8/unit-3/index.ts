@@ -7,6 +7,7 @@ export const unit3: Unit = {
   id: "s8-u3",
   code: "3",
   title: "Life and Earth: Heredity, Evolution and the Universe",
-  description: "Explore how genes and reproduction pass traits to offspring, how evidence and natural selection explain the history of life, and how gravity and Earth's motion shape the Sun-Earth-Moon system, the solar system and deep time.",
+  description:
+    "Explore how genes and reproduction pass traits to offspring, how evidence and natural selection explain the history of life, and how gravity and Earth's motion shape the Sun-Earth-Moon system, the solar system and deep time.",
   lessons: [lesson31, lesson32, lesson33],
 };

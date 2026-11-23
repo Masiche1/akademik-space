@@ -2,6 +2,11 @@ import type { Unit } from "../../../types.ts";
 import { lesson141 } from "./lesson-1-1.ts";
 import { lesson142 } from "./lesson-1-2.ts";
 import { lesson143 } from "./lesson-1-3.ts";
+import { exam11 } from "./lesson-1-x1.ts";
+import { exam12 } from "./lesson-1-x2.ts";
+import { exam13 } from "./lesson-1-x3.ts";
+import { exam14 } from "./lesson-1-x4.ts";
+import { exam15 } from "./lesson-1-x5.ts";
 
 export const unit1: Unit = {
   id: "edps4-u1",
@@ -9,5 +14,5 @@ export const unit1: Unit = {
   title: "Living Things: Diets, Food Webs and Seasons",
   description:
     "Animal diet classification, complex life cycles, food webs and habitats, and seasonal adaptations in animals and plants.",
-  lessons: [lesson141, lesson142, lesson143],
+  lessons: [lesson141, lesson142, lesson143, exam11, exam12, exam13, exam14, exam15],
 };

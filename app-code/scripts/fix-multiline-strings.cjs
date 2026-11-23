@@ -1,97 +1,27 @@
+// Joins literal newlines inside quoted strings into \n escapes.
+// Usage: node scripts/fix-multiline-strings.cjs <file.cjs> [...]
 const fs = require("fs");
-const path = require("path");
 
-const root = path.join(__dirname, "..", "src", "content", "courses");
-
-function walk(dir) {
-  const out = [];
-  for (const f of fs.readdirSync(dir)) {
-    const p = path.join(dir, f);
-    const s = fs.statSync(p);
-    if (s.isDirectory()) out.push(...walk(p));
-    else if (f.endsWith(".ts")) out.push(p);
-  }
-  return out;
-}
-
-// Scan a file for double-quoted strings containing raw newlines, convert to template literals.
-function fixFile(file) {
-  const text = fs.readFileSync(file, "utf8");
-  const chars = text.split("");
-  let i = 0;
-  let state = "code"; // code | dquote | squote | template | linecomment | blockcomment
-  const replacements = []; // [pos, char]
-  let openPos = -1;
-  let hasNewline = false;
-
-  while (i < chars.length) {
-    const c = chars[i];
-    const next = chars[i + 1];
-
-    if (state === "code") {
-      if (c === "/" && next === "/") { state = "linecomment"; i += 2; continue; }
-      if (c === "/" && next === "*") { state = "blockcomment"; i += 2; continue; }
-      if (c === '"') { state = "dquote"; openPos = i; hasNewline = false; i++; continue; }
-      if (c === "'") { state = "squote"; i++; continue; }
-      if (c === "`") { state = "template"; i++; continue; }
-      i++;
-      continue;
-    }
-    if (state === "linecomment") {
-      if (c === "\n") state = "code";
-      i++;
-      continue;
-    }
-    if (state === "blockcomment") {
-      if (c === "*" && next === "/") { state = "code"; i += 2; continue; }
-      i++;
-      continue;
-    }
-    if (state === "squote") {
-      if (c === "\\") { i += 2; continue; }
-      if (c === "'") { state = "code"; }
-      i++;
-      continue;
-    }
-    if (state === "template") {
-      if (c === "\\") { i += 2; continue; }
-      if (c === "`") { state = "code"; }
-      i++;
-      continue;
-    }
-    if (state === "dquote") {
-      if (c === "\\") { i += 2; continue; }
-      if (c === '"') {
-        state = "code";
-        if (hasNewline) {
-          // convert open and close quotes to backticks
-          replacements.push([openPos, "`"], [i, "`"]);
-        }
-        i++;
-        continue;
+for (const f of process.argv.slice(2)) {
+  const src = fs.readFileSync(f, "utf8");
+  let out = "";
+  let quote = null; // ' " or `
+  let i = 0, fixed = 0;
+  while (i < src.length) {
+    const ch = src[i];
+    if (quote) {
+      if (ch === "\\") { out += ch + (src[i + 1] ?? ""); i += 2; continue; }
+      if (ch === quote) { quote = null; out += ch; i++; continue; }
+      if (ch === "\r" || ch === "\n") {
+        if (ch === "\r" && src[i + 1] === "\n") i++;
+        out += "\\n"; fixed++; i++; continue;
       }
-      if (c === "\n") hasNewline = true;
-      i++;
-      continue;
+      out += ch; i++; continue;
     }
+    if (ch === '"' || ch === "'" || ch === "`") { quote = ch; out += ch; i++; continue; }
+    out += ch; i++;
   }
-
-  if (replacements.length === 0) return 0;
-  // apply replacements from end to start
-  replacements.sort((a, b) => b[0] - a[0]);
-  let out = text;
-  for (const [pos, ch] of replacements) {
-    out = out.slice(0, pos) + ch + out.slice(pos + 1);
-  }
-  fs.writeFileSync(file, out);
-  return replacements.length / 2;
+  if (fixed) { fs.writeFileSync(f, out, "utf8"); console.log(`${f}: joined ${fixed} newlines`); }
+  else console.log(`${f}: no multiline strings`);
+  if (quote) console.log(`  WARNING: unterminated ${quote} at EOF`);
 }
-
-let total = 0;
-const changed = [];
-for (const f of walk(root)) {
-  const n = fixFile(f);
-  if (n > 0) { changed.push(`${path.relative(root, f)}: ${n} strings`); total += n; }
-}
-console.log(`fixed ${total} strings in ${changed.length} files`);
-for (const c of changed) console.log(" ", c);

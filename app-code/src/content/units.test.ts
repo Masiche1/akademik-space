@@ -25,12 +25,12 @@ const edexcelUnits = units.flatMap(([path, unit]) => {
   const year = /^edx-maths-y(\d+)\//.exec(path)?.[1];
   if (year) return [[path, unit, Number(year) >= 10] as const];
   // US Grades 7-11, IB MYP, Edexcel sciences and Edexcel IAS/IAL/Primary courses are never tiered.
-  return /^(edx-(science|biology|chemistry|physics|ias|ial|primary)-|us-[a-z-]+-g|myp-[a-z-]+-y)\w*\//.test(path) ? [[path, unit, false] as const] : [];
+  return /^(edx-(science|biology|chemistry|physics|ias|ial|primary)-|us-[a-z-]+-(g|prek)|myp-[a-z-]+-y)\w*\//.test(path) ? [[path, unit, false] as const] : [];
 });
 
 // Edexcel English Language and Literature, US ELA, and Cambridge English courses, every year.
 const englishUnits = units.filter(([path]) =>
-  /^(edx-eng(lang|lit)-y|us-ela-g)\d+\/|^cie-(primary-english|igcse-english|ls-english|o-level-english[a-z-]*|ial-english[a-z-]*)\//.test(path),
+  /^(?:edx-eng(?:lang|lit)-y\d+|us-ela-(?:g\d+|prek))\/|^cie-(primary-english|igcse-english|ls-english|o-level-english[a-z-]*|ial-english[a-z-]*)\/|^(ap-english-[a-z]+|sat-reading-writing)\//.test(path),
 );
 
 describe("unit content validation", () => {

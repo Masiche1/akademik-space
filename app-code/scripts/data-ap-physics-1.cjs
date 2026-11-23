@@ -1,0 +1,347 @@
+// AP Physics 1 — kinematics/dynamics, energy/momentum, waves/electricity. Spec for scripts/gen-us-elementary.cjs.
+const P = (kind, name, statement) => [kind, name, statement];
+const S = (reasoning, marks, markCode = "A", working) => ({ reasoning, marks, markCode, ...(working ? { working } : {}) });
+const mcq = (difficulty, totalMarks, stem, choices, correct, principles, steps, finalAnswer, commonErrors) => ({
+  difficulty, totalMarks, stem, choices, correct, principles, steps, finalAnswer, ...(commonErrors ? { commonErrors } : {}),
+});
+const num = (difficulty, totalMarks, stem, numeric, principles, steps, finalAnswer, commonErrors) => ({
+  difficulty, totalMarks, stem, numeric, principles, steps, finalAnswer, ...(commonErrors ? { commonErrors } : {}),
+});
+const op = (difficulty, totalMarks, stem, principles, steps, finalAnswer, commonErrors) => ({
+  difficulty, totalMarks, stem, principles, steps, finalAnswer, ...(commonErrors ? { commonErrors } : {}),
+});
+const lesson = (slug, title, goal, standards, vocab, concept) => ({ slug, title, goal, standards, vocab, concept });
+
+const apPhysics1 = {
+  id: "ap-physics-1",
+  exportName: "apPhysics1",
+  prefix: "app1",
+  title: "AP Physics 1",
+  shortTitle: "AP Phys 1",
+  grade: "AP",
+  framework: "College Board Advanced Placement",
+  description:
+    "Kinematics and dynamics, energy and momentum, rotational motion, and waves and electricity — the algebra-based AP Physics 1 curriculum.",
+  ap: { exam: "physics-1" },
+  units: [
+    {
+      id: "app1-u1",
+      title: "Kinematics and Dynamics",
+      description: "Motion in one and two dimensions, Newton's laws, circular motion, and gravitation.",
+      lessons: [
+        lesson("kinematics", "Kinematics in One and Two Dimensions", "I CAN describe motion with position, velocity, acceleration, and projectile motion.", ["KIN-1"],
+          [["Displacement", "Change in position — vector with magnitude and direction."], ["Velocity", "$\\vec{v} = \\frac{d\\vec{x}}{dt}$ — rate of change of position."], ["Acceleration", "$\\vec{a} = \\frac{d\\vec{v}}{dt}$ — rate of change of velocity."], ["Projectile motion", "Motion under gravity only — horizontal and vertical components independent."], ["Free fall", "Motion under gravity alone: $a = -9.8$ m/s$^2$."]],
+          {
+            title: "Kinematics",
+            skill: "Analyze motion using kinematic equations and vectors.",
+            sections: [
+              ["1D motion", "For constant acceleration: $v = v_0 + at$, $x = x_0 + v_0 t + \\frac{1}{2}at^2$, $v^2 = v_0^2 + 2a(x - x_0)$. Velocity and acceleration are vectors — direction matters. Average velocity $= \\frac{\\Delta x}{\\Delta t}$; instantaneous is the derivative."],
+              ["2D and projectile motion", "Resolve motion into horizontal ($a_x = 0$) and vertical ($a_y = -g$) components. Horizontal velocity stays constant; vertical follows free-fall equations. Time of flight depends only on vertical motion; range depends on both. Independence of components is the key insight."],
+            ],
+            formulas: [
+              ["Kinematic equations", "$v = v_0 + at$; $x = v_0 t + \\frac{1}{2}at^2$; $v^2 = v_0^2 + 2ax$"],
+              ["Projectile", "Horizontal: constant $v$; vertical: $a = -g$"],
+            ],
+            worked: {
+              problem: "Ball thrown up at $20$ m/s. Max height? (Use $g = 9.8$)",
+              solution: "At max height $v = 0$: $0 = 20^2 - 2(9.8)h \\Rightarrow h = \\frac{400}{19.6} \\approx 20.4$ m.",
+            },
+            questions: [
+              mcq("foundation", 1, "Acceleration is the rate of change of ___.", [["a", "position"], ["b", "velocity"], ["c", "time"], ["d", "distance"]], "b",
+                [P("definition", "Acceleration", "$\\vec{a} = d\\vec{v}/dt$.")],
+                [S("Acceleration measures how velocity changes over time.", 1, "M")], "Velocity", ["Confusing acceleration with velocity."]),
+              mcq("core", 1, "In projectile motion (ignoring air resistance), the horizontal acceleration is ___.", [["a", "$-g$"], ["b", "$0$"], ["c", "$g$"], ["d", "varies"]], "b",
+                [P("concept", "Component independence", "No horizontal force means $a_x = 0$.")],
+                [S("Only gravity acts, vertically — horizontal velocity is constant.", 1, "M")], "$0$", ["Thinking gravity affects both components."]),
+              num("core", 2, "Car accelerates from $10$ m/s to $30$ m/s in $5$ s. Find acceleration. Enter m/s².", [{ label: "$a$", answer: 4 }],
+                [P("method", "$a = \\frac{\\Delta v}{\\Delta t}$", "$")],
+                [S("$a = \\frac{30 - 10}{5} = \\frac{20}{5} = 4$ m/s$^2$.", 1, "M"), S("$a = 4$ m/s$^2$.", 1, "B")], "$4$ m/s²", ["Using final velocity only or dividing by wrong time."]),
+              op("challenge", 3, "A ball is launched horizontally at $10$ m/s from a $45$ m cliff. Find (a) time to hit ground and (b) horizontal distance traveled. ($g = 9.8$)",
+                [P("concept", "Component independence", "Vertical: free fall from rest; horizontal: constant $10$ m/s."), P("method", "Kinematics", "$h = \\frac{1}{2}gt^2$, $x = vt$.")],
+                [S("(a) $45 = \\frac{1}{2}(9.8)t^2 \\Rightarrow t^2 = \\frac{90}{9.8} \\approx 9.18 \\Rightarrow t \\approx 3.03$ s.", 1, "M"), S("(b) $x = 10 \\times 3.03 \\approx 30.3$ m.", 1, "M"), S("Correct values with component reasoning.", 1, "B")], "$t \\approx 3.03$ s; $x \\approx 30.3$ m", ["Using total velocity for horizontal distance or mixing components."]),
+            ],
+          }),
+        lesson("newtons-laws", "Newton's Laws of Motion", "I CAN apply Newton's three laws to analyze forces and motion.", ["NEW-1"],
+          [["Newton's 1st", "An object stays at rest or uniform motion unless acted on by net force — inertia."], ["Newton's 2nd", "$\\vec{F}_{net} = m\\vec{a}$ — net force causes acceleration."], ["Newton's 3rd", "For every action force there's an equal, opposite reaction force."], ["Normal force", "Perpendicular contact force preventing interpenetration."], ["Friction", "Opposes relative motion; $f \\le \\mu N$."]],
+          {
+            title: "Newton's laws",
+            skill: "Draw free-body diagrams and apply $F = ma$.",
+            sections: [
+              ["The three laws", "**1st**: objects resist changes in motion (inertia $= m$). **2nd**: $\\vec{F}_{net} = m\\vec{a}$ — the master equation; find net force by vector-summing all forces. **3rd**: forces come in pairs acting on DIFFERENT objects — action-reaction pairs never cancel each other."],
+              ["Free-body diagrams", "Isolate one object, draw all forces ON it (never action-reaction pairs), resolve into components if needed, apply $\\sum F_x = ma_x$, $\\sum F_y = ma_y$. On an incline, gravity splits into $mg\\sin\\theta$ (down slope) and $mg\\cos\\theta$ (into slope, balanced by normal force)."],
+            ],
+            formulas: [
+              ["Newton's 2nd", "$\\vec{F}_{net} = m\\vec{a}$"],
+              ["Incline components", "$mg\\sin\\theta$ parallel, $mg\\cos\\theta$ perpendicular"],
+            ],
+            worked: {
+              problem: "10 kg box pulled with 50 N horizontal force, $\\mu_k = 0.2$. Find acceleration. ($g = 9.8$)",
+              solution: "$f_k = \\mu N = 0.2 \\times 10 \\times 9.8 = 19.6$ N. $F_{net} = 50 - 19.6 = 30.4$ N. $a = \\frac{30.4}{10} = 3.04$ m/s$^2$.",
+            },
+            questions: [
+              mcq("foundation", 1, "Newton's third law pairs act on ___.", [["a", "the same object"], ["b", "different objects"], ["c", "no objects"], ["d", "the Earth only"]], "b",
+                [P("definition", "3rd law", "Action-reaction forces act on different bodies.")],
+                [S("The two forces of a pair never act on the same object — that's why they don't cancel.", 1, "M")], "Different objects", ["Thinking action-reaction forces cancel — they're on different objects."]),
+              mcq("core", 1, "A 5 kg object accelerates at $2$ m/s². Net force?", [["a", "$2.5$ N"], ["b", "$10$ N"], ["c", "$7$ N"], ["d", "$0.4$ N"]], "b",
+                [P("method", "$F = ma$", "$")],
+                [S("$F = 5 \\times 2 = 10$ N.", 1, "M")], "$10$ N", ["Dividing instead of multiplying $m \\times a$."]),
+              num("core", 2, "On a frictionless $30^\\circ$ incline, a $2$ kg block slides. Find acceleration down the slope. ($g = 9.8$, $\\sin 30^\\circ = 0.5$). Enter m/s².", [{ label: "$a$", answer: 4.9 }],
+                [P("method", "Incline", "$a = g\\sin\\theta = 9.8 \\times 0.5$.")],
+                [S("$a = 9.8 \\times 0.5 = 4.9$ m/s$^2$.", 1, "M"), S("$a = 4.9$ m/s$^2$.", 1, "B")], "$4.9$ m/s²", ["Using $\\cos\\theta$ or forgetting to resolve gravity."]),
+              op("challenge", 3, "Explain why a book on a table doesn't fall through it, using Newton's laws and identifying all forces.",
+                [P("concept", "Normal force", "Table pushes up perpendicular to surface."), P("concept", "Equilibrium", "$\\sum F = 0$ for stationary objects.")],
+                [S("Forces on book: gravity $mg$ down, normal force $N$ up from table.", 1, "M"), S("Book is stationary so $a = 0$; Newton's 2nd gives $N - mg = 0$, so $N = mg$ — the table pushes up exactly balancing weight.", 1, "M"), S("The table deforms slightly, generating the normal force via electromagnetic repulsion — that's why it doesn't fall through.", 1, "R")], "$N = mg$ upward balances weight; net force zero", ["Listing action-reaction pairs on the same FBD or missing the normal force."]),
+            ],
+          }),
+        lesson("circular-gravity", "Circular Motion and Gravitation", "I CAN analyze circular motion and apply the law of gravitation.", ["NEW-2"],
+          [["Centripetal acceleration", "$a_c = \\frac{v^2}{r}$ — toward center of circle."], ["Centripetal force", "Net force causing circular motion — not a separate force."], ["Period", "$T = \\frac{2\\pi r}{v}$ — time for one revolution."], ["Universal gravitation", "$F_g = G\\frac{m_1 m_2}{r^2}$ — inverse-square law."], ["Orbital velocity", "$v = \\sqrt{\\frac{GM}{r}}$ for circular orbits."]],
+          {
+            title: "Circular motion and gravity",
+            skill: "Relate centripetal force to gravity and orbital motion.",
+            sections: [
+              ["Circular motion", "An object in uniform circular motion accelerates toward the center at $a_c = \\frac{v^2}{r}$, requiring a net inward force $F_c = \\frac{mv^2}{r}$. This is NOT a new force — it's whatever real force points inward: tension, friction, gravity, normal force."],
+              ["Gravitation", "Newton's law: $F_g = G\\frac{m_1m_2}{r^2}$ — every mass attracts every other. For orbits, gravity PROVIDES the centripetal force: $\\frac{GMm}{r^2} = \\frac{mv^2}{r}$ gives $v = \\sqrt{\\frac{GM}{r}}$. Higher orbits need LOWER speed — counterintuitive but correct."],
+            ],
+            formulas: [
+              ["Centripetal", "$a_c = \\frac{v^2}{r}$, $F_c = \\frac{mv^2}{r}$"],
+              ["Gravitation", "$F_g = G\\frac{m_1m_2}{r^2}$"],
+              ["Orbital speed", "$v = \\sqrt{\\frac{GM}{r}}$"],
+            ],
+            worked: {
+              problem: "Car rounds a $50$ m curve at $20$ m/s. What centripetal acceleration?",
+              solution: "$a_c = \\frac{v^2}{r} = \\frac{400}{50} = 8$ m/s$^2$ toward the center.",
+            },
+            questions: [
+              mcq("foundation", 1, "Centripetal force is ___.", [["a", "a new force outward"], ["b", "the net inward force causing circular motion"], ["c", "centrifugal force"], ["d", "always gravity"]], "b",
+                [P("definition", "Centripetal", "Real net force directed toward center.")],
+                [S("It's whatever force points inward — tension, friction, gravity — not a separate force.", 1, "M")], "Net inward force", ["Inventing 'centrifugal force' as a real force."]),
+              mcq("core", 1, "If orbital radius doubles, orbital speed ___.", [["a", "doubles"], ["b", "halves"], ["c", "becomes $\\frac{1}{\\sqrt{2}}$ of original"], ["d", "stays same"]], "c",
+                [P("method", "$v = \\sqrt{GM/r}$", "$")],
+                [S("$v \\propto \\frac{1}{\\sqrt{r}}$; doubling $r$ divides $v$ by $\\sqrt{2} \\approx 0.707$.", 1, "M")], "$v/\\sqrt{2}$", ["Thinking speed increases with orbit size — it decreases."]),
+              num("core", 2, "A $1000$ kg satellite orbits Earth ($GM = 3.986 \\times 10^{14}$ m³/s²) at $r = 7 \\times 10^6$ m. Find orbital speed. Enter km/s (rounded).", [{ label: "$v$", answer: 7.55, tolerance: 0.05 }],
+                [P("method", "Orbital speed", "$v = \\sqrt{GM/r}$.")],
+                [S("$v = \\sqrt{\\frac{3.986 \\times 10^{14}}{7 \\times 10^6}} = \\sqrt{5.69 \\times 10^7} \\approx 7547$ m/s $\\approx 7.55$ km/s.", 1, "M"), S("$\\approx 7.55$ km/s.", 1, "B")], "$7.55$ km/s", ["Squaring instead of square-rooting or unit errors."]),
+              op("challenge", 3, "Explain why a satellite in a higher orbit moves SLOWER, not faster, despite feeling 'less gravity'.",
+                [P("concept", "Weaker gravity", "$F_g \\propto 1/r^2$ decreases with distance."), P("theorem", "Orbital speed", "$v = \\sqrt{GM/r}$ decreases as $r$ increases.")],
+                [S("Gravity is weaker at larger $r$ — but orbital speed is set by $v = \\sqrt{GM/r}$, which also decreases with $r$.", 1, "M"), S("Higher orbit = longer path AND weaker pull needed to curve the path — speed drops as $1/\\sqrt{r}$.", 1, "M"), S("Period actually increases strongly: $T = 2\\pi\\sqrt{r^3/GM}$ — Kepler's third law.", 1, "B")], "$v \\propto 1/\\sqrt{r}$ — slower at higher orbit", ["Assuming weaker gravity means faster orbit — it's the opposite."]),
+            ],
+          }),
+      ],
+    },
+    {
+      id: "app1-u2",
+      title: "Energy, Momentum, and Rotation",
+      description: "Work and energy, momentum conservation, rotational motion, and simple harmonic motion.",
+      lessons: [
+        lesson("work-energy", "Work and Energy", "I CAN apply work-energy theorem and conservation of mechanical energy.", ["ENG-1"],
+          [["Work", "$W = Fd\\cos\\theta$ — energy transferred by force over displacement."], ["Kinetic energy", "$KE = \\frac{1}{2}mv^2$ — energy of motion."], ["Potential energy", "Stored energy: gravitational $mgh$, elastic $\\frac{1}{2}kx^2$."], ["Mechanical energy", "$E = KE + PE$ — conserved without friction."], ["Work-energy theorem", "$W_{net} = \\Delta KE$."]],
+          {
+            title: "Work and energy",
+            skill: "Compute work, energy changes, and apply conservation.",
+            sections: [
+              ["Work and energy forms", "Work transfers energy: $W = Fd\\cos\\theta$ (only the force component along displacement counts). Kinetic energy $KE = \\frac{1}{2}mv^2$; gravitational PE $= mgh$; spring PE $= \\frac{1}{2}kx^2$. With no friction, $KE + PE$ is conserved — it converts between forms."],
+              ["Work-energy theorem", "$W_{net} = \\Delta KE$ — net work equals kinetic energy change. Useful when forces are non-conservative. With friction, mechanical energy isn't conserved: $E_{mech,f} = E_{mech,i} - W_{friction}$. Power $= \\frac{W}{t} = Fv$."],
+            ],
+            formulas: [
+              ["Work", "$W = Fd\\cos\\theta$"],
+              ["Kinetic energy", "$KE = \\frac{1}{2}mv^2$"],
+              ["Conservation", "$KE_i + PE_i = KE_f + PE_f$ (no friction)"],
+            ],
+            worked: {
+              problem: "2 kg object falls from $10$ m. Speed at bottom? ($g = 9.8$)",
+              solution: "Conservation: $mgh = \\frac{1}{2}mv^2 \\Rightarrow v = \\sqrt{2gh} = \\sqrt{2 \\times 9.8 \\times 10} = \\sqrt{196} = 14$ m/s.",
+            },
+            questions: [
+              mcq("foundation", 1, "Work is done by a force only when ___.", [["a", "the force exists"], ["b", "there is displacement in the force's direction"], ["c", "the object is heavy"], ["d", "time passes"]], "b",
+                [P("definition", "Work", "$W = Fd\\cos\\theta$ — needs displacement component along force.")],
+                [S("No displacement means no work — holding a weight stationary does zero work.", 1, "M")], "(b)", ["Thinking any force does work regardless of motion."]),
+              mcq("core", 1, "A $4$ kg object moves at $3$ m/s. Its kinetic energy is ___.", [["a", "$12$ J"], ["b", "$18$ J"], ["c", "$36$ J"], ["d", "$6$ J"]], "b",
+                [P("method", "$KE = \\frac{1}{2}mv^2$", "$")],
+                [S("$KE = \\frac{1}{2}(4)(9) = 18$ J.", 1, "M")], "$18$ J", ["Using $mv^2$ without the $\\frac{1}{2}$ or squaring wrong."]),
+              num("core", 2, "A $0.5$ kg ball is dropped from $20$ m. Find speed just before impact. Enter m/s.", [{ label: "$v$", answer: 19.8, tolerance: 0.1 }],
+                [P("method", "Conservation", "$v = \\sqrt{2gh} = \\sqrt{2 \\times 9.8 \\times 20}$.")],
+                [S("$v = \\sqrt{392} \\approx 19.8$ m/s.", 1, "M"), S("$\\approx 19.8$ m/s.", 1, "B")], "$19.8$ m/s", ["Including mass or using $gh$ without the factor of 2."]),
+              op("challenge", 3, "Explain the work-energy theorem and use it to find the stopping distance of a $1000$ kg car moving at $20$ m/s with friction force $5000$ N.",
+                [P("theorem", "Work-energy", "$W_{net} = \\Delta KE = -KE_i$ for stopping.")],
+                [S("Work-energy theorem: net work equals change in kinetic energy — friction does negative work removing KE.", 1, "M"), S("$W = -F_f d = -\\Delta KE = -\\frac{1}{2}mv^2 = -\\frac{1}{2}(1000)(400) = -200{,}000$ J.", 1, "M"), S("$d = \\frac{200{,}000}{5000} = 40$ m stopping distance.", 1, "B")], "$40$ m", ["Using final KE instead of initial or dropping the negative sign."]),
+            ],
+          }),
+        lesson("momentum-impulse", "Momentum and Impulse", "I CAN apply conservation of momentum and impulse-momentum theorem.", ["MOM-1"],
+          [["Momentum", "$\\vec{p} = m\\vec{v}$ — mass times velocity."], ["Impulse", "$J = F\\Delta t = \\Delta p$ — force over time changes momentum."], ["Conservation of momentum", "Total momentum constant in isolated systems (no external force)."], ["Elastic collision", "KE conserved — objects bounce apart."], ["Inelastic collision", "KE not conserved — objects stick or deform."]],
+          {
+            title: "Momentum",
+            skill: "Apply momentum conservation and impulse to collisions.",
+            sections: [
+              ["Momentum and impulse", "Momentum $\\vec{p} = m\\vec{v}$. **Impulse** $J = F_{avg}\\Delta t = \\Delta p$ — same momentum change can come from large force short time or small force long time (airbags!). Extending $\\Delta t$ reduces peak force."],
+              ["Collisions", "In an **isolated system**, total momentum is conserved: $m_1v_{1i} + m_2v_{2i} = m_1v_{1f} + m_2v_{2f}$. **Elastic** collisions also conserve KE (bouncy); **inelastic** don't (crumple, stick). For a completely inelastic collision where objects stick, final velocity $v_f = \\frac{m_1v_1 + m_2v_2}{m_1 + m_2}$."],
+            ],
+            formulas: [
+              ["Momentum", "$\\vec{p} = m\\vec{v}$"],
+              ["Impulse", "$J = F\\Delta t = \\Delta p$"],
+              ["Conservation", "$\\sum p_i = \\sum p_f$ (isolated system)"],
+            ],
+            worked: {
+              problem: "2 kg at $3$ m/s hits 1 kg at rest, stick together. Final velocity?",
+              solution: "$p_i = 2(3) + 0 = 6$ kg·m/s. Combined mass $= 3$ kg. $v_f = \\frac{6}{3} = 2$ m/s.",
+            },
+            questions: [
+              mcq("foundation", 1, "Impulse equals ___.", [["a", "$m\\vec{v}$"], ["b", "$F\\Delta t = \\Delta p$"], ["c", "$\\frac{1}{2}mv^2$"], ["d", "$ma$"]], "b",
+                [P("definition", "Impulse", "Force times time equals momentum change.")],
+                [S("$J = F_{avg}\\Delta t = \\Delta p$ — the impulse-momentum theorem.", 1, "M")], "$F\\Delta t = \\Delta p$", ["Confusing impulse with momentum itself."]),
+              mcq("core", 1, "Airbags reduce injury by ___.", [["a", "increasing force"], ["b", "increasing collision time, decreasing force"], ["c", "eliminating momentum change"], ["d", "increasing mass"]], "b",
+                [P("theorem", "Impulse", "$J = F\\Delta t$ fixed; longer $\\Delta t$ means smaller $F$.")],
+                [S("Airbags extend stopping time — same momentum change spread over longer time = smaller peak force.", 1, "M")], "(b)", ["Thinking airbags reduce momentum change — they reduce force via time."]),
+              num("core", 2, "5 kg at $4$ m/s and 3 kg at $-2$ m/s collide and stick. Find final velocity. Enter m/s.", [{ label: "$v_f$", answer: 1.75 }],
+                [P("method", "Momentum conservation", "$v_f = \\frac{5(4) + 3(-2)}{5+3} = \\frac{14}{8}$.")],
+                [S("$p_i = 20 - 6 = 14$; $v_f = \\frac{14}{8} = 1.75$ m/s.", 1, "M"), S("$v_f = 1.75$ m/s.", 1, "B")], "$1.75$ m/s", ["Sign error on the $-2$ m/s momentum or wrong total mass."]),
+              op("challenge", 3, "Distinguish elastic and inelastic collisions in terms of momentum and kinetic energy conservation, with an example of each.",
+                [P("concept", "Momentum", "Always conserved in isolated systems."), P("concept", "KE", "Only conserved in elastic.")],
+                [S("Momentum $\\sum p$ is conserved in BOTH types — it's the universal conservation law for isolated systems.", 1, "M"), S("Elastic collisions also conserve KE — objects bounce (pool balls, ideal gas molecules).", 1, "M"), S("Inelastic lose KE to deformation/heat/sound — objects stick or crumple (car crashes, clay balls).", 1, "B")], "Momentum always; KE only elastic", ["Claiming inelastic collisions violate momentum conservation."]),
+            ],
+          }),
+        lesson("rotation-shm", "Rotational Motion and Simple Harmonic Motion", "I CAN apply rotational dynamics and SHM equations.", ["ROT-1"],
+          [["Torque", "$\\tau = rF\\sin\\theta$ — rotational analog of force."], ["Moment of inertia", "$I$ — rotational mass; depends on mass distribution."], ["Rotational 2nd law", "$\\tau_{net} = I\\alpha$ — analog of $F = ma$."], ["Angular momentum", "$L = I\\omega$ — conserved when no external torque."], ["SHM", "Motion where restoring force $\\propto -x$ — e.g., mass on spring, pendulum."], ["SHM period", "$T = 2\\pi\\sqrt{\\frac{m}{k}}$ for spring; $T = 2\\pi\\sqrt{\\frac{L}{g}}$ for pendulum."]],
+          {
+            title: "Rotation and SHM",
+            skill: "Apply rotational analogs of Newton's laws and SHM equations.",
+            sections: [
+              ["Rotational motion", "Torque $\\tau = rF\\sin\\theta$ causes angular acceleration $\\alpha$ via $\\tau = I\\alpha$, where $I$ (moment of inertia) plays the role of mass. **Angular momentum** $L = I\\omega$ is conserved when net external torque is zero — spinning skaters speed up pulling arms in ($I$ decreases, $\\omega$ increases)."],
+              ["Simple harmonic motion", "When restoring force is proportional to displacement ($F = -kx$), motion oscillates sinusoidally. For a spring: $T = 2\\pi\\sqrt{m/k}$, $f = \\frac{1}{2\\pi}\\sqrt{k/m}$. For a pendulum (small angles): $T = 2\\pi\\sqrt{L/g}$ — independent of mass. Frequency and period are inversely related."],
+            ],
+            formulas: [
+              ["Torque", "$\\tau = rF\\sin\\theta$"],
+              ["Rotational law", "$\\tau = I\\alpha$"],
+              ["Spring period", "$T = 2\\pi\\sqrt{\\frac{m}{k}}$"],
+              ["Pendulum period", "$T = 2\\pi\\sqrt{\\frac{L}{g}}$"],
+            ],
+            worked: {
+              problem: "Spring with $k = 100$ N/m, mass $1$ kg. Period?",
+              solution: "$T = 2\\pi\\sqrt{\\frac{1}{100}} = 2\\pi \\times 0.1 = 0.2\\pi \\approx 0.63$ s.",
+            },
+            questions: [
+              mcq("foundation", 1, "Torque depends on ___.", [["a", "force only"], ["b", "force, distance from pivot, and angle"], ["c", "mass only"], ["d", "time"]], "b",
+                [P("definition", "Torque", "$\\tau = rF\\sin\\theta$ — lever arm matters.")],
+                [S("Torque needs force applied at distance from pivot at the right angle.", 1, "M")], "(b)", ["Thinking force alone determines rotation."]),
+              mcq("core", 1, "A pendulum's period depends on ___.", [["a", "mass"], ["b", "length and gravity"], ["c", "amplitude"], ["d", "all of these"]], "b",
+                [P("theorem", "Pendulum period", "$T = 2\\pi\\sqrt{L/g}$ — mass and small amplitude don't matter.")],
+                [S("Period depends only on length $L$ and gravitational field $g$ for small swings.", 1, "M")], "Length and gravity", ["Thinking heavier pendulums swing slower."]),
+              num("core", 2, "A $0.25$ kg mass on a spring with $k = 25$ N/m oscillates. Find the period. Enter seconds (use $\\pi \\approx 3.14$).", [{ label: "$T$", answer: 0.628, tolerance: 0.01 }],
+                [P("method", "Spring period", "$T = 2\\pi\\sqrt{m/k} = 2\\pi\\sqrt{0.01}$.")],
+                [S("$T = 2 \\times 3.14 \\times 0.1 = 0.628$ s.", 1, "M"), S("$T \\approx 0.63$ s.", 1, "B")], "$0.628$ s", ["Inverting $m/k$ or forgetting the square root."]),
+              op("challenge", 3, "Explain angular momentum conservation using the example of a spinning skater pulling in their arms.",
+                [P("theorem", "Angular momentum", "$L = I\\omega$ conserved when no external torque.")],
+                [S("With no external torque, $L = I\\omega$ stays constant.", 1, "M"), S("Pulling arms in decreases moment of inertia $I$ (mass closer to axis).", 1, "M"), S("To keep $L$ constant, $\\omega$ must increase — the skater spins faster.", 1, "B")], "$L$ conserved; $I \\downarrow \\Rightarrow \\omega \\uparrow$", ["Thinking the skater gains energy from nowhere — rotational KE increases because they do work pulling arms in."]),
+            ],
+          }),
+      ],
+    },
+    {
+      id: "app1-u3",
+      title: "Waves, Sound, and Electricity",
+      description: "Wave properties, sound, electrostatics, circuits, and electromagnetic induction.",
+      lessons: [
+        lesson("waves-sound", "Waves and Sound", "I CAN describe wave properties and apply wave equations.", ["WAV-1"],
+          [["Wave", "Oscillation transferring energy without transferring matter."], ["Wavelength", "$\\lambda$ — distance between successive crests."], ["Frequency", "$f$ — oscillations per second (Hz)."], ["Wave speed", "$v = f\\lambda$ — medium-dependent."], ["Amplitude", "Maximum displacement from equilibrium — determines energy/intensity."], ["Longitudinal wave", "Oscillation parallel to propagation — sound."], ["Transverse wave", "Oscillation perpendicular to propagation — light, rope waves."], ["Doppler effect", "Frequency shift from relative motion between source and observer."]],
+          {
+            title: "Waves",
+            skill: "Apply $v = f\\lambda$ and describe wave phenomena.",
+            sections: [
+              ["Wave properties", "$v = f\\lambda$ relates speed, frequency, wavelength. Frequency is set by the source; speed is set by the medium; wavelength adjusts. Amplitude determines energy ($E \\propto A^2$) and perceived loudness/brightness. Waves transfer energy, not matter."],
+              ["Types and phenomena", "Transverse waves (light, EM, rope) oscillate perpendicular; longitudinal (sound, compressions) parallel. Sound needs a medium (no vacuum); light doesn't. **Doppler effect**: approaching source compresses waves (higher pitch); receding stretches them (lower). Interference (constructive/destructive) and resonance explain beats and standing waves."],
+            ],
+            formulas: [
+              ["Wave equation", "$v = f\\lambda$"],
+              ["Energy", "$E \\propto A^2$"],
+            ],
+            worked: {
+              problem: "Sound wave $f = 440$ Hz travels at $340$ m/s. Wavelength?",
+              solution: "$\\lambda = \\frac{v}{f} = \\frac{340}{440} \\approx 0.77$ m.",
+            },
+            questions: [
+              mcq("foundation", 1, "Waves transfer ___.", [["a", "matter"], ["b", "energy"], ["c", "both"], ["d", "neither"]], "b",
+                [P("definition", "Wave", "Energy propagates; medium particles oscillate in place.")],
+                [S("Waves carry energy without net matter transport — particles oscillate around fixed positions.", 1, "M")], "Energy", ["Thinking waves move the medium along with them."]),
+              mcq("core", 1, "Sound cannot travel through ___.", [["a", "water"], ["b", "air"], ["c", "vacuum"], ["d", "steel"]], "c",
+                [P("concept", "Medium requirement", "Sound is a longitudinal wave needing particles to compress.")],
+                [S("Sound needs a medium — vacuum has no particles to transmit the wave.", 1, "M")], "Vacuum", ["Thinking all waves need no medium like light."]),
+              num("core", 2, "A wave has $v = 12$ m/s and $\\lambda = 0.5$ m. Find frequency. Enter Hz.", [{ label: "$f$", answer: 24 }],
+                [P("method", "$f = v/\\lambda$", "$")],
+                [S("$f = \\frac{12}{0.5} = 24$ Hz.", 1, "M"), S("$f = 24$ Hz.", 1, "B")], "$24$ Hz", ["Multiplying instead of dividing $v$ by $\\lambda$."]),
+              op("challenge", 3, "Explain the Doppler effect and predict the observed frequency change for an approaching ambulance siren.",
+                [P("concept", "Doppler", "Relative motion compresses/stretches wavefronts."), P("concept", "Approach", "Source moving toward observer compresses waves ahead.")],
+                [S("Doppler effect: relative motion between source and observer shifts observed frequency.", 1, "M"), S("Approaching siren compresses wavefronts in front — wavelength decreases, frequency (pitch) increases.", 1, "M"), S("After passing, wavefronts stretch — pitch drops. This is why sirens 'wail' as they pass.", 1, "B")], "Approaching source: higher pitch; receding: lower", ["Thinking the siren's actual frequency changes — it's the observed frequency that shifts."]),
+            ],
+          }),
+        lesson("electrostatics-circuits", "Electrostatics and Circuits", "I CAN apply Coulomb's law and analyze DC circuits.", ["ELC-1"],
+          [["Charge", "Fundamental property; $+/-$; measured in coulombs (C)."], ["Coulomb's law", "$F = k\\frac{|q_1 q_2|}{r^2}$ — inverse-square electrostatic force."], ["Electric field", "$\\vec{E} = \\frac{F}{q}$ — force per unit charge; $E = k\\frac{q}{r^2}$ for point charge."], ["Current", "$I = \\frac{Q}{t} = \\frac{\\Delta q}{\\Delta t}$ — charge flow rate (amperes)."], ["Ohm's law", "$V = IR$ — voltage = current $\\times$ resistance."], ["Series circuit", "Same current through all; voltages add."], ["Parallel circuit", "Same voltage across all; currents add."]],
+          {
+            title: "Electrostatics and circuits",
+            skill: "Compute electrostatic forces and analyze circuit behavior.",
+            sections: [
+              ["Electrostatics", "Coulomb's law $F = k\\frac{|q_1q_2|}{r^2}$ gives force between point charges — like charges repel, opposites attract, force drops with $r^2$. Electric field $E = \\frac{F}{q_{test}}$ describes force per charge at each point — field lines point away from positive charges."],
+              ["Circuits", "Current $I = \\frac{Q}{t}$ flows when there's a potential difference. **Ohm's law** $V = IR$ relates voltage, current, resistance. **Series**: same $I$ everywhere, $R_{total} = R_1 + R_2 + \\cdots$, voltages split. **Parallel**: same $V$ across branches, $\\frac{1}{R_{total}} = \\frac{1}{R_1} + \\frac{1}{R_2} + \\cdots$, currents split. Power $P = VI = I^2R = \\frac{V^2}{R}$."],
+            ],
+            formulas: [
+              ["Coulomb's law", "$F = k\\frac{|q_1 q_2|}{r^2}$"],
+              ["Ohm's law", "$V = IR$"],
+              ["Series R", "$R_{tot} = R_1 + R_2 + \\cdots$"],
+              ["Parallel R", "$\\frac{1}{R_{tot}} = \\sum \\frac{1}{R_i}$"],
+            ],
+            worked: {
+              problem: "Two $6$ $\\Omega$ resistors in parallel across $12$ V. Total resistance and current?",
+              solution: "$\\frac{1}{R} = \\frac{1}{6} + \\frac{1}{6} = \\frac{1}{3}$, so $R = 3$ $\\Omega$. $I = \\frac{V}{R} = \\frac{12}{3} = 4$ A.",
+            },
+            questions: [
+              mcq("foundation", 1, "Like charges ___.", [["a", "attract"], ["b", "repel"], ["c", "neutralize"], ["d", "create current"]], "b",
+                [P("theorem", "Coulomb", "Like charges repel; opposites attract.")],
+                [S("Same-sign charges exert repulsive forces on each other.", 1, "M")], "Repel", ["Reversing the charge interaction rule."]),
+              mcq("core", 1, "Two $4$ $\\Omega$ resistors in series have total resistance ___.", [["a", "$2$ $\\Omega$"], ["b", "$4$ $\\Omega$"], ["c", "$8$ $\\Omega$"], ["d", "$16$ $\\Omega$"]], "c",
+                [P("method", "Series", "$R_{tot} = R_1 + R_2$.")],
+                [S("$4 + 4 = 8$ $\\Omega$.", 1, "M")], "$8$ $\\Omega$", ["Using parallel formula for series resistors."]),
+              num("core", 2, "A $12$ V battery connects to a $3$ $\\Omega$ resistor. Find the current. Enter amperes.", [{ label: "$I$", answer: 4 }],
+                [P("method", "Ohm's law", "$I = V/R = 12/3$.")],
+                [S("$I = 4$ A.", 1, "M"), S("$I = 4$ A.", 1, "B")], "$4$ A", ["Inverting the formula to $V \\times R$."]),
+              op("challenge", 3, "Compare series and parallel circuits for total resistance, current distribution, and what happens if one component fails.",
+                [P("concept", "Series", "Same current; resistances add; one break kills all."), P("concept", "Parallel", "Same voltage; conductances add; independent branches.")],
+                [S("Series: same current through all, $R_{tot} = \\sum R$ (larger than any single), voltages add, one open break stops everything.", 1, "M"), S("Parallel: same voltage across all, $\\frac{1}{R_{tot}} = \\sum \\frac{1}{R}$ (smaller than smallest), currents add by branch, other branches keep working if one fails.", 1, "M"), S("Parallel is why homes use it — independent circuits and lower total resistance.", 1, "B")], "Series = same I/R adds/break kills; parallel = same V/G adds/independent", ["Swapping series and parallel properties."]),
+            ],
+          }),
+        lesson("electromagnetism-induction", "Magnetism and Electromagnetic Induction", "I CAN apply magnetic force laws and Faraday's law of induction.", ["MAG-1"],
+          [["Magnetic field", "$\\vec{B}$ — region where magnetic forces act; measured in tesla (T)."], ["Magnetic force on charge", "$F = qvB\\sin\\theta$ — perpendicular to both $v$ and $B$."], ["Right-hand rule", "Point fingers along $v$, curl to $B$ — thumb shows force on positive charge."], ["Magnetic flux", "$\\Phi_B = BA\\cos\\theta$ — field through a loop."], ["Faraday's law", "Induced EMF $= -\\frac{d\\Phi_B}{dt}$ — changing flux induces voltage."], ["Lenz's law", "Induced current opposes the change producing it."]],
+          {
+            title: "Magnetism and induction",
+            skill: "Apply magnetic force rules and induction principles.",
+            sections: [
+              ["Magnetic forces", "Moving charges experience $F = qvB\\sin\\theta$ perpendicular to velocity and field — causes circular motion in uniform $B$. The right-hand rule gives force direction for positive charges (flip for negative). Magnetic fields don't do work — they only redirect motion."],
+              ["Electromagnetic induction", "**Faraday's law**: a changing magnetic flux through a loop induces EMF $= -\\frac{d\\Phi}{dt}$. Change flux by moving the magnet, changing area, or rotating the loop. **Lenz's law** (the minus sign): induced current flows to OPPOSE the flux change — conservation of energy demands it. This powers generators and transformers."],
+            ],
+            formulas: [
+              ["Magnetic force", "$F = qvB\\sin\\theta$"],
+              ["Flux", "$\\Phi_B = BA\\cos\\theta$"],
+              ["Faraday", "$\\mathcal{E} = -\\frac{d\\Phi_B}{dt}$"],
+            ],
+            worked: {
+              problem: "Magnet pushed into a coil induces current. Which direction and why?",
+              solution: "Increasing flux into the coil induces a current whose field OPPOSES the increase (Lenz) — field points out of the coil's near face, so current flows counterclockwise viewed from the magnet side.",
+            },
+            questions: [
+              mcq("foundation", 1, "Magnetic force on a moving charge is always ___.", [["a", "parallel to velocity"], ["b", "perpendicular to velocity and field"], ["c", "zero"], ["d", "toward the magnet"]], "b",
+                [P("theorem", "$F = qvB\\sin\\theta$", "Force is perpendicular to the plane of $v$ and $B$.")],
+                [S("The cross product $q\\vec{v} \\times \\vec{B}$ gives force perpendicular to both.", 1, "M")], "Perpendicular to both", ["Thinking magnetic force is along the field or velocity."]),
+              mcq("core", 1, "EMF is induced in a loop when ___.", [["a", "flux is constant"], ["b", "flux changes"], ["c", "current flows"], ["d", "charge is stationary"]], "b",
+                [P("theorem", "Faraday", "$\\mathcal{E} = -d\\Phi/dt$ — only CHANGING flux induces EMF.")],
+                [S("Constant flux gives zero EMF; changing flux (moving magnet, rotating loop) induces voltage.", 1, "M")], "Flux changes", ["Thinking any flux through a loop induces current."]),
+              num("core", 2, "A loop with $B = 0.5$ T and area $0.04$ m² faces the field straight on ($\\cos\\theta = 1$). Find the flux. Enter Wb.", [{ label: "$\\Phi$", answer: 0.02 }],
+                [P("method", "$\\Phi = BA\\cos\\theta$", "$")],
+                [S("$\\Phi = 0.5 \\times 0.04 \\times 1 = 0.02$ Wb.", 1, "M"), S("$\\Phi = 0.02$ Wb.", 1, "B")], "$0.02$ Wb", ["Forgetting $\\cos\\theta$ or using wrong units."]),
+              op("challenge", 3, "State Lenz's law and explain why it must be true using energy conservation.",
+                [P("theorem", "Lenz's law", "Induced current opposes the flux change creating it."), P("concept", "Energy conservation", "If it aided the change, infinite energy loop.")],
+                [S("Lenz's law: induced EMF/current opposes the change in magnetic flux — the minus sign in Faraday's law.", 1, "M"), S("If induced current REINFORCED the flux change, it would create more flux, inducing more current — an infinite energy-generating loop violating conservation.", 1, "M"), S("Opposing the change means mechanical work is required to sustain induction — energy in = electrical energy out.", 1, "B")], "Induced current opposes flux change; required by energy conservation", ["Stating Lenz's law without the energy argument."]),
+            ],
+          }),
+      ],
+    },
+  ],
+};
+
+module.exports = { courses: [apPhysics1] };

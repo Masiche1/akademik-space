@@ -35,6 +35,9 @@ import { edxPrimaryScienceY3 } from "../src/content/courses/edx-primary-science-
 import { edxPrimaryScienceY4 } from "../src/content/courses/edx-primary-science-y4/index.ts";
 import { edxPrimaryScienceY5 } from "../src/content/courses/edx-primary-science-y5/index.ts";
 import { edxPrimaryScienceY6 } from "../src/content/courses/edx-primary-science-y6/index.ts";
+import { edxPrimaryComputing } from "../src/content/courses/edx-primary-computing/index.ts";
+import { edxPrimaryGeography } from "../src/content/courses/edx-primary-geography/index.ts";
+import { edxPrimaryHistory } from "../src/content/courses/edx-primary-history/index.ts";
 import { edxBtecEngineering } from "../src/content/courses/edx-btec-engineering/index.ts";
 import { edxBtecHealthSocialCare } from "../src/content/courses/edx-btec-health-social-care/index.ts";
 import { edxBtecInformationTechnology } from "../src/content/courses/edx-btec-information-technology/index.ts";
@@ -157,6 +160,9 @@ const courses = [
   edxPrimaryScienceY4,
   edxPrimaryScienceY5,
   edxPrimaryScienceY6,
+  edxPrimaryComputing,
+  edxPrimaryGeography,
+  edxPrimaryHistory,
   edxBtecEngineering,
   edxBtecHealthSocialCare,
   edxBtecInformationTechnology,
@@ -181,8 +187,10 @@ const courses = [
 
 let bad = 0;
 for (const course of courses) {
+  let courseQuestions = 0;
   for (const unit of course.units) {
     const questions = unitQuestions(unit);
+    courseQuestions += questions.length;
     const ids = questions.map((q) => q.id);
     const errors = [
       ...ids
@@ -195,14 +203,18 @@ for (const course of courses) {
       ),
     ];
     const shape = `lessons=${unit.lessons.length} questions=${questions.length}`;
-    if (errors.length || unit.lessons.length !== 3) {
+    if (errors.length || unit.lessons.length < 3) {
       bad++;
       console.log(`${course.id} ${unit.id}: ${shape}`);
       for (const e of errors) console.log(`   ${e}`);
-      if (unit.lessons.length !== 3) console.log("   !! expected 3 lessons");
+      if (unit.lessons.length < 3) console.log("   !! expected at least 3 lessons");
     } else {
       console.log(`${course.id} ${unit.id}: ${shape} ok`);
     }
+  }
+  if (course.edexcel?.stage === "primary" && courseQuestions < 300) {
+    bad++;
+    console.log(`${course.id}: only ${courseQuestions} questions (need >= 300)`);
   }
 }
 console.log(bad === 0 ? "ALL UNITS VALID" : `${bad} units need attention`);

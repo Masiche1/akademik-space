@@ -5,14 +5,43 @@ export const lesson12: Lesson = {
   code: "1-2",
   title: "Cell Structure and Transport",
   goal: "I CAN compare prokaryotic and eukaryotic cells, explain how organelles work together, and explain how substances cross the membrane and why cell size is limited by surface area to volume ratio.",
-  standards: ["HS-LS1-2", "HS-LS1-3", "CCC: Scale, Proportion, and Quantity", "SEP: Developing and Using Models"],
+  standards: [
+    "HS-LS1-2",
+    "HS-LS1-3",
+    "CCC: Scale, Proportion, and Quantity",
+    "SEP: Developing and Using Models",
+  ],
   vocabulary: [
-    { term: "Prokaryote", definition: "An organism whose cells have no nucleus or membrane-bound organelles, such as a bacterium." },
-    { term: "Eukaryote", definition: "An organism whose cells have a nucleus and membrane-bound organelles, such as plants, animals, fungi and protists." },
-    { term: "Diffusion", definition: "The net movement of particles from a region of higher concentration to a region of lower concentration, with no energy input." },
-    { term: "Osmosis", definition: "The diffusion of water across a selectively permeable membrane from a region of higher water potential to lower water potential." },
-    { term: "Active transport", definition: "The movement of substances across a membrane against their concentration gradient, using ATP and carrier proteins." },
-    { term: "Surface area to volume ratio", definition: "The total surface area of a cell divided by its volume; it falls as the cell gets larger." },
+    {
+      term: "Prokaryote",
+      definition:
+        "An organism whose cells have no nucleus or membrane-bound organelles, such as a bacterium.",
+    },
+    {
+      term: "Eukaryote",
+      definition:
+        "An organism whose cells have a nucleus and membrane-bound organelles, such as plants, animals, fungi and protists.",
+    },
+    {
+      term: "Diffusion",
+      definition:
+        "The net movement of particles from a region of higher concentration to a region of lower concentration, with no energy input.",
+    },
+    {
+      term: "Osmosis",
+      definition:
+        "The diffusion of water across a selectively permeable membrane from a region of higher water potential to lower water potential.",
+    },
+    {
+      term: "Active transport",
+      definition:
+        "The movement of substances across a membrane against their concentration gradient, using ATP and carrier proteins.",
+    },
+    {
+      term: "Surface area to volume ratio",
+      definition:
+        "The total surface area of a cell divided by its volume; it falls as the cell gets larger.",
+    },
   ],
   concepts: [
     {
@@ -31,13 +60,26 @@ export const lesson12: Lesson = {
           },
         ],
         keyFormulas: [
-          { name: "Prokaryote", statement: "No nucleus, no membrane-bound organelles, circular DNA, 70S ribosomes" },
-          { name: "Eukaryote", statement: "Nucleus and membrane-bound organelles, linear DNA" },
-          { name: "Protein secretion pathway", statement: "Nucleus, rough ER, Golgi apparatus, vesicle, cell membrane" },
+          {
+            name: "Prokaryote",
+            statement:
+              "No nucleus, no membrane-bound organelles, circular DNA, 70S ribosomes",
+          },
+          {
+            name: "Eukaryote",
+            statement: "Nucleus and membrane-bound organelles, linear DNA",
+          },
+          {
+            name: "Protein secretion pathway",
+            statement:
+              "Nucleus, rough ER, Golgi apparatus, vesicle, cell membrane",
+          },
         ],
         workedExample: {
-          problem: "A bacterium is $2\\ \\mu\\text{m}$ long. A human cheek cell is $60\\ \\mu\\text{m}$ across. How many times wider is the cheek cell?",
-          solution: "$\\dfrac{60}{2}=30$. The cheek cell is 30 times wider than the bacterium.",
+          problem:
+            "A bacterium is $2\\ \\mu\\text{m}$ long. A human cheek cell is $60\\ \\mu\\text{m}$ across. How many times wider is the cheek cell?",
+          solution:
+            "$\\dfrac{60}{2}=30$. The cheek cell is 30 times wider than the bacterium.",
         },
       },
       questions: [
@@ -50,17 +92,40 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It has DNA but no membrane-bound nucleus" },
-              { id: "b", text: "Its DNA is enclosed inside a nuclear membrane" },
+              {
+                id: "b",
+                text: "Its DNA is enclosed inside a nuclear membrane",
+              },
               { id: "c", text: "It is always larger than a eukaryotic cell" },
-              { id: "d", text: "It contains mitochondria and a Golgi apparatus" },
+              {
+                id: "d",
+                text: "It contains mitochondria and a Golgi apparatus",
+              },
             ],
             correctChoiceId: "a",
           },
           markscheme: {
-            principles: [{ kind: "definition", name: "Prokaryote", statement: "Prokaryotes lack a nucleus and membrane-bound organelles." }],
-            steps: [{ reasoning: "Prokaryotic DNA lies in the cytoplasm (nucleoid) with no membrane around it.", marks: 1, markCode: "B" }],
+            principles: [
+              {
+                kind: "definition",
+                name: "Prokaryote",
+                statement:
+                  "Prokaryotes lack a nucleus and membrane-bound organelles.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Prokaryotic DNA lies in the cytoplasm (nucleoid) with no membrane around it.",
+                marks: 1,
+                markCode: "B",
+              },
+            ],
             finalAnswer: "**(a)** It has DNA but no membrane-bound nucleus",
-            commonErrors: ["Thinking bacteria have no DNA.", "Thinking all cells have mitochondria."],
+            commonErrors: [
+              "Thinking bacteria have no DNA.",
+              "Thinking all cells have mitochondria.",
+            ],
             examinerNote: "B1 for (c).",
           },
         },
@@ -69,15 +134,38 @@ export const lesson12: Lesson = {
           difficulty: "core",
           totalMarks: 2,
           stem: "A typical bacterial cell is $2\\ \\mu\\text{m}$ in diameter and a typical plant cell is $50\\ \\mu\\text{m}$ in diameter.\n\nCalculate how many times larger the diameter of the plant cell is than the bacterial cell.",
-          response: { type: "numeric", parts: [{ label: "Times larger", answer: 25 }] },
+          response: {
+            type: "numeric",
+            parts: [{ label: "Times larger", answer: 25 }],
+          },
           markscheme: {
-            principles: [{ kind: "formula", name: "Ratio", statement: "ratio = larger value divided by smaller value" }],
+            principles: [
+              {
+                kind: "formula",
+                name: "Ratio",
+                statement: "ratio = larger value divided by smaller value",
+              },
+            ],
             steps: [
-              { reasoning: "Divide the plant cell diameter by the bacterial diameter (same units).", working: "\\frac{50}{2}", marks: 1, markCode: "M" },
-              { reasoning: "Evaluate.", working: "=25", marks: 1, markCode: "A" },
+              {
+                reasoning:
+                  "Divide the plant cell diameter by the bacterial diameter (same units).",
+                working: "\\frac{50}{2}",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Evaluate.",
+                working: "=25",
+                marks: 1,
+                markCode: "A",
+              },
             ],
             finalAnswer: "25 times",
-            commonErrors: ["Subtracting the diameters to give 48.", "Dividing the other way to give 0.04."],
+            commonErrors: [
+              "Subtracting the diameters to give 48.",
+              "Dividing the other way to give 0.04.",
+            ],
             examinerNote: "M1 for 50 / 2. A1 for 25.",
           },
         },
@@ -89,18 +177,52 @@ export const lesson12: Lesson = {
           response: { type: "open" },
           markscheme: {
             principles: [
-              { kind: "principle", name: "Secretory pathway", statement: "Proteins made on the rough ER are packaged by the Golgi apparatus and exported in vesicles." },
-              { kind: "definition", name: "Ribosome", statement: "Ribosomes build proteins from amino acids using mRNA." },
+              {
+                kind: "principle",
+                name: "Secretory pathway",
+                statement:
+                  "Proteins made on the rough ER are packaged by the Golgi apparatus and exported in vesicles.",
+              },
+              {
+                kind: "definition",
+                name: "Ribosome",
+                statement:
+                  "Ribosomes build proteins from amino acids using mRNA.",
+              },
             ],
             steps: [
-              { reasoning: "The nucleus provides the instructions (mRNA copied from the gene).", marks: 1, markCode: "B" },
-              { reasoning: "Ribosomes on the rough ER make the protein.", marks: 1, markCode: "B" },
-              { reasoning: "A vesicle carries it to the Golgi apparatus, which modifies and packages it.", marks: 1, markCode: "B" },
-              { reasoning: "A vesicle fuses with the cell membrane and releases insulin by exocytosis.", marks: 1, markCode: "B" },
+              {
+                reasoning:
+                  "The nucleus provides the instructions (mRNA copied from the gene).",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                reasoning: "Ribosomes on the rough ER make the protein.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                reasoning:
+                  "A vesicle carries it to the Golgi apparatus, which modifies and packages it.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                reasoning:
+                  "A vesicle fuses with the cell membrane and releases insulin by exocytosis.",
+                marks: 1,
+                markCode: "B",
+              },
             ],
-            finalAnswer: "Nucleus (mRNA) to ribosomes on rough ER, vesicle to Golgi apparatus, vesicle to cell membrane and out by exocytosis.",
-            commonErrors: ["Leaving out the Golgi apparatus.", "Saying mitochondria make the protein."],
-            examinerNote: "Allow 'secretory vesicle' for vesicle. Ignore mention of mitochondria supplying ATP.",
+            finalAnswer:
+              "Nucleus (mRNA) to ribosomes on rough ER, vesicle to Golgi apparatus, vesicle to cell membrane and out by exocytosis.",
+            commonErrors: [
+              "Leaving out the Golgi apparatus.",
+              "Saying mitochondria make the protein.",
+            ],
+            examinerNote:
+              "Allow 'secretory vesicle' for vesicle. Ignore mention of mitochondria supplying ATP.",
           },
         },
         {
@@ -109,31 +231,116 @@ export const lesson12: Lesson = {
           totalMarks: 8,
           stem: "A researcher examines two cell samples. Cell X has a diameter of $1.5\\ \\mu\\text{m}$, no nucleus and a circular chromosome. Cell Y has a diameter of $30\\ \\mu\\text{m}$, a nucleus, mitochondria and a Golgi apparatus.",
           parts: [
-            { label: "a", prompt: "Identify which cell is eukaryotic and give one piece of evidence.", marks: 2 },
-            { label: "b", prompt: "Calculate how many times greater the diameter of Cell Y is than Cell X.", marks: 2 },
-            { label: "c", prompt: "State the function of the mitochondria in Cell Y.", marks: 1 },
-            { label: "d", prompt: "Explain one advantage of having membrane-bound organelles.", marks: 3 },
+            {
+              label: "a",
+              prompt:
+                "Identify which cell is eukaryotic and give one piece of evidence.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "Calculate how many times greater the diameter of Cell Y is than Cell X.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt: "State the function of the mitochondria in Cell Y.",
+              marks: 1,
+            },
+            {
+              label: "d",
+              prompt:
+                "Explain one advantage of having membrane-bound organelles.",
+              marks: 3,
+            },
           ],
           response: { type: "open" },
           markscheme: {
             principles: [
-              { kind: "definition", name: "Eukaryote", statement: "Eukaryotic cells have a nucleus and membrane-bound organelles." },
-              { kind: "definition", name: "Mitochondria", statement: "Mitochondria carry out aerobic respiration to make ATP." },
-              { kind: "principle", name: "Compartmentalization", statement: "Membranes separate reactions so that different conditions can be maintained in different places." },
+              {
+                kind: "definition",
+                name: "Eukaryote",
+                statement:
+                  "Eukaryotic cells have a nucleus and membrane-bound organelles.",
+              },
+              {
+                kind: "definition",
+                name: "Mitochondria",
+                statement:
+                  "Mitochondria carry out aerobic respiration to make ATP.",
+              },
+              {
+                kind: "principle",
+                name: "Compartmentalization",
+                statement:
+                  "Membranes separate reactions so that different conditions can be maintained in different places.",
+              },
             ],
             steps: [
-              { part: "a", reasoning: "Cell Y is eukaryotic.", marks: 1, markCode: "B" },
-              { part: "a", reasoning: "Evidence: it has a nucleus (or mitochondria or Golgi), which Cell X lacks.", marks: 1, markCode: "R" },
-              { part: "b", reasoning: "Divide the larger diameter by the smaller.", working: "\\frac{30}{1.5}", marks: 1, markCode: "M" },
-              { part: "b", reasoning: "Evaluate.", working: "=20", marks: 1, markCode: "A" },
-              { part: "c", reasoning: "Aerobic respiration, releasing energy as ATP.", marks: 1, markCode: "B" },
-              { part: "d", reasoning: "Different reactions need different conditions (for example pH), which a compartment can keep.", marks: 1, markCode: "B" },
-              { part: "d", reasoning: "Reactions happen at the same time without interfering with each other, such as lysosome enzymes kept away from the cytoplasm.", marks: 1, markCode: "B" },
-              { part: "d", reasoning: "This makes processes more efficient, as enzymes and substrates are concentrated in a small volume.", marks: 1, markCode: "R" },
+              {
+                part: "a",
+                reasoning: "Cell Y is eukaryotic.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                part: "a",
+                reasoning:
+                  "Evidence: it has a nucleus (or mitochondria or Golgi), which Cell X lacks.",
+                marks: 1,
+                markCode: "R",
+              },
+              {
+                part: "b",
+                reasoning: "Divide the larger diameter by the smaller.",
+                working: "\\frac{30}{1.5}",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning: "Evaluate.",
+                working: "=20",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                part: "c",
+                reasoning: "Aerobic respiration, releasing energy as ATP.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "Different reactions need different conditions (for example pH), which a compartment can keep.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "Reactions happen at the same time without interfering with each other, such as lysosome enzymes kept away from the cytoplasm.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "This makes processes more efficient, as enzymes and substrates are concentrated in a small volume.",
+                marks: 1,
+                markCode: "R",
+              },
             ],
-            finalAnswer: "(a) Cell Y; it has a nucleus (b) 20 times (c) Aerobic respiration to release energy as ATP (d) Compartments keep separate conditions and concentrate reactants, so reactions are efficient and do not interfere.",
-            commonErrors: ["Choosing Cell X because it is smaller and 'simpler' without evidence.", "In (b) giving 0.05 by dividing the wrong way round."],
-            examinerNote: "(a) Second mark needs evidence stated; reject 'larger' on its own. (c) Reject 'makes energy' without respiration unless ATP is mentioned. (d) Any valid advantage with development for 3 marks.",
+            finalAnswer:
+              "(a) Cell Y; it has a nucleus (b) 20 times (c) Aerobic respiration to release energy as ATP (d) Compartments keep separate conditions and concentrate reactants, so reactions are efficient and do not interfere.",
+            commonErrors: [
+              "Choosing Cell X because it is smaller and 'simpler' without evidence.",
+              "In (b) giving 0.05 by dividing the wrong way round.",
+            ],
+            examinerNote:
+              "(a) Second mark needs evidence stated; reject 'larger' on its own. (c) Reject 'makes energy' without respiration unless ATP is mentioned. (d) Any valid advantage with development for 3 marks.",
           },
         },
       ],
@@ -141,7 +348,8 @@ export const lesson12: Lesson = {
     {
       id: "bio9-u1-membrane-transport",
       title: "Membrane transport and surface area to volume ratio",
-      skill: "Distinguish diffusion, osmosis and active transport, and use surface area to volume ratio.",
+      skill:
+        "Distinguish diffusion, osmosis and active transport, and use surface area to volume ratio.",
       lesson: {
         sections: [
           {
@@ -154,13 +362,25 @@ export const lesson12: Lesson = {
           },
         ],
         keyFormulas: [
-          { name: "Cube surface area and volume", statement: "$SA=6L^2$, $V=L^3$" },
-          { name: "SA:V ratio", statement: "$\\dfrac{SA}{V}=\\dfrac{6}{L}$ for a cube" },
-          { name: "Percent change in mass", statement: "$\\dfrac{\\text{final}-\\text{initial}}{\\text{initial}}\\times100$" },
+          {
+            name: "Cube surface area and volume",
+            statement: "$SA=6L^2$, $V=L^3$",
+          },
+          {
+            name: "SA:V ratio",
+            statement: "$\\dfrac{SA}{V}=\\dfrac{6}{L}$ for a cube",
+          },
+          {
+            name: "Percent change in mass",
+            statement:
+              "$\\dfrac{\\text{final}-\\text{initial}}{\\text{initial}}\\times100$",
+          },
         ],
         workedExample: {
-          problem: "A cube-shaped cell has sides of 3 $\\mu$m. Calculate its surface area to volume ratio.",
-          solution: "$SA=6\\times3^2=54\\ \\mu\\text{m}^2$. $V=3^3=27\\ \\mu\\text{m}^3$. Ratio $=\\dfrac{54}{27}=2$, or $2:1$.",
+          problem:
+            "A cube-shaped cell has sides of 3 $\\mu$m. Calculate its surface area to volume ratio.",
+          solution:
+            "$SA=6\\times3^2=54\\ \\mu\\text{m}^2$. $V=3^3=27\\ \\mu\\text{m}^3$. Ratio $=\\dfrac{54}{27}=2$, or $2:1$.",
         },
       },
       questions: [
@@ -180,10 +400,26 @@ export const lesson12: Lesson = {
             correctChoiceId: "d",
           },
           markscheme: {
-            principles: [{ kind: "definition", name: "Active transport", statement: "Active transport moves substances against the gradient using ATP." }],
-            steps: [{ reasoning: "Only active transport needs energy to move a substance from low to high concentration.", marks: 1, markCode: "B" }],
+            principles: [
+              {
+                kind: "definition",
+                name: "Active transport",
+                statement:
+                  "Active transport moves substances against the gradient using ATP.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Only active transport needs energy to move a substance from low to high concentration.",
+                marks: 1,
+                markCode: "B",
+              },
+            ],
             finalAnswer: "**(d)** Active transport",
-            commonErrors: ["Choosing facilitated diffusion because it uses proteins; it does not use ATP."],
+            commonErrors: [
+              "Choosing facilitated diffusion because it uses proteins; it does not use ATP.",
+            ],
             examinerNote: "B1 for (d).",
           },
         },
@@ -192,17 +428,45 @@ export const lesson12: Lesson = {
           difficulty: "core",
           totalMarks: 3,
           stem: "A cube-shaped cell has sides of 4 $\\mu$m.\n\nCalculate the surface area to volume ratio of the cell. Give your answer as a single number (surface area divided by volume).",
-          response: { type: "numeric", parts: [{ label: "SA:V ratio", answer: 1.5, tolerance: 0.01 }] },
+          response: {
+            type: "numeric",
+            parts: [{ label: "SA:V ratio", answer: 1.5, tolerance: 0.01 }],
+          },
           markscheme: {
-            principles: [{ kind: "formula", name: "Cube", statement: "$SA=6L^2$ and $V=L^3$" }],
+            principles: [
+              {
+                kind: "formula",
+                name: "Cube",
+                statement: "$SA=6L^2$ and $V=L^3$",
+              },
+            ],
             steps: [
-              { reasoning: "Surface area has 6 faces.", working: "SA=6\\times4^2=96\\ \\mu\\text{m}^2", marks: 1, markCode: "M" },
-              { reasoning: "Volume of the cube.", working: "V=4^3=64\\ \\mu\\text{m}^3", marks: 1, markCode: "M" },
-              { reasoning: "Divide.", working: "\\frac{96}{64}=1.5", marks: 1, markCode: "A" },
+              {
+                reasoning: "Surface area has 6 faces.",
+                working: "SA=6\\times4^2=96\\ \\mu\\text{m}^2",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Volume of the cube.",
+                working: "V=4^3=64\\ \\mu\\text{m}^3",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Divide.",
+                working: "\\frac{96}{64}=1.5",
+                marks: 1,
+                markCode: "A",
+              },
             ],
             finalAnswer: "1.5 (that is 1.5 : 1)",
-            commonErrors: ["Using only one face (16) for surface area.", "Dividing volume by surface area to give 0.67."],
-            examinerNote: "M1 for 96. M1 for 64. A1 for 1.5. Allow 1.5:1 or 3:2.",
+            commonErrors: [
+              "Using only one face (16) for surface area.",
+              "Dividing volume by surface area to give 0.67.",
+            ],
+            examinerNote:
+              "M1 for 96. M1 for 64. A1 for 1.5. Allow 1.5:1 or 3:2.",
           },
         },
         {
@@ -213,17 +477,46 @@ export const lesson12: Lesson = {
           response: { type: "open" },
           markscheme: {
             principles: [
-              { kind: "formula", name: "Percent change", statement: "$\\dfrac{\\text{final}-\\text{initial}}{\\text{initial}}\\times100$" },
-              { kind: "principle", name: "Osmosis", statement: "Water moves across a selectively permeable membrane to the region with lower water potential (more solute)." },
+              {
+                kind: "formula",
+                name: "Percent change",
+                statement:
+                  "$\\dfrac{\\text{final}-\\text{initial}}{\\text{initial}}\\times100$",
+              },
+              {
+                kind: "principle",
+                name: "Osmosis",
+                statement:
+                  "Water moves across a selectively permeable membrane to the region with lower water potential (more solute).",
+              },
             ],
             steps: [
-              { reasoning: "Calculate the percent change.", working: "\\frac{5.6-5.0}{5.0}\\times100=12\\%", marks: 2, markCode: "A" },
-              { reasoning: "Pure water has a higher water potential than the potato cells, so water moves into the cells by osmosis.", marks: 1, markCode: "B" },
-              { reasoning: "The extra water increases the mass.", marks: 1, markCode: "R" },
+              {
+                reasoning: "Calculate the percent change.",
+                working: "\\frac{5.6-5.0}{5.0}\\times100=12\\%",
+                marks: 2,
+                markCode: "A",
+              },
+              {
+                reasoning:
+                  "Pure water has a higher water potential than the potato cells, so water moves into the cells by osmosis.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                reasoning: "The extra water increases the mass.",
+                marks: 1,
+                markCode: "R",
+              },
             ],
-            finalAnswer: "A 12% increase in mass; water entered the potato cells by osmosis from higher to lower water potential.",
-            commonErrors: ["Dividing by the final mass (10.7%).", "Saying solutes moved out of the potato."],
-            examinerNote: "A2 for 12 (A1 for 0.6 / 5.0 seen). Allow +12. Allow 'cells are hypertonic to the water' for the explanation.",
+            finalAnswer:
+              "A 12% increase in mass; water entered the potato cells by osmosis from higher to lower water potential.",
+            commonErrors: [
+              "Dividing by the final mass (10.7%).",
+              "Saying solutes moved out of the potato.",
+            ],
+            examinerNote:
+              "A2 for 12 (A1 for 0.6 / 5.0 seen). Allow +12. Allow 'cells are hypertonic to the water' for the explanation.",
           },
         },
         {
@@ -232,33 +525,129 @@ export const lesson12: Lesson = {
           totalMarks: 9,
           stem: "Two cube-shaped model cells are compared. Cell A has sides of 2 mm and Cell B has sides of 4 mm.",
           parts: [
-            { label: "a", prompt: "Calculate the surface area to volume ratio of Cell A.", marks: 2 },
-            { label: "b", prompt: "Calculate the surface area to volume ratio of Cell B.", marks: 2 },
-            { label: "c", prompt: "Explain why a larger cell has more difficulty obtaining enough oxygen by diffusion.", marks: 2 },
-            { label: "d", prompt: "Intestinal cells have microvilli. Explain how this helps absorption.", marks: 1 },
-            { label: "e", prompt: "Glucose is absorbed from the intestine into cells at a concentration already higher inside the cell than outside. Name the process and explain how you know.", marks: 2 },
+            {
+              label: "a",
+              prompt: "Calculate the surface area to volume ratio of Cell A.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt: "Calculate the surface area to volume ratio of Cell B.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt:
+                "Explain why a larger cell has more difficulty obtaining enough oxygen by diffusion.",
+              marks: 2,
+            },
+            {
+              label: "d",
+              prompt:
+                "Intestinal cells have microvilli. Explain how this helps absorption.",
+              marks: 1,
+            },
+            {
+              label: "e",
+              prompt:
+                "Glucose is absorbed from the intestine into cells at a concentration already higher inside the cell than outside. Name the process and explain how you know.",
+              marks: 2,
+            },
           ],
           response: { type: "open" },
           markscheme: {
             principles: [
-              { kind: "formula", name: "Cube", statement: "$SA=6L^2$, $V=L^3$, ratio $=6/L$" },
-              { kind: "principle", name: "Diffusion limit", statement: "Larger cells have a smaller SA:V ratio, so exchange is slower relative to demand." },
-              { kind: "definition", name: "Active transport", statement: "Movement against a concentration gradient using ATP." },
+              {
+                kind: "formula",
+                name: "Cube",
+                statement: "$SA=6L^2$, $V=L^3$, ratio $=6/L$",
+              },
+              {
+                kind: "principle",
+                name: "Diffusion limit",
+                statement:
+                  "Larger cells have a smaller SA:V ratio, so exchange is slower relative to demand.",
+              },
+              {
+                kind: "definition",
+                name: "Active transport",
+                statement:
+                  "Movement against a concentration gradient using ATP.",
+              },
             ],
             steps: [
-              { part: "a", reasoning: "SA = 6 x 4 = 24 mm$^2$ and V = 8 mm$^3$.", working: "\\frac{24}{8}", marks: 1, markCode: "M" },
-              { part: "a", reasoning: "Evaluate.", working: "=3", marks: 1, markCode: "A" },
-              { part: "b", reasoning: "SA = 6 x 16 = 96 mm$^2$ and V = 64 mm$^3$.", working: "\\frac{96}{64}", marks: 1, markCode: "M" },
-              { part: "b", reasoning: "Evaluate.", working: "=1.5", marks: 1, markCode: "A" },
-              { part: "c", reasoning: "Volume (oxygen demand) increases faster than surface area, so the SA:V ratio falls.", marks: 1, markCode: "B" },
-              { part: "c", reasoning: "Less surface per unit volume and a longer diffusion distance, so the supply is too slow for the cell's needs.", marks: 1, markCode: "R" },
-              { part: "d", reasoning: "Microvilli increase the surface area for absorption.", marks: 1, markCode: "B" },
-              { part: "e", reasoning: "Active transport.", marks: 1, markCode: "B" },
-              { part: "e", reasoning: "Glucose moves against its concentration gradient (low to high), which requires ATP and carrier proteins.", marks: 1, markCode: "R" },
+              {
+                part: "a",
+                reasoning: "SA = 6 x 4 = 24 mm$^2$ and V = 8 mm$^3$.",
+                working: "\\frac{24}{8}",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "a",
+                reasoning: "Evaluate.",
+                working: "=3",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                part: "b",
+                reasoning: "SA = 6 x 16 = 96 mm$^2$ and V = 64 mm$^3$.",
+                working: "\\frac{96}{64}",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning: "Evaluate.",
+                working: "=1.5",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "Volume (oxygen demand) increases faster than surface area, so the SA:V ratio falls.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "Less surface per unit volume and a longer diffusion distance, so the supply is too slow for the cell's needs.",
+                marks: 1,
+                markCode: "R",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "Microvilli increase the surface area for absorption.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                part: "e",
+                reasoning: "Active transport.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                part: "e",
+                reasoning:
+                  "Glucose moves against its concentration gradient (low to high), which requires ATP and carrier proteins.",
+                marks: 1,
+                markCode: "R",
+              },
             ],
-            finalAnswer: "(a) 3 (b) 1.5 (c) Volume rises faster than surface area, so the ratio falls and diffusion is too slow (d) More surface area (e) Active transport, as glucose moves against its gradient.",
-            commonErrors: ["Using surface area of one face.", "Saying larger cells have 'less' surface area.", "Choosing facilitated diffusion in (e)."],
-            examinerNote: "(a), (b) Allow 3:1 and 1.5:1. (c) Allow oe. (e) Allow ecf only if the process matches the reason given.",
+            finalAnswer:
+              "(a) 3 (b) 1.5 (c) Volume rises faster than surface area, so the ratio falls and diffusion is too slow (d) More surface area (e) Active transport, as glucose moves against its gradient.",
+            commonErrors: [
+              "Using surface area of one face.",
+              "Saying larger cells have 'less' surface area.",
+              "Choosing facilitated diffusion in (e).",
+            ],
+            examinerNote:
+              "(a), (b) Allow 3:1 and 1.5:1. (c) Allow oe. (e) Allow ecf only if the process matches the reason given.",
           },
         },
       ],

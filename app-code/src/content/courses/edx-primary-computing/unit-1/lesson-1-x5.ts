@@ -1,0 +1,288 @@
+import type { Lesson } from "../../../types.ts";
+
+export const exam15: Lesson = {
+  id: "edxpc-u1-exam5",
+  code: "1-X5",
+  title: "Exam Practice 5: Digital Literacy",
+  goal: "I CAN answer digital literacy exam-style questions under timed conditions.",
+  standards: [
+    "Pearson Edexcel International Primary Curriculum: Digital Literacy",
+  ],
+
+  vocabulary: [
+    {
+      term: "Algorithm",
+      definition: "A step-by-step set of instructions to solve a problem.",
+    },
+    {
+      term: "Data",
+      definition: "Information in a form a computer can process.",
+    },
+    {
+      term: "Hardware",
+      definition: "The physical parts of a computer system.",
+    },
+    { term: "Software", definition: "The programs that run on a computer." },
+  ],
+  concepts: [
+    {
+      id: "edxpc-u1-exam5-concept",
+      title: "Digital Literacy — exam practice",
+      skill: "Apply digital literacy techniques to exam-style questions.",
+      lesson: {
+        sections: [
+          {
+            heading: "Practice technique",
+            body: "These questions practise digital literacy in the style of the Pearson Edexcel International Primary Curriculum. Read each question carefully, show your working where needed, and check your answer makes sense. For English answers, write in full sentences with correct punctuation; for maths, give exact answers unless told otherwise.",
+          },
+        ],
+        keyFormulas: [
+          {
+            name: "Key ideas",
+            statement: "Apply the main methods and facts for digital literacy.",
+          },
+        ],
+      },
+      questions: [
+        {
+          id: "edxpc-u1-x5-q1",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is a loop in programming?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Repeats instructions" },
+              { id: "b", text: "Stops the program" },
+              { id: "c", text: "Deletes data" },
+              { id: "d", text: "Draws pictures" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Computational thinking",
+                statement: "Loop = repeat.",
+              },
+            ],
+            steps: [{ reasoning: "Loop = repeat.", marks: 1, markCode: "B" }],
+            finalAnswer: "**(a)** Repeats instructions",
+          },
+        },
+        {
+          id: "edxpc-u1-x5-q2",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is a database?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "An organised collection of data" },
+              { id: "b", text: "A computer game" },
+              { id: "c", text: "A type of cable" },
+              { id: "d", text: "A screen" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Data",
+                statement: "Database = organised data.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Database = organised data.",
+                marks: 1,
+                markCode: "B",
+              },
+            ],
+            finalAnswer: "**(a)** An organised collection of data",
+          },
+        },
+        {
+          id: "edxpc-u1-x5-q3",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which is an input device?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "mouse" },
+              { id: "b", text: "monitor" },
+              { id: "c", text: "speaker" },
+              { id: "d", text: "printer" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Hardware",
+                statement: "Mouse sends data in.",
+              },
+            ],
+            steps: [
+              { reasoning: "Mouse sends data in.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** mouse",
+          },
+        },
+        {
+          id: "edxpc-u1-x5-q4",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What should you do with personal information online?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Keep it private" },
+              { id: "b", text: "Share everywhere" },
+              { id: "c", text: "Post publicly" },
+              { id: "d", text: "Send to strangers" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "convention",
+                name: "Online safety",
+                statement: "Privacy matters.",
+              },
+            ],
+            steps: [{ reasoning: "Privacy matters.", marks: 1, markCode: "B" }],
+            finalAnswer: "**(a)** Keep it private",
+          },
+        },
+        {
+          id: "edxpc-u1-x5-q5",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is a loop in programming?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Repeats instructions" },
+              { id: "b", text: "Stops the program" },
+              { id: "c", text: "Deletes data" },
+              { id: "d", text: "Draws pictures" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Computational thinking",
+                statement: "Loop = repeat.",
+              },
+            ],
+            steps: [{ reasoning: "Loop = repeat.", marks: 1, markCode: "B" }],
+            finalAnswer: "**(a)** Repeats instructions",
+          },
+        },
+        {
+          id: "edxpc-u1-x5-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is a database?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "An organised collection of data" },
+              { id: "b", text: "A computer game" },
+              { id: "c", text: "A type of cable" },
+              { id: "d", text: "A screen" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Data",
+                statement: "Database = organised data.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Database = organised data.",
+                marks: 1,
+                markCode: "B",
+              },
+            ],
+            finalAnswer: "**(a)** An organised collection of data",
+          },
+        },
+        {
+          id: "edxpc-u1-x5-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is software?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Programs that run on a computer" },
+              { id: "b", text: "The physical parts" },
+              { id: "c", text: "A cable" },
+              { id: "d", text: "A screen" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Hardware",
+                statement: "Software = programs.",
+              },
+            ],
+            steps: [
+              { reasoning: "Software = programs.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Programs that run on a computer",
+          },
+        },
+        {
+          id: "edxpc-u1-x5-q8",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is cyberbullying?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Bullying using technology" },
+              { id: "b", text: "A type of game" },
+              { id: "c", text: "A computer virus" },
+              { id: "d", text: "Online shopping" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "convention",
+                name: "Online safety",
+                statement: "Cyberbullying = online harassment.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Cyberbullying = online harassment.",
+                marks: 1,
+                markCode: "B",
+              },
+            ],
+            finalAnswer: "**(a)** Bullying using technology",
+          },
+        },
+      ],
+    },
+  ],
+};

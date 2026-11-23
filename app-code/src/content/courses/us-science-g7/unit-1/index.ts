@@ -7,6 +7,7 @@ export const unit1: Unit = {
   id: "s7-u1",
   code: "1",
   title: "Life Science: Cells, Organisms and Ecosystems",
-  description: "Explore cells and their organelles, use microscopes and magnification, see how body systems work together and how photosynthesis and cellular respiration move energy, and analyze how energy and matter flow through ecosystems.",
+  description:
+    "Explore cells and their organelles, use microscopes and magnification, see how body systems work together and how photosynthesis and cellular respiration move energy, and analyze how energy and matter flow through ecosystems.",
   lessons: [lesson11, lesson12, lesson13],
 };

@@ -500,7 +500,7 @@ export const lesson62: Lesson = {
       ],
     },
     {
-      id: "ela9-u6-organization",
+      id: "ela9-u6-organization2",
       title: "Organization and cohesion in informative writing",
       skill:
         "Organize informative texts logically with smooth transitions and cohesive paragraph development.",

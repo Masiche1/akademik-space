@@ -3,12 +3,17 @@ import { ArrowRight } from "lucide-react";
 import { countQuestions } from "@/content/catalog.ts";
 import { EDEXCEL_STAGE_NAME } from "@/content/edexcel.ts";
 import { IB_SUBJECT_NAME } from "@/content/ib.ts";
-import { isUsMiddleSchool, type Course } from "@/content/types.ts";
+import { isUsElementary, isUsMiddleSchool, isUsPreK, type Course } from "@/content/types.ts";
 
 const eyebrowFor = (c: Course) => {
   if (c.ib) return `IB DP · ${IB_SUBJECT_NAME[c.ib.subject]}`;
   if (c.edexcel) return EDEXCEL_STAGE_NAME[c.edexcel.stage];
-  if (c.us) return isUsMiddleSchool(c.us) ? "Middle school" : `High school, ${c.grade}`;
+  if (c.us) {
+    if (isUsPreK(c.us)) return "Pre-K";
+    if (isUsElementary(c.us)) return "Elementary";
+    if (isUsMiddleSchool(c.us)) return "Middle school";
+    return `High school, ${c.grade}`;
+  }
   if (c.myp) {
     if (c.myp.subject === "maths-standard") return `Standard, ${c.grade}`;
     if (c.myp.subject === "maths-extended") return `Extended, ${c.grade}`;

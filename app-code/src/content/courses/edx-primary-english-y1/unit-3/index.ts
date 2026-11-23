@@ -2,6 +2,11 @@ import type { Unit } from "../../../types.ts";
 import { lesson31 } from "./lesson-3-1.ts";
 import { lesson32 } from "./lesson-3-2.ts";
 import { lesson33 } from "./lesson-3-3.ts";
+import { exam31 } from "./lesson-3-x1.ts";
+import { exam32 } from "./lesson-3-x2.ts";
+import { exam33 } from "./lesson-3-x3.ts";
+import { exam34 } from "./lesson-3-x4.ts";
+import { exam35 } from "./lesson-3-x5.ts";
 
 export const unit3: Unit = {
   id: "edpe1-u3",
@@ -9,5 +14,5 @@ export const unit3: Unit = {
   title: "Writing and Composition",
   description:
     "Sentences with capitals and full stops, joining and describing words, spelling and handwriting, and writing about pictures.",
-  lessons: [lesson31, lesson32, lesson33],
+  lessons: [lesson31, lesson32, lesson33, exam31, exam32, exam33, exam34, exam35],
 };

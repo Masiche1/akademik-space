@@ -1,0 +1,20 @@
+Author new Edexcel course content. Read FIRST: scripts/EDEXCEL-EXPANSION-SPEC.md (mandatory spec), scripts/data-igcsecs-u1.cjs (data-file shape example), src/content/types.ts.
+
+Course: `edx-ias-economics` at `src/content/courses/edx-ias-economics/`. Family: HUMANITIES.
+Existing units (do NOT duplicate topics):
+- unit-1:Introduction to Markets q28
+- unit-2:Market Failure q28
+- unit-3:Macroeconomic Performance q28
+- unit-4:Government Macroeconomic Policy q24
+- unit-5:The International Economy q24
+- unit-6:Business Economics and Quantitative Methods q24
+
+Create NEW units: 7, 8, 9. Each unit = 3 lessons; each lesson = 2 concepts x 6 questions = 36 questions/unit. Pick coherent remaining syllabus topics for this Edexcel qual/year.
+
+HUMANITIES rules: copy markCode set (usually AO1/AO2/AO3) and principle kinds from existing lessons in THIS course.
+
+For EACH unit N in [7, 8, 9] produce exactly two files (N = the actual unit number; e.g. for unit 10 use file "lesson-10-1.ts", exportName "lesson101", ids "...-u10-...", folder unit-10):
+1. `scripts/data-edx-ias-economics-uN.cjs` — CommonJS, module.exports = array of 3 lesson specs. Spec shape: { file:"lesson-N-1.ts", exportName:"lessonN1", lesson:{ id:"<course-prefix>-uN-lesson-N-1", code:"N-1", title, goal:"I CAN ...", standards:[...], vocabulary:[{term,definition}...], concepts:[conceptA, conceptB] }, notes:{...} }. Concept shape: { id, title, skill, sections:[{heading,body}...], keyFormulas:[{name,statement}...], workedExample:{problem,solution}, questions:[6 question objects] }. Question object fields: id (unique, prefixed <course-prefix>-uN-...), difficulty ("foundation"|"core"|"challenge"), totalMarks, stem, optional parts:[{label,prompt,marks}], response ({type:"mcq",choices:[{id,text}],correctChoiceId} | {type:"numeric",parts:[{label,answer}]} | {type:"open"}), markscheme:{principles:[{kind,name,statement}], steps:[{reasoning,working?,marks,markCode,part?}], finalAnswer, commonErrors?}. Id prefix: copy the pattern used by existing files in this course.
+2. `src/content/courses/edx-ias-economics/unit-N/index.ts` — copy a neighbouring unit index.ts: import { lessonN1 } from "./lesson-N-1.ts" etc., export const unitN: Unit = { id:"<prefix>-uN", code:"N", number:N, title, description, lessons:[lessonN1,lessonN2,lessonN3] }. (The lesson .ts files don't exist yet — coordinator generates them.)
+
+CONSTRAINTS: You cannot run commands — do not try. Do NOT create lesson .ts files. Do NOT edit course index.ts, catalog.ts, types.ts, or any other course/unit — parallel agents own sibling units. LaTeX backslashes must be doubled in .cjs strings (\\frac). markscheme.steps marks must sum to totalMarks; parts marks must sum to totalMarks and each part's step marks must equal that part's marks. Verify every numeric answer. Report files written.

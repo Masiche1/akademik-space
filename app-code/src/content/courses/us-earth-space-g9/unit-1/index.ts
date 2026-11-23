@@ -7,6 +7,7 @@ export const unit1: Unit = {
   id: "ess9-u1",
   code: "1",
   title: "Space Systems",
-  description: "Explore how nuclear fusion powers stars and how stars are classified and evolve, how redshift, the cosmic microwave background and light element abundances support the Big Bang, how Kepler's laws describe orbits, and how radiometric dating and ancient rocks reveal Earth's age and formation.",
+  description:
+    "Explore how nuclear fusion powers stars and how stars are classified and evolve, how redshift, the cosmic microwave background and light element abundances support the Big Bang, how Kepler's laws describe orbits, and how radiometric dating and ancient rocks reveal Earth's age and formation.",
   lessons: [lesson11, lesson12, lesson13],
 };

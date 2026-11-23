@@ -417,7 +417,7 @@ export const lesson43: Lesson = {
       ],
     },
     {
-      id: "eias-soc-u4-evaluation",
+      id: "eias-soc-u4-synthesis",
       title: "Evaluating Crime and Deviance",
       skill: "Synthesize and evaluate theories of crime.",
       lesson: {

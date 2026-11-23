@@ -1,0 +1,966 @@
+module.exports = [
+  {
+    file: "lesson-8-1.ts", exportName: "lesson81",
+    lesson: {
+      id: "edm10-u8-lesson-8-1", code: "8-1",
+      title: "Translations and Reflections of Graphs",
+      goal: "I CAN describe translations and reflections of graphs of functions, and write the equation of a transformed graph.",
+      standards: ["4MA1 3.3H", "4MA1 3.2H"],
+      vocabulary: [
+        { term: "Translation", definition: "A slide of a graph; every point moves the same distance horizontally and vertically." },
+        { term: "Reflection", definition: "A flip of a graph in a mirror line: the x-axis or the y-axis." },
+        { term: "Image", definition: "The new position of a point or graph after a transformation." },
+        { term: "Invariant point", definition: "A point that stays fixed under a transformation, e.g. the origin under y = f(-x)." },
+        { term: "Function transformation", definition: "A new function built from f(x) by changing the input or the output, e.g. f(x) + a or f(-x)." },
+        { term: "Combined transformation", definition: "More than one transformation applied in a stated order." },
+      ],
+      concepts: [
+        {
+          id: "edm10-u8-translations-reflections",
+          title: "Translations and reflections",
+          skill: "Describe translations and reflections of y = f(x) and write equations of transformed graphs.",
+          sections: [
+            { heading: "Vertical and horizontal translations", body: "Adding a constant to the output moves the graph vertically: $y=f(x)+a$ is a translation of $a$ units upwards (or downwards if $a$ is negative). Changing the input moves the graph horizontally: $y=f(x-h)$ is a translation of $h$ units to the right, and $y=f(x+h)$ is $h$ units to the left. In general $y=f(x-h)+k$ is the translation by the vector $\\begin{pmatrix} h \\\\ k \\end{pmatrix}$." },
+            { heading: "Reflections", body: "$y=-f(x)$ reflects the graph in the $x$-axis: the $y$-coordinates are negated. $y=f(-x)$ reflects the graph in the $y$-axis: the $x$-coordinates are negated, so the point $(a,b)$ maps to $(-a,b)$." },
+            { heading: "Describing and combining transformations", body: "To describe a transformation between two graphs, compare how the equation changes: a constant added outside $f$ gives a vertical shift, a constant inside the brackets gives a horizontal shift (with the opposite sign), and a minus sign outside or inside gives a reflection. Transformations are applied from the inside out." },
+          ],
+          keyFormulas: [
+            { name: "Vertical translation", statement: "$y=f(x)+a$: translation of $a$ units parallel to the $y$-axis" },
+            { name: "Translation vector", statement: "$y=f(x-h)+k$ is the translation by $\\begin{pmatrix} h \\\\ k \\end{pmatrix}$" },
+            { name: "Reflection in x-axis", statement: "$y=-f(x)$ negates the output" },
+            { name: "Reflection in y-axis", statement: "$y=f(-x)$ negates the input" },
+          ],
+          workedExample: {
+            problem: "Let $f(x)=x^2-2x$. Write down $g(x)=f(x+3)$ and describe the transformation from $y=f(x)$ to $y=g(x)$.",
+            solution: "$g(x)=(x+3)^2-2(x+3)=x^2+6x+9-2x-6=x^2+4x+3$. The input is $x+3$, so the graph is translated 3 units to the left.",
+          },
+          questions: [
+            {
+              id: "edm10-u8-transref-q1", difficulty: "foundation", tier: "foundation", totalMarks: 1,
+              stem: "The graph of $y=f(x)$ is translated 5 units upwards to give $y=g(x)$. Which equation defines $g(x)$?",
+              response: { type: "mcq", choices: [
+                { id: "a", text: "$g(x)=f(x)+5$" }, { id: "b", text: "$g(x)=f(x)-5$" }, { id: "c", text: "$g(x)=f(x+5)$" }, { id: "d", text: "$g(x)=-f(x)$" },
+              ], correctChoiceId: "a" },
+              markscheme: {
+                principles: [{ kind: "definition", name: "Vertical translation", statement: "$y=f(x)+a$ translates the graph $a$ units upwards." }],
+                steps: [{ reasoning: "Upwards means adding to the output.", working: "f(x)+5", marks: 1, markCode: "B" }],
+                finalAnswer: "**(a)** $g(x)=f(x)+5$",
+                commonErrors: ["Choosing $f(x+5)$, which shifts horizontally instead."],
+              },
+            },
+            {
+              id: "edm10-u8-transref-q2", difficulty: "foundation", tier: "foundation", totalMarks: 2,
+              stem: "The graph of $y=f(x)$ is reflected in the $y$-axis to give $y=g(x)$. Describe the image of the point $(6, 11)$ on $y=f(x)$.",
+              response: { type: "open" },
+              markscheme: {
+                principles: [{ kind: "method", name: "Reflection in y-axis", statement: "$y=f(-x)$ negates the $x$-coordinate of every point." }],
+                steps: [
+                  { reasoning: "Reflection in the $y$-axis keeps the $y$-coordinate and negates the $x$-coordinate.", working: "(x,y)\\mapsto(-x,y)", marks: 1, markCode: "M" },
+                  { reasoning: "Apply to $(6,11)$.", working: "(-6,11)", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "$(-6, 11)$",
+                commonErrors: ["Giving $(-6,-11)$, which would be a reflection in the $x$-axis."],
+              },
+            },
+            {
+              id: "edm10-u8-transref-q3", difficulty: "core", tier: "higher", totalMarks: 3,
+              stem: "Let $f(x)=x^2-1$.",
+              parts: [
+                { label: "a", prompt: "Write down the equation of the image of $y=f(x)$ after translation by the vector $\\begin{pmatrix} -3 \\\\ 2 \\end{pmatrix}$.", marks: 1 },
+                { label: "b", prompt: "Write down $g(x)$ if $g(x)=f(x-4)+1$.", marks: 2 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [{ kind: "method", name: "Translation vector", statement: "$y=f(x-h)+k$ is the translation by $\\begin{pmatrix} h \\\\ k \\end{pmatrix}$; hence vector $\\begin{pmatrix} h \\\\ k \\end{pmatrix}$ gives $y=f(x-h)+k$." }],
+                steps: [
+                  { part: "a", reasoning: "Vector $\\begin{pmatrix} -3 \\\\ 2 \\end{pmatrix}$ means $h=-3$, $k=2$, so replace $x$ by $x+3$ and add 2.", working: "y=f(x+3)+2", marks: 1, markCode: "M" },
+                  { part: "b", reasoning: "Substitute $x-4$ for $x$ and add 1.", working: "g(x)=f(x-4)+1", marks: 1, markCode: "M" },
+                  { part: "b", reasoning: "Expand: $(x-4)^2-1+1=(x-4)^2=x^2-8x+16$.", working: "g(x)=x^2-8x+16", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "(a) $y=f(x+3)+2$ (b) $g(x)=x^2-8x+16$",
+                commonErrors: ["In (a) writing $f(x-3)+2$ — the sign inside the brackets is reversed."],
+              },
+            },
+            {
+              id: "edm10-u8-transref-q4", difficulty: "challenge", tier: "higher", totalMarks: 5,
+              stem: "The graph of $y=f(x)$ passes through the point $(4, 7)$.",
+              parts: [
+                { label: "a", prompt: "Write down the coordinates of the image of this point on $y=f(x)+3$.", marks: 1 },
+                { label: "b", prompt: "Write down the coordinates of the image of this point on $y=f(x-2)$.", marks: 1 },
+                { label: "c", prompt: "Write down the coordinates of the image of this point on $y=-f(x)$.", marks: 1 },
+                { label: "d", prompt: "Write down the coordinates of the image of this point on $y=f(-x)$.", marks: 2 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "method", name: "Point transformations", statement: "$(x,y)\\mapsto(x,y+a)$ for $+a$; $(x,y)\\mapsto(x+h,y)$ for $f(x-h)$; $(x,y)\\mapsto(x,-y)$ for $-f(x)$; $(x,y)\\mapsto(-x,y)$ for $f(-x)$." },
+                ],
+                steps: [
+                  { part: "a", reasoning: "Add 3 to the $y$-coordinate.", working: "(4,10)", marks: 1, markCode: "A" },
+                  { part: "b", reasoning: "Subtract 2 from the $x$-coordinate (shift right 2).", working: "(6,7)", marks: 1, markCode: "A" },
+                  { part: "c", reasoning: "Negate the $y$-coordinate.", working: "(4,-7)", marks: 1, markCode: "A" },
+                  { part: "d", reasoning: "Negate the $x$-coordinate.", working: "(-4,7)", marks: 1, markCode: "M" },
+                  { part: "d", reasoning: "State the coordinates.", working: "(-4,7)", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "(a) $(4,10)$ (b) $(6,7)$ (c) $(4,-7)$ (d) $(-4,7)$",
+                commonErrors: ["For (b) giving $(2,7)$ — a shift right by 2 adds 2 to $x$, not subtracts."],
+              },
+            },
+            {
+              id: "edm10-u8-transref-q5", difficulty: "challenge", tier: "higher", totalMarks: 6,
+              stem: "Let $f(x)=x^2-4x+3$.",
+              parts: [
+                { label: "a", prompt: "Write down $g(x)$ where $g(x)=f(x)+2$, giving your answer in expanded form.", marks: 2 },
+                { label: "b", prompt: "Write down $h(x)$ where $h(x)=f(x-1)$, giving your answer in expanded form.", marks: 2 },
+                { label: "c", prompt: "Describe the single transformation that maps $y=f(x)$ onto $y=f(x+5)-1$.", marks: 2 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [{ kind: "method", name: "Transforming functions", statement: "Replace $x$ by $x-a$ and add a constant to the output; describe the combined effect." }],
+                steps: [
+                  { part: "a", reasoning: "Add 2 to the output.", working: "g(x)=x^2-4x+5", marks: 1, markCode: "M" },
+                  { part: "a", reasoning: "State in expanded form.", working: "x^2-4x+5", marks: 1, markCode: "A" },
+                  { part: "b", reasoning: "Replace $x$ by $x-1$: $(x-1)^2-4(x-1)+3$.", working: "(x-1)^2-4(x-1)+3", marks: 1, markCode: "M" },
+                  { part: "b", reasoning: "Expand: $x^2-2x+1-4x+4+3=x^2-6x+8$.", working: "h(x)=x^2-6x+8", marks: 1, markCode: "A" },
+                  { part: "c", reasoning: "$x+5$ inside shifts 5 units left; $-1$ outside shifts 1 unit down.", working: "5\\text{ left},\\ 1\\text{ down}", marks: 1, markCode: "M" },
+                  { part: "c", reasoning: "State as a translation vector.", working: "\\begin{pmatrix}-5\\\\-1\\end{pmatrix}", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "(a) $g(x)=x^2-4x+5$ (b) $h(x)=x^2-6x+8$ (c) translation by $\\begin{pmatrix} -5 \\\\ -1 \\end{pmatrix}$ (5 left, 1 down)",
+                commonErrors: ["In (c) giving $\\begin{pmatrix} 5 \\\\ -1 \\end{pmatrix}$ — the horizontal sign is reversed."],
+              },
+            },
+            {
+              id: "edm10-u8-transref-q6", difficulty: "challenge", tier: "higher", totalMarks: 9,
+              stem: "Let $f(x)=x^2+2x-3$. The point $P$ on $y=f(x)$ has coordinates $(-1, -4)$.",
+              parts: [
+                { label: "a", prompt: "Write down $g(x)=f(x-2)$ in expanded form.", marks: 2 },
+                { label: "b", prompt: "Write down $h(x)=-f(x)+4$ in expanded form.", marks: 2 },
+                { label: "c", prompt: "Describe the transformation that maps $y=f(x)$ onto $y=f(x+1)-2$, giving the translation vector.", marks: 2 },
+                { label: "d", prompt: "Find the coordinates of the image of $P$ under the transformation in part (c).", marks: 3 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "method", name: "Substitution", statement: "Replace $x$ by $x-a$ throughout the function." },
+                  { kind: "property", name: "Point mapping", statement: "Under $y=f(x-h)+k$ the point $(x,y)$ maps to $(x+h,\\ y+k)$." },
+                ],
+                steps: [
+                  { part: "a", reasoning: "Substitute $x-2$: $(x-2)^2+2(x-2)-3$.", working: "(x-2)^2+2(x-2)-3", marks: 1, markCode: "M" },
+                  { part: "a", reasoning: "Expand: $x^2-4x+4+2x-4-3=x^2-2x-3$.", working: "g(x)=x^2-2x-3", marks: 1, markCode: "A" },
+                  { part: "b", reasoning: "Negate $f(x)$ then add 4: $-(x^2+2x-3)+4$.", working: "-(x^2+2x-3)+4", marks: 1, markCode: "M" },
+                  { part: "b", reasoning: "Simplify: $-x^2-2x+3+4=-x^2-2x+7$.", working: "h(x)=-x^2-2x+7", marks: 1, markCode: "A" },
+                  { part: "c", reasoning: "$x+1$ shifts 1 left; $-2$ shifts 2 down.", working: "1\\text{ left},\\ 2\\text{ down}", marks: 1, markCode: "M" },
+                  { part: "c", reasoning: "State the vector.", working: "\\begin{pmatrix}-1\\\\-2\\end{pmatrix}", marks: 1, markCode: "A" },
+                  { part: "d", reasoning: "Apply the vector to $P=(-1,-4)$: $x\\mapsto x-1$, $y\\mapsto y-2$.", working: "(-1-1,\\ -4-2)", marks: 1, markCode: "M" },
+                  { part: "d", reasoning: "Compute the image coordinates.", working: "(-2,-6)", marks: 1, markCode: "A" },
+                  { part: "d", reasoning: "Verify $P$ lies on $f$: $f(-1)=1-2-3=-4$ ✓.", working: "f(-1)=-4", marks: 1, markCode: "R" },
+                ],
+                finalAnswer: "(a) $g(x)=x^2-2x-3$ (b) $h(x)=-x^2-2x+7$ (c) $\\begin{pmatrix} -1 \\\\ -2 \\end{pmatrix}$ (d) $(-2,-6)$",
+                commonErrors: ["In (d) adding the vector instead of applying the correct sign convention."],
+              },
+            },
+          ],
+        },
+        {
+          id: "edm10-u8-stretches",
+          title: "Stretches and combined transformations",
+          skill: "Describe vertical and horizontal stretches of graphs and combine transformations.",
+          sections: [
+            { heading: "Vertical stretches", body: "$y=af(x)$ stretches the graph parallel to the $y$-axis with scale factor $a$. Every $y$-coordinate is multiplied by $a$: a point $(x,y)$ maps to $(x,ay)$. If $0<a<1$ the graph is compressed towards the $x$-axis." },
+            { heading: "Horizontal stretches", body: "$y=f(ax)$ stretches the graph parallel to the $x$-axis with scale factor $\\frac{1}{a}$. Every $x$-coordinate is multiplied by $\\frac{1}{a}$: a point $(x,y)$ maps to $\\left(\\frac{x}{a},y\\right)$." },
+            { heading: "Combining transformations", body: "For $y=af(bx+c)+d$, work from the inside out: the $bx+c$ part is a horizontal transformation (stretch $\\frac{1}{b}$ then shift), the outer $a$ and $+d$ are vertical (stretch $a$ then shift $d$). Always state the order when describing a transformation." },
+          ],
+          keyFormulas: [
+            { name: "Vertical stretch", statement: "$y=af(x)$: stretch parallel to $y$-axis, scale factor $a$" },
+            { name: "Horizontal stretch", statement: "$y=f(ax)$: stretch parallel to $x$-axis, scale factor $\\frac{1}{a}$" },
+            { name: "Point images", statement: "$(x,y)\\mapsto(x,ay)$ for $af(x)$; $(x,y)\\mapsto\\left(\\frac{x}{a},y\\right)$ for $f(ax)$" },
+          ],
+          workedExample: {
+            problem: "Describe fully the transformation that maps $y=x^2$ onto $y=2(x+1)^2-3$.",
+            solution: "Write $y=2f(x+1)-3$ with $f(x)=x^2$. Inside: $x+1$ translates 1 unit left. The factor 2 stretches vertically with scale factor 2. Finally $-3$ translates 3 units down.",
+          },
+          questions: [
+            {
+              id: "edm10-u8-stretch-q1", difficulty: "foundation", tier: "foundation", totalMarks: 1,
+              stem: "The graph of $y=f(x)$ is transformed to $y=g(x)$ where $g(x)=5f(x)$. What is the transformation?",
+              response: { type: "mcq", choices: [
+                { id: "a", text: "Vertical stretch, scale factor 5" }, { id: "b", text: "Horizontal stretch, scale factor $\\frac{1}{5}$" }, { id: "c", text: "Translation 5 units up" }, { id: "d", text: "Reflection in the $x$-axis" },
+              ], correctChoiceId: "a" },
+              markscheme: {
+                principles: [{ kind: "definition", name: "Vertical stretch", statement: "$y=af(x)$ multiplies every output by $a$." }],
+                steps: [{ reasoning: "The factor multiplies $f(x)$, so outputs scale by 5.", working: "y=5f(x)", marks: 1, markCode: "B" }],
+                finalAnswer: "**(a)** Vertical stretch, scale factor 5",
+                commonErrors: ["Confusing $5f(x)$ (vertical) with $f(5x)$ (horizontal)."],
+              },
+            },
+            {
+              id: "edm10-u8-stretch-q2", difficulty: "foundation", tier: "foundation", totalMarks: 2,
+              stem: "Let $f(x)=x+7$ and $g(x)=3f(x)$. Find $g(2)$.",
+              response: { type: "numeric", parts: [{ label: "g(2)", answer: 27 }] },
+              markscheme: {
+                principles: [{ kind: "method", name: "Function evaluation", statement: "$g(x)=3f(x)$ so evaluate $f$ first then multiply by 3." }],
+                steps: [
+                  { reasoning: "Evaluate $f(2)$.", working: "f(2)=2+7=9", marks: 1, markCode: "M" },
+                  { reasoning: "Multiply by 3.", working: "3\\times 9=27", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "$27$",
+                commonErrors: ["Computing $3f(2)$ as $f(2)+3=12$."],
+              },
+            },
+            {
+              id: "edm10-u8-stretch-q3", difficulty: "core", tier: "higher", totalMarks: 3,
+              stem: "Let $f(x)=x^2-1$.",
+              parts: [
+                { label: "a", prompt: "State the scale factor and direction of the stretch taking $y=f(x)$ to $y=f(4x)$.", marks: 1 },
+                { label: "b", prompt: "State the scale factor and direction of the stretch taking $y=f(x)$ to $y=\\frac{1}{2}f(x)$.", marks: 1 },
+                { label: "c", prompt: "Write down $g(x)=2f(x)-1$ in expanded form.", marks: 1 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [{ kind: "property", name: "Stretch scale factors", statement: "$f(ax)$ has horizontal scale factor $\\frac{1}{a}$; $bf(x)$ has vertical scale factor $b$." }],
+                steps: [
+                  { part: "a", reasoning: "$a=4$ inside gives horizontal scale factor $\\frac{1}{4}$.", working: "\\text{horizontal},\\ \\frac{1}{4}", marks: 1, markCode: "A" },
+                  { part: "b", reasoning: "Factor $\\frac{1}{2}$ outside gives vertical scale factor $\\frac{1}{2}$ (compression).", working: "\\text{vertical},\\ \\frac{1}{2}", marks: 1, markCode: "A" },
+                  { part: "c", reasoning: "$2(x^2-1)-1=2x^2-3$.", working: "g(x)=2x^2-3", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "(a) horizontal, $\\frac{1}{4}$ (b) vertical, $\\frac{1}{2}$ (c) $g(x)=2x^2-3$",
+                commonErrors: ["In (a) answering scale factor 4 instead of $\\frac{1}{4}$."],
+              },
+            },
+            {
+              id: "edm10-u8-stretch-q4", difficulty: "challenge", tier: "higher", totalMarks: 5,
+              stem: "The graph of $y=f(x)$ passes through the point $(3, 8)$.",
+              parts: [
+                { label: "a", prompt: "Write down the image of this point on $y=2f(x)$.", marks: 1 },
+                { label: "b", prompt: "Write down the image of this point on $y=f(2x)$.", marks: 1 },
+                { label: "c", prompt: "Write down the image of this point on $y=f(\\frac{1}{2}x)$.", marks: 1 },
+                { label: "d", prompt: "Describe fully the transformation that maps $y=f(x)$ onto $y=2f(x-3)+1$.", marks: 2 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "property", name: "Point images under stretches", statement: "$(x,y)\\mapsto(x,2y)$ for $2f(x)$; $(x,y)\\mapsto(2x,y)$ for $f(2x)$; $(x,y)\\mapsto(2x,y)$... for $f(\\frac{x}{2})$: $(x,y)\\mapsto(\\frac{x}{2},y)$." },
+                ],
+                steps: [
+                  { part: "a", reasoning: "Double the $y$-coordinate.", working: "(3,16)", marks: 1, markCode: "A" },
+                  { part: "b", reasoning: "Halve the $x$-coordinate (horizontal stretch SF $\\frac{1}{2}$).", working: "(1.5,8)", marks: 1, markCode: "A" },
+                  { part: "c", reasoning: "Double the $x$-coordinate (horizontal stretch SF 2).", working: "(6,8)", marks: 1, markCode: "A" },
+                  { part: "d", reasoning: "$x-3$ shifts 3 right; factor 2 stretches vertically SF 2; $+1$ shifts 1 up.", working: "3\\text{ right},\\ \\text{SF }2,\\ 1\\text{ up}", marks: 1, markCode: "M" },
+                  { part: "d", reasoning: "State all three in order.", working: "\\text{translation }(3,0),\\ \\text{stretch SF }2,\\ \\text{translation }(0,1)", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "(a) $(3,16)$ (b) $(1.5,8)$ (c) $(6,8)$ (d) translate 3 right, vertical stretch SF 2, translate 1 up",
+                commonErrors: ["Swapping the images in (b) and (c): $f(2x)$ halves $x$, $f(\\frac{x}{2})$ doubles it."],
+              },
+            },
+            {
+              id: "edm10-u8-stretch-q5", difficulty: "challenge", tier: "higher", totalMarks: 6,
+              stem: "Let $f(x)=x^2-2x$.",
+              parts: [
+                { label: "a", prompt: "Write down $g(x)=3f(x)-4$ in expanded form.", marks: 2 },
+                { label: "b", prompt: "Describe the transformation that maps $y=f(x)$ onto $y=f(2x)$.", marks: 1 },
+                { label: "c", prompt: "Write down $h(x)=f(x+1)$ in expanded form.", marks: 2 },
+                { label: "d", prompt: "Find $h(4)$.", marks: 1 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [{ kind: "method", name: "Transforming quadratics", statement: "Apply the factor and constant outside, then substitute inside the brackets." }],
+                steps: [
+                  { part: "a", reasoning: "$3(x^2-2x)-4=3x^2-6x-4$.", working: "g(x)=3x^2-6x-4", marks: 1, markCode: "M" },
+                  { part: "a", reasoning: "State in expanded form.", working: "3x^2-6x-4", marks: 1, markCode: "A" },
+                  { part: "b", reasoning: "$f(2x)$ is a horizontal stretch with scale factor $\\frac{1}{2}$.", working: "\\text{horizontal stretch, SF }\\frac{1}{2}", marks: 1, markCode: "A" },
+                  { part: "c", reasoning: "$(x+1)^2-2(x+1)=x^2+2x+1-2x-2=x^2-1$.", working: "h(x)=x^2-1", marks: 1, markCode: "M" },
+                  { part: "c", reasoning: "State the result.", working: "x^2-1", marks: 1, markCode: "A" },
+                  { part: "d", reasoning: "$h(4)=4^2-1=15$.", working: "16-1=15", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "(a) $g(x)=3x^2-6x-4$ (b) horizontal stretch SF $\\frac{1}{2}$ (c) $h(x)=x^2-1$ (d) $15$",
+                commonErrors: ["In (c) expanding $(x+1)^2$ incorrectly or forgetting the $-2(x+1)$ term."],
+              },
+            },
+            {
+              id: "edm10-u8-stretch-q6", difficulty: "challenge", tier: "higher", totalMarks: 10,
+              stem: "Let $f(x)=x^2-1$. The graph of $y=g(x)$ is obtained from $y=f(x)$ by the transformation $y=2f(x-1)+3$.",
+              parts: [
+                { label: "a", prompt: "Write down $g(x)$ in expanded form.", marks: 1 },
+                { label: "b", prompt: "Write down the equation of $y=3f(x)$.", marks: 1 },
+                { label: "c", prompt: "Describe fully the transformation taking $y=f(x)$ to $y=g(x)$, stating the order.", marks: 3 },
+                { label: "d", prompt: "Find the images of the points $(2,3)$ and $(-1,0)$ on $y=f(x)$ under this transformation.", marks: 2 },
+                { label: "e", prompt: "The vertex of $y=f(x)$ is $(0,-1)$. Find the coordinates of its image on $y=g(x)$.", marks: 3 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "method", name: "Inside-out transformation", statement: "$2f(x-1)+3$: shift input, scale output, shift output." },
+                  { kind: "property", name: "Point mapping", statement: "$(x,y)\\mapsto(x+1,\\ 2y+3)$ under $y=2f(x-1)+3$." },
+                ],
+                steps: [
+                  { part: "a", reasoning: "$2[(x-1)^2-1]+3=2x^2-4x+2-2+3=2x^2-4x+3$.", working: "g(x)=2x^2-4x+3", marks: 1, markCode: "A" },
+                  { part: "b", reasoning: "$3(x^2-1)=3x^2-3$.", working: "y=3x^2-3", marks: 1, markCode: "A" },
+                  { part: "c", reasoning: "$x-1$ translates 1 unit right.", working: "1\\text{ right}", marks: 1, markCode: "M" },
+                  { part: "c", reasoning: "Factor 2 stretches vertically with scale factor 2.", working: "\\text{vertical stretch SF }2", marks: 1, markCode: "M" },
+                  { part: "c", reasoning: "$+3$ translates 3 units up; order: translate, stretch, translate.", working: "1\\text{ up};\\ \\text{in that order}", marks: 1, markCode: "A" },
+                  { part: "d", reasoning: "$(x,y)\\mapsto(x+1,2y+3)$: $(2,3)\\mapsto(3,9)$ and $(-1,0)\\mapsto(0,3)$.", working: "(3,9),\\ (0,3)", marks: 2, markCode: "A" },
+                  { part: "e", reasoning: "Apply mapping to $(0,-1)$: $x\\mapsto1$, $y\\mapsto2(-1)+3=1$.", working: "(0+1,\\ 2(-1)+3)", marks: 1, markCode: "M" },
+                  { part: "e", reasoning: "Compute coordinates.", working: "(1,1)", marks: 1, markCode: "A" },
+                  { part: "e", reasoning: "Verify: $g(1)=2-4+3=1$ ✓.", working: "g(1)=1", marks: 1, markCode: "R" },
+                ],
+                finalAnswer: "(a) $g(x)=2x^2-4x+3$ (b) $y=3x^2-3$ (c) translate 1 right, vertical stretch SF 2, translate 3 up (d) $(3,9)$ and $(0,3)$ (e) $(1,1)$",
+                commonErrors: ["Applying the stretch before the horizontal shift, or mapping $(x,y)\\mapsto(x-1,...)$ instead of $(x+1,...)$."],
+              },
+            },
+          ],
+        },
+      ],
+    },
+    notes: {
+      id: "edm10-u8-transformations-notes", title: "Transformations of graphs — notes",
+      summary: "Translate, reflect and stretch graphs using changes to f(x); describe transformations in the correct order.",
+      sections: [
+        { heading: "Key idea", body: "Changes outside $f(x)$ affect the output (vertical); changes inside the brackets affect the input (horizontal, with reversed sign)." },
+        { heading: "Sign rules", body: "$y=f(x)+a$ up/down; $y=f(x-h)+k$ vector $(h,k)$; $y=-f(x)$ reflects in $x$-axis; $y=f(-x)$ reflects in $y$-axis; $y=af(x)$ vertical stretch SF $a$; $y=f(ax)$ horizontal stretch SF $\\frac{1}{a}$." },
+        { heading: "Exam technique", body: "Work inside out. For point images apply $(x,y)\\mapsto(x+h,y+k)$ for translations, then scale the appropriate coordinate for stretches." },
+      ],
+    },
+  },
+  {
+    file: "lesson-8-2.ts", exportName: "lesson82",
+    lesson: {
+      id: "edm10-u8-lesson-8-2", code: "8-2",
+      title: "Trigonometric Graphs and Solving Equations Graphically",
+      goal: "I CAN sketch and interpret graphs of trigonometric and reciprocal functions, estimate gradients using tangents, and solve equations graphically.",
+      standards: ["4MA1 3.3H", "4MA1 3.3"],
+      vocabulary: [
+        { term: "Amplitude", definition: "The maximum distance of a wave from its centre line." },
+        { term: "Period", definition: "The horizontal length for one complete cycle of a trigonometric graph." },
+        { term: "Asymptote", definition: "A line that a graph approaches but never touches, e.g. the asymptotes of $y=\\tan x$." },
+        { term: "Tangent", definition: "A straight line touching a curve at one point; its gradient equals the gradient of the curve at that point." },
+        { term: "Intersection point", definition: "A point where two graphs cross; its coordinates satisfy both equations." },
+        { term: "Graphical solution", definition: "Solving an equation by finding the $x$-coordinates of intersection points of two graphs." },
+      ],
+      concepts: [
+        {
+          id: "edm10-u8-trig-graphs",
+          title: "Graphs of trigonometric and reciprocal functions",
+          skill: "Describe the features of y = x⁻², y = sin x, y = cos x and y = tan x.",
+          sections: [
+            { heading: "The graph of $y=x^{-2}$", body: "$y=\\frac{1}{x^2}$ is defined for all $x$ except $x=0$. As $x$ approaches 0 from either side, $y$ tends to infinity, giving two branches. The lowest point on each branch is at $x=\\pm1$, where $y=1$. The graph has horizontal asymptote $y=0$ and is symmetric about the $y$-axis." },
+            { heading: "Trigonometric graphs", body: "$y=\\sin x$ and $y=\\cos x$ have amplitude 1, range $-1\\le y\\le1$ and period $360^{\\circ}$. $\\sin x$ passes through $(0,0)$; $\\cos x$ passes through $(0,1)$. $y=\\tan x$ has period $180^{\\circ}$, passes through $(0,0)$, and has vertical asymptotes at $x=90^{\\circ}, 270^{\\circ}, \\dots$ Its range is all real numbers." },
+            { heading: "Reading features", body: "Amplitude is half the vertical distance between maximum and minimum. Period is the distance between consecutive peaks (or between consecutive asymptotes for $\\tan x$). Zeros are the $x$-intercepts. Always state the domain you are working in, e.g. $0^{\\circ}\\le x\\le360^{\\circ}$." },
+          ],
+          keyFormulas: [
+            { name: "Period of sin and cos", statement: "$360^{\\circ}$" },
+            { name: "Period of tan", statement: "$180^{\\circ}$" },
+            { name: "Amplitude", statement: "maximum distance from the centre line (1 for $\\sin x$, $\\cos x$)" },
+            { name: "Asymptotes of tan", statement: "$x=90^{\\circ}+180^{\\circ}k$" },
+          ],
+          workedExample: {
+            problem: "For $y=\\sin x$, $0^{\\circ}\\le x\\le360^{\\circ}$, state the amplitude, period and the $x$-coordinates of the maximum and minimum values.",
+            solution: "Amplitude $=1$, period $=360^{\\circ}$. Maximum $y=1$ at $x=90^{\\circ}$; minimum $y=-1$ at $x=270^{\\circ}$.",
+          },
+          questions: [
+            {
+              id: "edm10-u8-trig-q1", difficulty: "foundation", tier: "foundation", totalMarks: 1,
+              stem: "What is the period of $y=\\tan x$?",
+              response: { type: "mcq", choices: [
+                { id: "a", text: "$360^{\\circ}$" }, { id: "b", text: "$180^{\\circ}$" }, { id: "c", text: "$90^{\\circ}$" }, { id: "d", text: "$270^{\\circ}$" },
+              ], correctChoiceId: "b" },
+              markscheme: {
+                principles: [{ kind: "definition", name: "Period", statement: "The horizontal length of one complete cycle." }],
+                steps: [{ reasoning: "$\\tan x$ repeats every $180^{\\circ}$.", working: "180^{\\circ}", marks: 1, markCode: "B" }],
+                finalAnswer: "**(b)** $180^{\\circ}$",
+                commonErrors: ["Quoting 360°, the period of sin and cos."],
+              },
+            },
+            {
+              id: "edm10-u8-trig-q2", difficulty: "foundation", tier: "foundation", totalMarks: 2,
+              stem: "State the amplitude and the period of $y=\\cos x$.",
+              response: { type: "open" },
+              markscheme: {
+                principles: [{ kind: "definition", name: "Amplitude and period", statement: "Amplitude is the maximum distance from the centre line; period is one full cycle." }],
+                steps: [
+                  { reasoning: "$\\cos x$ ranges from $-1$ to $1$, so amplitude is 1.", working: "\\text{amplitude}=1", marks: 1, markCode: "B" },
+                  { reasoning: "It completes one cycle every $360^{\\circ}$.", working: "\\text{period}=360^{\\circ}", marks: 1, markCode: "B" },
+                ],
+                finalAnswer: "Amplitude $1$, period $360^{\\circ}$",
+                commonErrors: ["Giving amplitude 2 (the full range) instead of 1."],
+              },
+            },
+            {
+              id: "edm10-u8-trig-q3", difficulty: "core", tier: "higher", totalMarks: 3,
+              stem: "Consider $y=\\tan x$ for $0^{\\circ}\\le x\\le360^{\\circ}$.",
+              parts: [
+                { label: "a", prompt: "Write down the equations of the vertical asymptotes in this interval.", marks: 2 },
+                { label: "b", prompt: "Find the value of $\\tan 45^{\\circ}$.", marks: 1 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [{ kind: "definition", name: "Asymptotes of tan", statement: "$\\tan x$ is undefined where $\\cos x=0$, i.e. $x=90^{\\circ}+180^{\\circ}k$." }],
+                steps: [
+                  { part: "a", reasoning: "Asymptotes occur at $x=90^{\\circ}$ and $x=270^{\\circ}$ in this interval.", working: "x=90^{\\circ},\\ 270^{\\circ}", marks: 1, markCode: "M" },
+                  { part: "a", reasoning: "State both values.", working: "90^{\\circ}\\text{ and }270^{\\circ}", marks: 1, markCode: "A" },
+                  { part: "b", reasoning: "$\\tan 45^{\\circ}=1$.", working: "\\tan 45^{\\circ}=1", marks: 1, markCode: "B" },
+                ],
+                finalAnswer: "(a) $x=90^{\\circ}$ and $x=270^{\\circ}$ (b) $1$",
+                commonErrors: ["Missing $270^{\\circ}$ or including $0^{\\circ}$ and $180^{\\circ}$, where $\\tan x=0$."],
+              },
+            },
+            {
+              id: "edm10-u8-trig-q4", difficulty: "challenge", tier: "higher", totalMarks: 5,
+              stem: "The graph of $y=\\sin x$ is drawn for $0^{\\circ}\\le x\\le360^{\\circ}$.",
+              parts: [
+                { label: "a", prompt: "Write down the $x$-coordinates of all the zeros of the graph in this interval.", marks: 2 },
+                { label: "b", prompt: "Write down the $x$-coordinates where the maximum and minimum values occur.", marks: 2 },
+                { label: "c", prompt: "Find the value of $\\sin 30^{\\circ}$.", marks: 1 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [{ kind: "property", name: "Sin graph", statement: "$\\sin x=0$ at $0^{\\circ},180^{\\circ},360^{\\circ}$; max at $90^{\\circ}$, min at $270^{\\circ}$." }],
+                steps: [
+                  { part: "a", reasoning: "Zeros where the graph crosses the $x$-axis.", working: "0^{\\circ},180^{\\circ},360^{\\circ}", marks: 1, markCode: "M" },
+                  { part: "a", reasoning: "State all three.", working: "\\text{three zeros}", marks: 1, markCode: "A" },
+                  { part: "b", reasoning: "Maximum at the top of the first hump.", working: "x=90^{\\circ}", marks: 1, markCode: "M" },
+                  { part: "b", reasoning: "Minimum at the bottom of the second hump.", working: "x=270^{\\circ}", marks: 1, markCode: "A" },
+                  { part: "c", reasoning: "$\\sin 30^{\\circ}=0.5$.", working: "0.5", marks: 1, markCode: "B" },
+                ],
+                finalAnswer: "(a) $0^{\\circ}, 180^{\\circ}, 360^{\\circ}$ (b) max at $90^{\\circ}$, min at $270^{\\circ}$ (c) $0.5$",
+                commonErrors: ["Giving $90^{\\circ}$ as a zero instead of a maximum."],
+              },
+            },
+            {
+              id: "edm10-u8-trig-q5", difficulty: "challenge", tier: "higher", totalMarks: 6,
+              stem: "The graphs of $y=x^{-2}$ and $y=x^{-1}$ are drawn on the same axes.",
+              parts: [
+                { label: "a", prompt: "State the value of $x$ for which $y=x^{-2}$ is undefined.", marks: 1 },
+                { label: "b", prompt: "Find the minimum value of $y=x^{-2}$.", marks: 1 },
+                { label: "c", prompt: "Describe what happens to each graph as $x$ approaches 0 from the positive side.", marks: 2 },
+                { label: "d", prompt: "Solve $x^{-2}=4$.", marks: 2 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "definition", name: "Reciprocal functions", statement: "$y=x^{-2}$ is undefined at $x=0$ and has minimum value 1 at $x=\\pm1$; $y=x^{-1}$ has branches tending to $\\pm\\infty$." },
+                ],
+                steps: [
+                  { part: "a", reasoning: "Division by zero is undefined.", working: "x=0", marks: 1, markCode: "B" },
+                  { part: "b", reasoning: "Minimum of $\\frac{1}{x^2}$ occurs at $x=\\pm1$.", working: "y=1", marks: 1, markCode: "A" },
+                  { part: "c", reasoning: "Both graphs rise without bound as $x\\to0^+$.", working: "y\\to\\infty\\text{ for both}", marks: 1, markCode: "M" },
+                  { part: "c", reasoning: "State the behaviour.", working: "\\text{both tend to }+\\infty", marks: 1, markCode: "A" },
+                  { part: "d", reasoning: "$\\frac{1}{x^2}=4\\Rightarrow x^2=\\frac{1}{4}$.", working: "x^2=\\frac{1}{4}", marks: 1, markCode: "M" },
+                  { part: "d", reasoning: "Take both roots.", working: "x=\\pm0.5", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "(a) $x=0$ (b) $1$ (c) both tend to $+\\infty$ (d) $x=\\pm0.5$",
+                commonErrors: ["In (d) giving only $x=0.5$ and missing the negative root."],
+              },
+            },
+            {
+              id: "edm10-u8-trig-q6", difficulty: "challenge", tier: "higher", totalMarks: 9,
+              stem: "Consider the graphs of $y=\\tan x$ and $y=\\sin x$ for $0^{\\circ}\\le x\\le360^{\\circ}$.",
+              parts: [
+                { label: "a", prompt: "State the period of $y=\\tan x$.", marks: 1 },
+                { label: "b", prompt: "Write down the equations of all the vertical asymptotes of $y=\\tan x$ for $0^{\\circ}\\le x\\le720^{\\circ}$.", marks: 2 },
+                { label: "c", prompt: "Solve $\\tan x=1$ for $0^{\\circ}\\le x\\le360^{\\circ}$.", marks: 2 },
+                { label: "d", prompt: "Explain why $y=\\tan x$ has no maximum or minimum value.", marks: 2 },
+                { label: "e", prompt: "State the range of $y=\\sin x$ and compare it with the range of $y=\\tan x$.", marks: 2 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "definition", name: "Tan graph", statement: "Period $180^{\\circ}$; asymptotes at $90^{\\circ}+180^{\\circ}k$; range is all real numbers." },
+                  { kind: "property", name: "Sin range", statement: "$-1\\le\\sin x\\le1$." },
+                ],
+                steps: [
+                  { part: "a", reasoning: "$\\tan x$ repeats every $180^{\\circ}$.", working: "180^{\\circ}", marks: 1, markCode: "B" },
+                  { part: "b", reasoning: "Asymptotes every $180^{\\circ}$ starting at $90^{\\circ}$.", working: "90^{\\circ},270^{\\circ},450^{\\circ},630^{\\circ}", marks: 1, markCode: "M" },
+                  { part: "b", reasoning: "List all four in the interval.", working: "\\text{four asymptotes}", marks: 1, markCode: "A" },
+                  { part: "c", reasoning: "$\\tan x=1$ where $x=45^{\\circ}$ in the first cycle.", working: "x=45^{\\circ}", marks: 1, markCode: "M" },
+                  { part: "c", reasoning: "Add one period: $45^{\\circ}+180^{\\circ}=225^{\\circ}$.", working: "x=45^{\\circ},225^{\\circ}", marks: 1, markCode: "A" },
+                  { part: "d", reasoning: "Near each asymptote $y\\to\\pm\\infty$, so the graph is unbounded.", working: "y\\to\\pm\\infty\\text{ near asymptotes}", marks: 1, markCode: "R" },
+                  { part: "d", reasoning: "Conclude there is no maximum or minimum.", working: "\\text{unbounded range}", marks: 1, markCode: "A" },
+                  { part: "e", reasoning: "Range of $\\sin x$ is $-1\\le y\\le1$.", working: "-1\\le y\\le1", marks: 1, markCode: "B" },
+                  { part: "e", reasoning: "$\\tan x$ takes every real value, so its range is all real numbers.", working: "\\mathbb{R}", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "(a) $180^{\\circ}$ (b) $x=90^{\\circ},270^{\\circ},450^{\\circ},630^{\\circ}$ (c) $x=45^{\\circ},225^{\\circ}$ (d) unbounded near asymptotes (e) $\\sin x$: $[-1,1]$; $\\tan x$: all real numbers",
+                commonErrors: ["In (c) giving only $45^{\\circ}$ and forgetting the second solution in the interval."],
+              },
+            },
+          ],
+        },
+        {
+          id: "edm10-u8-tangents-intersections",
+          title: "Tangents and solving equations graphically",
+          skill: "Use tangents to estimate gradients of curves and solve equations using intersection points.",
+          sections: [
+            { heading: "Gradient of a curve", body: "The gradient of a curve at a point is defined as the gradient of the tangent to the curve at that point. To estimate it, draw the tangent carefully and pick two convenient points on the tangent line, then use $\\text{gradient}=\\frac{\\Delta y}{\\Delta x}$." },
+            { heading: "Intersections as solutions", body: "Where the graphs of $y=f(x)$ and $y=g(x)$ intersect, both equations are satisfied, so the $x$-coordinates of the intersections are the solutions of $f(x)=g(x)$. Similarly, intersections of $y=f(x)$ with the horizontal line $y=k$ solve $f(x)=k$." },
+            { heading: "Solving graphically", body: "Draw or sketch both graphs on the same axes, find the intersection points, and read off the $x$-coordinates. The number of intersections equals the number of solutions. Answers read from graphs are usually approximate." },
+          ],
+          keyFormulas: [
+            { name: "Gradient of tangent", statement: "$\\frac{y_2-y_1}{x_2-x_1}$ using two points on the tangent" },
+            { name: "Intersections", statement: "$y=f(x)$ meets $y=g(x)$ where $f(x)=g(x)$" },
+            { name: "Horizontal line", statement: "$y=f(x)$ meets $y=k$ where $f(x)=k$" },
+          ],
+          workedExample: {
+            problem: "Solve $x^2=x+2$ using the graphs of $y=x^2$ and $y=x+2$.",
+            solution: "The intersections satisfy $x^2=x+2$, i.e. $x^2-x-2=0$, giving $(x-2)(x+1)=0$, so $x=2$ or $x=-1$. On the graph these are the $x$-coordinates of the two intersection points.",
+          },
+          questions: [
+            {
+              id: "edm10-u8-tangent-q1", difficulty: "foundation", tier: "foundation", totalMarks: 1,
+              stem: "The gradient of a curve at a point is equal to...",
+              response: { type: "mcq", choices: [
+                { id: "a", text: "the gradient of the tangent to the curve at that point" }, { id: "b", text: "the gradient of the chord joining the axes" }, { id: "c", text: "the value of the function at that point" }, { id: "d", text: "the reciprocal of the tangent's gradient" },
+              ], correctChoiceId: "a" },
+              markscheme: {
+                principles: [{ kind: "definition", name: "Gradient of a curve", statement: "Defined by the gradient of the tangent at the point." }],
+                steps: [{ reasoning: "This is the definition of the gradient of a curve.", working: "\\text{gradient of tangent}", marks: 1, markCode: "B" }],
+                finalAnswer: "**(a)** The gradient of the tangent",
+                commonErrors: ["Confusing the tangent gradient with the gradient of a chord."],
+              },
+            },
+            {
+              id: "edm10-u8-tangent-q2", difficulty: "foundation", tier: "foundation", totalMarks: 2,
+              stem: "The tangent to a curve at the point $(2,5)$ also passes through $(6,9)$. Find the gradient of the curve at $(2,5)$.",
+              response: { type: "numeric", parts: [{ label: "gradient", answer: 1 }] },
+              markscheme: {
+                principles: [{ kind: "formula", name: "Gradient of a line", statement: "$\\text{gradient}=\\frac{\\Delta y}{\\Delta x}$." }],
+                steps: [
+                  { reasoning: "Use the two points on the tangent.", working: "\\frac{9-5}{6-2}", marks: 1, markCode: "M" },
+                  { reasoning: "Evaluate.", working: "\\frac{4}{4}=1", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "$1$",
+                commonErrors: ["Inverting the fraction to get $\\frac{4}{4}$ reversed as $\\frac{\\Delta x}{\\Delta y}$ with different values."],
+              },
+            },
+            {
+              id: "edm10-u8-tangent-q3", difficulty: "core", tier: "higher", totalMarks: 3,
+              stem: "The graphs of $y=x^2$ and $y=2x$ are drawn on the same axes.",
+              parts: [
+                { label: "a", prompt: "Find the $x$-coordinates of the points of intersection.", marks: 2 },
+                { label: "b", prompt: "State how many solutions the equation $x^2-2x=0$ has.", marks: 1 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [{ kind: "method", name: "Intersections as solutions", statement: "Intersection $x$-coordinates solve $x^2=2x$." }],
+                steps: [
+                  { part: "a", reasoning: "Solve $x^2=2x$, i.e. $x^2-2x=0$.", working: "x(x-2)=0", marks: 1, markCode: "M" },
+                  { part: "a", reasoning: "State both solutions.", working: "x=0,\\ x=2", marks: 1, markCode: "A" },
+                  { part: "b", reasoning: "Two intersection points means two solutions.", working: "2", marks: 1, markCode: "B" },
+                ],
+                finalAnswer: "(a) $x=0$ and $x=2$ (b) $2$ solutions",
+                commonErrors: ["Dividing by $x$ and losing the solution $x=0$."],
+              },
+            },
+            {
+              id: "edm10-u8-tangent-q4", difficulty: "challenge", tier: "higher", totalMarks: 5,
+              stem: "The curves $y=x^2-2x$ and $y=x$ intersect at two points $A$ and $B$.",
+              parts: [
+                { label: "a", prompt: "Find the $x$-coordinates of $A$ and $B$.", marks: 2 },
+                { label: "b", prompt: "Find the $y$-coordinates of $A$ and $B$.", marks: 1 },
+                { label: "c", prompt: "Write down the coordinates of $A$ and $B$.", marks: 2 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [{ kind: "method", name: "Intersections", statement: "Intersections satisfy $x^2-2x=x$." }],
+                steps: [
+                  { part: "a", reasoning: "Solve $x^2-2x=x\\Rightarrow x^2-3x=0$.", working: "x(x-3)=0", marks: 1, markCode: "M" },
+                  { part: "a", reasoning: "State solutions.", working: "x=0,\\ x=3", marks: 1, markCode: "A" },
+                  { part: "b", reasoning: "Use $y=x$: at $x=0$, $y=0$; at $x=3$, $y=3$.", working: "y=0,\\ y=3", marks: 1, markCode: "M" },
+                  { part: "c", reasoning: "Combine into coordinates.", working: "(0,0),\\ (3,3)", marks: 1, markCode: "A" },
+                  { part: "c", reasoning: "State both points.", working: "A(0,0),\\ B(3,3)", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "(a) $x=0,3$ (b) $y=0,3$ (c) $(0,0)$ and $(3,3)$",
+                commonErrors: ["Using $y=x^2-2x$ inconsistently or giving $x$-values as coordinates."],
+              },
+            },
+            {
+              id: "edm10-u8-tangent-q5", difficulty: "challenge", tier: "higher", totalMarks: 6,
+              stem: "The tangent to a curve at the point $(4, 6)$ passes through the points $(0, -2)$ and $(3, 2)$.",
+              parts: [
+                { label: "a", prompt: "Find the gradient of the tangent.", marks: 2 },
+                { label: "b", prompt: "State what this gradient represents for the curve.", marks: 1 },
+                { label: "c", prompt: "Find the equation of the tangent.", marks: 2 },
+                { label: "d", prompt: "Find the $x$-coordinate where the tangent crosses the $x$-axis.", marks: 1 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "formula", name: "Gradient", statement: "$m=\\frac{y_2-y_1}{x_2-x_1}$." },
+                  { kind: "formula", name: "Equation of a line", statement: "$y-y_1=m(x-x_1)$." },
+                ],
+                steps: [
+                  { part: "a", reasoning: "Use $(0,-2)$ and $(4,6)$ on the tangent.", working: "\\frac{6-(-2)}{4-0}", marks: 1, markCode: "M" },
+                  { part: "a", reasoning: "Evaluate.", working: "m=2", marks: 1, markCode: "A" },
+                  { part: "b", reasoning: "The gradient of the curve at $x=4$ equals the tangent's gradient.", working: "\\text{gradient of curve at }x=4\\text{ is }2", marks: 1, markCode: "R" },
+                  { part: "c", reasoning: "$y-6=2(x-4)$.", working: "y-6=2(x-4)", marks: 1, markCode: "M" },
+                  { part: "c", reasoning: "Simplify.", working: "y=2x-2", marks: 1, markCode: "A" },
+                  { part: "d", reasoning: "Set $y=0$: $0=2x-2$.", working: "x=1", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "(a) $2$ (b) gradient of curve at $x=4$ (c) $y=2x-2$ (d) $x=1$",
+                commonErrors: ["Using the curve's points instead of the tangent's points to find the gradient."],
+              },
+            },
+            {
+              id: "edm10-u8-tangent-q6", difficulty: "challenge", tier: "higher", totalMarks: 9,
+              stem: "The graphs of $y=x^2-3x+2$ and $y=x-1$ are drawn on the same axes. The tangent to $y=x^2-3x+2$ at the point $(1,0)$ passes through $(0,2)$ and $(3,-2)$.",
+              parts: [
+                { label: "a", prompt: "Find the $x$-coordinates of the points of intersection of the two graphs.", marks: 3 },
+                { label: "b", prompt: "Find the coordinates of the points of intersection.", marks: 2 },
+                { label: "c", prompt: "Explain why the equation $x^2-3x+2=x-1$ has exactly two solutions.", marks: 2 },
+                { label: "d", prompt: "Find the gradient of $y=x^2-3x+2$ at $x=1$.", marks: 2 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "method", name: "Intersections as solutions", statement: "Intersection $x$-coordinates solve $f(x)=g(x)$; their number equals the number of solutions." },
+                  { kind: "definition", name: "Gradient of a curve", statement: "Equals the gradient of the tangent at that point." },
+                ],
+                steps: [
+                  { part: "a", reasoning: "Set the functions equal: $x^2-3x+2=x-1$.", working: "x^2-4x+3=0", marks: 1, markCode: "M" },
+                  { part: "a", reasoning: "Factorise.", working: "(x-1)(x-3)=0", marks: 1, markCode: "M" },
+                  { part: "a", reasoning: "State solutions.", working: "x=1,\\ x=3", marks: 1, markCode: "A" },
+                  { part: "b", reasoning: "Substitute into $y=x-1$: at $x=1$, $y=0$; at $x=3$, $y=2$.", working: "y=0,\\ y=2", marks: 1, markCode: "M" },
+                  { part: "b", reasoning: "State coordinates.", working: "(1,0),\\ (3,2)", marks: 1, markCode: "A" },
+                  { part: "c", reasoning: "Two intersection points were found.", working: "2\\text{ intersections}", marks: 1, markCode: "R" },
+                  { part: "c", reasoning: "Each intersection gives one solution, so exactly two solutions.", working: "\\text{exactly two solutions}", marks: 1, markCode: "A" },
+                  { part: "d", reasoning: "Use the two tangent points: $\\frac{-2-2}{3-0}=\\frac{-4}{3}$? Check with $(0,2)$ and $(3,-2)$: gradient $=\\frac{-2-2}{3-0}=-\\frac{4}{3}$.", working: "\\frac{-2-2}{3-0}", marks: 1, markCode: "M" },
+                  { part: "d", reasoning: "Evaluate.", working: "-\\frac{4}{3}", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "(a) $x=1,3$ (b) $(1,0)$ and $(3,2)$ (c) two intersection points give exactly two solutions (d) $-\\frac{4}{3}$",
+                commonErrors: ["In (d) using only one tangent point or inverting the gradient."],
+              },
+            },
+          ],
+        },
+      ],
+    },
+    notes: {
+      id: "edm10-u8-graphs-notes", title: "Trigonometric graphs and graphical solutions — notes",
+      summary: "Key features of sin, cos, tan and reciprocal graphs; tangents give gradients; intersections solve equations.",
+      sections: [
+        { heading: "Key idea", body: "$\\sin x$ and $\\cos x$: amplitude 1, period $360^{\\circ}$, range $[-1,1]$. $\\tan x$: period $180^{\\circ}$, asymptotes at $90^{\\circ}+180^{\\circ}k$, unbounded range." },
+        { heading: "Tangents", body: "Gradient of a curve at a point = gradient of the tangent there; estimate with two points on the tangent." },
+        { heading: "Intersections", body: "Intersections of $y=f(x)$ and $y=g(x)$ solve $f(x)=g(x)$; intersections with $y=k$ solve $f(x)=k$." },
+      ],
+    },
+  },
+  {
+    file: "lesson-8-3.ts", exportName: "lesson83",
+    lesson: {
+      id: "edm10-u8-lesson-8-3", code: "8-3",
+      title: "Distance-Time, Speed-Time and Conversion Graphs",
+      goal: "I CAN interpret distance-time and speed-time graphs, and draw and use straight-line conversion graphs.",
+      standards: ["4MA1 3.3", "4MA1 1.7"],
+      vocabulary: [
+        { term: "Distance-time graph", definition: "A graph of distance from a starting point against time; the gradient gives speed." },
+        { term: "Speed-time graph", definition: "A graph of speed against time; the gradient gives acceleration and the area gives distance." },
+        { term: "Average speed", definition: "Total distance travelled divided by total time taken." },
+        { term: "Conversion graph", definition: "A straight-line graph used to convert between two units or currencies." },
+        { term: "Scale", definition: "The correspondence between values on the two axes of a conversion graph." },
+        { term: "Stationary", definition: "Not moving; shown by a horizontal section on a distance-time graph." },
+      ],
+      concepts: [
+        {
+          id: "edm10-u8-dt-st-graphs",
+          title: "Distance-time and speed-time graphs",
+          skill: "Interpret journeys from distance-time and speed-time graphs and calculate speeds, accelerations and distances.",
+          sections: [
+            { heading: "Distance-time graphs", body: "Distance is plotted on the vertical axis and time on the horizontal axis. The gradient of each section gives the speed: $\\text{speed}=\\frac{\\text{distance}}{\\text{time}}$. A horizontal section means the object is stationary. A downward sloping section means it is returning towards the start. Average speed for the whole journey is total distance travelled divided by total time." },
+            { heading: "Speed-time graphs", body: "Speed is on the vertical axis and time on the horizontal axis. The gradient gives acceleration (or deceleration if negative). The area under the graph gives the distance travelled: for a trapezium or triangle, use $\\frac{1}{2}(\\text{sum of parallel sides})\\times\\text{height}$ or split into rectangles and triangles." },
+            { heading: "Describing a journey", body: "Read the graph section by section: initial speed, any stationary periods, changes of direction or speed, and the final position. Always link numbers back to the context." },
+          ],
+          keyFormulas: [
+            { name: "Speed from distance-time", statement: "$\\text{speed}=\\frac{\\Delta\\text{distance}}{\\Delta\\text{time}}$ (the gradient)" },
+            { name: "Average speed", statement: "$\\frac{\\text{total distance}}{\\text{total time}}$" },
+            { name: "Acceleration", statement: "gradient of a speed-time graph" },
+            { name: "Distance from speed-time", statement: "area under the graph" },
+          ],
+          workedExample: {
+            problem: "A car's distance-time graph goes through $(0,0)$, $(2,120)$, $(3,120)$ and $(5,0)$, with time in hours and distance in km. Find the speed on each section and the average speed.",
+            solution: "Speeds: $\\frac{120}{2}=60$ km/h, then stationary, then $\\frac{120}{2}=60$ km/h back. Total distance $=240$ km in 5 h, so average speed $=\\frac{240}{5}=48$ km/h.",
+          },
+          questions: [
+            {
+              id: "edm10-u8-dtst-q1", difficulty: "foundation", tier: "foundation", totalMarks: 1,
+              stem: "On a distance-time graph, the gradient of a section represents...",
+              response: { type: "mcq", choices: [
+                { id: "a", text: "the speed" }, { id: "b", text: "the acceleration" }, { id: "c", text: "the distance travelled" }, { id: "d", text: "the time taken" },
+              ], correctChoiceId: "a" },
+              markscheme: {
+                principles: [{ kind: "formula", name: "Speed", statement: "$\\text{speed}=\\frac{\\text{distance}}{\\text{time}}$, the gradient of a distance-time graph." }],
+                steps: [{ reasoning: "Gradient = rise/run = distance/time = speed.", working: "\\text{gradient}\\Rightarrow\\text{speed}", marks: 1, markCode: "B" }],
+                finalAnswer: "**(a)** The speed",
+                commonErrors: ["Confusing distance-time graphs with speed-time graphs."],
+              },
+            },
+            {
+              id: "edm10-u8-dtst-q2", difficulty: "foundation", tier: "foundation", totalMarks: 2,
+              stem: "A straight-line section of a distance-time graph passes through $(0, 0)$ and $(4, 80)$, with distance in km and time in hours. Find the speed.",
+              response: { type: "numeric", parts: [{ label: "speed (km/h)", answer: 20 }] },
+              markscheme: {
+                principles: [{ kind: "formula", name: "Speed", statement: "$\\text{speed}=\\frac{\\Delta d}{\\Delta t}$." }],
+                steps: [
+                  { reasoning: "Use the gradient.", working: "\\frac{80-0}{4-0}", marks: 1, markCode: "M" },
+                  { reasoning: "Evaluate with units.", working: "20\\text{ km/h}", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "$20$ km/h",
+                commonErrors: ["Inverting to $\\frac{4}{80}$."],
+              },
+            },
+            {
+              id: "edm10-u8-dtst-q3", difficulty: "core", tier: "higher", totalMarks: 3,
+              stem: "A car travels 90 km in 1.5 hours.",
+              parts: [
+                { label: "a", prompt: "On a speed-time graph, what does a horizontal section represent?", marks: 1 },
+                { label: "b", prompt: "What does the area under a speed-time graph represent?", marks: 1 },
+                { label: "c", prompt: "Calculate the car's average speed.", marks: 1 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [{ kind: "property", name: "Speed-time graph", statement: "Horizontal section = constant speed; area = distance." }],
+                steps: [
+                  { part: "a", reasoning: "Constant speed.", working: "\\text{constant speed}", marks: 1, markCode: "B" },
+                  { part: "b", reasoning: "Distance travelled.", working: "\\text{distance}", marks: 1, markCode: "B" },
+                  { part: "c", reasoning: "$\\frac{90}{1.5}=60$.", working: "60\\text{ km/h}", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "(a) constant speed (b) distance travelled (c) $60$ km/h",
+                commonErrors: ["Answering (b) with 'speed' or 'time'."],
+              },
+            },
+            {
+              id: "edm10-u8-dtst-q4", difficulty: "challenge", tier: "higher", totalMarks: 5,
+              stem: "A hiker's distance-time graph passes through $(0,0)$, $(1,30)$, $(2,30)$ and $(4,10)$, where distance is in km from the start and time is in hours.",
+              parts: [
+                { label: "a", prompt: "Find the hiker's speed during the first hour.", marks: 1 },
+                { label: "b", prompt: "Describe what happens between 1 and 2 hours.", marks: 1 },
+                { label: "c", prompt: "Find the hiker's speed between 2 and 4 hours, stating the direction.", marks: 1 },
+                { label: "d", prompt: "Calculate the total distance travelled.", marks: 2 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [{ kind: "formula", name: "Speed", statement: "Speed is the gradient of each section of a distance-time graph." }],
+                steps: [
+                  { part: "a", reasoning: "$\\frac{30-0}{1-0}=30$ km/h.", working: "30\\text{ km/h}", marks: 1, markCode: "A" },
+                  { part: "b", reasoning: "Distance unchanged at 30 km.", working: "\\text{stationary}", marks: 1, markCode: "A" },
+                  { part: "c", reasoning: "Distance falls from 30 to 10 in 2 h: $\\frac{20}{2}=10$ km/h towards the start.", working: "10\\text{ km/h back}", marks: 1, markCode: "A" },
+                  { part: "d", reasoning: "Outbound 30 km plus return 20 km.", working: "30+20", marks: 1, markCode: "M" },
+                  { part: "d", reasoning: "Total distance travelled.", working: "50\\text{ km}", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "(a) $30$ km/h (b) stationary for 1 hour (c) $10$ km/h towards the start (d) $50$ km",
+                commonErrors: ["In (d) giving 20 km (the final distance from start) instead of total distance travelled."],
+              },
+            },
+            {
+              id: "edm10-u8-dtst-q5", difficulty: "challenge", tier: "higher", totalMarks: 6,
+              stem: "A car's speed-time graph passes through $(0,0)$, $(10,20)$, $(30,20)$ and $(40,0)$, with time in seconds and speed in m/s.",
+              parts: [
+                { label: "a", prompt: "Find the acceleration during the first 10 seconds.", marks: 2 },
+                { label: "b", prompt: "Find the distance travelled between 10 and 30 seconds.", marks: 2 },
+                { label: "c", prompt: "Find the distance travelled during the last 10 seconds.", marks: 2 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "formula", name: "Acceleration", statement: "Gradient of speed-time graph $=\\frac{\\Delta v}{\\Delta t}$." },
+                  { kind: "formula", name: "Distance from speed-time", statement: "Area under the graph; for constant acceleration use average speed $\\times$ time." },
+                ],
+                steps: [
+                  { part: "a", reasoning: "Speed rises 0 to 20 m/s in 10 s.", working: "\\frac{20-0}{10-0}", marks: 1, markCode: "M" },
+                  { part: "a", reasoning: "Evaluate.", working: "2\\text{ m/s}^2", marks: 1, markCode: "A" },
+                  { part: "b", reasoning: "Constant speed 20 m/s for 20 s: area = $20\\times20$.", working: "20\\times20", marks: 1, markCode: "M" },
+                  { part: "b", reasoning: "Distance.", working: "400\\text{ m}", marks: 1, markCode: "A" },
+                  { part: "c", reasoning: "Speed falls 20 to 0, average speed 10 m/s for 10 s.", working: "\\frac{20+0}{2}\\times10", marks: 1, markCode: "M" },
+                  { part: "c", reasoning: "Distance.", working: "100\\text{ m}", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "(a) $2$ m/s$^2$ (b) $400$ m (c) $100$ m",
+                commonErrors: ["In (c) using 20 m/s instead of the average 10 m/s for the deceleration section."],
+              },
+            },
+            {
+              id: "edm10-u8-dtst-q6", difficulty: "challenge", tier: "higher", totalMarks: 9,
+              stem: "A delivery van leaves a depot at 9:00 am. Its distance from the depot (in km) is recorded at 30-minute intervals: 9:00 → 0 km, 9:30 → 24 km, 10:00 → 24 km, 10:30 → 0 km (it returns to the depot).",
+              parts: [
+                { label: "a", prompt: "Find the van's speed on the journey out.", marks: 2 },
+                { label: "b", prompt: "Describe what the van does between 9:30 and 10:00.", marks: 1 },
+                { label: "c", prompt: "Find the van's speed on the return journey.", marks: 2 },
+                { label: "d", prompt: "Calculate the total distance travelled by the van.", marks: 1 },
+                { label: "e", prompt: "Calculate the average speed for the whole journey.", marks: 2 },
+                { label: "f", prompt: "Calculate the average speed while the van is moving.", marks: 1 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "formula", name: "Speed", statement: "$\\text{speed}=\\frac{\\text{distance}}{\\text{time}}$ for each section." },
+                  { kind: "formula", name: "Average speed", statement: "$\\frac{\\text{total distance}}{\\text{total time}}$; while moving, divide by moving time only." },
+                ],
+                steps: [
+                  { part: "a", reasoning: "24 km in 0.5 h: $\\frac{24}{0.5}$.", working: "48\\text{ km/h}", marks: 1, markCode: "M" },
+                  { part: "a", reasoning: "State the speed.", working: "48\\text{ km/h}", marks: 1, markCode: "A" },
+                  { part: "b", reasoning: "Distance stays at 24 km for 30 minutes.", working: "\\text{stationary }30\\text{ min}", marks: 1, markCode: "A" },
+                  { part: "c", reasoning: "Returns 24 km in 0.5 h.", working: "\\frac{24}{0.5}", marks: 1, markCode: "M" },
+                  { part: "c", reasoning: "State the speed.", working: "48\\text{ km/h}", marks: 1, markCode: "A" },
+                  { part: "d", reasoning: "$24+24=48$ km.", working: "48\\text{ km}", marks: 1, markCode: "A" },
+                  { part: "e", reasoning: "Total time 1.5 h: $\\frac{48}{1.5}$.", working: "32\\text{ km/h}", marks: 1, markCode: "M" },
+                  { part: "e", reasoning: "State the average.", working: "32\\text{ km/h}", marks: 1, markCode: "A" },
+                  { part: "f", reasoning: "Moving time is 1 h: $\\frac{48}{1}=48$ km/h.", working: "48\\text{ km/h}", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "(a) $48$ km/h (b) stationary for 30 minutes (c) $48$ km/h (d) $48$ km (e) $32$ km/h (f) $48$ km/h",
+                commonErrors: ["In (e) dividing by moving time (1 h) instead of total time (1.5 h)."],
+              },
+            },
+          ],
+        },
+        {
+          id: "edm10-u8-conversion",
+          title: "Conversion graphs",
+          skill: "Draw and use straight-line conversion graphs for units and currencies.",
+          sections: [
+            { heading: "Reading a conversion graph", body: "A conversion graph has one quantity on each axis, e.g. pounds on the $x$-axis and euros on the $y$-axis. Because the relationship is linear, the graph is a straight line. To convert, find the value on one axis and read across to the other axis." },
+            { heading: "Finding the scale", body: "Two known corresponding values fix the line. For example if £10 buys €12 and £20 buys €24, the line passes through $(10,12)$ and $(20,24)$; the gradient gives the conversion rate $\\frac{12}{10}=1.2$ euros per pound." },
+            { heading: "Using the graph", body: "For conversions in either direction, read off the graph or use the rate algebraically: multiply by the gradient to go one way, divide to go the other. For temperature, $^{\\circ}\\text{F}=1.8\\times^{\\circ}\\text{C}+32$." },
+          ],
+          keyFormulas: [
+            { name: "Conversion rate", statement: "$\\text{gradient}=\\frac{\\text{new units}}{\\text{old units}}$" },
+            { name: "Forward conversion", statement: "multiply by the rate" },
+            { name: "Reverse conversion", statement: "divide by the rate" },
+            { name: "Temperature", statement: "$^{\\circ}\\text{F}=1.8\\,^{\\circ}\\text{C}+32$" },
+          ],
+          workedExample: {
+            problem: "A conversion graph converts pounds to euros. It passes through $(0,0)$ and $(£50, €60)$. Convert £80 to euros and €150 to pounds.",
+            solution: "Rate $=\\frac{60}{50}=1.2$ euros per pound. £80 $\\to 80\\times1.2=€96$. €150 $\\to \\frac{150}{1.2}=£125$.",
+          },
+          questions: [
+            {
+              id: "edm10-u8-conv-q1", difficulty: "foundation", tier: "foundation", totalMarks: 1,
+              stem: "A conversion graph between two units is usually drawn as...",
+              response: { type: "mcq", choices: [
+                { id: "a", text: "a straight line" }, { id: "b", text: "a curve" }, { id: "c", text: "a series of bars" }, { id: "d", text: "a scatter of points" },
+              ], correctChoiceId: "a" },
+              markscheme: {
+                principles: [{ kind: "property", name: "Conversion graph", statement: "The relationship between two units is linear, so the graph is a straight line." }],
+                steps: [{ reasoning: "Linear relationship gives a straight-line graph.", working: "\\text{straight line}", marks: 1, markCode: "B" }],
+                finalAnswer: "**(a)** A straight line",
+                commonErrors: ["Thinking conversion graphs are curved like $y=\\frac{1}{x}$."],
+              },
+            },
+            {
+              id: "edm10-u8-conv-q2", difficulty: "foundation", tier: "foundation", totalMarks: 2,
+              stem: "The exchange rate is €1.25 per £1. Convert £80 into euros.",
+              response: { type: "numeric", parts: [{ label: "euros", answer: 100 }] },
+              markscheme: {
+                principles: [{ kind: "formula", name: "Conversion", statement: "Multiply pounds by the euro rate." }],
+                steps: [
+                  { reasoning: "Set up the multiplication.", working: "80\\times1.25", marks: 1, markCode: "M" },
+                  { reasoning: "Evaluate.", working: "100", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "$€100$",
+                commonErrors: ["Dividing by 1.25 instead of multiplying."],
+              },
+            },
+            {
+              id: "edm10-u8-conv-q3", difficulty: "core", tier: "higher", totalMarks: 3,
+              stem: "A temperature conversion graph relates Celsius ($x$) to Fahrenheit ($y$), passing through $(0,32)$ and $(100,212)$.",
+              parts: [
+                { label: "a", prompt: "Convert $20^{\\circ}$C to Fahrenheit.", marks: 1 },
+                { label: "b", prompt: "Convert $50^{\\circ}$F to Celsius.", marks: 2 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [{ kind: "formula", name: "Temperature conversion", statement: "$^{\\circ}\\text{F}=1.8\\,^{\\circ}\\text{C}+32$; the graph confirms gradient $\\frac{212-32}{100}=1.8$ and intercept 32." }],
+                steps: [
+                  { part: "a", reasoning: "$1.8\\times20+32=36+32=68$.", working: "68^{\\circ}\\text{F}", marks: 1, markCode: "A" },
+                  { part: "b", reasoning: "Rearrange: $^{\\circ}\\text{C}=\\frac{^{\\circ}\\text{F}-32}{1.8}$.", working: "\\frac{50-32}{1.8}", marks: 1, markCode: "M" },
+                  { part: "b", reasoning: "Evaluate.", working: "10^{\\circ}\\text{C}", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "(a) $68^{\\circ}$F (b) $10^{\\circ}$C",
+                commonErrors: ["In (b) forgetting to subtract 32 before dividing."],
+              },
+            },
+            {
+              id: "edm10-u8-conv-q4", difficulty: "challenge", tier: "higher", totalMarks: 5,
+              stem: "A conversion graph converts mass in kilograms ($x$) to pounds ($y$). It passes through $(0,0)$ and $(10,22)$.",
+              parts: [
+                { label: "a", prompt: "State the conversion rate in pounds per kilogram.", marks: 1 },
+                { label: "b", prompt: "Convert 5 kg to pounds.", marks: 1 },
+                { label: "c", prompt: "Convert 33 lb to kilograms.", marks: 2 },
+                { label: "d", prompt: "State what the gradient of the graph represents.", marks: 1 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [{ kind: "formula", name: "Conversion rate", statement: "Rate $=\\frac{22}{10}=2.2$ lb per kg." }],
+                steps: [
+                  { part: "a", reasoning: "$\\frac{22}{10}=2.2$.", working: "2.2\\text{ lb/kg}", marks: 1, markCode: "A" },
+                  { part: "b", reasoning: "$5\\times2.2=11$.", working: "11\\text{ lb}", marks: 1, markCode: "A" },
+                  { part: "c", reasoning: "Divide by the rate: $\\frac{33}{2.2}$.", working: "\\frac{33}{2.2}", marks: 1, markCode: "M" },
+                  { part: "c", reasoning: "Evaluate.", working: "15\\text{ kg}", marks: 1, markCode: "A" },
+                  { part: "d", reasoning: "Pounds per kilogram (the conversion factor).", working: "\\text{lb per kg}", marks: 1, markCode: "B" },
+                ],
+                finalAnswer: "(a) $2.2$ lb/kg (b) $11$ lb (c) $15$ kg (d) pounds per kilogram",
+                commonErrors: ["In (c) multiplying by 2.2 instead of dividing."],
+              },
+            },
+            {
+              id: "edm10-u8-conv-q5", difficulty: "challenge", tier: "higher", totalMarks: 6,
+              stem: "A conversion graph for temperature passes through $(-40,-40)$, $(0,32)$ and $(40,104)$, with Celsius on the $x$-axis and Fahrenheit on the $y$-axis.",
+              parts: [
+                { label: "a", prompt: "Convert $25^{\\circ}$C to Fahrenheit.", marks: 1 },
+                { label: "b", prompt: "Convert $50^{\\circ}$F to Celsius.", marks: 2 },
+                { label: "c", prompt: "Verify that $-40^{\\circ}$C and $-40^{\\circ}$F are the same temperature.", marks: 1 },
+                { label: "d", prompt: "Convert $-10^{\\circ}$C to Fahrenheit.", marks: 2 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [{ kind: "formula", name: "Temperature conversion", statement: "$^{\\circ}\\text{F}=1.8\\,^{\\circ}\\text{C}+32$." }],
+                steps: [
+                  { part: "a", reasoning: "$1.8\\times25+32=45+32=77$.", working: "77^{\\circ}\\text{F}", marks: 1, markCode: "A" },
+                  { part: "b", reasoning: "$^{\\circ}\\text{C}=\\frac{50-32}{1.8}=\\frac{18}{1.8}$.", working: "\\frac{18}{1.8}", marks: 1, markCode: "M" },
+                  { part: "b", reasoning: "Evaluate.", working: "10^{\\circ}\\text{C}", marks: 1, markCode: "A" },
+                  { part: "c", reasoning: "The point $(-40,-40)$ lies on the line, so both readings are equal.", working: "(-40,-40)\\text{ on graph}", marks: 1, markCode: "R" },
+                  { part: "d", reasoning: "$1.8\\times(-10)+32=-18+32$.", working: "-18+32", marks: 1, markCode: "M" },
+                  { part: "d", reasoning: "Evaluate.", working: "14^{\\circ}\\text{F}", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "(a) $77^{\\circ}$F (b) $10^{\\circ}$C (c) verified by the point $(-40,-40)$ (d) $14^{\\circ}$F",
+                commonErrors: ["In (d) computing $-18-32=-50$ instead of $-18+32=14$."],
+              },
+            },
+            {
+              id: "edm10-u8-conv-q6", difficulty: "challenge", tier: "higher", totalMarks: 9,
+              stem: "A straight-line conversion graph converts pounds sterling to US dollars. It passes through $(0,0)$ and $(£100, $130)$.",
+              parts: [
+                { label: "a", prompt: "Convert £250 into dollars.", marks: 2 },
+                { label: "b", prompt: "Convert $520 into pounds.", marks: 2 },
+                { label: "c", prompt: "A purchase costs $585 including a $65 fee. Find the cost in pounds excluding the fee.", marks: 2 },
+                { label: "d", prompt: "Express the exchange rate as a ratio of pounds to dollars in simplest form.", marks: 1 },
+                { label: "e", prompt: "State the gradient of the conversion graph and explain what it represents.", marks: 2 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [{ kind: "formula", name: "Conversion rate", statement: "Rate $=\\frac{130}{100}=1.3$ dollars per pound; reverse by dividing." }],
+                steps: [
+                  { part: "a", reasoning: "Multiply by 1.3: $250\\times1.3$.", working: "$325", marks: 1, markCode: "M" },
+                  { part: "a", reasoning: "State the amount.", working: "$325", marks: 1, markCode: "A" },
+                  { part: "b", reasoning: "Divide by 1.3: $\\frac{520}{1.3}$.", working: "\\frac{520}{1.3}", marks: 1, markCode: "M" },
+                  { part: "b", reasoning: "Evaluate.", working: "£400", marks: 1, markCode: "A" },
+                  { part: "c", reasoning: "Remove the fee: $585-65=520$.", working: "$520", marks: 1, markCode: "M" },
+                  { part: "c", reasoning: "Convert: $\\frac{520}{1.3}=£400$.", working: "£400", marks: 1, markCode: "A" },
+                  { part: "d", reasoning: "$£100:$130=10:13$.", working: "10:13", marks: 1, markCode: "A" },
+                  { part: "e", reasoning: "Gradient $=\\frac{130}{100}=1.3$.", working: "1.3", marks: 1, markCode: "M" },
+                  { part: "e", reasoning: "It is the number of dollars per pound.", working: "\$\\text{ per }£1", marks: 1, markCode: "R" },
+                ],
+                finalAnswer: "(a) $325 (b) £400 (c) £400 (d) $10:13 (e) gradient 1.3 = dollars per pound",
+                commonErrors: ["In (c) converting the full $585 instead of removing the fee first."],
+              },
+            },
+          ],
+        },
+      ],
+    },
+    notes: {
+      id: "edm10-u8-realgraphs-notes", title: "Real-life graphs — notes",
+      summary: "Distance-time gradient gives speed; speed-time gradient gives acceleration and area gives distance; conversion graphs convert between units.",
+      sections: [
+        { heading: "Key idea", body: "Distance-time: gradient = speed, horizontal = stationary. Speed-time: gradient = acceleration, area = distance." },
+        { heading: "Averages", body: "Average speed = total distance ÷ total time (including stationary time). While moving = total distance ÷ moving time." },
+        { heading: "Conversion graphs", body: "Straight line through the origin region; gradient = new units per old unit; divide to reverse." },
+      ],
+    },
+  },
+];

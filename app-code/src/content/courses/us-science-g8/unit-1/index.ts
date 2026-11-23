@@ -7,6 +7,7 @@ export const unit1: Unit = {
   id: "s8-u1",
   code: "1",
   title: "Physical Science: Forces, Motion and Energy",
-  description: "Describe motion with speed and distance-time graphs, apply Newton's laws and F = ma, explain gravity, electric and magnetic forces, and analyze how kinetic and potential energy are transferred and conserved.",
+  description:
+    "Describe motion with speed and distance-time graphs, apply Newton's laws and F = ma, explain gravity, electric and magnetic forces, and analyze how kinetic and potential energy are transferred and conserved.",
   lessons: [lesson11, lesson12, lesson13],
 };

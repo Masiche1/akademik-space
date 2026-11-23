@@ -7,6 +7,7 @@ export const unit2: Unit = {
   id: "m8-u2",
   code: "2",
   title: "Linear Relationships and Functions",
-  description: "Connect slope to proportional relationships, work with functions in every representation, model situations with linear functions, solve systems of equations, and analyze bivariate data.",
+  description:
+    "Connect slope to proportional relationships, work with functions in every representation, model situations with linear functions, solve systems of equations, and analyze bivariate data.",
   lessons: [lesson21, lesson22, lesson23],
 };

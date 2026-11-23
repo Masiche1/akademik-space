@@ -5,21 +5,50 @@ export const lesson33: Lesson = {
   code: "3-3",
   title: "Inheritance",
   goal: "I CAN use Punnett squares and probability to predict the results of monohybrid and dihybrid crosses, and analyze patterns of inheritance including incomplete dominance, codominance, multiple alleles, sex-linked traits and pedigrees.",
-  standards: ["HS-LS3-1", "HS-LS3-3", "SEP: Analyzing and Interpreting Data", "SEP: Using Mathematics and Computational Thinking", "CCC: Cause and Effect"],
+  standards: [
+    "HS-LS3-1",
+    "HS-LS3-3",
+    "SEP: Analyzing and Interpreting Data",
+    "SEP: Using Mathematics and Computational Thinking",
+    "CCC: Cause and Effect",
+  ],
   vocabulary: [
     { term: "Allele", definition: "One of the alternative forms of a gene." },
-    { term: "Homozygous", definition: "Having two identical alleles for a gene, such as AA or aa." },
-    { term: "Heterozygous", definition: "Having two different alleles for a gene, such as Aa." },
-    { term: "Incomplete dominance", definition: "A pattern in which the heterozygote has a phenotype intermediate between the two homozygotes." },
-    { term: "Codominance", definition: "A pattern in which both alleles are fully expressed in the heterozygote." },
-    { term: "Sex-linked trait", definition: "A trait whose gene is on a sex chromosome, usually the X chromosome." },
-    { term: "Pedigree", definition: "A family tree diagram that shows how a trait is inherited through generations." },
+    {
+      term: "Homozygous",
+      definition: "Having two identical alleles for a gene, such as AA or aa.",
+    },
+    {
+      term: "Heterozygous",
+      definition: "Having two different alleles for a gene, such as Aa.",
+    },
+    {
+      term: "Incomplete dominance",
+      definition:
+        "A pattern in which the heterozygote has a phenotype intermediate between the two homozygotes.",
+    },
+    {
+      term: "Codominance",
+      definition:
+        "A pattern in which both alleles are fully expressed in the heterozygote.",
+    },
+    {
+      term: "Sex-linked trait",
+      definition:
+        "A trait whose gene is on a sex chromosome, usually the X chromosome.",
+    },
+    {
+      term: "Pedigree",
+      definition:
+        "A family tree diagram that shows how a trait is inherited through generations.",
+    },
   ],
   concepts: [
     {
       id: "bio9-u3-mono-dihybrid-crosses",
       title: "Monohybrid and dihybrid crosses",
-      skill: "Use Punnett squares and the rules of probability to predict offspring genotype and phenotype ratios.",
+      skill:
+        "Use Punnett squares and the rules of probability to predict offspring genotype and phenotype ratios.",
       lesson: {
         sections: [
           {
@@ -32,14 +61,31 @@ export const lesson33: Lesson = {
           },
         ],
         keyFormulas: [
-          { name: "Monohybrid cross", statement: "$\\text{Aa} \\times \\text{Aa}$ gives $1\\,\\text{AA} : 2\\,\\text{Aa} : 1\\,\\text{aa}$, phenotypes $3 : 1$" },
-          { name: "Dihybrid cross", statement: "$\\text{AaBb} \\times \\text{AaBb}$ gives phenotypes $9 : 3 : 3 : 1$" },
-          { name: "Product rule", statement: "$P(A \\text{ and } B) = P(A) \\times P(B)$ for independent events" },
-          { name: "Expected number", statement: "expected number $= P \\times \\text{total offspring}$" },
+          {
+            name: "Monohybrid cross",
+            statement:
+              "$\\text{Aa} \\times \\text{Aa}$ gives $1\\,\\text{AA} : 2\\,\\text{Aa} : 1\\,\\text{aa}$, phenotypes $3 : 1$",
+          },
+          {
+            name: "Dihybrid cross",
+            statement:
+              "$\\text{AaBb} \\times \\text{AaBb}$ gives phenotypes $9 : 3 : 3 : 1$",
+          },
+          {
+            name: "Product rule",
+            statement:
+              "$P(A \\text{ and } B) = P(A) \\times P(B)$ for independent events",
+          },
+          {
+            name: "Expected number",
+            statement: "expected number $= P \\times \\text{total offspring}$",
+          },
         ],
         workedExample: {
-          problem: "In pea plants, tall (T) is dominant to short (t) and green pods (G) are dominant to yellow pods (g). Two plants with genotype TtGg are crossed. What is the probability that an offspring is short with green pods?",
-          solution: "Treat each gene separately. For height, $\\text{Tt} \\times \\text{Tt}$ gives $P(\\text{tt}) = \\frac{1}{4}$. For pod color, $\\text{Gg} \\times \\text{Gg}$ gives $P(\\text{green}) = \\frac{3}{4}$. The genes are independent, so multiply: $\\frac{1}{4} \\times \\frac{3}{4} = \\frac{3}{16}$, or $18.75\\%$.",
+          problem:
+            "In pea plants, tall (T) is dominant to short (t) and green pods (G) are dominant to yellow pods (g). Two plants with genotype TtGg are crossed. What is the probability that an offspring is short with green pods?",
+          solution:
+            "Treat each gene separately. For height, $\\text{Tt} \\times \\text{Tt}$ gives $P(\\text{tt}) = \\frac{1}{4}$. For pod color, $\\text{Gg} \\times \\text{Gg}$ gives $P(\\text{green}) = \\frac{3}{4}$. The genes are independent, so multiply: $\\frac{1}{4} \\times \\frac{3}{4} = \\frac{3}{16}$, or $18.75\\%$.",
         },
       },
       questions: [
@@ -60,13 +106,26 @@ export const lesson33: Lesson = {
           },
           markscheme: {
             principles: [
-              { kind: "law", name: "Independent assortment", statement: "A dihybrid cross of two heterozygotes gives phenotypes in the ratio 9 : 3 : 3 : 1." },
+              {
+                kind: "law",
+                name: "Independent assortment",
+                statement:
+                  "A dihybrid cross of two heterozygotes gives phenotypes in the ratio 9 : 3 : 3 : 1.",
+              },
             ],
             steps: [
-              { reasoning: "A 16-square Punnett square gives 9 double dominant, 3 + 3 with one recessive trait, and 1 double recessive.", marks: 1, markCode: "B" },
+              {
+                reasoning:
+                  "A 16-square Punnett square gives 9 double dominant, 3 + 3 with one recessive trait, and 1 double recessive.",
+                marks: 1,
+                markCode: "B",
+              },
             ],
             finalAnswer: "**(a)** 9 : 3 : 3 : 1",
-            commonErrors: ["Choosing 3 : 1, the monohybrid ratio.", "Choosing 1 : 1 : 1 : 1, the test cross ratio."],
+            commonErrors: [
+              "Choosing 3 : 1, the monohybrid ratio.",
+              "Choosing 1 : 1 : 1 : 1, the test cross ratio.",
+            ],
             examinerNote: "B1 for (c).",
           },
         },
@@ -79,23 +138,63 @@ export const lesson33: Lesson = {
             type: "numeric",
             parts: [
               { label: "One child affected", answer: 25, unit: "%" },
-              { label: "Both children affected", answer: 6.25, unit: "%", tolerance: 0.01 },
+              {
+                label: "Both children affected",
+                answer: 6.25,
+                unit: "%",
+                tolerance: 0.01,
+              },
             ],
           },
           markscheme: {
             principles: [
-              { kind: "law", name: "Segregation", statement: "Each parent passes on one allele at random, so Cc x Cc gives CC, Cc, Cc and cc." },
-              { kind: "formula", name: "Product rule", statement: "P(A and B) = P(A) x P(B) for independent events." },
+              {
+                kind: "law",
+                name: "Segregation",
+                statement:
+                  "Each parent passes on one allele at random, so Cc x Cc gives CC, Cc, Cc and cc.",
+              },
+              {
+                kind: "formula",
+                name: "Product rule",
+                statement: "P(A and B) = P(A) x P(B) for independent events.",
+              },
             ],
             steps: [
-              { reasoning: "The Punnett square gives CC, Cc, Cc and cc. Only cc is affected.", working: "P(cc)=\\frac{1}{4}", marks: 1, markCode: "M" },
-              { reasoning: "Convert to a percentage.", working: "\\frac{1}{4}=25\\%", marks: 1, markCode: "A" },
-              { reasoning: "The two births are independent, so multiply the probabilities.", working: "\\frac{1}{4}\\times\\frac{1}{4}=\\frac{1}{16}", marks: 1, markCode: "M" },
-              { reasoning: "Convert to a percentage.", working: "\\frac{1}{16}=0.0625=6.25\\%", marks: 1, markCode: "A" },
+              {
+                reasoning:
+                  "The Punnett square gives CC, Cc, Cc and cc. Only cc is affected.",
+                working: "P(cc)=\\frac{1}{4}",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Convert to a percentage.",
+                working: "\\frac{1}{4}=25\\%",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                reasoning:
+                  "The two births are independent, so multiply the probabilities.",
+                working: "\\frac{1}{4}\\times\\frac{1}{4}=\\frac{1}{16}",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Convert to a percentage.",
+                working: "\\frac{1}{16}=0.0625=6.25\\%",
+                marks: 1,
+                markCode: "A",
+              },
             ],
             finalAnswer: "$25\\%$; $6.25\\%$",
-            commonErrors: ["Adding 25% + 25% = 50% for the two children.", "Thinking that after one affected child the next child is certain to be unaffected."],
-            examinerNote: "M1 for 1/4 or correct Punnett square. A1 25. M1 for their probability squared or x 1/4. A1 6.25. Allow 1/16 or 0.0625 oe.",
+            commonErrors: [
+              "Adding 25% + 25% = 50% for the two children.",
+              "Thinking that after one affected child the next child is certain to be unaffected.",
+            ],
+            examinerNote:
+              "M1 for 1/4 or correct Punnett square. A1 25. M1 for their probability squared or x 1/4. A1 6.25. Allow 1/16 or 0.0625 oe.",
           },
         },
         {
@@ -112,18 +211,51 @@ export const lesson33: Lesson = {
           },
           markscheme: {
             principles: [
-              { kind: "law", name: "Independent assortment", statement: "The phenotype ratio of RrYy x RrYy is 9 : 3 : 3 : 1, out of 16." },
-              { kind: "formula", name: "Expected number", statement: "expected number = probability x total offspring" },
+              {
+                kind: "law",
+                name: "Independent assortment",
+                statement:
+                  "The phenotype ratio of RrYy x RrYy is 9 : 3 : 3 : 1, out of 16.",
+              },
+              {
+                kind: "formula",
+                name: "Expected number",
+                statement: "expected number = probability x total offspring",
+              },
             ],
             steps: [
-              { reasoning: "Round yellow is the 9 in 16 class.", working: "\\frac{9}{16}\\times640", marks: 1, markCode: "M" },
-              { reasoning: "Evaluate.", working: "\\frac{9}{16}\\times640 = 9\\times40 = 360", marks: 1, markCode: "A" },
-              { reasoning: "Wrinkled green (rryy) is the 1 in 16 class.", working: "\\frac{1}{16}\\times640", marks: 1, markCode: "M" },
-              { reasoning: "Evaluate.", working: "40", marks: 1, markCode: "A" },
+              {
+                reasoning: "Round yellow is the 9 in 16 class.",
+                working: "\\frac{9}{16}\\times640",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Evaluate.",
+                working: "\\frac{9}{16}\\times640 = 9\\times40 = 360",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                reasoning: "Wrinkled green (rryy) is the 1 in 16 class.",
+                working: "\\frac{1}{16}\\times640",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Evaluate.",
+                working: "40",
+                marks: 1,
+                markCode: "A",
+              },
             ],
             finalAnswer: "360 round yellow; 40 wrinkled green",
-            commonErrors: ["Using 3/16 for round yellow.", "Using 1/4 for wrinkled green (that is the probability of one recessive trait, not both)."],
-            examinerNote: "M1 9/16 x 640. A1 360. M1 1/16 x 640. A1 40. Allow ecf from an incorrect fraction.",
+            commonErrors: [
+              "Using 3/16 for round yellow.",
+              "Using 1/4 for wrinkled green (that is the probability of one recessive trait, not both).",
+            ],
+            examinerNote:
+              "M1 9/16 x 640. A1 360. M1 1/16 x 640. A1 40. Allow ecf from an incorrect fraction.",
           },
         },
         {
@@ -132,30 +264,116 @@ export const lesson33: Lesson = {
           totalMarks: 9,
           stem: "In pea plants, round seeds (R) are dominant to wrinkled (r) and yellow seeds (Y) are dominant to green (y). The two genes are on different chromosomes. Two pea plants, both with genotype $\\text{RrYy}$, are crossed.",
           parts: [
-            { label: "a", prompt: "List the four types of gamete that each parent can produce.", marks: 2 },
-            { label: "b", prompt: "Calculate the probability that an offspring has wrinkled, yellow seeds. Give your answer as a fraction.", marks: 2 },
-            { label: "c", prompt: "The cross produces 160 offspring. Calculate the expected number with round, green seeds.", marks: 2 },
-            { label: "d", prompt: "Explain what \"independent assortment\" means and why it produces four gamete types in equal numbers.", marks: 3 },
+            {
+              label: "a",
+              prompt:
+                "List the four types of gamete that each parent can produce.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "Calculate the probability that an offspring has wrinkled, yellow seeds. Give your answer as a fraction.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt:
+                "The cross produces 160 offspring. Calculate the expected number with round, green seeds.",
+              marks: 2,
+            },
+            {
+              label: "d",
+              prompt:
+                'Explain what "independent assortment" means and why it produces four gamete types in equal numbers.',
+              marks: 3,
+            },
           ],
           response: { type: "open" },
           markscheme: {
             principles: [
-              { kind: "law", name: "Independent assortment", statement: "Alleles of genes on different chromosomes are sorted into gametes independently." },
-              { kind: "formula", name: "Product rule", statement: "P(A and B) = P(A) x P(B) for independent events." },
+              {
+                kind: "law",
+                name: "Independent assortment",
+                statement:
+                  "Alleles of genes on different chromosomes are sorted into gametes independently.",
+              },
+              {
+                kind: "formula",
+                name: "Product rule",
+                statement: "P(A and B) = P(A) x P(B) for independent events.",
+              },
             ],
             steps: [
-              { part: "a", reasoning: "Each gamete gets one allele of each gene: any R or r with any Y or y.", working: "\\text{RY},\\ \\text{Ry},\\ \\text{rY},\\ \\text{ry}", marks: 2, markCode: "B" },
-              { part: "b", reasoning: "Wrinkled needs rr (1/4) and yellow needs at least one Y (3/4). Multiply the independent probabilities.", working: "\\frac{1}{4}\\times\\frac{3}{4}", marks: 1, markCode: "M" },
-              { part: "b", reasoning: "Evaluate.", working: "\\frac{3}{16}", marks: 1, markCode: "A" },
-              { part: "c", reasoning: "Round green needs at least one R (3/4) and yy (1/4), which is 3/16. Multiply by the number of offspring.", working: "\\frac{3}{16}\\times160", marks: 1, markCode: "M" },
-              { part: "c", reasoning: "Evaluate.", working: "30", marks: 1, markCode: "A" },
-              { part: "d", reasoning: "Independent assortment means the allele a gamete receives for one gene does not affect which allele it receives for the other gene.", marks: 1, markCode: "B" },
-              { part: "d", reasoning: "This happens because the two genes are on different pairs of homologous chromosomes, which line up randomly in metaphase I of meiosis.", marks: 1, markCode: "B" },
-              { part: "d", reasoning: "So each of the four combinations is equally likely, giving gametes in the ratio 1 : 1 : 1 : 1.", marks: 1, markCode: "R" },
+              {
+                part: "a",
+                reasoning:
+                  "Each gamete gets one allele of each gene: any R or r with any Y or y.",
+                working: "\\text{RY},\\ \\text{Ry},\\ \\text{rY},\\ \\text{ry}",
+                marks: 2,
+                markCode: "B",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Wrinkled needs rr (1/4) and yellow needs at least one Y (3/4). Multiply the independent probabilities.",
+                working: "\\frac{1}{4}\\times\\frac{3}{4}",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning: "Evaluate.",
+                working: "\\frac{3}{16}",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "Round green needs at least one R (3/4) and yy (1/4), which is 3/16. Multiply by the number of offspring.",
+                working: "\\frac{3}{16}\\times160",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "c",
+                reasoning: "Evaluate.",
+                working: "30",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "Independent assortment means the allele a gamete receives for one gene does not affect which allele it receives for the other gene.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "This happens because the two genes are on different pairs of homologous chromosomes, which line up randomly in metaphase I of meiosis.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "So each of the four combinations is equally likely, giving gametes in the ratio 1 : 1 : 1 : 1.",
+                marks: 1,
+                markCode: "R",
+              },
             ],
-            finalAnswer: "(a) RY, Ry, rY, ry (b) 3/16 (c) 30 (d) The allele for one gene is passed on independently of the other because the genes are on different chromosome pairs that line up randomly in meiosis, so all four combinations are equally likely.",
-            commonErrors: ["In (a) listing Rr and Yy, which are not gametes (gametes have one allele per gene).", "In (b) using 1/16, the probability for rryy.", "In (c) using 9/16 or 1/16."],
-            examinerNote: "(a) B2 all four, B1 for two or three correct, and none that contain two alleles of the same gene. (b)-(c) Allow ecf. (d) Allow 'random orientation of chromosome pairs'.",
+            finalAnswer:
+              "(a) RY, Ry, rY, ry (b) 3/16 (c) 30 (d) The allele for one gene is passed on independently of the other because the genes are on different chromosome pairs that line up randomly in meiosis, so all four combinations are equally likely.",
+            commonErrors: [
+              "In (a) listing Rr and Yy, which are not gametes (gametes have one allele per gene).",
+              "In (b) using 1/16, the probability for rryy.",
+              "In (c) using 9/16 or 1/16.",
+            ],
+            examinerNote:
+              "(a) B2 all four, B1 for two or three correct, and none that contain two alleles of the same gene. (b)-(c) Allow ecf. (d) Allow 'random orientation of chromosome pairs'.",
           },
         },
       ],
@@ -163,7 +381,8 @@ export const lesson33: Lesson = {
     {
       id: "bio9-u3-non-mendelian-pedigrees",
       title: "Non-Mendelian inheritance, sex linkage and pedigrees",
-      skill: "Predict outcomes for incomplete dominance, codominance, multiple alleles and sex-linked traits, and interpret pedigrees.",
+      skill:
+        "Predict outcomes for incomplete dominance, codominance, multiple alleles and sex-linked traits, and interpret pedigrees.",
       lesson: {
         sections: [
           {
@@ -176,13 +395,27 @@ export const lesson33: Lesson = {
           },
         ],
         keyFormulas: [
-          { name: "Incomplete dominance", statement: "Heterozygote has an intermediate phenotype (red x white = all pink)" },
-          { name: "ABO blood groups", statement: "$I^A$ and $I^B$ codominant; both dominant to $i$; $ii$ = type O" },
-          { name: "X-linked cross", statement: "$X^C X^c \\times X^C Y$ gives $X^C X^C : X^C X^c : X^C Y : X^c Y$ (1 : 1 : 1 : 1)" },
+          {
+            name: "Incomplete dominance",
+            statement:
+              "Heterozygote has an intermediate phenotype (red x white = all pink)",
+          },
+          {
+            name: "ABO blood groups",
+            statement:
+              "$I^A$ and $I^B$ codominant; both dominant to $i$; $ii$ = type O",
+          },
+          {
+            name: "X-linked cross",
+            statement:
+              "$X^C X^c \\times X^C Y$ gives $X^C X^C : X^C X^c : X^C Y : X^c Y$ (1 : 1 : 1 : 1)",
+          },
         ],
         workedExample: {
-          problem: "A woman who is a carrier of color blindness ($X^C X^c$) has children with a man with normal vision ($X^C Y$). What is the probability that a son is color blind?",
-          solution: "The mother's gametes are $X^C$ and $X^c$. The father gives $X^C$ to daughters and $Y$ to sons. A son always gets the father's Y, so his X comes from the mother. There is a $\\frac{1}{2}$ chance he gets $X^c$ and is color blind. The probability is $\\frac{1}{2}$, or $50\\%$.",
+          problem:
+            "A woman who is a carrier of color blindness ($X^C X^c$) has children with a man with normal vision ($X^C Y$). What is the probability that a son is color blind?",
+          solution:
+            "The mother's gametes are $X^C$ and $X^c$. The father gives $X^C$ to daughters and $Y$ to sons. A son always gets the father's Y, so his X comes from the mother. There is a $\\frac{1}{2}$ chance he gets $X^c$ and is color blind. The probability is $\\frac{1}{2}$, or $50\\%$.",
         },
       },
       questions: [
@@ -196,20 +429,36 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "Pink" },
               { id: "b", text: "Red" },
-              { id: "c", text: "Half red and half white petals on each flower" },
+              {
+                id: "c",
+                text: "Half red and half white petals on each flower",
+              },
               { id: "d", text: "White" },
             ],
             correctChoiceId: "a",
           },
           markscheme: {
             principles: [
-              { kind: "definition", name: "Incomplete dominance", statement: "The heterozygote has a phenotype intermediate between the two homozygotes." },
+              {
+                kind: "definition",
+                name: "Incomplete dominance",
+                statement:
+                  "The heterozygote has a phenotype intermediate between the two homozygotes.",
+              },
             ],
             steps: [
-              { reasoning: "All offspring are C^R C^W, which have an intermediate (pink) phenotype.", marks: 1, markCode: "B" },
+              {
+                reasoning:
+                  "All offspring are C^R C^W, which have an intermediate (pink) phenotype.",
+                marks: 1,
+                markCode: "B",
+              },
             ],
             finalAnswer: "**(a)** Pink",
-            commonErrors: ["Choosing red, treating one allele as completely dominant.", "Choosing (d), which describes codominance rather than a blended phenotype."],
+            commonErrors: [
+              "Choosing red, treating one allele as completely dominant.",
+              "Choosing (d), which describes codominance rather than a blended phenotype.",
+            ],
             examinerNote: "B1 for pink.",
           },
         },
@@ -227,16 +476,42 @@ export const lesson33: Lesson = {
           },
           markscheme: {
             principles: [
-              { kind: "principle", name: "Codominance and multiple alleles", statement: "I^A and I^B are codominant and both dominant to i; I^A I^B gives group AB, ii gives group O." },
+              {
+                kind: "principle",
+                name: "Codominance and multiple alleles",
+                statement:
+                  "I^A and I^B are codominant and both dominant to i; I^A I^B gives group AB, ii gives group O.",
+              },
             ],
             steps: [
-              { reasoning: "Punnett square: the offspring are I^A I^B, I^A i, I^B i and ii, each with probability 1/4.", working: "I^AI^B,\\ I^Ai,\\ I^Bi,\\ ii", marks: 1, markCode: "M" },
-              { reasoning: "One of four squares is AB.", working: "P(AB)=\\frac{1}{4}=25\\%", marks: 1, markCode: "A" },
-              { reasoning: "I^A i is group A and I^B i is group B, so two of four squares.", working: "P(A\\text{ or }B)=\\frac{2}{4}=50\\%", marks: 1, markCode: "A" },
+              {
+                reasoning:
+                  "Punnett square: the offspring are I^A I^B, I^A i, I^B i and ii, each with probability 1/4.",
+                working: "I^AI^B,\\ I^Ai,\\ I^Bi,\\ ii",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "One of four squares is AB.",
+                working: "P(AB)=\\frac{1}{4}=25\\%",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                reasoning:
+                  "I^A i is group A and I^B i is group B, so two of four squares.",
+                working: "P(A\\text{ or }B)=\\frac{2}{4}=50\\%",
+                marks: 1,
+                markCode: "A",
+              },
             ],
             finalAnswer: "AB: $25\\%$; A or B: $50\\%$",
-            commonErrors: ["Thinking that two squares give AB.", "Forgetting that ii (group O) is possible."],
-            examinerNote: "M1 correct Punnett square or four genotypes. A1 25. A1 50. Allow fractions.",
+            commonErrors: [
+              "Thinking that two squares give AB.",
+              "Forgetting that ii (group O) is possible.",
+            ],
+            examinerNote:
+              "M1 correct Punnett square or four genotypes. A1 25. A1 50. Allow fractions.",
           },
         },
         {
@@ -254,18 +529,54 @@ export const lesson33: Lesson = {
           },
           markscheme: {
             principles: [
-              { kind: "principle", name: "X-linked recessive", statement: "Males have one X, so one recessive allele on it causes the trait; females need two." },
-              { kind: "formula", name: "Expected number", statement: "expected number = probability x total offspring" },
+              {
+                kind: "principle",
+                name: "X-linked recessive",
+                statement:
+                  "Males have one X, so one recessive allele on it causes the trait; females need two.",
+              },
+              {
+                kind: "formula",
+                name: "Expected number",
+                statement: "expected number = probability x total offspring",
+              },
             ],
             steps: [
-              { reasoning: "Punnett square gives X^C X^C, X^C X^c, X^C Y, X^c Y, equally likely. Only X^c Y is color blind.", working: "P=\\frac{1}{4}=25\\%", marks: 1, markCode: "M" },
-              { reasoning: "Sons are X^C Y or X^c Y, equally likely, so half are color blind.", working: "\\frac{1}{2}=50\\%", marks: 1, markCode: "A" },
-              { reasoning: "Multiply the probability for any child by the number of children.", working: "\\frac{1}{4}\\times200", marks: 1, markCode: "M" },
-              { reasoning: "Evaluate.", working: "50", marks: 1, markCode: "A" },
+              {
+                reasoning:
+                  "Punnett square gives X^C X^C, X^C X^c, X^C Y, X^c Y, equally likely. Only X^c Y is color blind.",
+                working: "P=\\frac{1}{4}=25\\%",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Sons are X^C Y or X^c Y, equally likely, so half are color blind.",
+                working: "\\frac{1}{2}=50\\%",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                reasoning:
+                  "Multiply the probability for any child by the number of children.",
+                working: "\\frac{1}{4}\\times200",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Evaluate.",
+                working: "50",
+                marks: 1,
+                markCode: "A",
+              },
             ],
             finalAnswer: "$25\\%$; $50\\%$; 50 children",
-            commonErrors: ["Saying 50% of all children are affected.", "Saying daughters can be color blind in this cross (they cannot, since the father gives them X^C)."],
-            examinerNote: "M1 correct Punnett square / 1/4. A1 for 25% and A1 for 50%. M1 for 1/4 x 200. A1 for 50. Allow ecf from an incorrect probability.",
+            commonErrors: [
+              "Saying 50% of all children are affected.",
+              "Saying daughters can be color blind in this cross (they cannot, since the father gives them X^C).",
+            ],
+            examinerNote:
+              "M1 correct Punnett square / 1/4. A1 for 25% and A1 for 50%. M1 for 1/4 x 200. A1 for 50. Allow ecf from an incorrect probability.",
           },
         },
         {
@@ -274,31 +585,114 @@ export const lesson33: Lesson = {
           totalMarks: 8,
           stem: "In a family pedigree, two unaffected parents have three children: an affected daughter, an unaffected son and an unaffected daughter. The affected condition is rare.",
           parts: [
-            { label: "a", prompt: "State whether the allele for the condition is dominant or recessive, and give a reason.", marks: 2 },
-            { label: "b", prompt: "Explain why the condition is autosomal and cannot be X-linked recessive.", marks: 2 },
-            { label: "c", prompt: "Using the symbols A and a, give the genotype of both parents.", marks: 1 },
-            { label: "d", prompt: "Calculate the probability that the parents' next child is affected. Give your answer as a percentage.", marks: 1 },
-            { label: "e", prompt: "The unaffected son is chosen. Calculate the probability that he is a carrier. Give your answer as a fraction.", marks: 2 },
+            {
+              label: "a",
+              prompt:
+                "State whether the allele for the condition is dominant or recessive, and give a reason.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "Explain why the condition is autosomal and cannot be X-linked recessive.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt:
+                "Using the symbols A and a, give the genotype of both parents.",
+              marks: 1,
+            },
+            {
+              label: "d",
+              prompt:
+                "Calculate the probability that the parents' next child is affected. Give your answer as a percentage.",
+              marks: 1,
+            },
+            {
+              label: "e",
+              prompt:
+                "The unaffected son is chosen. Calculate the probability that he is a carrier. Give your answer as a fraction.",
+              marks: 2,
+            },
           ],
           response: { type: "open" },
           markscheme: {
             principles: [
-              { kind: "principle", name: "Reading pedigrees", statement: "Unaffected parents with an affected child means the allele is recessive and both parents are carriers." },
-              { kind: "principle", name: "X-linked recessive", statement: "An affected daughter must receive an X^c from her father, so her father must be affected." },
+              {
+                kind: "principle",
+                name: "Reading pedigrees",
+                statement:
+                  "Unaffected parents with an affected child means the allele is recessive and both parents are carriers.",
+              },
+              {
+                kind: "principle",
+                name: "X-linked recessive",
+                statement:
+                  "An affected daughter must receive an X^c from her father, so her father must be affected.",
+              },
             ],
             steps: [
               { part: "a", reasoning: "Recessive.", marks: 1, markCode: "B" },
-              { part: "a", reasoning: "Two unaffected parents have an affected child, so each parent carries a hidden recessive allele that was passed on.", marks: 1, markCode: "R" },
-              { part: "b", reasoning: "If it were X-linked recessive, an affected daughter would be X^c X^c and would have inherited an X^c from her father.", marks: 1, markCode: "R" },
-              { part: "b", reasoning: "Her father is unaffected (X^C Y), so he has no X^c to give her. The gene is therefore on an autosome.", marks: 1, markCode: "R" },
-              { part: "c", reasoning: "Both parents are carriers.", working: "\\text{Aa and Aa}", marks: 1, markCode: "B" },
-              { part: "d", reasoning: "Aa x Aa gives aa with probability 1/4.", working: "\\frac{1}{4}=25\\%", marks: 1, markCode: "A" },
-              { part: "e", reasoning: "Unaffected offspring are AA, Aa or Aa, so there are three equally likely outcomes. Two are carriers.", working: "\\text{3 unaffected outcomes}", marks: 1, markCode: "M" },
-              { part: "e", reasoning: "Two of the three are Aa.", working: "\\frac{2}{3}", marks: 1, markCode: "A" },
+              {
+                part: "a",
+                reasoning:
+                  "Two unaffected parents have an affected child, so each parent carries a hidden recessive allele that was passed on.",
+                marks: 1,
+                markCode: "R",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "If it were X-linked recessive, an affected daughter would be X^c X^c and would have inherited an X^c from her father.",
+                marks: 1,
+                markCode: "R",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Her father is unaffected (X^C Y), so he has no X^c to give her. The gene is therefore on an autosome.",
+                marks: 1,
+                markCode: "R",
+              },
+              {
+                part: "c",
+                reasoning: "Both parents are carriers.",
+                working: "\\text{Aa and Aa}",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                part: "d",
+                reasoning: "Aa x Aa gives aa with probability 1/4.",
+                working: "\\frac{1}{4}=25\\%",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                part: "e",
+                reasoning:
+                  "Unaffected offspring are AA, Aa or Aa, so there are three equally likely outcomes. Two are carriers.",
+                working: "\\text{3 unaffected outcomes}",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "e",
+                reasoning: "Two of the three are Aa.",
+                working: "\\frac{2}{3}",
+                marks: 1,
+                markCode: "A",
+              },
             ],
-            finalAnswer: "(a) Recessive; unaffected parents had an affected child (b) The affected daughter would need an X^c from her unaffected father, which is impossible, so it is autosomal (c) Aa and Aa (d) 25% (e) 2/3",
-            commonErrors: ["In (a) saying dominant because the condition skips a generation.", "In (e) answering 1/2 by treating the unaffected son as if aa were possible."],
-            examinerNote: "(a) Reason must refer to unaffected parents having an affected child. (d) Allow 1/4. (e) Allow 0.67 or 66.7%; M1 for denominator 3.",
+            finalAnswer:
+              "(a) Recessive; unaffected parents had an affected child (b) The affected daughter would need an X^c from her unaffected father, which is impossible, so it is autosomal (c) Aa and Aa (d) 25% (e) 2/3",
+            commonErrors: [
+              "In (a) saying dominant because the condition skips a generation.",
+              "In (e) answering 1/2 by treating the unaffected son as if aa were possible.",
+            ],
+            examinerNote:
+              "(a) Reason must refer to unaffected parents having an affected child. (d) Allow 1/4. (e) Allow 0.67 or 66.7%; M1 for denominator 3.",
           },
         },
       ],

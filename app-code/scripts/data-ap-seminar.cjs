@@ -1,0 +1,236 @@
+// AP Seminar — condensed core. Spec for scripts/gen-us-elementary.cjs.
+const P = (kind, name, statement) => [kind, name, statement];
+const S = (reasoning, marks, markCode = "A", working) => ({ reasoning, marks, markCode, ...(working ? { working } : {}) });
+const mcq = (difficulty, totalMarks, stem, choices, correct, principles, steps, finalAnswer, commonErrors) => ({
+  difficulty, totalMarks, stem, choices, correct, principles, steps, finalAnswer, ...(commonErrors ? { commonErrors } : {}),
+});
+const num = (difficulty, totalMarks, stem, numeric, principles, steps, finalAnswer, commonErrors) => ({
+  difficulty, totalMarks, stem, numeric, principles, steps, finalAnswer, ...(commonErrors ? { commonErrors } : {}),
+});
+const op = (difficulty, totalMarks, stem, principles, steps, finalAnswer, commonErrors) => ({
+  difficulty, totalMarks, stem, principles, steps, finalAnswer, ...(commonErrors ? { commonErrors } : {}),
+});
+const lesson = (slug, title, goal, standards, vocab, concept) => ({ slug, title, goal, standards, vocab, concept });
+
+const apSeminar = {
+  id: "ap-seminar",
+  exportName: "apSeminar",
+  prefix: "apsm",
+  title: "AP Seminar",
+  shortTitle: "AP Seminar",
+  grade: "AP",
+  framework: "College Board Advanced Placement",
+  description: "Academic inquiry, evidence evaluation, argumentation, and collaborative research methods for college readiness.",
+  ap: { exam: "seminar" },
+  units: [
+    {
+      id: "apsm-u1",
+      title: "Academic Inquiry and Question Formation",
+      description: "Forming research questions, identifying credible sources, and navigating information landscapes.",
+      lessons: [
+        lesson("research-questions", "Research Question Formation", "I CAN develop focused, arguable research questions and refine them through inquiry.", ["Unit 1"],
+          [["Research question", "Focused, arguable inquiry guiding academic investigation — not merely factual."], ["Thesis question", "Question that demands an arguable answer — 'Why/How' rather than 'What/When.'"], ["Inquiry", "Systematic process of exploring, questioning, and investigating a topic."], ["Scope", "Boundaries of a research question — too broad unanswerable, too narrow trivial."], ["Preliminary research", "Initial investigation to assess feasibility and available evidence before committing."], ["Iterative process", "Research involves refining questions as new evidence emerges — not linear."]],
+          {
+            title: "From topic to question",
+            skill: "Develop and refine research questions.",
+            sections: [
+              ["Question quality", "Good questions are focused, arguable, and researchable — 'How did industrialization affect urban class structures?' vs. 'What is industrialization?' (factual, not arguable)."], ["Refinement", "Start broad ('education'), narrow to specific ('How did Title IX affect female participation in STEM?'), test feasibility through preliminary research."],
+            ],
+            formulas: [
+              ["Question types", "Factual (what/when) vs. Analytical (why/how) vs. Evaluative (should)"],
+              ["Refinement", "Broad topic → specific question → feasibility check → focused thesis"],
+            ],
+            worked: { problem: "Refine 'social media' into a research question", solution: "Broad: 'social media' → Narrow: 'How has TikTok affected adolescent attention spans compared to Instagram?' → Focused, arguable, researchable with specific comparison." },
+            questions: [
+              mcq("foundation", 1, "A strong research question should be ___.", [["a", "broad and general"], ["b", "focused, arguable, and researchable"], ["c", "factual and simple"], ["d", "answered by a quick Google search"]], "b",
+                [P("definition", "Research question", "Focused + arguable + researchable.")],
+                [S("A strong research question is focused (specific topic), arguable (demanding analysis not just facts), and researchable (evidence exists to answer it).", 1, "B")], "Focused + arguable + researchable", ["Confusing with factual questions."]),
+              mcq("core", 2, "Which is a stronger research question?", [["a", "What is climate change?"], ["b", "How effective are carbon taxes in reducing emissions compared to cap-and-trade systems?"], ["c", "Tell me about pollution"], ["d", "Is the environment important?"]], "b",
+                [P("skill", "Question evaluation", "Arguable + comparative + specific.")],
+                [S("Option B is specific (carbon taxes vs. cap-and-trade), comparative, arguable (effectiveness can be debated), and researchable — strong academic inquiry.", 1, "M"), S("Others are factual, vague, or not researchable.", 1, "B")], "Specific comparative arguable question", ["Choosing broad/factual over analytical."]),
+              num("core", 2, "If a research project takes 8 weeks total and preliminary research should take 25% of time, how many weeks? Enter the number.", [{ label: "Weeks", answer: 2 }],
+                [P("method", "Percentage", "$8 \\times 0.25 = 2$ weeks.")],
+                [S("$8 \\times 0.25 = 2$ weeks for preliminary research.", 1, "M"), S("Answer $2$.", 1, "B")], "2", ["Using wrong percentage or total."]),
+              op("core", 3, "Explain the difference between a factual question and an analytical research question. Which is better for academic inquiry?",
+                [P("context", "Question types", "Factual vs. analytical.")],
+                [S("Factual question: seeks specific information — 'What year did X happen?' 'Who wrote Y?' — answerable with a single fact; doesn't require analysis or argument.", 1, "B"), S("Analytical question: seeks explanation/evaluation — 'Why did X happen?' 'How effective is Y?' 'Should Z be implemented?' — demands evidence, analysis, and arguable conclusion.", 1, "M"), S("Analytical is better for academic inquiry because it requires critical thinking, evidence evaluation, and argumentation — the skills AP Seminar develops.", 1, "B")], "Analytical questions drive academic inquiry; factual don't", ["Treating factual as research questions — they lack analytical depth."]),
+              op("challenge", 4, "Analyze how iterative research question refinement improves academic inquiry. Why isn't the first question usually the final one?",
+                [P("concept", "Iterative inquiry", "Questions evolve with evidence.")],
+                [S("Initial questions are often too broad or based on assumptions — 'How does social media affect teenagers?' is too vague to research effectively.", 1, "B"), S("Preliminary research reveals available evidence, gaps, and complexity — forcing refinement: 'How has TikTok specifically affected sleep quality in adolescents aged 13-17 compared to other platforms?'", 1, "M"), S("Iteration continues — new evidence may reveal the question is wrong, too narrow, or needs reframing; flexibility is essential to good research.", 1, "B"), S("Verdict: research questions are hypotheses to be tested — initial versions are starting points, not endpoints; iteration produces better, more focused inquiry.", 1, "B")], "Iteration refines questions — initial versions are starting points", ["Assuming first question is final — refinement is essential."]),
+            ],
+          }),
+        lesson("information-literacy", "Information Literacy", "I CAN evaluate source credibility and identify bias in information.", ["Unit 1"],
+          [["Primary source", "Firsthand evidence — original documents, data, interviews, experiments."], ["Secondary source", "Analysis/interpretation of primary sources — textbooks, articles, reviews."], ["Tertiary source", "Indexes, encyclopedias, almanacs — organizing other sources."], ["Peer review", "Expert evaluation before publication — quality control for academic sources."], ["Bias", "Systematic favoring of particular perspective — can be intentional or unconscious."], ["CRAAP test", "Currency, Relevance, Authority, Accuracy, Purpose — source evaluation framework."]],
+          {
+            title: "Evaluating sources",
+            skill: "Apply source evaluation criteria to assess credibility.",
+            sections: [
+              ["Source types", "Primary (original evidence), secondary (analysis), tertiary (indexes); peer-reviewed sources generally most credible for academic work."], ["Evaluation criteria", "CRAAP: Currency (when published?), Relevance (fits topic?), Authority (author credentials?), Accuracy (evidence-based?), Purpose (inform vs. persuade?)."],
+            ],
+            formulas: [
+              ["CRAAP test", "Currency / Relevance / Authority / Accuracy / Purpose"],
+              ["Source hierarchy", "Primary > Secondary > Tertiary for evidence; peer review adds credibility"],
+            ],
+            worked: { problem: "Evaluate a Wikipedia article for a research project", solution: "Wikipedia is tertiary, user-edited (authority questionable), generally accurate for basic facts but not for cutting-edge analysis; useful for orientation but cite underlying sources, not Wikipedia itself." },
+            questions: [
+              mcq("foundation", 1, "A primary source is ___.", [["a", "a textbook summary"], ["b", "firsthand evidence like original documents or data"], ["c", "an encyclopedia entry"], ["d", "a news article about research"]], "b",
+                [P("definition", "Primary source", "Firsthand original evidence.")],
+                [S("Primary sources are firsthand evidence — original documents, data, interviews, experiments; they provide direct access to events/phenomena.", 1, "B")], "Firsthand original evidence", ["Confusing with secondary (analysis)."]),
+              mcq("core", 2, "The CRAAP test evaluates sources on ___.", [["a", "only accuracy"], ["b", "Currency, Relevance, Authority, Accuracy, Purpose"], ["c", "only popularity"], ["d", "only length"]], "b",
+                [P("definition", "CRAAP test", "Five-criteria evaluation framework.")],
+                [S("CRAAP evaluates: Currency (when?), Relevance (fits topic?), Authority (credentials?), Accuracy (evidence-based?), Purpose (inform vs. persuade?) — comprehensive credibility check.", 1, "M"), S("It's a framework, not a perfect test — judgment still required.", 1, "B")], "Five criteria: Currency to Purpose", ["Memorizing partial list."]),
+              num("core", 2, "If a source was published in 2019 and it's now 2024, how many years old is it? Enter the number.", [{ label: "Years", answer: 5 }],
+                [P("method", "Subtract", "$2024 - 2019 = 5$.")],
+                [S("$2024 - 2019 = 5$ years old — may be dated for fast-changing topics.", 1, "M"), S("Answer $5$.", 1, "B")], "5", ["Date arithmetic errors."]),
+              op("core", 3, "Explain why peer-reviewed sources are generally more credible than popular media for academic research.",
+                [P("context", "Peer review", "Expert quality control.")],
+                [S("Peer review requires expert evaluation before publication — methodology checked, claims verified, errors caught; this filters out weak/unsubstantiated research.", 1, "B"), S("Popular media prioritizes accessibility/entertainment over rigor — may oversimplify, sensationalize, or lack evidence; fine for context but not for supporting claims.", 1, "M"), S("Academic sources also provide citations for verification — traceability that popular media lacks.", 1, "B")], "Peer review adds expert validation; popular media lacks rigor", ["Assuming all sources equal — academic has quality control."]),
+              op("challenge", 4, "Analyze how bias affects information and how researchers should detect it. Can 'neutral' sources exist?",
+                [P("concept", "Bias in information", "Unavoidable but manageable.")],
+                [S("Bias shapes what sources emphasize, omit, or frame — political bias in news, corporate bias in industry reports, cultural bias in textbooks; rarely intentional deception but systematic perspective.", 1, "M"), S("Detection: examine author's affiliations, funding sources, language choices, what's included/excluded; compare multiple sources; look for corroboration across perspectives.", 1, "M"), S("'Neutral' sources: truly neutral impossible — every source has perspective; but some are more balanced (reputable encyclopedias, peer-reviewed meta-analyses aggregating multiple studies).", 1, "B"), S("Verdict: bias is inevitable but manageable — researchers should triangulate sources, acknowledge their own biases, and seek diverse perspectives rather than expecting neutrality.", 1, "B")], "Bias inevitable; detect via triangulation and source analysis", ["Expecting neutral sources — impossible; aim for balanced multi-perspective research."]),
+            ],
+          }),
+      ],
+    },
+    {
+      id: "apsm-u2",
+      title: "Evidence-Based Argumentation",
+      description: "Constructing arguments, synthesizing sources, and evaluating claims.",
+      lessons: [
+        lesson("argument-structure", "Argument Structure", "I CAN construct clear, evidence-based arguments with proper reasoning.", ["Unit 2"],
+          [["Claim", "Assertion requiring evidence — the thesis of an argument."], ["Evidence", "Data, facts, examples supporting claims."], ["Reasoning", "Logical connection between evidence and claim — the 'because' linking them."], ["Warrant", "Underlying assumption connecting evidence to claim — often unstated."], ["Counterargument", "Opposing viewpoint — addressing it strengthens argument."], ["Synthesis", "Combining multiple sources to build comprehensive argument."]],
+          {
+            title: "Building arguments",
+            skill: "Construct evidence-based arguments with logical structure.",
+            sections: [
+              ["Argument components", "Claim (assertion) + Evidence (support) + Reasoning (connection) + Warrant (assumption) = complete argument; counterarguments acknowledge opposing views."], ["Evidence types", "Statistical data, case studies, expert testimony, primary sources, logical examples — each has strengths/limitations for different claims."],
+            ],
+            formulas: [
+              ["Argument structure", "Claim + Evidence + Reasoning + Warrant"],
+              ["Strong argument", "Clear claim, credible evidence, logical reasoning, acknowledged counterarguments"],
+            ],
+            worked: { problem: "Evaluate 'Social media is bad for teenagers' as an argument", solution: "Incomplete — it's a claim without evidence, reasoning, or counterarguments; needs data on effects, mechanism explaining why, acknowledgment that some uses are beneficial." },
+            questions: [
+              mcq("foundation", 1, "The 'warrant' in argumentation is ___.", [["a", "the evidence"], ["b", "the underlying assumption connecting evidence to claim"], ["c", "the counterargument"], ["d", "the conclusion"]], "b",
+                [P("definition", "Warrant", "Unstated assumption linking evidence to claim.")],
+                [S("Warrant is the underlying assumption that makes evidence support the claim — often unstated but essential; e.g., 'test scores matter' is warrant for using them as evidence.", 1, "B")], "Underlying assumption linking evidence to claim", ["Confusing with evidence or reasoning."]),
+              mcq("core", 2, "Which makes an argument strongest?", [["a", "Assert claim strongly"], ["b", "Support claim with credible evidence and logical reasoning"], ["c", "Use emotional appeals"], ["d", "Ignore counterarguments"]], "b",
+                [P("skill", "Argument quality", "Evidence + reasoning > assertion.")],
+                [S("Strong arguments combine credible evidence with logical reasoning — 'Data shows X (evidence), which means Y because Z (reasoning), supporting claim.' Emotional appeals and ignored counterarguments weaken arguments.", 1, "M"), S("Acknowledging counterarguments actually strengthens credibility.", 1, "B")], "Evidence + reasoning + acknowledged counterarguments", ["Equating strength with assertiveness."]),
+              num("core", 2, "If an argument has 3 claims and each needs 2 pieces of evidence, how many evidence pieces total? Enter the number.", [{ label: "Evidence pieces", answer: 6 }],
+                [P("method", "Multiply", "$3 \\times 2 = 6$.")],
+                [S("$3 \\times 2 = 6$ evidence pieces needed.", 1, "M"), S("Answer $6$.", 1, "B")], "6", ["Adding instead of multiplying."]),
+              op("core", 3, "Explain the difference between evidence and reasoning in an argument. Why are both necessary?",
+                [P("context", "Argument components", "Evidence vs. reasoning.")],
+                [S("Evidence: data, facts, examples supporting claims — '50% of students report anxiety'; reasoning: logical connection explaining why evidence supports claim — 'because social comparison on platforms increases anxiety.'", 1, "B"), S("Both necessary: evidence without reasoning is just facts (no argument); reasoning without evidence is unsupported assertion; together they form persuasive argument.", 1, "M"), S("Strong argument: 'Social media increases anxiety (claim) because platforms enable constant comparison (reasoning), as 50% of students report anxiety (evidence).'", 1, "B")], "Evidence = support; Reasoning = connection; both essential", ["Conflating evidence with argument — need reasoning too."]),
+              op("challenge", 4, "Analyze why addressing counterarguments strengthens rather than weakens an argument. When might it backfire?",
+                [P("concept", "Counterarguments", "Engagement strengthens credibility.")],
+                [S("Addressing counterarguments demonstrates intellectual honesty — acknowledging opposing views shows you've considered alternatives; strengthens credibility with informed audiences.", 1, "B"), S("It also strengthens the argument itself — rebutting counterarguments reveals weaknesses in opposing positions and clarifies why your claim survives scrutiny.", 1, "M"), S("Backfire risk: poorly handled counterarguments can confuse readers or expose genuine weaknesses; if rebuttal is weak or dismissive, it undermines rather than strengthens.", 1, "B"), S("Verdict: addressing counterarguments is essential for credible argumentation — done well it strengthens; done poorly it reveals weaknesses — requires careful handling.", 1, "B")], "Counterarguments strengthen when handled well; risk when weak", ["Avoiding counterarguments — engagement is stronger than ignoring."]),
+            ],
+          }),
+        lesson("source-synthesis", "Source Synthesis", "I CAN combine multiple sources to build comprehensive arguments.", ["Unit 2"],
+          [["Synthesis", "Combining information from multiple sources to create new understanding."], ["Corroboration", "Independent sources agreeing — strengthens confidence in claims."], ["Contradiction", "Sources disagreeing — requires investigation or acknowledgment."], ["Source triangulation", "Using multiple source types/perspectives to verify claims."], ["Integration", "Weaving sources into argument naturally — not just listing."], ["Citation", "Attributing sources properly — academic integrity requirement."]],
+          {
+            title: "Combining sources",
+            skill: "Synthesize multiple sources into coherent arguments.",
+            sections: [
+              ["Synthesis process", "Find sources on topic → identify agreements/disagreements → corroborate with independent sources → resolve contradictions → integrate into argument with citations."], ["Source relationships", "Corroboration (independent agreement) strengthens; contradiction requires investigation; complementary sources fill gaps; conflicting sources reveal complexity."],
+            ],
+            formulas: [
+              ["Triangulation", "Multiple sources/perspectives verify claims"],
+              ["Synthesis", "Combine sources → identify patterns → integrate into argument"],
+            ],
+            worked: { problem: "Synthesize sources on 'remote work productivity'", solution: "Source A (study): +15% productivity; Source B (survey): mixed results; Source C (meta-analysis): +5% average; synthesis: modest gains, context-dependent — not universal." },
+            questions: [
+              mcq("foundation", 1, "Synthesis in research means ___.", [["a", "copying sources"], ["b", "combining sources to create new understanding"], ["c", "summarizing one source"], ["d", "listing sources"]], "b",
+                [P("definition", "Synthesis", "Combining sources for new understanding.")],
+                [S("Synthesis combines information from multiple sources to create new understanding — not just summarizing but integrating perspectives into coherent argument.", 1, "B")], "Combining for new understanding", ["Confusing with summary — synthesis is integration."]),
+              mcq("core", 2, "Corroboration strengthens arguments because ___.", [["a", "more sources always better"], ["b", "independent sources agreeing increases confidence in claims"], ["c", "it shows popularity"], ["d", "it avoids contradictions"]], "b",
+                [P("context", "Source triangulation", "Independent agreement = confidence.")],
+                [S("Corroboration — independent sources reaching same conclusion — increases confidence because errors/ biases are less likely to coincide; it's stronger than any single source.", 1, "M"), S("Contradictions don't weaken — they reveal complexity requiring investigation.", 1, "B")], "Independent agreement increases confidence", ["Equating quantity with quality — independence matters."]),
+              num("core", 2, "If you have 5 sources on a topic and 3 corroborate a claim while 2 contradict, what percentage corroborate? Enter the number.", [{ label: "Percent", answer: 60 }],
+                [P("method", "Divide", "$3/5 \\times 100 = 60\\%$.")],
+                [S("$3/5 = 0.6 = 60\\%$ corroborate.", 1, "M"), S("Answer $60$.", 1, "B")], "60", ["Using wrong total or format."]),
+              op("core", 3, "Explain the difference between summarizing sources and synthesizing them. Why is synthesis more valuable for arguments?",
+                [P("context", "Summary vs. synthesis", "Integration vs. recap.")],
+                [S("Summarizing: restating what each source says — 'Source A says X, Source B says Y'; describes sources separately without connecting them.", 1, "B"), S("Synthesizing: combining sources to create new understanding — 'Sources A and B agree on X, but C complicates this by showing Y' — integrates perspectives into coherent argument.", 1, "M"), S("Synthesis is more valuable because it builds arguments — shows how evidence converges, where it diverges, and what the combined picture reveals — beyond any single source.", 1, "B")], "Summary = describe sources; Synthesis = integrate into argument", ["Confusing the two — synthesis creates new understanding."]),
+              op("challenge", 4, "Analyze how source contradictions should be handled in academic writing. When is disagreement a weakness vs. a strength?",
+                [P("concept", "Handling contradictions", "Complexity vs. confusion.")],
+                [S("Contradictions reveal complexity — 'Study A shows X, but Study B shows Y under different conditions' — acknowledging them demonstrates thoroughness and intellectual honesty.", 1, "B"), S("Weakness: unexplained contradictions confuse readers; ignoring inconvenient evidence undermines credibility; cherry-picking only agreeing sources is dishonest.", 1, "M"), S("Strength: explaining contradictions (different methods, contexts, populations) enriches argument; shows you've engaged with complexity; 'evidence suggests X in context A but Y in context B' is more sophisticated than claiming universal X.", 1, "B"), S("Verdict: contradictions strengthen arguments when explained — they reveal nuance; unexplained contradictions weaken — require either resolution or acknowledgment of limits.", 1, "B")], "Explained contradictions strengthen; unexplained weaken", ["Ignoring contradictions — engagement reveals sophistication."]),
+            ],
+          }),
+      ],
+    },
+    {
+      id: "apsm-u3",
+      title: "Academic Communication and Collaboration",
+      description: "Presenting research, writing academically, and collaborative inquiry.",
+      lessons: [
+        lesson("academic-writing", "Academic Writing", "I CAN write clear, well-structured academic prose with proper citation.", ["Unit 3"],
+          [["Academic register", "Formal tone, precise language, evidence-based claims — distinct from casual writing."], ["Thesis statement", "Clear, arguable claim guiding essay — usually in introduction."], ["Topic sentence", "Sentence stating paragraph's main idea — often first sentence."], ["Citation", "Attributing sources — APA, MLA, Chicago formats."], ["Plagiarism", "Using others' work without attribution — serious academic violation."], ["Revision", "Iterative improvement process — drafting, feedback, editing."]],
+          {
+            title: "Academic writing essentials",
+            skill: "Write clear, well-cited academic prose.",
+            sections: [
+              ["Writing structure", "Introduction (context + thesis) → Body (evidence paragraphs) → Conclusion (synthesis + implications); topic sentences guide readers; transitions connect ideas."], ["Citation practices", "Proper citation prevents plagiarism and enables verification; different disciplines use different formats (APA for social sciences, MLA for humanities, Chicago for history)."],
+            ],
+            formulas: [
+              ["Essay structure", "Intro + thesis → Body paragraphs → Conclusion"],
+              ["Citation formats", "APA / MLA / Chicago — discipline-specific"],
+            ],
+            worked: { problem: "Revise casual to academic: 'Social media is bad and everyone knows it'", solution: "Academic: 'Research indicates social media usage correlates with increased anxiety among adolescents, though effects vary by platform and usage patterns.' — precise, hedged, evidence-based." },
+            questions: [
+              mcq("foundation", 1, "Academic register differs from casual writing by being ___.", [["a", "more emotional"], ["b", "formal, precise, and evidence-based"], ["c", "more casual"], ["d", "shorter"]], "b",
+                [P("definition", "Academic register", "Formal evidence-based tone.")],
+                [S("Academic register uses formal tone, precise language, evidence-based claims, and logical structure — distinct from casual/emotional writing.", 1, "B")], "Formal + precise + evidence-based", ["Thinking informal is acceptable — academic requires formality."]),
+              mcq("core", 2, "Proper citation is essential because it ___.", [["a", "makes essay longer"], ["b", "prevents plagiarism and enables verification"], ["c", "is required by law"], ["d", "impresses teachers"]], "b",
+                [P("context", "Citation", "Attribution + verification.")],
+                [S("Proper citation prevents plagiarism (using others' work without credit) and enables readers to verify sources — both ethical and practical requirements for academic work.", 1, "M"), S("Different disciplines use different formats (APA, MLA, Chicago).", 1, "B")], "Prevents plagiarism + enables verification", ["Thinking citation is optional formality."]),
+              num("core", 2, "If an essay needs 5 body paragraphs and each takes 200 words, plus 300-word intro/conclusion, total words? Enter the number.", [{ label: "Words", answer: 1300 }],
+                [P("method", "Calculate", "$5 \\times 200 + 300 = 1300$.")],
+                [S("$5 \\times 200 + 300 = 1000 + 300 = 1300$ words.", 1, "M"), S("Answer $1300$.", 1, "B")], "1300", ["Forgetting intro/conclusion or miscalculating."]),
+              op("core", 3, "Explain the function of a thesis statement and topic sentences in academic writing. How do they guide readers?",
+                [P("context", "Writing structure", "Thesis + topic sentences guide.")],
+                [S("Thesis statement: clear arguable claim stated in introduction — tells readers what essay argues and why it matters; anchors entire essay.", 1, "B"), S("Topic sentences: first sentence of each paragraph stating its main idea — tell readers what paragraph covers; create logical flow; allow skimming for structure.", 1, "M"), S("Together they create roadmap — thesis gives destination, topic sentences give directions; readers can follow argument without getting lost.", 1, "B")], "Thesis = destination; topic sentences = directions", ["Thinking they're decorative — they structure argument."]),
+              op("challenge", 4, "Analyze why academic writing requires revision rather than perfect first drafts. What does revision accomplish that editing cannot?",
+                [P("concept", "Revision vs. editing", "Substantive improvement.")],
+                [S("First drafts capture ideas but lack polish — revision transforms rough ideas into coherent argument; editing fixes surface errors (grammar, punctuation) without changing substance.", 1, "B"), S("Revision accomplishes: clearer argument, better evidence integration, stronger organization, addressed gaps; requires rethinking, not just correcting — 'what am I really arguing?'", 1, "M"), S("Feedback enables revision — peers/teachers identify weaknesses; multiple drafts allow testing ideas; revision is iterative discovery, not just correction.", 1, "B"), S("Verdict: academic writing is recursive — good writing requires revision cycles; first drafts are exploration, revisions are refinement; editing is final polish after substance is solid.", 1, "B")], "Revision transforms substance; editing polishes surface", ["Confusing revision with proofreading — different processes."]),
+            ],
+          }),
+        lesson("collaboration-presentation", "Collaboration and Presentation", "I CAN collaborate effectively on research and present findings clearly.", ["Unit 3"],
+          [["Collaborative research", "Team-based inquiry requiring coordination, division of labor, and shared accountability."], ["Division of labor", "Assigning tasks based on strengths/interests — efficient teamwork."], ["Consensus building", "Reaching agreement through discussion — essential for group decisions."], ["Presentation", "Communicating research clearly to audience — structure, visuals, delivery."], ["Q&A", "Responding to questions — demonstrates mastery and handles challenges."], ["Team contract", "Agreement on roles, deadlines, expectations — prevents conflicts."]],
+          {
+            title: "Working together",
+            skill: "Collaborate effectively and present research clearly.",
+            sections: [
+              ["Collaboration essentials", "Clear roles, regular communication, shared deadlines; team contracts prevent conflicts; consensus requires compromise."], ["Presentation skills", "Structure (intro → findings → implications), visuals support (not replace) content, practice delivery, prepare for Q&A."],
+            ],
+            formulas: [
+              ["Team success", "Clear roles + communication + shared accountability"],
+              ["Presentation structure", "Context → Findings → Implications → Q&A"],
+            ],
+            worked: { problem: "Design team contract for research project", solution: "Define roles (researcher, writer, presenter), deadlines for drafts, communication method, decision-making process, conflict resolution — prevents 'I thought YOU were doing that.'" },
+            questions: [
+              mcq("foundation", 1, "A team contract helps groups by ___.", [["a", "avoiding all conflict"], ["b", "establishing clear roles, deadlines, and expectations"], ["c", "eliminating work"], ["d", "making work optional"]], "b",
+                [P("definition", "Team contract", "Agreement on roles and expectations.")],
+                [S("Team contracts establish clear roles, deadlines, communication methods, and expectations — preventing misunderstandings about who does what.", 1, "B")], "Clear roles + expectations", ["Thinking it eliminates work — it organizes it."]),
+              mcq("core", 2, "Effective research presentation should ___.", [["a", "read slides verbatim"], ["b", "structure findings clearly and engage audience"], ["c", "avoid visuals"], ["d", "rush through content"]], "b",
+                [P("skill", "Presentation", "Structure + engagement.")],
+                [S("Effective presentations structure findings (context → evidence → implications), use visuals to support not replace, engage audience, and handle Q&A confidently — not reading slides.", 1, "M"), S("Practice and preparation are essential.", 1, "B")], "Clear structure + engagement", ["Confusing presentation with reading."]),
+              num("core", 2, "A 20-minute presentation allocates 4 min intro, 10 min findings, 4 min implications. How many minutes remain for Q&A? Enter the number.", [{ label: "Minutes", answer: 2 }],
+                [P("method", "Subtract", "$20 - 4 - 10 - 4 = 2$.")],
+                [S("$20 - 4 - 10 - 4 = 2$ minutes for Q&A.", 1, "M"), S("Answer $2$.", 1, "B")], "2", ["Forgetting to subtract one allocation."]),
+              op("core", 3, "Explain how division of labor improves collaborative research while maintaining quality. What are the risks?",
+                [P("context", "Collaboration", "Specialization vs. coordination.")],
+                [S("Division of labor lets team members specialize — researcher finds sources, writer drafts, editor checks — efficient use of strengths; parallel work saves time.", 1, "B"), S("Risks: uneven contribution ('free riders'), coordination failures (mismatched assumptions), quality inconsistency (different standards); requires clear communication and shared standards.", 1, "M"), S("Mitigation: regular check-ins, shared documents, peer review within team, clear quality standards — ensures division improves rather than fragments work.", 1, "B")], "Division improves efficiency but requires coordination", ["Assuming division automatically works — needs management."]),
+              op("challenge", 4, "Analyze what makes Q&A sessions valuable for both presenters and audiences. How should presenters handle difficult questions?",
+                [P("concept", "Q&A value", "Testing and learning.")],
+                [S("For presenters: Q&A tests mastery — reveals gaps, challenges assumptions; demonstrates confidence and expertise; feedback improves future work.", 1, "B"), S("For audiences: Q&A surfaces unanswered questions, alternative perspectives; provides clarification; engages critically with material.", 1, "M"), S("Handling difficult questions: acknowledge uncertainty honestly ('I don't know but would investigate X'); distinguish between clarifying questions and challenges; stay composed; use 'great question' technique to buy thinking time.", 1, "B"), S("Verdict: Q&A is essential academic practice — tests understanding, engages audiences, improves work; difficult questions are opportunities to demonstrate intellectual honesty.", 1, "B")], "Q&A tests mastery and engages audiences — difficult questions are opportunities", ["Dreading difficult questions — they're learning opportunities."]),
+            ],
+          }),
+      ],
+    },
+  ],
+};
+
+module.exports = { courses: [apSeminar] };

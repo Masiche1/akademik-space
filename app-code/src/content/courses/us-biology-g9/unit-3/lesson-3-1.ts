@@ -5,21 +5,55 @@ export const lesson31: Lesson = {
   code: "3-1",
   title: "DNA and Protein Synthesis",
   goal: "I CAN describe the structure of DNA, explain base pairing and replication, and use the genetic code to work out how DNA is transcribed and translated into a protein.",
-  standards: ["HS-LS1-1", "SEP: Developing and Using Models", "SEP: Using Mathematics and Computational Thinking", "CCC: Structure and Function"],
+  standards: [
+    "HS-LS1-1",
+    "SEP: Developing and Using Models",
+    "SEP: Using Mathematics and Computational Thinking",
+    "CCC: Structure and Function",
+  ],
   vocabulary: [
-    { term: "Nucleotide", definition: "The building block of nucleic acids: a sugar, a phosphate group and a nitrogenous base." },
-    { term: "Complementary base pairing", definition: "The rule that A pairs with T (or U in RNA) and G pairs with C, joined by hydrogen bonds." },
-    { term: "Semiconservative replication", definition: "Copying of DNA in which each new molecule has one original strand and one new strand." },
-    { term: "Transcription", definition: "Making an mRNA copy of a gene from a DNA template, in the nucleus." },
-    { term: "Translation", definition: "Using the sequence of codons in mRNA to join amino acids into a polypeptide at a ribosome." },
-    { term: "Codon", definition: "A group of three bases on mRNA that codes for one amino acid or a stop signal." },
-    { term: "Anticodon", definition: "A group of three bases on a tRNA molecule that pairs with a codon on mRNA." },
+    {
+      term: "Nucleotide",
+      definition:
+        "The building block of nucleic acids: a sugar, a phosphate group and a nitrogenous base.",
+    },
+    {
+      term: "Complementary base pairing",
+      definition:
+        "The rule that A pairs with T (or U in RNA) and G pairs with C, joined by hydrogen bonds.",
+    },
+    {
+      term: "Semiconservative replication",
+      definition:
+        "Copying of DNA in which each new molecule has one original strand and one new strand.",
+    },
+    {
+      term: "Transcription",
+      definition:
+        "Making an mRNA copy of a gene from a DNA template, in the nucleus.",
+    },
+    {
+      term: "Translation",
+      definition:
+        "Using the sequence of codons in mRNA to join amino acids into a polypeptide at a ribosome.",
+    },
+    {
+      term: "Codon",
+      definition:
+        "A group of three bases on mRNA that codes for one amino acid or a stop signal.",
+    },
+    {
+      term: "Anticodon",
+      definition:
+        "A group of three bases on a tRNA molecule that pairs with a codon on mRNA.",
+    },
   ],
   concepts: [
     {
       id: "bio9-u3-dna-structure-replication",
       title: "DNA structure, base pairing and replication",
-      skill: "Describe the double helix, apply base-pairing rules and explain semiconservative replication.",
+      skill:
+        "Describe the double helix, apply base-pairing rules and explain semiconservative replication.",
       lesson: {
         sections: [
           {
@@ -32,13 +66,25 @@ export const lesson31: Lesson = {
           },
         ],
         keyFormulas: [
-          { name: "Base pairing in DNA", statement: "A pairs with T; G pairs with C" },
-          { name: "Chargaff's rule", statement: "$\\%A = \\%T$ and $\\%G = \\%C$, so $\\%A + \\%G = 50\\%$" },
-          { name: "Molecules after n rounds", statement: "$2^n$ DNA molecules from one starting molecule" },
+          {
+            name: "Base pairing in DNA",
+            statement: "A pairs with T; G pairs with C",
+          },
+          {
+            name: "Chargaff's rule",
+            statement:
+              "$\\%A = \\%T$ and $\\%G = \\%C$, so $\\%A + \\%G = 50\\%$",
+          },
+          {
+            name: "Molecules after n rounds",
+            statement: "$2^n$ DNA molecules from one starting molecule",
+          },
         ],
         workedExample: {
-          problem: "One DNA strand reads 5'-ATGCCTA-3' (written here as ATGCCTA). Write the sequence of the complementary strand.",
-          solution: "Pair each base: A with T, T with A, G with C, C with G, C with G, T with A, A with T. The complementary strand is TACGGAT.",
+          problem:
+            "One DNA strand reads 5'-ATGCCTA-3' (written here as ATGCCTA). Write the sequence of the complementary strand.",
+          solution:
+            "Pair each base: A with T, T with A, G with C, C with G, C with G, T with A, A with T. The complementary strand is TACGGAT.",
         },
       },
       questions: [
@@ -59,13 +105,24 @@ export const lesson31: Lesson = {
           },
           markscheme: {
             principles: [
-              { kind: "principle", name: "Complementary base pairing", statement: "In DNA, A pairs with T and G pairs with C." },
+              {
+                kind: "principle",
+                name: "Complementary base pairing",
+                statement: "In DNA, A pairs with T and G pairs with C.",
+              },
             ],
             steps: [
-              { reasoning: "Guanine forms three hydrogen bonds with cytosine.", marks: 1, markCode: "B" },
+              {
+                reasoning: "Guanine forms three hydrogen bonds with cytosine.",
+                marks: 1,
+                markCode: "B",
+              },
             ],
             finalAnswer: "**(d)** Cytosine",
-            commonErrors: ["Choosing thymine, which pairs with adenine.", "Choosing uracil, which is found in RNA and pairs with adenine."],
+            commonErrors: [
+              "Choosing thymine, which pairs with adenine.",
+              "Choosing uracil, which is found in RNA and pairs with adenine.",
+            ],
             examinerNote: "B1 for cytosine.",
           },
         },
@@ -83,16 +140,41 @@ export const lesson31: Lesson = {
           },
           markscheme: {
             principles: [
-              { kind: "principle", name: "Chargaff's rule", statement: "In double-stranded DNA, %A = %T and %G = %C." },
+              {
+                kind: "principle",
+                name: "Chargaff's rule",
+                statement: "In double-stranded DNA, %A = %T and %G = %C.",
+              },
             ],
             steps: [
-              { reasoning: "A pairs with T, so the percentage of thymine equals the percentage of adenine.", working: "\\%T = \\%A = 30\\%", marks: 1, markCode: "B" },
-              { reasoning: "A and T together make 60%, so G and C share the remaining 40%.", working: "\\%G + \\%C = 100 - (30 + 30) = 40\\%", marks: 1, markCode: "M" },
-              { reasoning: "G pairs with C, so they are equal.", working: "\\%G = \\frac{40}{2} = 20\\%", marks: 1, markCode: "A" },
+              {
+                reasoning:
+                  "A pairs with T, so the percentage of thymine equals the percentage of adenine.",
+                working: "\\%T = \\%A = 30\\%",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                reasoning:
+                  "A and T together make 60%, so G and C share the remaining 40%.",
+                working: "\\%G + \\%C = 100 - (30 + 30) = 40\\%",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "G pairs with C, so they are equal.",
+                working: "\\%G = \\frac{40}{2} = 20\\%",
+                marks: 1,
+                markCode: "A",
+              },
             ],
             finalAnswer: "Thymine $30\\%$; guanine $20\\%$",
-            commonErrors: ["Giving guanine as 40% by forgetting that cytosine takes an equal share.", "Giving thymine as 70% (100 - 30)."],
-            examinerNote: "B1 thymine 30. M1 for 100 - 60 or 40 shared. A1 guanine 20. Allow ecf for guanine from an incorrect thymine value.",
+            commonErrors: [
+              "Giving guanine as 40% by forgetting that cytosine takes an equal share.",
+              "Giving thymine as 70% (100 - 30).",
+            ],
+            examinerNote:
+              "B1 thymine 30. M1 for 100 - 60 or 40 shared. A1 guanine 20. Allow ecf for guanine from an incorrect thymine value.",
           },
         },
         {
@@ -109,18 +191,55 @@ export const lesson31: Lesson = {
           },
           markscheme: {
             principles: [
-              { kind: "definition", name: "Semiconservative replication", statement: "Each new DNA molecule contains one original strand and one newly made strand." },
-              { kind: "formula", name: "Doubling", statement: "Number of molecules after n rounds $= 2^n$." },
+              {
+                kind: "definition",
+                name: "Semiconservative replication",
+                statement:
+                  "Each new DNA molecule contains one original strand and one newly made strand.",
+              },
+              {
+                kind: "formula",
+                name: "Doubling",
+                statement: "Number of molecules after n rounds $= 2^n$.",
+              },
             ],
             steps: [
-              { reasoning: "The number of molecules doubles in each round of replication.", working: "2^3", marks: 1, markCode: "M" },
-              { reasoning: "Evaluate.", working: "2^3 = 8", marks: 1, markCode: "A" },
-              { reasoning: "Original strands are never broken up or copied again as whole molecules. Each of the two original strands stays in one molecule, paired with a new strand.", marks: 1, markCode: "M" },
-              { reasoning: "Two original strands end up in two different molecules.", working: "2", marks: 1, markCode: "A" },
+              {
+                reasoning:
+                  "The number of molecules doubles in each round of replication.",
+                working: "2^3",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Evaluate.",
+                working: "2^3 = 8",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                reasoning:
+                  "Original strands are never broken up or copied again as whole molecules. Each of the two original strands stays in one molecule, paired with a new strand.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Two original strands end up in two different molecules.",
+                working: "2",
+                marks: 1,
+                markCode: "A",
+              },
             ],
-            finalAnswer: "8 DNA molecules in total; 2 of them contain an original strand.",
-            commonErrors: ["Answering 6 (2 x 3) for the total.", "Answering 8 for the second part by thinking all copies keep an original strand.", "Answering 1 for the second part."],
-            examinerNote: "M1 for 2 cubed or doubling three times. A1 for 8. M1 for each original strand ending up in one molecule. A1 for 2. Allow ecf for the second part only if the explanation is semiconservative.",
+            finalAnswer:
+              "8 DNA molecules in total; 2 of them contain an original strand.",
+            commonErrors: [
+              "Answering 6 (2 x 3) for the total.",
+              "Answering 8 for the second part by thinking all copies keep an original strand.",
+              "Answering 1 for the second part.",
+            ],
+            examinerNote:
+              "M1 for 2 cubed or doubling three times. A1 for 8. M1 for each original strand ending up in one molecule. A1 for 2. Allow ecf for the second part only if the explanation is semiconservative.",
           },
         },
         {
@@ -129,30 +248,115 @@ export const lesson31: Lesson = {
           totalMarks: 8,
           stem: "A short section of the template strand of a DNA molecule has the base sequence TACCGATG.",
           parts: [
-            { label: "a", prompt: "Name the two types of molecule that alternate to form the backbone of a DNA strand.", marks: 1 },
-            { label: "b", prompt: "Write the sequence of the new strand that is built on this template during replication.", marks: 2 },
-            { label: "c", prompt: "A different section of this DNA has 20 base pairs, of which 6 are G-C pairs. Calculate the total number of hydrogen bonds holding this section together. A-T pairs have 2 hydrogen bonds and G-C pairs have 3.", marks: 2 },
-            { label: "d", prompt: "Explain the roles of helicase and DNA polymerase in DNA replication.", marks: 3 },
+            {
+              label: "a",
+              prompt:
+                "Name the two types of molecule that alternate to form the backbone of a DNA strand.",
+              marks: 1,
+            },
+            {
+              label: "b",
+              prompt:
+                "Write the sequence of the new strand that is built on this template during replication.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt:
+                "A different section of this DNA has 20 base pairs, of which 6 are G-C pairs. Calculate the total number of hydrogen bonds holding this section together. A-T pairs have 2 hydrogen bonds and G-C pairs have 3.",
+              marks: 2,
+            },
+            {
+              label: "d",
+              prompt:
+                "Explain the roles of helicase and DNA polymerase in DNA replication.",
+              marks: 3,
+            },
           ],
           response: { type: "open" },
           markscheme: {
             principles: [
-              { kind: "principle", name: "Complementary base pairing", statement: "A pairs with T; G pairs with C." },
-              { kind: "definition", name: "Replication enzymes", statement: "Helicase unwinds and separates the strands; DNA polymerase joins nucleotides to form the new strand." },
+              {
+                kind: "principle",
+                name: "Complementary base pairing",
+                statement: "A pairs with T; G pairs with C.",
+              },
+              {
+                kind: "definition",
+                name: "Replication enzymes",
+                statement:
+                  "Helicase unwinds and separates the strands; DNA polymerase joins nucleotides to form the new strand.",
+              },
             ],
             steps: [
-              { part: "a", reasoning: "The backbone is a repeating chain of deoxyribose sugar and phosphate groups.", marks: 1, markCode: "B" },
-              { part: "b", reasoning: "Pair each template base with its complement: T-A, A-T, C-G, C-G, G-C, A-T, T-A, G-C.", marks: 1, markCode: "M" },
-              { part: "b", reasoning: "Write the new strand.", working: "\\text{ATGGCTAC}", marks: 1, markCode: "A" },
-              { part: "c", reasoning: "14 pairs are A-T (20 - 6). Add the bonds from each type of pair.", working: "14\\times2 + 6\\times3 = 28 + 18", marks: 1, markCode: "M" },
-              { part: "c", reasoning: "Evaluate.", working: "46\\text{ hydrogen bonds}", marks: 1, markCode: "A" },
-              { part: "d", reasoning: "Helicase unwinds the double helix and breaks the hydrogen bonds between the bases, separating the two strands.", marks: 1, markCode: "B" },
-              { part: "d", reasoning: "Each separated strand acts as a template, and free nucleotides pair with the exposed bases by complementary base pairing.", marks: 1, markCode: "B" },
-              { part: "d", reasoning: "DNA polymerase joins the nucleotides together into a new strand, so each new molecule has one old and one new strand.", marks: 1, markCode: "B" },
+              {
+                part: "a",
+                reasoning:
+                  "The backbone is a repeating chain of deoxyribose sugar and phosphate groups.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Pair each template base with its complement: T-A, A-T, C-G, C-G, G-C, A-T, T-A, G-C.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning: "Write the new strand.",
+                working: "\\text{ATGGCTAC}",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "14 pairs are A-T (20 - 6). Add the bonds from each type of pair.",
+                working: "14\\times2 + 6\\times3 = 28 + 18",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "c",
+                reasoning: "Evaluate.",
+                working: "46\\text{ hydrogen bonds}",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "Helicase unwinds the double helix and breaks the hydrogen bonds between the bases, separating the two strands.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "Each separated strand acts as a template, and free nucleotides pair with the exposed bases by complementary base pairing.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "DNA polymerase joins the nucleotides together into a new strand, so each new molecule has one old and one new strand.",
+                marks: 1,
+                markCode: "B",
+              },
             ],
-            finalAnswer: "(a) Deoxyribose (sugar) and phosphate (b) ATGGCTAC (c) 46 hydrogen bonds (d) Helicase unwinds and separates the strands; the strands act as templates; DNA polymerase joins complementary nucleotides to make the new strands.",
-            commonErrors: ["In (b) using U instead of T; uracil is only in RNA.", "In (b) writing the template sequence again or reversing the new strand.", "In (c) using 20 x 2 or counting only the G-C pairs.", "In (d) saying helicase breaks the covalent bonds in the backbone."],
-            examinerNote: "(a) Both needed. Allow sugar and phosphate. (b) M1 for at least 6 bases correct, A1 for all 8. (c) Allow ecf for A1 if 14 and 6 are used correctly. (d) Reject 'DNA polymerase unzips the DNA'.",
+            finalAnswer:
+              "(a) Deoxyribose (sugar) and phosphate (b) ATGGCTAC (c) 46 hydrogen bonds (d) Helicase unwinds and separates the strands; the strands act as templates; DNA polymerase joins complementary nucleotides to make the new strands.",
+            commonErrors: [
+              "In (b) using U instead of T; uracil is only in RNA.",
+              "In (b) writing the template sequence again or reversing the new strand.",
+              "In (c) using 20 x 2 or counting only the G-C pairs.",
+              "In (d) saying helicase breaks the covalent bonds in the backbone.",
+            ],
+            examinerNote:
+              "(a) Both needed. Allow sugar and phosphate. (b) M1 for at least 6 bases correct, A1 for all 8. (c) Allow ecf for A1 if 14 and 6 are used correctly. (d) Reject 'DNA polymerase unzips the DNA'.",
           },
         },
       ],
@@ -160,7 +364,8 @@ export const lesson31: Lesson = {
     {
       id: "bio9-u3-transcription-translation",
       title: "Transcription, translation and the genetic code",
-      skill: "Convert a DNA template into mRNA, and use a codon table to determine the amino acid sequence.",
+      skill:
+        "Convert a DNA template into mRNA, and use a codon table to determine the amino acid sequence.",
       lesson: {
         sections: [
           {
@@ -173,13 +378,23 @@ export const lesson31: Lesson = {
           },
         ],
         keyFormulas: [
-          { name: "DNA to mRNA", statement: "A to U, T to A, G to C, C to G (template strand to mRNA)" },
+          {
+            name: "DNA to mRNA",
+            statement:
+              "A to U, T to A, G to C, C to G (template strand to mRNA)",
+          },
           { name: "Codon", statement: "3 mRNA bases = 1 amino acid (or stop)" },
-          { name: "Gene length", statement: "bases in coding sequence $= 3 \\times (\\text{amino acids} + 1)$ including the stop codon" },
+          {
+            name: "Gene length",
+            statement:
+              "bases in coding sequence $= 3 \\times (\\text{amino acids} + 1)$ including the stop codon",
+          },
         ],
         workedExample: {
-          problem: "The DNA template strand reads TAC TTT ATT. Find the mRNA and the amino acids. Use: AUG = Met, AAA = Lys, UAA = stop.",
-          solution: "Transcribe: T to A, A to U, C to G gives AUG; T to A, T to A, T to A gives AAA; A to U, T to A, T to A gives UAA. The mRNA is AUG AAA UAA. Translate: Met, Lys, then stop. The polypeptide is Met-Lys.",
+          problem:
+            "The DNA template strand reads TAC TTT ATT. Find the mRNA and the amino acids. Use: AUG = Met, AAA = Lys, UAA = stop.",
+          solution:
+            "Transcribe: T to A, A to U, C to G gives AUG; T to A, T to A, T to A gives AAA; A to U, T to A, T to A gives UAA. The mRNA is AUG AAA UAA. Translate: Met, Lys, then stop. The polypeptide is Met-Lys.",
         },
       },
       questions: [
@@ -200,13 +415,25 @@ export const lesson31: Lesson = {
           },
           markscheme: {
             principles: [
-              { kind: "definition", name: "Translation", statement: "Translation is the synthesis of a polypeptide at a ribosome, using the order of codons on mRNA." },
+              {
+                kind: "definition",
+                name: "Translation",
+                statement:
+                  "Translation is the synthesis of a polypeptide at a ribosome, using the order of codons on mRNA.",
+              },
             ],
             steps: [
-              { reasoning: "Ribosomes read the mRNA and join amino acids together.", marks: 1, markCode: "B" },
+              {
+                reasoning:
+                  "Ribosomes read the mRNA and join amino acids together.",
+                marks: 1,
+                markCode: "B",
+              },
             ],
             finalAnswer: "**(b)** Ribosome",
-            commonErrors: ["Choosing the nucleus, where transcription (not translation) takes place."],
+            commonErrors: [
+              "Choosing the nucleus, where transcription (not translation) takes place.",
+            ],
             examinerNote: "B1 for ribosome.",
           },
         },
@@ -218,17 +445,46 @@ export const lesson31: Lesson = {
           response: { type: "open" },
           markscheme: {
             principles: [
-              { kind: "principle", name: "Transcription pairing", statement: "DNA template A, T, G, C pairs with RNA U, A, C, G." },
-              { kind: "definition", name: "Codon", statement: "Each codon of three mRNA bases codes for one amino acid." },
+              {
+                kind: "principle",
+                name: "Transcription pairing",
+                statement: "DNA template A, T, G, C pairs with RNA U, A, C, G.",
+              },
+              {
+                kind: "definition",
+                name: "Codon",
+                statement:
+                  "Each codon of three mRNA bases codes for one amino acid.",
+              },
             ],
             steps: [
-              { reasoning: "Transcribe each template base: T to A, A to U, C to G; C to G, G to C, G to C; T to A, T to A, T to A.", working: "\\text{AUG GCC AAA}", marks: 1, markCode: "M" },
-              { reasoning: "Split into codons and read the table: AUG is Met, GCC is Ala, AAA is Lys.", marks: 1, markCode: "B" },
-              { reasoning: "State the amino acid sequence in order.", working: "\\text{Met-Ala-Lys}", marks: 1, markCode: "A" },
+              {
+                reasoning:
+                  "Transcribe each template base: T to A, A to U, C to G; C to G, G to C, G to C; T to A, T to A, T to A.",
+                working: "\\text{AUG GCC AAA}",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Split into codons and read the table: AUG is Met, GCC is Ala, AAA is Lys.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                reasoning: "State the amino acid sequence in order.",
+                working: "\\text{Met-Ala-Lys}",
+                marks: 1,
+                markCode: "A",
+              },
             ],
             finalAnswer: "mRNA: AUG GCC AAA; amino acids: Met-Ala-Lys",
-            commonErrors: ["Writing T in the mRNA instead of U (mRNA contains uracil).", "Reading the DNA template directly as codons instead of transcribing first."],
-            examinerNote: "M1 for correct mRNA. B1 for correct use of the table. A1 for Met-Ala-Lys. Allow ecf for amino acids from an incorrect mRNA if codons are in the table.",
+            commonErrors: [
+              "Writing T in the mRNA instead of U (mRNA contains uracil).",
+              "Reading the DNA template directly as codons instead of transcribing first.",
+            ],
+            examinerNote:
+              "M1 for correct mRNA. B1 for correct use of the table. A1 for Met-Ala-Lys. Allow ecf for amino acids from an incorrect mRNA if codons are in the table.",
           },
         },
         {
@@ -245,17 +501,47 @@ export const lesson31: Lesson = {
           },
           markscheme: {
             principles: [
-              { kind: "definition", name: "Genetic code", statement: "Three bases make one codon; each codon codes for one amino acid or a stop signal." },
+              {
+                kind: "definition",
+                name: "Genetic code",
+                statement:
+                  "Three bases make one codon; each codon codes for one amino acid or a stop signal.",
+              },
             ],
             steps: [
-              { reasoning: "There is one codon for each amino acid plus one stop codon.", working: "150 + 1", marks: 1, markCode: "M" },
-              { reasoning: "Evaluate.", working: "151\\text{ codons}", marks: 1, markCode: "A" },
-              { reasoning: "Each codon has three bases.", working: "151\\times3", marks: 1, markCode: "M" },
-              { reasoning: "Evaluate.", working: "453\\text{ bases}", marks: 1, markCode: "A" },
+              {
+                reasoning:
+                  "There is one codon for each amino acid plus one stop codon.",
+                working: "150 + 1",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Evaluate.",
+                working: "151\\text{ codons}",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                reasoning: "Each codon has three bases.",
+                working: "151\\times3",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Evaluate.",
+                working: "453\\text{ bases}",
+                marks: 1,
+                markCode: "A",
+              },
             ],
             finalAnswer: "151 codons; 453 bases",
-            commonErrors: ["Giving 450 bases by forgetting the stop codon.", "Dividing by 3 instead of multiplying."],
-            examinerNote: "M1 for 150 + 1. A1 151. M1 for x 3. A1 453. Allow ecf from 150 codons (450 bases) for M1 on the second part only.",
+            commonErrors: [
+              "Giving 450 bases by forgetting the stop codon.",
+              "Dividing by 3 instead of multiplying.",
+            ],
+            examinerNote:
+              "M1 for 150 + 1. A1 151. M1 for x 3. A1 453. Allow ecf from 150 codons (450 bases) for M1 on the second part only.",
           },
         },
         {
@@ -264,32 +550,127 @@ export const lesson31: Lesson = {
           totalMarks: 9,
           stem: "Sickle cell disease is caused by a change in the gene for one chain of hemoglobin. In the normal gene, the template strand has the triplet CTC at one position. In the sickle cell gene, the triplet is CAC.\n\nUse this partial codon table: GAG = Glu (glutamic acid); GUG = Val (valine).",
           parts: [
-            { label: "a", prompt: "Give the mRNA codon transcribed from the normal triplet CTC.", marks: 1 },
-            { label: "b", prompt: "Give the mRNA codon transcribed from the sickle cell triplet CAC and the amino acid it codes for.", marks: 2 },
-            { label: "c", prompt: "Name the type of mutation shown by the change from CTC to CAC.", marks: 1 },
-            { label: "d", prompt: "Explain how this single change can alter the function of hemoglobin.", marks: 2 },
-            { label: "e", prompt: "Compare where transcription and translation take place, and name the type of RNA that carries amino acids to the ribosome.", marks: 3 },
+            {
+              label: "a",
+              prompt:
+                "Give the mRNA codon transcribed from the normal triplet CTC.",
+              marks: 1,
+            },
+            {
+              label: "b",
+              prompt:
+                "Give the mRNA codon transcribed from the sickle cell triplet CAC and the amino acid it codes for.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt:
+                "Name the type of mutation shown by the change from CTC to CAC.",
+              marks: 1,
+            },
+            {
+              label: "d",
+              prompt:
+                "Explain how this single change can alter the function of hemoglobin.",
+              marks: 2,
+            },
+            {
+              label: "e",
+              prompt:
+                "Compare where transcription and translation take place, and name the type of RNA that carries amino acids to the ribosome.",
+              marks: 3,
+            },
           ],
           response: { type: "open" },
           markscheme: {
             principles: [
-              { kind: "principle", name: "Transcription pairing", statement: "DNA template C pairs with RNA G; T with A; A with U; G with C." },
-              { kind: "principle", name: "Gene to trait", statement: "DNA base sequence determines mRNA codons, amino acid order, protein shape and function." },
+              {
+                kind: "principle",
+                name: "Transcription pairing",
+                statement:
+                  "DNA template C pairs with RNA G; T with A; A with U; G with C.",
+              },
+              {
+                kind: "principle",
+                name: "Gene to trait",
+                statement:
+                  "DNA base sequence determines mRNA codons, amino acid order, protein shape and function.",
+              },
             ],
             steps: [
-              { part: "a", reasoning: "Transcribe CTC: C to G, T to A, C to G.", working: "\\text{GAG}", marks: 1, markCode: "B" },
-              { part: "b", reasoning: "Transcribe CAC: C to G, A to U, C to G.", working: "\\text{GUG}", marks: 1, markCode: "M" },
-              { part: "b", reasoning: "GUG codes for valine, in place of glutamic acid.", working: "\\text{Val}", marks: 1, markCode: "A" },
-              { part: "c", reasoning: "One base is replaced by another: a substitution (point mutation).", marks: 1, markCode: "B" },
-              { part: "d", reasoning: "A different amino acid is placed in the chain, which changes how the polypeptide folds and its shape.", marks: 1, markCode: "B" },
-              { part: "d", reasoning: "A protein with a different shape cannot function normally (the abnormal hemoglobin forms fibers and distorts red blood cells).", marks: 1, markCode: "R" },
-              { part: "e", reasoning: "Transcription takes place in the nucleus, where the DNA is.", marks: 1, markCode: "B" },
-              { part: "e", reasoning: "Translation takes place at ribosomes in the cytoplasm.", marks: 1, markCode: "B" },
-              { part: "e", reasoning: "Transfer RNA (tRNA) carries amino acids to the ribosome.", marks: 1, markCode: "B" },
+              {
+                part: "a",
+                reasoning: "Transcribe CTC: C to G, T to A, C to G.",
+                working: "\\text{GAG}",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                part: "b",
+                reasoning: "Transcribe CAC: C to G, A to U, C to G.",
+                working: "\\text{GUG}",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning: "GUG codes for valine, in place of glutamic acid.",
+                working: "\\text{Val}",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "One base is replaced by another: a substitution (point mutation).",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "A different amino acid is placed in the chain, which changes how the polypeptide folds and its shape.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "A protein with a different shape cannot function normally (the abnormal hemoglobin forms fibers and distorts red blood cells).",
+                marks: 1,
+                markCode: "R",
+              },
+              {
+                part: "e",
+                reasoning:
+                  "Transcription takes place in the nucleus, where the DNA is.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                part: "e",
+                reasoning:
+                  "Translation takes place at ribosomes in the cytoplasm.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                part: "e",
+                reasoning:
+                  "Transfer RNA (tRNA) carries amino acids to the ribosome.",
+                marks: 1,
+                markCode: "B",
+              },
             ],
-            finalAnswer: "(a) GAG (b) GUG; valine (c) Substitution (point) mutation (d) Different amino acid changes the folding and shape of the protein, so it cannot work normally (e) Transcription in the nucleus; translation at ribosomes in the cytoplasm; tRNA carries amino acids.",
-            commonErrors: ["In (b) writing the DNA complement GTG instead of the mRNA codon GUG (mRNA has no thymine).", "In (c) calling it a deletion or insertion.", "In (e) saying translation happens in the nucleus."],
-            examinerNote: "(a) Allow GAG only. (b) M1 GUG, A1 valine (ecf from their codon). (c) Allow point mutation or base substitution. (e) Allow ribosomes in the cytoplasm or on rough ER. Reject mRNA for the last mark.",
+            finalAnswer:
+              "(a) GAG (b) GUG; valine (c) Substitution (point) mutation (d) Different amino acid changes the folding and shape of the protein, so it cannot work normally (e) Transcription in the nucleus; translation at ribosomes in the cytoplasm; tRNA carries amino acids.",
+            commonErrors: [
+              "In (b) writing the DNA complement GTG instead of the mRNA codon GUG (mRNA has no thymine).",
+              "In (c) calling it a deletion or insertion.",
+              "In (e) saying translation happens in the nucleus.",
+            ],
+            examinerNote:
+              "(a) Allow GAG only. (b) M1 GUG, A1 valine (ecf from their codon). (c) Allow point mutation or base substitution. (e) Allow ribosomes in the cytoplasm or on rough ER. Reject mRNA for the last mark.",
           },
         },
       ],

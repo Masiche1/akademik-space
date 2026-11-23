@@ -2,6 +2,9 @@ import type { Course } from "../../types.ts";
 import { unit1 } from "./unit-1/index.ts";
 import { unit2 } from "./unit-2/index.ts";
 import { unit3 } from "./unit-3/index.ts";
+import { unit4 } from "./unit-4/index.ts";
+import { unit5 } from "./unit-5/index.ts";
+import { unit6 } from "./unit-6/index.ts";
 
 export const edxPrimaryScienceY3: Course = {
   id: "edx-primary-science-y3",
@@ -12,5 +15,5 @@ export const edxPrimaryScienceY3: Course = {
   description:
     "Year 3 Science: classification, life cycles, habitats and food chains, the human body and plants, materials and state changes, magnets and forces, sound, and Earth and space.",
   edexcel: { stage: "primary", subject: "science", year: 3 },
-  units: [unit1, unit2, unit3],
+  units: [unit1, unit2, unit3, unit4, unit5, unit6],
 };

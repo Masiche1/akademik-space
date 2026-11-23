@@ -2,6 +2,11 @@ import type { Unit } from "../../../types.ts";
 import { lesson211 } from "./lesson-2-1.ts";
 import { lesson212 } from "./lesson-2-2.ts";
 import { lesson213 } from "./lesson-2-3.ts";
+import { exam21 } from "./lesson-2-x1.ts";
+import { exam22 } from "./lesson-2-x2.ts";
+import { exam23 } from "./lesson-2-x3.ts";
+import { exam24 } from "./lesson-2-x4.ts";
+import { exam25 } from "./lesson-2-x5.ts";
 
 export const unit2: Unit = {
   id: "edps5-u2",
@@ -9,5 +14,5 @@ export const unit2: Unit = {
   title: "The Human Body: Nutrition, Movement and Systems",
   description:
     "Balanced diet and nutrients, teeth and digestion, skeleton and muscles, circulation, breathing and the nervous system.",
-  lessons: [lesson211, lesson212, lesson213],
+  lessons: [lesson211, lesson212, lesson213, exam21, exam22, exam23, exam24, exam25],
 };

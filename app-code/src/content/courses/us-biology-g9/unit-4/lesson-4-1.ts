@@ -5,21 +5,56 @@ export const lesson41: Lesson = {
   code: "4-1",
   title: "Evidence for Evolution",
   goal: "I CAN use fossils, comparative anatomy, DNA and protein evidence and cladograms to support common ancestry, and explain how natural selection changes populations over time.",
-  standards: ["HS-LS4-1", "HS-LS4-2", "HS-LS4-3", "SEP: Engaging in Argument from Evidence", "CCC: Patterns"],
+  standards: [
+    "HS-LS4-1",
+    "HS-LS4-2",
+    "HS-LS4-3",
+    "SEP: Engaging in Argument from Evidence",
+    "CCC: Patterns",
+  ],
   vocabulary: [
-    { term: "Common ancestor", definition: "A species from which two or more different species have descended." },
-    { term: "Homologous structures", definition: "Body parts in different species that share the same underlying structure because they were inherited from a common ancestor, even if they now do different jobs." },
-    { term: "Cladogram", definition: "A branching diagram that shows evolutionary relationships based on shared derived characters." },
-    { term: "Natural selection", definition: "The process in which individuals with heritable traits that suit their environment survive and reproduce more than others, so those traits become more common." },
-    { term: "Heritable variation", definition: "Differences between individuals in a population that are caused by alleles and can be passed on to offspring." },
-    { term: "Fitness", definition: "How many fertile offspring an individual leaves in the next generation compared with others in the population." },
-    { term: "Fossil record", definition: "The ordered collection of preserved remains and traces of organisms found in rock layers." },
+    {
+      term: "Common ancestor",
+      definition:
+        "A species from which two or more different species have descended.",
+    },
+    {
+      term: "Homologous structures",
+      definition:
+        "Body parts in different species that share the same underlying structure because they were inherited from a common ancestor, even if they now do different jobs.",
+    },
+    {
+      term: "Cladogram",
+      definition:
+        "A branching diagram that shows evolutionary relationships based on shared derived characters.",
+    },
+    {
+      term: "Natural selection",
+      definition:
+        "The process in which individuals with heritable traits that suit their environment survive and reproduce more than others, so those traits become more common.",
+    },
+    {
+      term: "Heritable variation",
+      definition:
+        "Differences between individuals in a population that are caused by alleles and can be passed on to offspring.",
+    },
+    {
+      term: "Fitness",
+      definition:
+        "How many fertile offspring an individual leaves in the next generation compared with others in the population.",
+    },
+    {
+      term: "Fossil record",
+      definition:
+        "The ordered collection of preserved remains and traces of organisms found in rock layers.",
+    },
   ],
   concepts: [
     {
       id: "bio9-u4-common-ancestry",
       title: "Evidence for common ancestry",
-      skill: "Use fossils, comparative anatomy, DNA and protein sequences, and cladograms to infer evolutionary relationships.",
+      skill:
+        "Use fossils, comparative anatomy, DNA and protein sequences, and cladograms to infer evolutionary relationships.",
       lesson: {
         sections: [
           {
@@ -36,13 +71,27 @@ export const lesson41: Lesson = {
           },
         ],
         keyFormulas: [
-          { name: "Molecular clock idea", statement: "Fewer sequence differences $\\Rightarrow$ more recent common ancestor" },
-          { name: "Homologous structures", statement: "Same structure, inherited from a common ancestor, possibly different function" },
-          { name: "Cladogram node", statement: "A branch point = most recent common ancestor of the groups above it" },
+          {
+            name: "Molecular clock idea",
+            statement:
+              "Fewer sequence differences $\\Rightarrow$ more recent common ancestor",
+          },
+          {
+            name: "Homologous structures",
+            statement:
+              "Same structure, inherited from a common ancestor, possibly different function",
+          },
+          {
+            name: "Cladogram node",
+            statement:
+              "A branch point = most recent common ancestor of the groups above it",
+          },
         ],
         workedExample: {
-          problem: "A protein has 0 amino acid differences between humans and chimpanzees, 12 between humans and cows, and 25 between humans and frogs. Rank the species by how closely related they are to humans, and explain.",
-          solution: "Fewer differences means a more recent common ancestor, so the ranking from most to least closely related is chimpanzee (0), cow (12), frog (25). Mutations build up in each lineage after the split, so the frog lineage, with the most differences, split from the human lineage longest ago.",
+          problem:
+            "A protein has 0 amino acid differences between humans and chimpanzees, 12 between humans and cows, and 25 between humans and frogs. Rank the species by how closely related they are to humans, and explain.",
+          solution:
+            "Fewer differences means a more recent common ancestor, so the ranking from most to least closely related is chimpanzee (0), cow (12), frog (25). Mutations build up in each lineage after the split, so the frog lineage, with the most differences, split from the human lineage longest ago.",
         },
       },
       questions: [
@@ -63,13 +112,25 @@ export const lesson41: Lesson = {
           },
           markscheme: {
             principles: [
-              { kind: "principle", name: "Molecular evidence", statement: "The more similar the DNA sequences of two species, the more recently they shared a common ancestor." },
+              {
+                kind: "principle",
+                name: "Molecular evidence",
+                statement:
+                  "The more similar the DNA sequences of two species, the more recently they shared a common ancestor.",
+              },
             ],
             steps: [
-              { reasoning: "Mutations accumulate after a split, so highly similar DNA indicates a recent split. Habitat, size and diet can be similar in unrelated species through convergent evolution.", marks: 1, markCode: "B" },
+              {
+                reasoning:
+                  "Mutations accumulate after a split, so highly similar DNA indicates a recent split. Habitat, size and diet can be similar in unrelated species through convergent evolution.",
+                marks: 1,
+                markCode: "B",
+              },
             ],
             finalAnswer: "**(a)** Their DNA sequences are very similar.",
-            commonErrors: ["Choosing a shared habitat or similar body size, which unrelated species can also share."],
+            commonErrors: [
+              "Choosing a shared habitat or similar body size, which unrelated species can also share.",
+            ],
             examinerNote: "B1 for DNA sequence similarity.",
           },
         },
@@ -81,16 +142,41 @@ export const lesson41: Lesson = {
           response: { type: "open" },
           markscheme: {
             principles: [
-              { kind: "definition", name: "Homologous structures", statement: "Homologous structures share the same underlying structure because they were inherited from a common ancestor." },
+              {
+                kind: "definition",
+                name: "Homologous structures",
+                statement:
+                  "Homologous structures share the same underlying structure because they were inherited from a common ancestor.",
+              },
             ],
             steps: [
-              { reasoning: "The limbs have the same basic bone pattern (one upper bone, two lower bones, wrist and finger bones) despite different functions.", marks: 1, markCode: "B" },
-              { reasoning: "The best explanation is that these species inherited the pattern from a common ancestor (homologous structures).", marks: 1, markCode: "B" },
-              { reasoning: "Over time natural selection modified the limbs for different functions in different environments (divergent evolution).", marks: 1, markCode: "B" },
+              {
+                reasoning:
+                  "The limbs have the same basic bone pattern (one upper bone, two lower bones, wrist and finger bones) despite different functions.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                reasoning:
+                  "The best explanation is that these species inherited the pattern from a common ancestor (homologous structures).",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                reasoning:
+                  "Over time natural selection modified the limbs for different functions in different environments (divergent evolution).",
+                marks: 1,
+                markCode: "B",
+              },
             ],
-            finalAnswer: "Same bone arrangement in all three, inherited from a common ancestor, modified by natural selection for different uses.",
-            commonErrors: ["Saying the limbs are similar because they do the same job; they do different jobs.", "Saying one species evolved from another living species."],
-            examinerNote: "B1 same structure / bone pattern. B1 inherited from a common ancestor. B1 modified for different functions by selection. Allow 'homologous'. Reject 'whales evolved from bats'.",
+            finalAnswer:
+              "Same bone arrangement in all three, inherited from a common ancestor, modified by natural selection for different uses.",
+            commonErrors: [
+              "Saying the limbs are similar because they do the same job; they do different jobs.",
+              "Saying one species evolved from another living species.",
+            ],
+            examinerNote:
+              "B1 same structure / bone pattern. B1 inherited from a common ancestor. B1 modified for different functions by selection. Allow 'homologous'. Reject 'whales evolved from bats'.",
           },
         },
         {
@@ -101,17 +187,47 @@ export const lesson41: Lesson = {
           response: { type: "open" },
           markscheme: {
             principles: [
-              { kind: "principle", name: "Molecular clock", statement: "Differences in sequences accumulate over time, so fewer differences mean a more recent common ancestor." },
+              {
+                kind: "principle",
+                name: "Molecular clock",
+                statement:
+                  "Differences in sequences accumulate over time, so fewer differences mean a more recent common ancestor.",
+              },
             ],
             steps: [
-              { reasoning: "The chimpanzee (0 differences) and the rhesus monkey (1 difference) are most closely related to humans.", marks: 1, markCode: "B" },
-              { reasoning: "Fewer differences means fewer mutations have accumulated since the lineages split.", marks: 1, markCode: "B" },
-              { reasoning: "Therefore these species share a more recent common ancestor with humans.", marks: 1, markCode: "B" },
-              { reasoning: "The dog (10) is more closely related to humans than the chicken (13), because it has fewer differences, so its lineage split more recently.", marks: 1, markCode: "R" },
+              {
+                reasoning:
+                  "The chimpanzee (0 differences) and the rhesus monkey (1 difference) are most closely related to humans.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                reasoning:
+                  "Fewer differences means fewer mutations have accumulated since the lineages split.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                reasoning:
+                  "Therefore these species share a more recent common ancestor with humans.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                reasoning:
+                  "The dog (10) is more closely related to humans than the chicken (13), because it has fewer differences, so its lineage split more recently.",
+                marks: 1,
+                markCode: "R",
+              },
             ],
-            finalAnswer: "Chimpanzee and rhesus monkey are closest; fewer differences means fewer accumulated mutations and a more recent common ancestor; dog is more closely related than chicken (10 < 13).",
-            commonErrors: ["Saying the dog and chicken are 'not related'; all share an ancestor, only further back.", "Reversing the relationship: more differences means more distant, not closer."],
-            examinerNote: "B1 chimpanzee and monkey identified. B1 fewer differences = fewer mutations (oe). B1 more recent common ancestor. R1 dog closer than chicken with data support. Allow 'less time since they diverged'.",
+            finalAnswer:
+              "Chimpanzee and rhesus monkey are closest; fewer differences means fewer accumulated mutations and a more recent common ancestor; dog is more closely related than chicken (10 < 13).",
+            commonErrors: [
+              "Saying the dog and chicken are 'not related'; all share an ancestor, only further back.",
+              "Reversing the relationship: more differences means more distant, not closer.",
+            ],
+            examinerNote:
+              "B1 chimpanzee and monkey identified. B1 fewer differences = fewer mutations (oe). B1 more recent common ancestor. R1 dog closer than chicken with data support. Allow 'less time since they diverged'.",
           },
         },
         {
@@ -120,30 +236,111 @@ export const lesson41: Lesson = {
           totalMarks: 8,
           stem: "A cladogram of five animals shows the following branching pattern.\n\n- The lamprey branches off first and has no jaws.\n- All the other animals have jaws. The shark branches off next.\n- All the remaining animals have four limbs. The salamander branches off next.\n- The lizard and the mouse share an amniotic egg. They then split, and only the mouse lineage evolves hair.",
           parts: [
-            { label: "a", prompt: "State which animal's lineage branched off first.", marks: 1 },
-            { label: "b", prompt: "Identify a shared derived character found in the lizard and the mouse but not in the salamander, and explain why the cladogram places it where it does.", marks: 2 },
-            { label: "c", prompt: "Decide whether the mouse is more closely related to the lizard or to the shark. Justify your answer.", marks: 2 },
-            { label: "d", prompt: "A student claims that the cladogram shows the mouse evolved from the lizard. Evaluate this claim.", marks: 3 },
+            {
+              label: "a",
+              prompt: "State which animal's lineage branched off first.",
+              marks: 1,
+            },
+            {
+              label: "b",
+              prompt:
+                "Identify a shared derived character found in the lizard and the mouse but not in the salamander, and explain why the cladogram places it where it does.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt:
+                "Decide whether the mouse is more closely related to the lizard or to the shark. Justify your answer.",
+              marks: 2,
+            },
+            {
+              label: "d",
+              prompt:
+                "A student claims that the cladogram shows the mouse evolved from the lizard. Evaluate this claim.",
+              marks: 3,
+            },
           ],
           response: { type: "open" },
           markscheme: {
             principles: [
-              { kind: "definition", name: "Cladogram", statement: "A cladogram shows branching relationships. Each node is the most recent common ancestor of the groups above it." },
-              { kind: "principle", name: "Shared derived characters", statement: "A trait that first appears in a common ancestor is shared by all its descendants." },
+              {
+                kind: "definition",
+                name: "Cladogram",
+                statement:
+                  "A cladogram shows branching relationships. Each node is the most recent common ancestor of the groups above it.",
+              },
+              {
+                kind: "principle",
+                name: "Shared derived characters",
+                statement:
+                  "A trait that first appears in a common ancestor is shared by all its descendants.",
+              },
             ],
             steps: [
-              { part: "a", reasoning: "The lamprey is the first branch, so its lineage separated earliest.", marks: 1, markCode: "B" },
-              { part: "b", reasoning: "The amniotic egg is shared by the lizard and the mouse but absent in the salamander.", marks: 1, markCode: "B" },
-              { part: "b", reasoning: "It appeared once in their most recent common ancestor and was inherited by both lineages.", marks: 1, markCode: "R" },
-              { part: "c", reasoning: "The mouse is more closely related to the lizard.", marks: 1, markCode: "B" },
-              { part: "c", reasoning: "Their most recent common ancestor (node) is more recent than the node shared with the shark.", marks: 1, markCode: "R" },
-              { part: "d", reasoning: "The claim is incorrect: the lizard and the mouse are on separate branches from a node.", marks: 1, markCode: "R" },
-              { part: "d", reasoning: "They share a common ancestor that was neither a modern lizard nor a modern mouse.", marks: 1, markCode: "B" },
-              { part: "d", reasoning: "Both lineages have evolved for the same amount of time since the split, so neither is the ancestor of the other.", marks: 1, markCode: "R" },
+              {
+                part: "a",
+                reasoning:
+                  "The lamprey is the first branch, so its lineage separated earliest.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "The amniotic egg is shared by the lizard and the mouse but absent in the salamander.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "It appeared once in their most recent common ancestor and was inherited by both lineages.",
+                marks: 1,
+                markCode: "R",
+              },
+              {
+                part: "c",
+                reasoning: "The mouse is more closely related to the lizard.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "Their most recent common ancestor (node) is more recent than the node shared with the shark.",
+                marks: 1,
+                markCode: "R",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "The claim is incorrect: the lizard and the mouse are on separate branches from a node.",
+                marks: 1,
+                markCode: "R",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "They share a common ancestor that was neither a modern lizard nor a modern mouse.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "Both lineages have evolved for the same amount of time since the split, so neither is the ancestor of the other.",
+                marks: 1,
+                markCode: "R",
+              },
             ],
-            finalAnswer: "(a) Lamprey (b) Amniotic egg, inherited from their common ancestor (c) Lizard, since their shared node is more recent (d) Claim is wrong; they split from a common ancestor and both lineages have continued evolving.",
-            commonErrors: ["Reading the cladogram as a ladder of progress.", "Saying the mouse descended from the lizard because they are next to each other."],
-            examinerNote: "(b) Reject hair, which appears only in the mouse lineage. (d) Allow 'they are sister groups' oe.",
+            finalAnswer:
+              "(a) Lamprey (b) Amniotic egg, inherited from their common ancestor (c) Lizard, since their shared node is more recent (d) Claim is wrong; they split from a common ancestor and both lineages have continued evolving.",
+            commonErrors: [
+              "Reading the cladogram as a ladder of progress.",
+              "Saying the mouse descended from the lizard because they are next to each other.",
+            ],
+            examinerNote:
+              "(b) Reject hair, which appears only in the mouse lineage. (d) Allow 'they are sister groups' oe.",
           },
         },
       ],
@@ -151,7 +348,8 @@ export const lesson41: Lesson = {
     {
       id: "bio9-u4-natural-selection",
       title: "Natural selection",
-      skill: "Explain how variation, heritability, competition and differential survival change a population over generations.",
+      skill:
+        "Explain how variation, heritability, competition and differential survival change a population over generations.",
       lesson: {
         sections: [
           {
@@ -168,13 +366,27 @@ export const lesson41: Lesson = {
           },
         ],
         keyFormulas: [
-          { name: "Natural selection", statement: "Heritable variation + competition + differential survival $\\Rightarrow$ change in allele frequencies" },
-          { name: "Percent survival", statement: "$\\dfrac{\\text{number surviving}}{\\text{starting number}}\\times100$" },
-          { name: "Percent change", statement: "$\\dfrac{\\text{new}-\\text{old}}{\\text{old}}\\times100$" },
+          {
+            name: "Natural selection",
+            statement:
+              "Heritable variation + competition + differential survival $\\Rightarrow$ change in allele frequencies",
+          },
+          {
+            name: "Percent survival",
+            statement:
+              "$\\dfrac{\\text{number surviving}}{\\text{starting number}}\\times100$",
+          },
+          {
+            name: "Percent change",
+            statement:
+              "$\\dfrac{\\text{new}-\\text{old}}{\\text{old}}\\times100$",
+          },
         ],
         workedExample: {
-          problem: "A population of 200 mice has 50 light mice and 150 dark mice on dark soil. Hawks eat 40 light mice and 30 dark mice. What percent of the survivors are light?",
-          solution: "Light survivors: $50-40=10$. Dark survivors: $150-30=120$. Total survivors: $130$. Percent light: $\\dfrac{10}{130}\\times100\\approx7.7\\%$, down from $\\dfrac{50}{200}\\times100=25\\%$. Dark mice are better camouflaged, so they survive more and pass on their alleles.",
+          problem:
+            "A population of 200 mice has 50 light mice and 150 dark mice on dark soil. Hawks eat 40 light mice and 30 dark mice. What percent of the survivors are light?",
+          solution:
+            "Light survivors: $50-40=10$. Dark survivors: $150-30=120$. Total survivors: $130$. Percent light: $\\dfrac{10}{130}\\times100\\approx7.7\\%$, down from $\\dfrac{50}{200}\\times100=25\\%$. Dark mice are better camouflaged, so they survive more and pass on their alleles.",
         },
       },
       questions: [
@@ -186,22 +398,45 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Differences between individuals are caused only by the environment." },
-              { id: "b", text: "Some differences between individuals are heritable and affect survival or reproduction." },
-              { id: "c", text: "Individuals change their traits to meet the needs of the environment." },
+              {
+                id: "a",
+                text: "Differences between individuals are caused only by the environment.",
+              },
+              {
+                id: "b",
+                text: "Some differences between individuals are heritable and affect survival or reproduction.",
+              },
+              {
+                id: "c",
+                text: "Individuals change their traits to meet the needs of the environment.",
+              },
               { id: "d", text: "All offspring survive to adulthood." },
             ],
             correctChoiceId: "b",
           },
           markscheme: {
             principles: [
-              { kind: "principle", name: "Conditions for natural selection", statement: "Heritable variation that affects survival or reproduction is needed." },
+              {
+                kind: "principle",
+                name: "Conditions for natural selection",
+                statement:
+                  "Heritable variation that affects survival or reproduction is needed.",
+              },
             ],
             steps: [
-              { reasoning: "Selection needs variation that is inherited and that affects fitness. Traits caused only by the environment are not passed on.", marks: 1, markCode: "B" },
+              {
+                reasoning:
+                  "Selection needs variation that is inherited and that affects fitness. Traits caused only by the environment are not passed on.",
+                marks: 1,
+                markCode: "B",
+              },
             ],
-            finalAnswer: "**(b)** Some differences between individuals are heritable and affect survival or reproduction.",
-            commonErrors: ["Choosing (a), the 'need' misconception.", "Choosing (b): natural selection requires that not all offspring survive."],
+            finalAnswer:
+              "**(b)** Some differences between individuals are heritable and affect survival or reproduction.",
+            commonErrors: [
+              "Choosing (a), the 'need' misconception.",
+              "Choosing (b): natural selection requires that not all offspring survive.",
+            ],
             examinerNote: "B1 for heritable variation affecting survival.",
           },
         },
@@ -213,16 +448,41 @@ export const lesson41: Lesson = {
           response: { type: "open" },
           markscheme: {
             principles: [
-              { kind: "principle", name: "Natural selection", statement: "Individuals with favorable heritable traits survive and reproduce more, increasing the frequency of those alleles." },
+              {
+                kind: "principle",
+                name: "Natural selection",
+                statement:
+                  "Individuals with favorable heritable traits survive and reproduce more, increasing the frequency of those alleles.",
+              },
             ],
             steps: [
-              { reasoning: "There was variation in wing color, controlled by alleles.", marks: 1, markCode: "B" },
-              { reasoning: "On dark bark, dark moths were better camouflaged, so birds ate fewer of them and they survived and reproduced more.", marks: 1, markCode: "B" },
-              { reasoning: "They passed on the allele for dark color, so its frequency increased over generations.", marks: 1, markCode: "B" },
+              {
+                reasoning:
+                  "There was variation in wing color, controlled by alleles.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                reasoning:
+                  "On dark bark, dark moths were better camouflaged, so birds ate fewer of them and they survived and reproduced more.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                reasoning:
+                  "They passed on the allele for dark color, so its frequency increased over generations.",
+                marks: 1,
+                markCode: "B",
+              },
             ],
-            finalAnswer: "Variation in color existed; dark moths were camouflaged, survived and reproduced more; the dark allele became more frequent.",
-            commonErrors: ["Saying the moths changed color because they needed camouflage.", "Omitting the inheritance of the allele."],
-            examinerNote: "B1 variation / alleles. B1 camouflage leading to higher survival and reproduction. B1 allele passed on, frequency rises. Reject 'the moths adapted themselves'.",
+            finalAnswer:
+              "Variation in color existed; dark moths were camouflaged, survived and reproduced more; the dark allele became more frequent.",
+            commonErrors: [
+              "Saying the moths changed color because they needed camouflage.",
+              "Omitting the inheritance of the allele.",
+            ],
+            examinerNote:
+              "B1 variation / alleles. B1 camouflage leading to higher survival and reproduction. B1 allele passed on, frequency rises. Reject 'the moths adapted themselves'.",
           },
         },
         {
@@ -240,17 +500,51 @@ export const lesson41: Lesson = {
           },
           markscheme: {
             principles: [
-              { kind: "formula", name: "Percent survival", statement: "$\\dfrac{\\text{number surviving}}{\\text{starting number}}\\times100$" },
+              {
+                kind: "formula",
+                name: "Percent survival",
+                statement:
+                  "$\\dfrac{\\text{number surviving}}{\\text{starting number}}\\times100$",
+              },
             ],
             steps: [
-              { reasoning: "Divide survivors by starting number for each color.", working: "\\frac{120}{300}\\times100,\\ \\frac{80}{100}\\times100", marks: 1, markCode: "M" },
-              { reasoning: "Evaluate both survival percentages.", working: "40\\%\\text{ (green)},\\ 80\\%\\text{ (brown)}", marks: 1, markCode: "A" },
-              { reasoning: "Total survivors are 200. Divide the brown survivors by this total.", working: "\\frac{80}{120+80}\\times100", marks: 1, markCode: "M" },
-              { reasoning: "Evaluate. Brown beetles rose from 25% to 40% of the population.", working: "40\\%", marks: 1, markCode: "A" },
+              {
+                reasoning:
+                  "Divide survivors by starting number for each color.",
+                working:
+                  "\\frac{120}{300}\\times100,\\ \\frac{80}{100}\\times100",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Evaluate both survival percentages.",
+                working: "40\\%\\text{ (green)},\\ 80\\%\\text{ (brown)}",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                reasoning:
+                  "Total survivors are 200. Divide the brown survivors by this total.",
+                working: "\\frac{80}{120+80}\\times100",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Evaluate. Brown beetles rose from 25% to 40% of the population.",
+                working: "40\\%",
+                marks: 1,
+                markCode: "A",
+              },
             ],
-            finalAnswer: "Green 40%, brown 80%, brown beetles are 40% of the survivors (up from 25%).",
-            commonErrors: ["Dividing 80 by 400 for the brown share of survivors, instead of by the 200 survivors.", "Subtracting rather than dividing."],
-            examinerNote: "M1 for either survival division. A1 for both 40 and 80. M1 for 80 / 200 (oe). A1 for 40. Allow ecf from incorrect survivors total.",
+            finalAnswer:
+              "Green 40%, brown 80%, brown beetles are 40% of the survivors (up from 25%).",
+            commonErrors: [
+              "Dividing 80 by 400 for the brown share of survivors, instead of by the 200 survivors.",
+              "Subtracting rather than dividing.",
+            ],
+            examinerNote:
+              "M1 for either survival division. A1 for both 40 and 80. M1 for 80 / 200 (oe). A1 for 40. Allow ecf from incorrect survivors total.",
           },
         },
         {
@@ -259,31 +553,119 @@ export const lesson41: Lesson = {
           totalMarks: 9,
           stem: "During a long drought on a Galapagos island, small soft seeds became scarce and large hard seeds remained. Researchers measured beak depth in a medium ground finch population. The mean beak depth was 9.2 mm before the drought and 9.8 mm in the generation that hatched after the drought.",
           parts: [
-            { label: "a", prompt: "Calculate the change in mean beak depth in mm.", marks: 1 },
-            { label: "b", prompt: "Calculate the percent increase in mean beak depth. Give your answer to 2 significant figures.", marks: 2 },
-            { label: "c", prompt: "Explain how natural selection produced this change.", marks: 3 },
-            { label: "d", prompt: "A student says the finches grew deeper beaks during their lives because they needed to crack seeds. Describe the evidence that would show the change is genetic and heritable.", marks: 3 },
+            {
+              label: "a",
+              prompt: "Calculate the change in mean beak depth in mm.",
+              marks: 1,
+            },
+            {
+              label: "b",
+              prompt:
+                "Calculate the percent increase in mean beak depth. Give your answer to 2 significant figures.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt: "Explain how natural selection produced this change.",
+              marks: 3,
+            },
+            {
+              label: "d",
+              prompt:
+                "A student says the finches grew deeper beaks during their lives because they needed to crack seeds. Describe the evidence that would show the change is genetic and heritable.",
+              marks: 3,
+            },
           ],
           response: { type: "open" },
           markscheme: {
             principles: [
-              { kind: "formula", name: "Percent change", statement: "$\\dfrac{\\text{new}-\\text{old}}{\\text{old}}\\times100$" },
-              { kind: "principle", name: "Natural selection", statement: "Heritable traits that improve survival become more common." },
+              {
+                kind: "formula",
+                name: "Percent change",
+                statement:
+                  "$\\dfrac{\\text{new}-\\text{old}}{\\text{old}}\\times100$",
+              },
+              {
+                kind: "principle",
+                name: "Natural selection",
+                statement:
+                  "Heritable traits that improve survival become more common.",
+              },
             ],
             steps: [
-              { part: "a", reasoning: "Subtract the old mean from the new mean.", working: "9.8-9.2=0.6\\text{ mm}", marks: 1, markCode: "A" },
-              { part: "b", reasoning: "Divide the change by the original value and multiply by 100.", working: "\\frac{0.6}{9.2}\\times100", marks: 1, markCode: "M" },
-              { part: "b", reasoning: "Evaluate to 2 significant figures.", working: "6.5\\%", marks: 1, markCode: "A" },
-              { part: "c", reasoning: "Beak depth varies between birds, and this variation is inherited.", marks: 1, markCode: "B" },
-              { part: "c", reasoning: "In the drought, birds with deeper beaks could crack the hard seeds, so they survived and reproduced more.", marks: 1, markCode: "B" },
-              { part: "c", reasoning: "They passed on alleles for deeper beaks, so the mean beak depth rose in the next generation.", marks: 1, markCode: "B" },
-              { part: "d", reasoning: "Changes during an individual's life (acquired traits) are not passed on, so a change in the next generation must have a genetic basis.", marks: 1, markCode: "B" },
-              { part: "d", reasoning: "Measure the beak depth of parents and their offspring.", marks: 1, markCode: "B" },
-              { part: "d", reasoning: "A positive relationship (deep-beaked parents have deep-beaked offspring) shows the trait is heritable.", marks: 1, markCode: "R" },
+              {
+                part: "a",
+                reasoning: "Subtract the old mean from the new mean.",
+                working: "9.8-9.2=0.6\\text{ mm}",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Divide the change by the original value and multiply by 100.",
+                working: "\\frac{0.6}{9.2}\\times100",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning: "Evaluate to 2 significant figures.",
+                working: "6.5\\%",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "Beak depth varies between birds, and this variation is inherited.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "In the drought, birds with deeper beaks could crack the hard seeds, so they survived and reproduced more.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "They passed on alleles for deeper beaks, so the mean beak depth rose in the next generation.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "Changes during an individual's life (acquired traits) are not passed on, so a change in the next generation must have a genetic basis.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "Measure the beak depth of parents and their offspring.",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "A positive relationship (deep-beaked parents have deep-beaked offspring) shows the trait is heritable.",
+                marks: 1,
+                markCode: "R",
+              },
             ],
-            finalAnswer: "(a) 0.6 mm (b) 6.5% (c) Variation, deeper beaks survive and reproduce more, alleles passed on (d) Compare parents' and offspring's beak depth; a positive relationship shows heritability.",
-            commonErrors: ["In (b) dividing by 9.8 instead of 9.2, giving 6.1%.", "In (c) saying birds evolved deeper beaks because they needed them."],
-            examinerNote: "(b) Allow 6.52 or 6.5. M1 for 0.6 / 9.2 (oe). Allow ecf from (a). (d) Allow 'raise chicks in the same conditions' for a controlled comparison.",
+            finalAnswer:
+              "(a) 0.6 mm (b) 6.5% (c) Variation, deeper beaks survive and reproduce more, alleles passed on (d) Compare parents' and offspring's beak depth; a positive relationship shows heritability.",
+            commonErrors: [
+              "In (b) dividing by 9.8 instead of 9.2, giving 6.1%.",
+              "In (c) saying birds evolved deeper beaks because they needed them.",
+            ],
+            examinerNote:
+              "(b) Allow 6.52 or 6.5. M1 for 0.6 / 9.2 (oe). Allow ecf from (a). (d) Allow 'raise chicks in the same conditions' for a controlled comparison.",
           },
         },
       ],

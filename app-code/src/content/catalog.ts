@@ -89,6 +89,9 @@ import { edxPrimaryScienceY3 } from "./courses/edx-primary-science-y3/index.ts";
 import { edxPrimaryScienceY4 } from "./courses/edx-primary-science-y4/index.ts";
 import { edxPrimaryScienceY5 } from "./courses/edx-primary-science-y5/index.ts";
 import { edxPrimaryScienceY6 } from "./courses/edx-primary-science-y6/index.ts";
+import { edxPrimaryComputing } from "./courses/edx-primary-computing/index.ts";
+import { edxPrimaryGeography } from "./courses/edx-primary-geography/index.ts";
+import { edxPrimaryHistory } from "./courses/edx-primary-history/index.ts";
 import { edxBtecEngineering } from "./courses/edx-btec-engineering/index.ts";
 import { edxBtecHealthSocialCare } from "./courses/edx-btec-health-social-care/index.ts";
 import { edxBtecInformationTechnology } from "./courses/edx-btec-information-technology/index.ts";
@@ -118,6 +121,30 @@ import { edxEconomicsY10 } from "./courses/edx-economics-y10/index.ts";
 import { edxEconomicsY11 } from "./courses/edx-economics-y11/index.ts";
 import { edxComputerScienceY10 } from "./courses/edx-computerscience-y10/index.ts";
 import { edxComputerScienceY11 } from "./courses/edx-computerscience-y11/index.ts";
+import { usMathPreK } from "./courses/us-math-prek/index.ts";
+import { usMathG0 } from "./courses/us-math-g0/index.ts";
+import { usElaPreK } from "./courses/us-ela-prek/index.ts";
+import { usElaG0 } from "./courses/us-ela-g0/index.ts";
+import { usSciencePreK } from "./courses/us-science-prek/index.ts";
+import { usScienceG0 } from "./courses/us-science-g0/index.ts";
+import { usMathG1 } from "./courses/us-math-g1/index.ts";
+import { usElaG1 } from "./courses/us-ela-g1/index.ts";
+import { usScienceG1 } from "./courses/us-science-g1/index.ts";
+import { usMathG2 } from "./courses/us-math-g2/index.ts";
+import { usElaG2 } from "./courses/us-ela-g2/index.ts";
+import { usScienceG2 } from "./courses/us-science-g2/index.ts";
+import { usMathG3 } from "./courses/us-math-g3/index.ts";
+import { usElaG3 } from "./courses/us-ela-g3/index.ts";
+import { usScienceG3 } from "./courses/us-science-g3/index.ts";
+import { usMathG4 } from "./courses/us-math-g4/index.ts";
+import { usElaG4 } from "./courses/us-ela-g4/index.ts";
+import { usScienceG4 } from "./courses/us-science-g4/index.ts";
+import { usMathG5 } from "./courses/us-math-g5/index.ts";
+import { usElaG5 } from "./courses/us-ela-g5/index.ts";
+import { usScienceG5 } from "./courses/us-science-g5/index.ts";
+import { usMathG6 } from "./courses/us-math-g6/index.ts";
+import { usElaG6 } from "./courses/us-ela-g6/index.ts";
+import { usScienceG6 } from "./courses/us-science-g6/index.ts";
 import { usMathG7 } from "./courses/us-math-g7/index.ts";
 import { usScienceG7 } from "./courses/us-science-g7/index.ts";
 import { usElaG7 } from "./courses/us-ela-g7/index.ts";
@@ -127,10 +154,53 @@ import { usElaG8 } from "./courses/us-ela-g8/index.ts";
 import { usBiologyG9 } from "./courses/us-biology-g9/index.ts";
 import { usEarthSpaceG9 } from "./courses/us-earth-space-g9/index.ts";
 import { usElaG9 } from "./courses/us-ela-g9/index.ts";
+import { usMathG9 } from "./courses/us-math-g9/index.ts";
+import { usMathG10 } from "./courses/us-math-g10/index.ts";
+import { usMathG11 } from "./courses/us-math-g11/index.ts";
+import { usMathG12 } from "./courses/us-math-g12/index.ts";
 import { usChemistryG10 } from "./courses/us-chemistry-g10/index.ts";
+import { usBiologyG10 } from "./courses/us-biology-g10/index.ts";
 import { usElaG10 } from "./courses/us-ela-g10/index.ts";
 import { usPhysicsG11 } from "./courses/us-physics-g11/index.ts";
 import { usElaG11 } from "./courses/us-ela-g11/index.ts";
+import { usChemistryG11 } from "./courses/us-chemistry-g11/index.ts";
+import { usPhysicsG12 } from "./courses/us-physics-g12/index.ts";
+import { usElaG12 } from "./courses/us-ela-g12/index.ts";
+import { usPhysicsG10 } from "./courses/us-physics-g10/index.ts";
+import { usBiologyG11 } from "./courses/us-biology-g11/index.ts";
+import { usChemistryG12 } from "./courses/us-chemistry-g12/index.ts";
+import { usEarthSpaceG12 } from "./courses/us-earth-space-g12/index.ts";
+import { apCalculusAb } from "./courses/ap-calculus-ab/index.ts";
+import { apCalculusBc } from "./courses/ap-calculus-bc/index.ts";
+import { apStatistics } from "./courses/ap-statistics/index.ts";
+import { apBiology } from "./courses/ap-biology/index.ts";
+import { apChemistry } from "./courses/ap-chemistry/index.ts";
+import { apPhysics1 } from "./courses/ap-physics-1/index.ts";
+import { apPhysics2 } from "./courses/ap-physics-2/index.ts";
+import { apEnglishLanguage } from "./courses/ap-english-language/index.ts";
+import { apEnglishLiterature } from "./courses/ap-english-literature/index.ts";
+import { apComputerScienceA } from "./courses/ap-computer-science-a/index.ts";
+import { apUsHistory } from "./courses/ap-us-history/index.ts";
+import { apWorldHistory } from "./courses/ap-world-history/index.ts";
+import { apGovernmentPolitics } from "./courses/ap-government-politics/index.ts";
+import { apPsychology } from "./courses/ap-psychology/index.ts";
+import { apHumanGeography } from "./courses/ap-human-geography/index.ts";
+import { apSeminar } from "./courses/ap-seminar/index.ts";
+import { apResearch } from "./courses/ap-research/index.ts";
+import { apArtHistory } from "./courses/ap-art-history/index.ts";
+import { apMusicTheory } from "./courses/ap-music-theory/index.ts";
+import { apSpanishLanguageCulture } from "./courses/ap-spanish-language-culture/index.ts";
+import { apFrenchLanguageCulture } from "./courses/ap-french-language-culture/index.ts";
+import { apGermanLanguageCulture } from "./courses/ap-german-language-culture/index.ts";
+import { apItalianLanguageCulture } from "./courses/ap-italian-language-culture/index.ts";
+import { apJapaneseLanguageCulture } from "./courses/ap-japanese-language-culture/index.ts";
+import { apLatinLanguageCulture } from "./courses/ap-latin-language-culture/index.ts";
+import { apChineseLanguageCulture } from "./courses/ap-chinese-language-culture/index.ts";
+import { apStudioArt } from "./courses/ap-studio-art/index.ts";
+import { satReadingWriting } from "./courses/sat-reading-writing/index.ts";
+import { satMath } from "./courses/sat-math/index.ts";
+import { satPracticeStrategy } from "./courses/sat-practice-strategy/index.ts";
+import { statistics } from "./courses/statistics/index.ts";
 import { mypMathsY1 } from "./courses/myp-maths-y1/index.ts";
 import { mypSciencesY1 } from "./courses/myp-sciences-y1/index.ts";
 import { mypMathsY2 } from "./courses/myp-maths-y2/index.ts";
@@ -227,6 +297,30 @@ import { ciePreUChemistry } from "./courses/cie-pre-u-chemistry/index.ts";
 import { ciePreUPhysics } from "./courses/cie-pre-u-physics/index.ts";
 
 export const COURSES: Course[] = [
+  usMathPreK,
+  usMathG0,
+  usElaPreK,
+  usElaG0,
+  usSciencePreK,
+  usScienceG0,
+  usMathG1,
+  usElaG1,
+  usScienceG1,
+  usMathG2,
+  usElaG2,
+  usScienceG2,
+  usMathG3,
+  usElaG3,
+  usScienceG3,
+  usMathG4,
+  usElaG4,
+  usScienceG4,
+  usMathG5,
+  usElaG5,
+  usScienceG5,
+  usMathG6,
+  usElaG6,
+  usScienceG6,
   usMathG7,
   usScienceG7,
   usElaG7,
@@ -236,14 +330,57 @@ export const COURSES: Course[] = [
   usBiologyG9,
   usEarthSpaceG9,
   usElaG9,
+  usMathG9,
+  usMathG10,
+  usMathG11,
+  usMathG12,
   usChemistryG10,
+  usBiologyG10,
   usElaG10,
   usPhysicsG11,
   usElaG11,
+  usChemistryG11,
+  usPhysicsG12,
+  usElaG12,
+  usPhysicsG10,
+  usBiologyG11,
+  usChemistryG12,
+  usEarthSpaceG12,
+  apCalculusAb,
+  apCalculusBc,
+  apStatistics,
+  apBiology,
+  apChemistry,
+  apPhysics1,
+  apPhysics2,
+  apEnglishLanguage,
+  apEnglishLiterature,
+  apComputerScienceA,
+  apUsHistory,
+  apWorldHistory,
+  apGovernmentPolitics,
+  apPsychology,
+  apHumanGeography,
+  apSeminar,
+  apResearch,
+  apArtHistory,
+  apMusicTheory,
+  apSpanishLanguageCulture,
+  apFrenchLanguageCulture,
+  apGermanLanguageCulture,
+  apItalianLanguageCulture,
+  apJapaneseLanguageCulture,
+  apLatinLanguageCulture,
+  apChineseLanguageCulture,
+  apStudioArt,
+  satReadingWriting,
+  satMath,
+  satPracticeStrategy,
   algebra1,
   geometry,
   algebra2,
   precalculus,
+  statistics,
   ibAaSl1,
   ibAaSl2,
   ibAaHl1,
@@ -362,6 +499,9 @@ export const COURSES: Course[] = [
   edxPrimaryScienceY4,
   edxPrimaryScienceY5,
   edxPrimaryScienceY6,
+  edxPrimaryComputing,
+  edxPrimaryGeography,
+  edxPrimaryHistory,
   edxBtecEngineering,
   edxBtecHealthSocialCare,
   edxBtecInformationTechnology,

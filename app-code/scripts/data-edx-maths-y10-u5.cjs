@@ -1,0 +1,916 @@
+module.exports = [
+  {
+    file: "lesson-5-1.ts", exportName: "lesson51",
+    lesson: {
+      id: "edm10-u5-lesson-5-1", code: "5-1",
+      title: "Index Laws",
+      goal: "I CAN apply the laws of indices, including negative and fractional indices, to simplify expressions and solve equations.",
+      standards: ["4MA1 1.7", "4MA1 1.8H"],
+      vocabulary: [
+        { term: "Index (power)", definition: "The small raised number showing how many times a base is multiplied by itself." },
+        { term: "Base", definition: "The number or expression that is being raised to a power." },
+        { term: "Zero index", definition: "$a^0=1$ for any non-zero $a$." },
+        { term: "Negative index", definition: "$a^{-n}=\\frac{1}{a^n}$; a negative power means a reciprocal." },
+        { term: "Fractional index", definition: "$a^{\\frac{1}{n}}$ is the $n$th root of $a$; $a^{\\frac{m}{n}}=(\\sqrt[n]{a})^m$." },
+        { term: "Index law", definition: "A rule for combining powers, e.g. $a^m\\times a^n=a^{m+n}$." },
+      ],
+      concepts: [
+        {
+          id: "edm10-u5-negative-fractional-indices",
+          title: "Negative and fractional indices",
+          skill: "Evaluate and rewrite expressions involving zero, negative and fractional indices.",
+          sections: [
+            { heading: "Zero and negative indices", body: "For any non-zero number $a$, $a^0=1$. A negative index gives a reciprocal: $a^{-n}=\\frac{1}{a^n}$. So $2^{-3}=\\frac{1}{8}$ and $\\frac{1}{5^2}=5^{-2}$. Negative indices can appear in the denominator of a fraction." },
+            { heading: "Fractional indices", body: "A fractional index means a root followed by a power. $a^{\\frac{1}{n}}=\\sqrt[n]{a}$, so $8^{\\frac{1}{3}}=2$. More generally $a^{\\frac{m}{n}}=(\\sqrt[n]{a})^m$, so $8^{\\frac{2}{3}}=(\\sqrt[3]{8})^2=2^2=4$. It is usually easiest to write the base as a power first: $27=3^3$, so $27^{\\frac{2}{3}}=(3^3)^{\\frac{2}{3}}=3^2=9$." },
+            { heading: "Combining the two", body: "Negative fractional indices combine both ideas: $a^{-\\frac{m}{n}}=\\frac{1}{(\\sqrt[n]{a})^m}$. For example $16^{-\\frac{3}{4}}=\\frac{1}{(\\sqrt[4]{16})^3}=\\frac{1}{2^3}=\\frac{1}{8}$. Always simplify the base into prime powers when the numbers are perfect powers." },
+          ],
+          keyFormulas: [
+            { name: "Zero index", statement: "$a^0=1$" },
+            { name: "Negative index", statement: "$a^{-n}=\\frac{1}{a^n}$" },
+            { name: "Fractional index", statement: "$a^{\\frac{1}{n}}=\\sqrt[n]{a},\\quad a^{\\frac{m}{n}}=(\\sqrt[n]{a})^m$" },
+          ],
+          workedExample: {
+            problem: "Evaluate $8^{-\\frac{2}{3}}$ without a calculator.",
+            solution: "$8=2^3$, so $8^{\\frac{1}{3}}=2$ and $8^{\\frac{2}{3}}=4$. Therefore $8^{-\\frac{2}{3}}=\\frac{1}{4}$.",
+          },
+          questions: [
+            {
+              id: "edm10-u5-nfi-q1", difficulty: "foundation", tier: "higher", totalMarks: 1,
+              stem: "What is the value of $4^{-2}$?",
+              response: { type: "mcq", choices: [
+                { id: "a", text: "$\\frac{1}{16}$" }, { id: "b", text: "$-8$" }, { id: "c", text: "$16$" }, { id: "d", text: "$-\\frac{1}{16}$" },
+              ], correctChoiceId: "a" },
+              markscheme: {
+                principles: [{ kind: "definition", name: "Negative index", statement: "$a^{-n}=\\frac{1}{a^n}$." }],
+                steps: [{ reasoning: "$4^{-2}=\\frac{1}{4^2}=\\frac{1}{16}$.", working: "4^{-2}=\\frac{1}{16}", marks: 1, markCode: "B" }],
+                finalAnswer: "**(a)** $\\frac{1}{16}$",
+                commonErrors: ["Thinking a negative index makes the answer negative.", "Reciprocating only once: $\\frac{1}{4}$ instead of $\\frac{1}{16}$."],
+              },
+            },
+            {
+              id: "edm10-u5-nfi-q2", difficulty: "foundation", tier: "higher", totalMarks: 2,
+              stem: "Write $\\frac{1}{\\sqrt[3]{5}}$ in the form $5^n$, where $n$ is a fraction.",
+              response: { type: "numeric", parts: [{ label: "n", answer: -0.333333, tolerance: 0.001 }] },
+              markscheme: {
+                principles: [{ kind: "definition", name: "Fractional index", statement: "$5^{\\frac{1}{3}}=\\sqrt[3]{5}$, so its reciprocal is $5^{-\\frac{1}{3}}$." }],
+                steps: [
+                  { reasoning: "Rewrite the cube root as a fractional index.", working: "\\frac{1}{\\sqrt[3]{5}}=\\frac{1}{5^{\\frac{1}{3}}}", marks: 1, markCode: "M" },
+                  { reasoning: "Apply the negative index rule.", working: "=5^{-\\frac{1}{3}}\\Rightarrow n=-\\frac{1}{3}", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "$n=-\\frac{1}{3}$",
+                commonErrors: ["Writing $n=-3$ instead of $n=-\\frac{1}{3}$.", "Dropping the negative sign."],
+              },
+            },
+            {
+              id: "edm10-u5-nfi-q3", difficulty: "core", tier: "higher", totalMarks: 3,
+              stem: "Evaluate $27^{\\frac{2}{3}}$ without using a calculator.",
+              response: { type: "numeric", parts: [{ label: "Value", answer: 9 }] },
+              markscheme: {
+                principles: [{ kind: "method", name: "Fractional index evaluation", statement: "Take the root first, then apply the power." }],
+                steps: [
+                  { reasoning: "Write 27 as a power of 3.", working: "27=3^3\\Rightarrow 27^{\\frac{1}{3}}=3", marks: 1, markCode: "M" },
+                  { reasoning: "Apply the remaining power of 2.", working: "27^{\\frac{2}{3}}=3^2", marks: 1, markCode: "M" },
+                  { reasoning: "Evaluate.", working: "3^2=9", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "$9$",
+                commonErrors: ["Computing $27^2$ first, which is far too large.", "Using $27^{\\frac{1}{3}}=9$ by taking a square root instead of a cube root."],
+              },
+            },
+            {
+              id: "edm10-u5-nfi-q4", difficulty: "challenge", tier: "higher", totalMarks: 4,
+              stem: "Evaluate $\\left(\\frac{16}{81}\\right)^{-\\frac{3}{4}}$ without using a calculator. Give your answer as a fraction in its simplest form.",
+              response: { type: "numeric", parts: [{ label: "Value", answer: 3.375, tolerance: 0.001 }] },
+              markscheme: {
+                principles: [{ kind: "method", name: "Negative fractional index of a fraction", statement: "Flip the fraction for the negative index, then take the root and power." }],
+                steps: [
+                  { reasoning: "A negative index reciprocates the whole bracket.", working: "\\left(\\frac{16}{81}\\right)^{-\\frac{3}{4}}=\\left(\\frac{81}{16}\\right)^{\\frac{3}{4}}", marks: 1, markCode: "M" },
+                  { reasoning: "Find the fourth roots.", working: "\\sqrt[4]{81}=3,\\quad \\sqrt[4]{16}=2", marks: 1, markCode: "M" },
+                  { reasoning: "Raise each to the power 3.", working: "\\frac{3^3}{2^3}=\\frac{27}{8}", marks: 1, markCode: "M" },
+                  { reasoning: "State the value.", working: "\\frac{27}{8}=3.375", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "$\\frac{27}{8}$",
+                commonErrors: ["Reciprocating only the numerator or only the denominator.", "Computing $81^{\\frac{3}{4}}$ as $81\\times\\frac{3}{4}$."],
+              },
+            },
+            {
+              id: "edm10-u5-nfi-q5", difficulty: "challenge", tier: "higher", totalMarks: 6,
+              stem: "Evaluate each of the following without using a calculator.",
+              parts: [
+                { label: "a", prompt: "$8^{-\\frac{2}{3}}$", marks: 2 },
+                { label: "b", prompt: "$\\left(\\frac{1}{32}\\right)^{\\frac{3}{5}}$", marks: 2 },
+                { label: "c", prompt: "$64^{\\frac{5}{6}}$", marks: 2 },
+              ],
+              response: { type: "numeric", parts: [
+                { label: "(a)", answer: 0.25 },
+                { label: "(b)", answer: 0.125 },
+                { label: "(c)", answer: 32 },
+              ] },
+              markscheme: {
+                principles: [{ kind: "method", name: "Perfect-power bases", statement: "Write each base as a prime power, then use $(a^m)^n=a^{mn}$." }],
+                steps: [
+                  { part: "a", reasoning: "$8=2^3$, so $8^{\\frac{2}{3}}=2^2=4$ and the negative index reciprocates.", working: "8^{-\\frac{2}{3}}=\\frac{1}{4}", marks: 1, markCode: "M" },
+                  { part: "a", reasoning: "State the value.", working: "0.25", marks: 1, markCode: "A" },
+                  { part: "b", reasoning: "$32=2^5$, so $32^{\\frac{3}{5}}=2^3=8$, then reciprocate.", working: "\\left(\\frac{1}{32}\\right)^{\\frac{3}{5}}=\\frac{1}{8}", marks: 1, markCode: "M" },
+                  { part: "b", reasoning: "State the value.", working: "0.125", marks: 1, markCode: "A" },
+                  { part: "c", reasoning: "$64=2^6$, so $64^{\\frac{5}{6}}=2^5$.", working: "64^{\\frac{5}{6}}=2^5", marks: 1, markCode: "M" },
+                  { part: "c", reasoning: "Evaluate.", working: "2^5=32", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "(a) $\\frac{1}{4}$ (b) $\\frac{1}{8}$ (c) $32$",
+                commonErrors: ["Applying the power before the root, e.g. $8^2=64$ then a cube root.", "Forgetting to reciprocate the negative index."],
+              },
+            },
+            {
+              id: "edm10-u5-nfi-q6", difficulty: "challenge", tier: "higher", totalMarks: 10,
+              stem: "This question is about negative and fractional indices.",
+              parts: [
+                { label: "a", prompt: "State the value of $a^0$ for any non-zero number $a$, and write $a^{-n}$ in terms of $a^n$.", marks: 2 },
+                { label: "b", prompt: "Evaluate, without a calculator: (i) $16^{-\\frac{3}{4}}$ and (ii) $25^{\\frac{3}{2}}$.", marks: 4 },
+                { label: "c", prompt: "Solve $4^x=32$.", marks: 2 },
+                { label: "d", prompt: "Solve $x^{-\\frac{1}{2}}=\\frac{1}{2}$.", marks: 2 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "definition", name: "Zero and negative indices", statement: "$a^0=1$ and $a^{-n}=\\frac{1}{a^n}$." },
+                  { kind: "method", name: "Fractional index evaluation", statement: "$a^{\\frac{m}{n}}=(\\sqrt[n]{a})^m$." },
+                ],
+                steps: [
+                  { part: "a", reasoning: "State the zero index result.", working: "a^0=1", marks: 1, markCode: "B" },
+                  { part: "a", reasoning: "State the negative index rule.", working: "a^{-n}=\\frac{1}{a^n}", marks: 1, markCode: "B" },
+                  { part: "b", reasoning: "For (i): $16=2^4$, so $16^{\\frac{3}{4}}=2^3=8$, then reciprocate.", working: "16^{-\\frac{3}{4}}=\\frac{1}{8}", marks: 1, markCode: "M" },
+                  { part: "b", reasoning: "State (i).", working: "\\frac{1}{8}", marks: 1, markCode: "A" },
+                  { part: "b", reasoning: "For (ii): $25^{\\frac{1}{2}}=5$, so $25^{\\frac{3}{2}}=5^3$.", working: "25^{\\frac{3}{2}}=125", marks: 1, markCode: "M" },
+                  { part: "b", reasoning: "State (ii).", working: "125", marks: 1, markCode: "A" },
+                  { part: "c", reasoning: "Write both sides as powers of 2: $4^x=2^{2x}$ and $32=2^5$.", working: "2^{2x}=2^5\\Rightarrow 2x=5", marks: 1, markCode: "M" },
+                  { part: "c", reasoning: "Solve.", working: "x=\\frac{5}{2}", marks: 1, markCode: "A" },
+                  { part: "d", reasoning: "Reciprocate: $x^{-\\frac{1}{2}}=\\frac{1}{2}$ gives $x^{\\frac{1}{2}}=2$.", working: "\\sqrt{x}=2", marks: 1, markCode: "M" },
+                  { part: "d", reasoning: "Square both sides.", working: "x=4", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "(a) $a^0=1$, $a^{-n}=\\frac{1}{a^n}$ (b) $\\frac{1}{8}$ and $125$ (c) $x=\\frac{5}{2}$ (d) $x=4$",
+                commonErrors: ["Writing $16^{-\\frac{3}{4}}$ as $-16^{\\frac{3}{4}}$.", "In part (d) squaring before reciprocating and getting $x=\\frac{1}{4}$."],
+              },
+            },
+          ],
+        },
+        {
+          id: "edm10-u5-laws-of-indices",
+          title: "Laws of indices",
+          skill: "Simplify algebraic expressions using the laws of indices, including negative and fractional powers.",
+          sections: [
+            { heading: "The laws", body: "For multiplication and division of the same base, add or subtract indices: $a^m\\times a^n=a^{m+n}$ and $\\frac{a^m}{a^n}=a^{m-n}$. Powers of powers multiply indices: $(a^m)^n=a^{mn}$. A product raised to a power splits: $(ab)^n=a^nb^n$. A negative power moves the base to the other side of the fraction line: $a^{-n}=\\frac{1}{a^n}$." },
+            { heading: "Working with algebraic indices", body: "The laws apply to letters as well as numbers. Collect like bases and add the indices for each base separately. For example $x^3\\times x^4=x^7$ and $\\frac{y^5}{y^2}=y^3$. When a term with a negative index appears in the denominator it can be written with a positive index on top." },
+            { heading: "Powers of products and quotients", body: "$(ab)^n=a^nb^n$ and $\\left(\\frac{a}{b}\\right)^n=\\frac{a^n}{b^n}$. So $\\left(2x^3\\right)^2=4x^6$. When simplifying a big expression, deal with the coefficients and each base one at a time, and finish with positive indices only." },
+          ],
+          keyFormulas: [
+            { name: "Multiply", statement: "$a^m\\times a^n=a^{m+n}$" },
+            { name: "Divide", statement: "$\\frac{a^m}{a^n}=a^{m-n}$" },
+            { name: "Power of a power", statement: "$(a^m)^n=a^{mn}$" },
+            { name: "Product to a power", statement: "$(ab)^n=a^nb^n$" },
+            { name: "Negative index", statement: "$a^{-n}=\\frac{1}{a^n}$" },
+          ],
+          workedExample: {
+            problem: "Simplify $\\frac{12x^3y^2}{4x^2y}\\times\\frac{3x}{2y}$, giving positive indices only.",
+            solution: "Coefficients: $\\frac{12}{4}\\times\\frac{3}{2}=\\frac{9}{2}$. For $x$: $3-2+1=2$. For $y$: $2-1-1=0$. Result: $\\frac{9}{2}x^2$.",
+          },
+          questions: [
+            {
+              id: "edm10-u5-loi-q1", difficulty: "foundation", tier: "foundation", totalMarks: 1,
+              stem: "Simplify $5^3 \\times 5^2$. Give your answer as a power of 5.",
+              response: { type: "mcq", choices: [
+                { id: "a", text: "$5^5$" }, { id: "b", text: "$5^6$" }, { id: "c", text: "$25^5$" }, { id: "d", text: "$5^9$" },
+              ], correctChoiceId: "a" },
+              markscheme: {
+                principles: [{ kind: "law", name: "Multiplication of powers", statement: "$a^m\\times a^n=a^{m+n}$." }],
+                steps: [{ reasoning: "Add the indices.", working: "5^{3+2}=5^5", marks: 1, markCode: "B" }],
+                finalAnswer: "**(a)** $5^5$",
+                commonErrors: ["Multiplying the indices to get $5^6$.", "Multiplying the bases to get $25^5$."],
+              },
+            },
+            {
+              id: "edm10-u5-loi-q2", difficulty: "foundation", tier: "foundation", totalMarks: 2,
+              stem: "Evaluate $2^5 \\times 2^3 \\div 2^4$.",
+              response: { type: "numeric", parts: [{ label: "Value", answer: 16 }] },
+              markscheme: {
+                principles: [{ kind: "law", name: "Index laws", statement: "Add indices for multiplication, subtract for division." }],
+                steps: [
+                  { reasoning: "Combine all the powers of 2.", working: "2^{5+3-4}=2^4", marks: 1, markCode: "M" },
+                  { reasoning: "Evaluate.", working: "2^4=16", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "$16$",
+                commonErrors: ["Adding all three indices to get $2^{12}$.", "Treating division as multiplication of indices."],
+              },
+            },
+            {
+              id: "edm10-u5-loi-q3", difficulty: "core", tier: "higher", totalMarks: 3,
+              stem: "Simplify $\\frac{x^5 \\times x^3}{x^4}$, giving your answer in the form $x^n$.",
+              response: { type: "open" },
+              markscheme: {
+                principles: [{ kind: "law", name: "Index laws", statement: "$a^m\\times a^n=a^{m+n}$ and $\\frac{a^m}{a^n}=a^{m-n}$." }],
+                steps: [
+                  { reasoning: "Combine the numerator first.", working: "x^5\\times x^3=x^8", marks: 1, markCode: "M" },
+                  { reasoning: "Divide by $x^4$.", working: "\\frac{x^8}{x^4}=x^{8-4}", marks: 1, markCode: "M" },
+                  { reasoning: "State the simplified form.", working: "x^4", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "$x^4$",
+                commonErrors: ["Subtracting the indices before multiplying the numerator, giving $x^{5-4}\\times x^{3-4}$."],
+              },
+            },
+            {
+              id: "edm10-u5-loi-q4", difficulty: "challenge", tier: "higher", totalMarks: 5,
+              stem: "Simplify $\\left(\\frac{2x^3}{y^2}\\right)^2 \\times \\frac{3y^4}{x}$, giving positive indices only.",
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "law", name: "Power of a quotient", statement: "$\\left(\\frac{a}{b}\\right)^n=\\frac{a^n}{b^n}$." },
+                  { kind: "law", name: "Index laws", statement: "Add indices when multiplying like bases." },
+                ],
+                steps: [
+                  { reasoning: "Square the bracket.", working: "\\left(\\frac{2x^3}{y^2}\\right)^2=\\frac{4x^6}{y^4}", marks: 1, markCode: "M" },
+                  { reasoning: "Multiply by the second fraction.", working: "\\frac{4x^6}{y^4}\\times\\frac{3y^4}{x}", marks: 1, markCode: "M" },
+                  { reasoning: "Combine coefficients and the $x$ indices.", working: "12x^{6-1}=12x^5", marks: 1, markCode: "M" },
+                  { reasoning: "Combine the $y$ indices: $-4+4=0$, so $y$ disappears.", working: "y^{4-4}=y^0=1", marks: 1, markCode: "M" },
+                  { reasoning: "State the answer.", working: "12x^5", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "$12x^5$",
+                commonErrors: ["Squaring only the $x$ term and forgetting $y^{-2}$ or the coefficient 2.", "Adding the $y$ indices to get $y^8$ instead of subtracting."],
+              },
+            },
+            {
+              id: "edm10-u5-loi-q5", difficulty: "challenge", tier: "higher", totalMarks: 6,
+              stem: "Simplify each expression, giving positive indices only.",
+              parts: [
+                { label: "a", prompt: "$p^4 q^3 \\div p^2 q$", marks: 2 },
+                { label: "b", prompt: "$\\frac{x^2 y^{-1}}{x^{-2} y^3}$", marks: 2 },
+                { label: "c", prompt: "$(2p^3 q)^2 \\times 3p^{-1} q^2$", marks: 2 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [{ kind: "law", name: "Index laws", statement: "Subtract indices on division; move negative indices across the fraction." }],
+                steps: [
+                  { part: "a", reasoning: "Subtract indices for each base.", working: "p^{4-2}q^{3-1}=p^2q^2", marks: 1, markCode: "M" },
+                  { part: "a", reasoning: "State the answer.", working: "p^2q^2", marks: 1, markCode: "A" },
+                  { part: "b", reasoning: "Subtract indices: $x^{2-(-2)}=x^4$ and $y^{-1-3}=y^{-4}$.", working: "x^4y^{-4}", marks: 1, markCode: "M" },
+                  { part: "b", reasoning: "Write with positive indices.", working: "\\frac{x^4}{y^4}", marks: 1, markCode: "A" },
+                  { part: "c", reasoning: "Expand the square, then multiply.", working: "4p^6q^2\\times 3p^{-1}q^2=12p^5q^4", marks: 1, markCode: "M" },
+                  { part: "c", reasoning: "State the answer.", working: "12p^5q^4", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "(a) $p^2q^2$ (b) $\\frac{x^4}{y^4}$ (c) $12p^5q^4$",
+                commonErrors: ["In (b) adding indices instead of subtracting, or keeping $y^{-4}$ in the numerator.", "In (c) forgetting to square the coefficient 2."],
+              },
+            },
+            {
+              id: "edm10-u5-loi-q6", difficulty: "challenge", tier: "higher", totalMarks: 10,
+              stem: "This question tests the laws of indices.",
+              parts: [
+                { label: "a", prompt: "State any two of the laws of indices.", marks: 2 },
+                { label: "b", prompt: "Simplify $\\frac{6a^4b^2 \\times 3a^{-1}b}{2ab^3}$, giving positive indices only.", marks: 3 },
+                { label: "c", prompt: "Simplify $(3m^2n)^2 \\div 9mn^2$.", marks: 3 },
+                { label: "d", prompt: "Evaluate $\\left(\\frac{8}{27}\\right)^{\\frac{2}{3}}$ without a calculator.", marks: 2 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [{ kind: "law", name: "Index laws", statement: "$a^m\\times a^n=a^{m+n}$, $\\frac{a^m}{a^n}=a^{m-n}$, $(ab)^n=a^nb^n$, $a^0=1$, $a^{-n}=\\frac{1}{a^n}$." }],
+                steps: [
+                  { part: "a", reasoning: "State any two correct laws.", working: "a^m \\times a^n = a^{m+n}, \\quad (a^m)^n = a^{mn}", marks: 2, markCode: "B" },
+                  { part: "b", reasoning: "Multiply the numerator first.", working: "6a^4b^2\\times 3a^{-1}b=18a^3b^3", marks: 1, markCode: "M" },
+                  { part: "b", reasoning: "Divide by $2ab^3$: coefficients $18\\div2=9$, $a^{3-1}=a^2$, $b^{3-3}=b^0=1$.", working: "\\frac{18a^3b^3}{2ab^3}=9a^2", marks: 1, markCode: "M" },
+                  { part: "b", reasoning: "State the answer.", working: "9a^2", marks: 1, markCode: "A" },
+                  { part: "c", reasoning: "Expand the square.", working: "(3m^2n)^2=9m^4n^2", marks: 1, markCode: "M" },
+                  { part: "c", reasoning: "Divide by $9mn^2$.", working: "\\frac{9m^4n^2}{9mn^2}=m^3", marks: 1, markCode: "M" },
+                  { part: "c", reasoning: "State the answer.", working: "m^3", marks: 1, markCode: "A" },
+                  { part: "d", reasoning: "Take cube roots: $8^{\\frac{1}{3}}=2$ and $27^{\\frac{1}{3}}=3$, then apply the power $\\frac{2}{3}$: $8^{\\frac{2}{3}}=2^2=4$ and $27^{\\frac{2}{3}}=3^2=9$.", working: "8^{\\frac{2}{3}}=4,\\ 27^{\\frac{2}{3}}=9\\Rightarrow\\frac{4}{9}", marks: 1, markCode: "M" },
+                  { part: "d", reasoning: "State the value.", working: "\\frac{4}{9}", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "(b) $9a^2$ (c) $m^3$ (d) $\\frac{4}{9}$",
+                commonErrors: ["In (d) computing $\\left(\\frac{8}{27}\\right)^2$ instead of using index $\\frac{2}{3}$.", "Leaving a negative index in the final answer of (b)."],
+              },
+            },
+          ],
+        },
+      ],
+    },
+    notes: {
+      id: "edm10-u5-index-laws-notes", title: "Index laws — notes",
+      summary: "Zero, negative and fractional indices, and the laws for multiplying, dividing and raising powers.",
+      sections: [
+        { heading: "Key idea", body: "A fractional index is a root then a power: $a^{\\frac{m}{n}}=(\\sqrt[n]{a})^m$. A negative index reciprocates." },
+        { heading: "Perfect powers", body: "Write bases like 8, 27, 32, 64 as powers of 2 or 3 before applying fractional indices." },
+        { heading: "Algebraic indices", body: "Apply each law to each base separately; finish with positive indices only." },
+      ],
+    },
+  },
+  {
+    file: "lesson-5-2.ts", exportName: "lesson52",
+    lesson: {
+      id: "edm10-u5-lesson-5-2", code: "5-2",
+      title: "Sequences",
+      goal: "I CAN find the nth term of linear sequences, and use second differences to find the nth term of quadratic sequences.",
+      standards: ["4MA1 2.9", "4MA1 2.10H"],
+      vocabulary: [
+        { term: "Sequence", definition: "An ordered list of numbers following a rule." },
+        { term: "Term", definition: "A single number in a sequence." },
+        { term: "Common difference", definition: "The amount added to each term to get the next term in a linear sequence." },
+        { term: "nth term", definition: "A formula $u_n$ that gives the $n$th term of a sequence." },
+        { term: "Second difference", definition: "The difference between consecutive first differences; constant for a quadratic sequence." },
+        { term: "Quadratic sequence", definition: "A sequence whose nth term is a quadratic expression in $n$, e.g. $an^2+bn+c$." },
+      ],
+      concepts: [
+        {
+          id: "edm10-u5-linear-sequences",
+          title: "Linear sequences and the nth term",
+          skill: "Find the common difference and write the nth term of a linear sequence.",
+          sections: [
+            { heading: "Term-to-term rule", body: "Subtract consecutive terms to find the common difference $d$. The sequence changes by the same amount each time, so the terms lie on a straight line when plotted against their position number $n$." },
+            { heading: "The nth term", body: "For a linear sequence, $u_n=a+(n-1)d$, where $a$ is the first term and $d$ is the common difference. Simplifying gives $u_n=dn+(a-d)$, so the coefficient of $n$ is the common difference. For $7, 11, 15, \\ldots$: $d=4$ and $a=7$, so $u_n=7+(n-1)4=4n+3$ and the 10th term is $43$." },
+            { heading: "Finding the nth term from two terms", body: "If you are not told the first term, use two given terms to find $d$ first. The difference in term values divided by the difference in positions gives $d$. Then use one term to find $a$, or use $u_n=u_k+(n-k)d$." },
+          ],
+          keyFormulas: [
+            { name: "nth term", statement: "$u_n=a+(n-1)d$" },
+            { name: "Common difference from two terms", statement: "$d=\\frac{u_m-u_k}{m-k}$" },
+          ],
+          workedExample: {
+            problem: "The 3rd term of a sequence is 11 and the 7th term is 27. Find the nth term.",
+            solution: "$d=\\frac{27-11}{7-3}=4$. Using $u_3=11$: $a+2d=11\\Rightarrow a=3$. So $u_n=4n-1$.",
+          },
+          questions: [
+            {
+              id: "edm10-u5-linseq-q1", difficulty: "foundation", tier: "foundation", totalMarks: 1,
+              stem: "What is the common difference of the sequence $3, 7, 11, 15, \\ldots$?",
+              response: { type: "mcq", choices: [
+                { id: "a", text: "$2$" }, { id: "b", text: "$4$" }, { id: "c", text: "$11$" }, { id: "d", text: "$15$" },
+              ], correctChoiceId: "b" },
+              markscheme: {
+                principles: [{ kind: "definition", name: "Common difference", statement: "The amount added to each term to get the next." }],
+                steps: [{ reasoning: "$7-3=4$.", working: "7-3=4", marks: 1, markCode: "B" }],
+                finalAnswer: "**(b)** $4$",
+                commonErrors: ["Dividing consecutive terms instead of subtracting."],
+              },
+            },
+            {
+              id: "edm10-u5-linseq-q2", difficulty: "foundation", tier: "foundation", totalMarks: 2,
+              stem: "Find the 10th term of the sequence $7, 11, 15, 19, \\ldots$",
+              response: { type: "numeric", parts: [{ label: "10th term", answer: 43 }] },
+              markscheme: {
+                principles: [{ kind: "formula", name: "nth term", statement: "$u_n=4n+3$ for this sequence." }],
+                steps: [
+                  { reasoning: "Common difference is 4 and first term is 7, so $u_n=7+(n-1)4=4n+3$.", working: "u_n=4n+3", marks: 1, markCode: "M" },
+                  { reasoning: "Substitute $n=10$.", working: "u_{10}=43", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "$43$",
+                commonErrors: ["Using $u_n=4n$ and forgetting the constant."],
+              },
+            },
+            {
+              id: "edm10-u5-linseq-q3", difficulty: "core", tier: "foundation", totalMarks: 3,
+              stem: "Find an expression for the nth term of the sequence $-2, 1, 4, 7, \\ldots$",
+              response: { type: "open" },
+              markscheme: {
+                principles: [{ kind: "formula", name: "nth term", statement: "$u_n=a+(n-1)d$ with $d=3$ and $a=-2$." }],
+                steps: [
+                  { reasoning: "Find the common difference.", working: "1-(-2)=3", marks: 1, markCode: "M" },
+                  { reasoning: "Substitute into $u_n=a+(n-1)d$.", working: "u_n=-2+(n-1)3", marks: 1, markCode: "M" },
+                  { reasoning: "Simplify.", working: "u_n=3n-5", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "$u_n=3n-5$",
+                commonErrors: ["Writing $u_n=3n-2$ by forgetting the $(n-1)$.", "Sign error giving $u_n=3n+1$."],
+              },
+            },
+            {
+              id: "edm10-u5-linseq-q4", difficulty: "challenge", tier: "higher", totalMarks: 5,
+              stem: "The 3rd term of a linear sequence is 11 and the 7th term is 27. Find an expression for the nth term of the sequence.",
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "formula", name: "nth term", statement: "$u_n=a+(n-1)d$." },
+                  { kind: "principle", name: "Difference of terms", statement: "$d=\\frac{u_m-u_k}{m-k}$." },
+                ],
+                steps: [
+                  { reasoning: "Find the common difference from the two terms.", working: "d=\\frac{27-11}{7-3}=\\frac{16}{4}=4", marks: 1, markCode: "M" },
+                  { reasoning: "Use $u_3=11$ to find the first term: $a+2(4)=11$.", working: "a+8=11\\Rightarrow a=3", marks: 1, markCode: "M" },
+                  { reasoning: "Write the nth term.", working: "u_n=3+(n-1)4", marks: 1, markCode: "M" },
+                  { reasoning: "Simplify.", working: "u_n=4n-1", marks: 1, markCode: "A" },
+                  { reasoning: "Check with $u_7$: $4(7)-1=27$. Correct.", working: "4(7)-1=27", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "$u_n=4n-1$",
+                commonErrors: ["Using $m-k=4$ terms instead of 4 positions, e.g. dividing by 3.", "Finding $a=11$ instead of subtracting $2d$."],
+              },
+            },
+            {
+              id: "edm10-u5-linseq-q5", difficulty: "challenge", tier: "foundation", totalMarks: 6,
+              stem: "Consider the sequence $4, 7, 10, 13, \\ldots$",
+              parts: [
+                { label: "a", prompt: "Write down an expression for the nth term.", marks: 2 },
+                { label: "b", prompt: "Find the 25th term.", marks: 2 },
+                { label: "c", prompt: "Find which term of the sequence is equal to 100.", marks: 2 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [{ kind: "formula", name: "nth term", statement: "$u_n=3n+1$ for this sequence." }],
+                steps: [
+                  { part: "a", reasoning: "$d=3$ and $a=4$, so $u_n=4+(n-1)3$.", working: "u_n=3n+1", marks: 1, markCode: "M" },
+                  { part: "a", reasoning: "Simplify.", working: "3n+1", marks: 1, markCode: "A" },
+                  { part: "b", reasoning: "Substitute $n=25$.", working: "u_{25}=3(25)+1", marks: 1, markCode: "M" },
+                  { part: "b", reasoning: "Evaluate.", working: "76", marks: 1, markCode: "A" },
+                  { part: "c", reasoning: "Set $u_n=100$ and solve.", working: "3n+1=100\\Rightarrow 3n=99", marks: 1, markCode: "M" },
+                  { part: "c", reasoning: "Solve for $n$.", working: "n=33", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "(a) $u_n=3n+1$ (b) $76$ (c) the 33rd term",
+                commonErrors: ["In (c) giving the term value 100 instead of the position $n=33$."],
+              },
+            },
+            {
+              id: "edm10-u5-linseq-q6", difficulty: "challenge", tier: "foundation", totalMarks: 9,
+              stem: "A sequence begins $2, 5, 8, 11, \\ldots$",
+              parts: [
+                { label: "a", prompt: "Write down the common difference and the first term.", marks: 2 },
+                { label: "b", prompt: "Find an expression for the nth term.", marks: 2 },
+                { label: "c", prompt: "Find the 30th term.", marks: 2 },
+                { label: "d", prompt: "Find which term of the sequence is equal to 92.", marks: 3 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [{ kind: "formula", name: "nth term", statement: "$u_n=3n-1$ for this sequence." }],
+                steps: [
+                  { part: "a", reasoning: "State the common difference.", working: "d=3", marks: 1, markCode: "B" },
+                  { part: "a", reasoning: "State the first term.", working: "a=2", marks: 1, markCode: "B" },
+                  { part: "b", reasoning: "Use $u_n=a+(n-1)d$.", working: "u_n=2+(n-1)3", marks: 1, markCode: "M" },
+                  { part: "b", reasoning: "Simplify.", working: "u_n=3n-1", marks: 1, markCode: "A" },
+                  { part: "c", reasoning: "Substitute $n=30$.", working: "u_{30}=3(30)-1", marks: 1, markCode: "M" },
+                  { part: "c", reasoning: "Evaluate.", working: "89", marks: 1, markCode: "A" },
+                  { part: "d", reasoning: "Set $u_n=92$.", working: "3n-1=92", marks: 1, markCode: "M" },
+                  { part: "d", reasoning: "Rearrange.", working: "3n=93", marks: 1, markCode: "M" },
+                  { part: "d", reasoning: "Solve.", working: "n=31", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "(a) $d=3$, $a=2$ (b) $u_n=3n-1$ (c) $89$ (d) the 31st term",
+                commonErrors: ["In (d) answering 92 rather than the term number."],
+              },
+            },
+          ],
+        },
+        {
+          id: "edm10-u5-quadratic-sequences",
+          title: "Quadratic sequences",
+          skill: "Use second differences to find the nth term of a quadratic sequence.",
+          sections: [
+            { heading: "Spotting a quadratic sequence", body: "Subtract consecutive terms to get first differences. If the first differences are not constant but their differences (second differences) are constant, the sequence is quadratic and its nth term has the form $an^2+bn+c$. If the second differences are all equal to $k$, then $2a=k$, so $a=\\frac{k}{2}$." },
+            { heading: "Finding a, b and c", body: "Write $u_n=an^2+bn+c$ with $a$ known. Substitute $n=1,2,3$ to get three equations and solve for $b$ and $c$. For example, with $u_n=2n^2+bn+c$: $u_1=2+b+c$, $u_2=8+2b+c$. Subtracting gives $b$, then $c$ follows. Always check your formula on a later term." },
+            { heading: "A worked pattern", body: "Sequence $3, 9, 19, 33, 51$: first differences $6,10,14,18$; second differences $4,4,4$, so $a=2$. Then $u_1=3$: $2+b+c=3$; $u_2=9$: $8+2b+c=9$. Subtracting gives $b=0$, so $c=1$ and $u_n=2n^2+1$. Check: $u_3=18+1=19$. Correct." },
+          ],
+          keyFormulas: [
+            { name: "Quadratic nth term", statement: "$u_n=an^2+bn+c$" },
+            { name: "Second difference", statement: "constant $=2a$" },
+          ],
+          workedExample: {
+            problem: "Find the nth term of $5, 12, 23, 38, 57$.",
+            solution: "First differences: $7,11,15,19$; second differences all 4, so $a=2$. Then $2+b+c=5$ and $8+2b+c=12$, giving $b=1$, $c=2$. So $u_n=2n^2+n+2$.",
+          },
+          questions: [
+            {
+              id: "edm10-u5-quadseq-q1", difficulty: "core", tier: "higher", totalMarks: 2,
+              stem: "The second differences of a quadratic sequence are all equal to 6. What is the coefficient of $n^2$ in its nth term?",
+              response: { type: "mcq", choices: [
+                { id: "a", text: "$3$" }, { id: "b", text: "$6$" }, { id: "c", text: "$12$" }, { id: "d", text: "$\\frac{1}{3}$" },
+              ], correctChoiceId: "a" },
+              markscheme: {
+                principles: [{ kind: "property", name: "Second difference", statement: "For $u_n=an^2+bn+c$ the second difference is $2a$." }],
+                steps: [
+                  { reasoning: "Set $2a=6$.", working: "2a=6", marks: 1, markCode: "M" },
+                  { reasoning: "Solve.", working: "a=3", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "**(a)** $3$",
+                commonErrors: ["Answering 6, forgetting to halve.", "Doubling to get 12."],
+              },
+            },
+            {
+              id: "edm10-u5-quadseq-q2", difficulty: "core", tier: "higher", totalMarks: 3,
+              stem: "For the sequence $5, 11, 19, 29, 41$, find the common second difference.",
+              response: { type: "numeric", parts: [{ label: "Second difference", answer: 4 }] },
+              markscheme: {
+                principles: [{ kind: "method", name: "Second differences", statement: "Subtract terms twice." }],
+                steps: [
+                  { reasoning: "Find the first differences: $6, 8, 10, 12$.", working: "11-5=6,\\ 19-11=8,\\ 29-19=10,\\ 41-29=12", marks: 1, markCode: "M" },
+                  { reasoning: "Find the second differences.", working: "8-6=2,\\ 10-8=2,\\ 12-10=2", marks: 1, markCode: "M" },
+                  { reasoning: "State the common second difference.", working: "2", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "$2$",
+                commonErrors: ["Stopping after first differences.", "Reporting the first differences as second differences."],
+                examinerNote: "The common second difference is 2.",
+              },
+            },
+            {
+              id: "edm10-u5-quadseq-q3", difficulty: "core", tier: "higher", totalMarks: 4,
+              stem: "Find an expression for the nth term of the sequence $3, 9, 19, 33, 51$.",
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "method", name: "Second differences", statement: "Constant second difference $k$ gives $a=\\frac{k}{2}$." },
+                  { kind: "method", name: "Solving for b and c", statement: "Substitute $n=1$ and $n=2$ into $an^2+bn+c$." },
+                ],
+                steps: [
+                  { reasoning: "First differences are $6,10,14,18$; second differences are all 4.", working: "4,4,4\\Rightarrow 2a=4\\Rightarrow a=2", marks: 1, markCode: "M" },
+                  { reasoning: "Set up equations with $u_n=2n^2+bn+c$: $u_1=2+b+c=3$ and $u_2=8+2b+c=9$.", working: "2+b+c=3,\\ 8+2b+c=9", marks: 1, markCode: "M" },
+                  { reasoning: "Subtract the first from the second: $6+b=6$, so $b=0$ and $c=1$.", working: "b=0,\\ c=1", marks: 1, markCode: "M" },
+                  { reasoning: "State the nth term.", working: "u_n=2n^2+1", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "$u_n=2n^2+1$",
+                commonErrors: ["Using $a=4$ instead of $a=2$.", "Checking only $u_1$ and never verifying a later term."],
+              },
+            },
+            {
+              id: "edm10-u5-quadseq-q4", difficulty: "challenge", tier: "higher", totalMarks: 5,
+              stem: "Find an expression for the nth term of the sequence $5, 12, 23, 38, 57$.",
+              response: { type: "open" },
+              markscheme: {
+                principles: [{ kind: "method", name: "Quadratic sequence method", statement: "Second differences give $2a$; then solve for $b$ and $c$." }],
+                steps: [
+                  { reasoning: "First differences: $7, 11, 15, 19$.", working: "7,11,15,19", marks: 1, markCode: "M" },
+                  { reasoning: "Second differences are all 4, so $a=2$.", working: "2a=4\\Rightarrow a=2", marks: 1, markCode: "M" },
+                  { reasoning: "Use $u_1=5$ and $u_2=12$: $2+b+c=5$ and $8+2b+c=12$.", working: "b+c=3,\\ 2b+c=4", marks: 1, markCode: "M" },
+                  { reasoning: "Solve: $b=1$, $c=2$.", working: "b=1,\\ c=2", marks: 1, markCode: "M" },
+                  { reasoning: "State the nth term.", working: "u_n=2n^2+n+2", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "$u_n=2n^2+n+2$",
+                commonErrors: ["Sign error when subtracting the equations for $b$ and $c$."],
+              },
+            },
+            {
+              id: "edm10-u5-quadseq-q5", difficulty: "challenge", tier: "higher", totalMarks: 7,
+              stem: "Consider the sequence $1, 5, 13, 25, 41$.",
+              parts: [
+                { label: "a", prompt: "Show that the second differences are constant, and write down their value.", marks: 2 },
+                { label: "b", prompt: "Write down the value of $a$ in $u_n=an^2+bn+c$.", marks: 2 },
+                { label: "c", prompt: "Find the values of $b$ and $c$, and hence write down the nth term.", marks: 3 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [{ kind: "method", name: "Second differences", statement: "Constant second difference $=2a$." }],
+                steps: [
+                  { part: "a", reasoning: "First differences are $4, 8, 12, 16$; second differences are $4, 4, 4$ — constant.", working: "4,4,4", marks: 1, markCode: "M" },
+                  { part: "a", reasoning: "State the value.", working: "4", marks: 1, markCode: "A" },
+                  { part: "b", reasoning: "Use $2a=4$.", working: "a=2", marks: 1, markCode: "M" },
+                  { part: "b", reasoning: "State the value.", working: "a=2", marks: 1, markCode: "A" },
+                  { part: "c", reasoning: "Substitute $n=1,2$ into $2n^2+bn+c$ and solve.", working: "2+b+c=1,\\ 8+2b+c=5\\Rightarrow b=-2,\\ c=1", marks: 1, markCode: "M" },
+                  { part: "c", reasoning: "State $b$ and $c$.", working: "b=-2,\\ c=1", marks: 1, markCode: "M" },
+                  { part: "c", reasoning: "Write the nth term.", working: "u_n=2n^2-2n+1", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "(a) constant, $4$ (b) $a=2$ (c) $u_n=2n^2-2n+1$",
+                commonErrors: ["Losing the minus sign on $b$ when solving the simultaneous equations."],
+              },
+            },
+            {
+              id: "edm10-u5-quadseq-q6", difficulty: "challenge", tier: "higher", totalMarks: 10,
+              stem: "Consider the sequence $7, 15, 27, 43, 63$.",
+              parts: [
+                { label: "a", prompt: "Find the first differences and the second differences of the sequence.", marks: 3 },
+                { label: "b", prompt: "Find an expression for the nth term of the sequence.", marks: 4 },
+                { label: "c", prompt: "Find the 10th term of the sequence.", marks: 3 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [{ kind: "method", name: "Quadratic sequence method", statement: "Constant second difference $=2a$; then solve for $b$ and $c$." }],
+                steps: [
+                  { part: "a", reasoning: "First differences: $15-7=8$, $27-15=12$, $43-27=16$, $63-43=20$.", working: "8,12,16,20", marks: 1, markCode: "M" },
+                  { part: "a", reasoning: "Second differences: $12-8=4$, $16-12=4$, $20-16=4$.", working: "4,4,4", marks: 1, markCode: "M" },
+                  { part: "a", reasoning: "State that they are constant.", working: "\\text{constant} = 4", marks: 1, markCode: "A" },
+                  { part: "b", reasoning: "Use $2a=4$.", working: "a=2", marks: 1, markCode: "M" },
+                  { part: "b", reasoning: "Set up equations: $u_1=2+b+c=7$ and $u_2=8+2b+c=15$.", working: "b+c=5,\\ 2b+c=7", marks: 1, markCode: "M" },
+                  { part: "b", reasoning: "Solve: $b=2$, $c=3$.", working: "b=2,\\ c=3", marks: 1, markCode: "M" },
+                  { part: "b", reasoning: "Write the nth term.", working: "u_n=2n^2+2n+3", marks: 1, markCode: "A" },
+                  { part: "c", reasoning: "Substitute $n=10$.", working: "u_{10}=2(100)+2(10)+3", marks: 1, markCode: "M" },
+                  { part: "c", reasoning: "Evaluate the terms.", working: "200+20+3", marks: 1, markCode: "M" },
+                  { part: "c", reasoning: "Add.", working: "223", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "(a) first differences $8,12,16,20$; second differences $4,4,4$ (b) $u_n=2n^2+2n+3$ (c) $223$",
+                commonErrors: ["Using the first difference instead of the second to find $a$."],
+              },
+            },
+          ],
+        },
+      ],
+    },
+    notes: {
+      id: "edm10-u5-sequences-notes", title: "Sequences — notes",
+      summary: "Linear nth terms from the common difference; quadratic nth terms from constant second differences.",
+      sections: [
+        { heading: "Key idea", body: "Constant first difference → linear; constant second difference → quadratic with $2a$ equal to that difference." },
+        { heading: "Method", body: "For quadratic sequences, fix $a$, substitute $n=1$ and $n=2$ to get two equations, solve for $b$ and $c$, then check a later term." },
+        { heading: "Check", body: "Always verify the nth term on at least one term beyond those used to find it." },
+      ],
+    },
+  },
+  {
+    file: "lesson-5-3.ts", exportName: "lesson53",
+    lesson: {
+      id: "edm10-u5-lesson-5-3", code: "5-3",
+      title: "Functions and Graphs",
+      goal: "I CAN use function notation, find inverse functions of linear functions, and describe the graphs of quadratic, cubic and reciprocal functions.",
+      standards: ["4MA1 2.11", "4MA1 2.12H", "4MA1 2.13H"],
+      vocabulary: [
+        { term: "Function", definition: "A rule that assigns exactly one output to each input." },
+        { term: "f(x)", definition: "The output of the function $f$ when the input is $x$." },
+        { term: "Inverse function", definition: "The function $f^{-1}$ that reverses $f$; $f^{-1}(f(x))=x$." },
+        { term: "Vertex", definition: "The turning point of a parabola." },
+        { term: "Axis of symmetry", definition: "The vertical line through the vertex of a parabola, $x=$ vertex $x$-coordinate." },
+        { term: "Asymptote", definition: "A line that a curve approaches but never reaches, e.g. the axes for $y=\\frac{1}{x}$." },
+      ],
+      concepts: [
+        {
+          id: "edm10-u5-function-notation",
+          title: "Function notation and inverse functions",
+          skill: "Evaluate functions, compose functions, and find the inverse of a linear function.",
+          sections: [
+            { heading: "Function notation", body: "$f(x)$ means 'the output of $f$ when the input is $x$'. If $f(x)=3x-5$ then $f(4)=3(4)-5=7$. To find $f(a)$ substitute $a$ everywhere $x$ appears. Functions can be combined: $f(g(x))$ means apply $g$ first, then $f$." },
+            { heading: "Inverse functions", body: "The inverse function $f^{-1}$ reverses the mapping. For a linear function $f(x)=mx+c$, swap $x$ and $y$ and make $x$ the subject: from $y=mx+c$, $x=\\frac{y-c}{m}$, so $f^{-1}(x)=\\frac{x-c}{m}$. Check with $f(f^{-1}(x))=x$." },
+            { heading: "Solving with functions", body: "To solve $f(x)=k$, either substitute into the formula or use the inverse: $x=f^{-1}(k)$. To solve $f(x)=g(x)$, set the two expressions equal and solve the resulting equation." },
+          ],
+          keyFormulas: [
+            { name: "Evaluation", statement: "$f(a)$ = substitute $a$ for $x$" },
+            { name: "Inverse of linear function", statement: "$f(x)=mx+c\\Rightarrow f^{-1}(x)=\\frac{x-c}{m}$" },
+            { name: "Composition", statement: "$f(g(x))$ = apply $g$ first, then $f$" },
+          ],
+          workedExample: {
+            problem: "Given $f(x)=3x-5$, find $f(4)$ and $f^{-1}(7)$.",
+            solution: "$f(4)=3(4)-5=7$. For the inverse: $y=3x-5\\Rightarrow x=\\frac{y+5}{3}$, so $f^{-1}(x)=\\frac{x+5}{3}$ and $f^{-1}(7)=\\frac{12}{3}=4$.",
+          },
+          questions: [
+            {
+              id: "edm10-u5-funcnot-q1", difficulty: "foundation", tier: "foundation", totalMarks: 1,
+              stem: "If $f(x)=2x+1$, what is the value of $f(3)$?",
+              response: { type: "mcq", choices: [
+                { id: "a", text: "$6$" }, { id: "b", text: "$7$" }, { id: "c", text: "$8$" }, { id: "d", text: "$9$" },
+              ], correctChoiceId: "b" },
+              markscheme: {
+                principles: [{ kind: "definition", name: "Function notation", statement: "$f(a)$ means substitute $a$ for $x$." }],
+                steps: [{ reasoning: "$f(3)=2(3)+1=7$.", working: "2(3)+1=7", marks: 1, markCode: "B" }],
+                finalAnswer: "**(b)** $7$",
+                commonErrors: ["Computing $2x+1$ at $x=2$ by mistake, or adding instead of substituting."],
+              },
+            },
+            {
+              id: "edm10-u5-funcnot-q2", difficulty: "foundation", tier: "foundation", totalMarks: 2,
+              stem: "Given $f(x)=5-2x$, find the value of $f(-1)$.",
+              response: { type: "numeric", parts: [{ label: "f(-1)", answer: 7 }] },
+              markscheme: {
+                principles: [{ kind: "definition", name: "Function notation", statement: "Substitute $-1$ for every $x$." }],
+                steps: [
+                  { reasoning: "Substitute.", working: "f(-1)=5-2(-1)", marks: 1, markCode: "M" },
+                  { reasoning: "Evaluate, taking care with the negative sign.", working: "5+2=7", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "$7$",
+                commonErrors: ["Writing $5-2=3$ by ignoring the negative input."],
+              },
+            },
+            {
+              id: "edm10-u5-funcnot-q3", difficulty: "core", tier: "higher", totalMarks: 3,
+              stem: "The function $f$ is defined by $f(x)=4x+1$. Find $f^{-1}(9)$.",
+              response: { type: "numeric", parts: [{ label: "f^{-1}(9)", answer: 2 }] },
+              markscheme: {
+                principles: [{ kind: "method", name: "Inverse of a linear function", statement: "Swap $x$ and $y$ and make $x$ the subject." }],
+                steps: [
+                  { reasoning: "Write $y=4x+1$ and rearrange.", working: "x=\\frac{y-1}{4}\\Rightarrow f^{-1}(x)=\\frac{x-1}{4}", marks: 1, markCode: "M" },
+                  { reasoning: "Substitute $x=9$.", working: "f^{-1}(9)=\\frac{9-1}{4}", marks: 1, markCode: "M" },
+                  { reasoning: "Evaluate.", working: "\\frac{8}{4}=2", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "$2$",
+                commonErrors: ["Rearranging to $f^{-1}(x)=\\frac{x+1}{4}$ (wrong sign).", "Trying to solve $4x+1=9$ without using the inverse — this also gives 2, so accept either method."],
+                examinerNote: "Solving $f(x)=9$ directly is equally valid.",
+              },
+            },
+            {
+              id: "edm10-u5-funcnot-q4", difficulty: "challenge", tier: "higher", totalMarks: 4,
+              stem: "The function $f$ is defined by $f(x)=2x-1$. Find the value of $f(f(2))$.",
+              response: { type: "numeric", parts: [{ label: "f(f(2))", answer: 5 }] },
+              markscheme: {
+                principles: [{ kind: "method", name: "Composite function", statement: "$f(f(x))$ means apply $f$ twice." }],
+                steps: [
+                  { reasoning: "Find the inner value $f(2)$.", working: "f(2)=2(2)-1=3", marks: 1, markCode: "M" },
+                  { reasoning: "Apply $f$ to 3.", working: "f(3)=2(3)-1", marks: 1, markCode: "M" },
+                  { reasoning: "Evaluate.", working: "2(3)-1=5", marks: 1, markCode: "M" },
+                  { reasoning: "State the answer.", working: "5", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "$5$",
+                commonErrors: ["Computing $f(2)^2$ or $f(2)\\times f(2)$ instead of $f(f(2))$."],
+              },
+            },
+            {
+              id: "edm10-u5-funcnot-q5", difficulty: "challenge", tier: "higher", totalMarks: 6,
+              stem: "Two functions are defined by $f(x)=2x+3$ and $g(x)=x-4$.",
+              parts: [
+                { label: "a", prompt: "Find $f(5)$.", marks: 2 },
+                { label: "b", prompt: "Find $g(f(2))$.", marks: 2 },
+                { label: "c", prompt: "Find the value of $x$ for which $f(x)=g(x)$.", marks: 2 },
+              ],
+              response: { type: "numeric", parts: [
+                { label: "(a) f(5)", answer: 13 },
+                { label: "(b) g(f(2))", answer: 3 },
+                { label: "(c) x", answer: -7 },
+              ] },
+              markscheme: {
+                principles: [{ kind: "definition", name: "Function notation", statement: "Evaluate by substitution; solve $f(x)=g(x)$ by equating expressions." }],
+                steps: [
+                  { part: "a", reasoning: "Substitute $x=5$.", working: "f(5)=2(5)+3", marks: 1, markCode: "M" },
+                  { part: "a", reasoning: "Evaluate.", working: "13", marks: 1, markCode: "A" },
+                  { part: "b", reasoning: "Find $f(2)$ first.", working: "f(2)=2(2)+3=7", marks: 1, markCode: "M" },
+                  { part: "b", reasoning: "Apply $g$ to 7.", working: "g(7)=7-4=3", marks: 1, markCode: "A" },
+                  { part: "c", reasoning: "Set the expressions equal.", working: "2x+3=x-4", marks: 1, markCode: "M" },
+                  { part: "c", reasoning: "Solve.", working: "x=-7", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "(a) $13$ (b) $3$ (c) $x=-7$",
+                commonErrors: ["In (b) computing $g(2)$ instead of $g(f(2))$.", "In (c) subtracting wrongly and getting $x=7$."],
+              },
+            },
+            {
+              id: "edm10-u5-funcnot-q6", difficulty: "challenge", tier: "higher", totalMarks: 10,
+              stem: "The function $f$ is defined by $f(x)=4x-1$.",
+              parts: [
+                { label: "a", prompt: "Find the values of $f(3)$ and $f(-2)$.", marks: 3 },
+                { label: "b", prompt: "Find an expression for $f^{-1}(x)$, and hence find $f^{-1}(7)$.", marks: 3 },
+                { label: "c", prompt: "Solve $f(x)=f^{-1}(x)$.", marks: 2 },
+                { label: "d", prompt: "Verify that $f(f^{-1}(5))=5$.", marks: 2 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "method", name: "Inverse of a linear function", statement: "$f^{-1}(x)=\\frac{x+1}{4}$ for $f(x)=4x-1$." },
+                  { kind: "method", name: "Inverse property", statement: "$f(f^{-1}(x))=x$." },
+                ],
+                steps: [
+                  { part: "a", reasoning: "Evaluate $f(3)$.", working: "f(3)=4(3)-1=11", marks: 1, markCode: "M" },
+                  { part: "a", reasoning: "Evaluate $f(-2)$, taking care with signs.", working: "f(-2)=4(-2)-1=-9", marks: 1, markCode: "M" },
+                  { part: "a", reasoning: "State both values.", working: "11 \\text{ and } -9", marks: 1, markCode: "A" },
+                  { part: "b", reasoning: "Rearrange $y=4x-1$ to make $x$ the subject.", working: "x=\\frac{y+1}{4}\\Rightarrow f^{-1}(x)=\\frac{x+1}{4}", marks: 1, markCode: "M" },
+                  { part: "b", reasoning: "State the inverse function.", working: "f^{-1}(x)=\\frac{x+1}{4}", marks: 1, markCode: "A" },
+                  { part: "b", reasoning: "Evaluate $f^{-1}(7)$.", working: "f^{-1}(7)=\\frac{7+1}{4}=2", marks: 1, markCode: "A" },
+                  { part: "c", reasoning: "Set $4x-1=\\frac{x+1}{4}$ and multiply by 4.", working: "16x-4=x+1", marks: 1, markCode: "M" },
+                  { part: "c", reasoning: "Solve.", working: "15x=5\\Rightarrow x=\\frac{1}{3}", marks: 1, markCode: "A" },
+                  { part: "d", reasoning: "Find $f^{-1}(5)$.", working: "f^{-1}(5)=\\frac{5+1}{4}=\\frac{3}{2}", marks: 1, markCode: "M" },
+                  { part: "d", reasoning: "Apply $f$: $4\\times\\frac{3}{2}-1=5$.", working: "4\\times\\frac{3}{2}-1=5", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "(a) $11$ and $-9$ (b) $f^{-1}(x)=\\frac{x+1}{4}$, $f^{-1}(7)=2$ (c) $x=\\frac{1}{3}$ (d) verified",
+                commonErrors: ["Writing $f^{-1}(x)=\\frac{x-1}{4}$ (sign error in rearranging)."],
+              },
+            },
+          ],
+        },
+        {
+          id: "edm10-u5-graphs-of-functions",
+          title: "Graphs of quadratic, cubic and reciprocal functions",
+          skill: "Describe and sketch the key features of $y=ax^2$, $y=ax^3$ and $y=\\frac{a}{x}$ graphs.",
+          sections: [
+            { heading: "Quadratic graphs $y=ax^2+bx+c$", body: "A quadratic graph is a parabola. $a>0$ gives a minimum, $a<0$ a maximum. The axis of symmetry is $x=-\\frac{b}{2a}$ (the $x$-coordinate of the vertex). Factorising gives the $x$-intercepts; setting $x=0$ gives the $y$-intercept." },
+            { heading: "Cubic and reciprocal graphs", body: "$y=ax^3$ has an S-shaped (or reversed S) curve through the origin with no turning points in the simple case $y=x^3$. $y=\\frac{a}{x}$ is a hyperbola with two branches in opposite quadrants, approaching the axes as asymptotes but never touching them." },
+            { heading: "Reading features from an equation", body: "For $y=(x-h)^2+k$ the vertex is $(h,k)$ and the axis of symmetry is $x=h$. For $y=\\frac{a}{x}$, substitute a value of $x$ to find $y$, or a value of $y$ to find $x$; the graph is symmetric about the line $y=x$ when $a>0$." },
+          ],
+          keyFormulas: [
+            { name: "Vertex form", statement: "$y=(x-h)^2+k$ has vertex $(h,k)$" },
+            { name: "Axis of symmetry", statement: "$x=h$ for $y=(x-h)^2+k$" },
+            { name: "Reciprocal", statement: "$y=\\frac{a}{x}$ has asymptotes $x=0$ and $y=0$" },
+          ],
+          workedExample: {
+            problem: "Describe the graph of $y=x^2-4$.",
+            solution: "Parabola opening upwards. $x$-intercepts at $x=\\pm2$, $y$-intercept at $(0,-4)$, vertex $(0,-4)$, axis of symmetry $x=0$.",
+          },
+          questions: [
+            {
+              id: "edm10-u5-grfns-q1", difficulty: "core", tier: "higher", totalMarks: 2,
+              stem: "Which point lies on the graph of $y=\\frac{6}{x}$?",
+              response: { type: "mcq", choices: [
+                { id: "a", text: "$(2,\\ 3)$" }, { id: "b", text: "$(3,\\ 3)$" }, { id: "c", text: "$(4,\\ 2)$" }, { id: "d", text: "$(6,\\ 3)$" },
+              ], correctChoiceId: "a" },
+              markscheme: {
+                principles: [{ kind: "definition", name: "Reciprocal function", statement: "$y=\\frac{a}{x}$ means $xy=a$ for every point on the graph." }],
+                steps: [
+                  { reasoning: "Check each point: $xy$ must equal 6.", working: "2\\times3=6", marks: 1, markCode: "M" },
+                  { reasoning: "Verify the others fail: $3\\times3=9$, $4\\times2=8$, $6\\times3=18$.", working: "\\text{only }(2,3)\\text{ gives }xy=6", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "**(a)** $(2,3)$",
+                commonErrors: ["Checking $x+y=6$ instead of $xy=6$."],
+              },
+            },
+            {
+              id: "edm10-u5-grfns-q2", difficulty: "core", tier: "higher", totalMarks: 3,
+              stem: "The graph of $y=(x-2)^2+1$ is a parabola. Write down the coordinates of its vertex and the equation of its axis of symmetry.",
+              response: { type: "open" },
+              markscheme: {
+                principles: [{ kind: "property", name: "Vertex form", statement: "$y=(x-h)^2+k$ has vertex $(h,k)$ and axis $x=h$." }],
+                steps: [
+                  { reasoning: "Identify $h$ and $k$ from the vertex form.", working: "h=2,\\ k=1", marks: 1, markCode: "M" },
+                  { reasoning: "State the vertex.", working: "(2,\\ 1)", marks: 1, markCode: "A" },
+                  { reasoning: "State the axis of symmetry.", working: "x=2", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "Vertex $(2,1)$; axis of symmetry $x=2$",
+                commonErrors: ["Giving vertex $(2,-1)$ by misreading the sign of $k$.", "Writing the axis as $y=2$."],
+              },
+            },
+            {
+              id: "edm10-u5-grfns-q3", difficulty: "core", tier: "higher", totalMarks: 4,
+              stem: "The graph of $y=kx^2$ passes through the point $(3, 18)$. Find the value of the constant $k$.",
+              response: { type: "numeric", parts: [{ label: "k", answer: 2 }] },
+              markscheme: {
+                principles: [{ kind: "method", name: "Point on a curve", statement: "Substitute the coordinates into the equation." }],
+                steps: [
+                  { reasoning: "Substitute $x=3$ and $y=18$.", working: "18=k(3)^2", marks: 1, markCode: "M" },
+                  { reasoning: "Simplify.", working: "18=9k", marks: 1, markCode: "M" },
+                  { reasoning: "Divide by 9.", working: "k=2", marks: 1, markCode: "M" },
+                  { reasoning: "State the answer.", working: "k=2", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "$k=2$",
+                commonErrors: ["Using $18=3k$ (forgetting to square 3).", "Answering 18/3=6."],
+              },
+            },
+            {
+              id: "edm10-u5-grfns-q4", difficulty: "challenge", tier: "higher", totalMarks: 5,
+              stem: "The graph of $y=\\frac{6}{x}$ is drawn.",
+              parts: [
+                { label: "a", prompt: "Find the value of $y$ when $x=2$.", marks: 2 },
+                { label: "b", prompt: "Find the value of $x$ when $y=-2$.", marks: 2 },
+                { label: "c", prompt: "Write down the equations of the two asymptotes of the graph.", marks: 1 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [{ kind: "definition", name: "Reciprocal function", statement: "$xy=6$ on the curve; asymptotes are $x=0$ and $y=0$." }],
+                steps: [
+                  { part: "a", reasoning: "Substitute $x=2$.", working: "y=\\frac{6}{2}", marks: 1, markCode: "M" },
+                  { part: "a", reasoning: "Evaluate.", working: "y=3", marks: 1, markCode: "A" },
+                  { part: "b", reasoning: "Substitute $y=-2$ and solve.", working: "-2=\\frac{6}{x}\\Rightarrow x=-3", marks: 1, markCode: "M" },
+                  { part: "b", reasoning: "State the value.", working: "x=-3", marks: 1, markCode: "A" },
+                  { part: "c", reasoning: "State both asymptotes.", working: "x=0 \\text{ and } y=0", marks: 1, markCode: "B" },
+                ],
+                finalAnswer: "(a) $y=3$ (b) $x=-3$ (c) $x=0$ and $y=0$",
+                commonErrors: ["Giving only one asymptote in (c).", "In (b) answering $x=-\\frac{1}{3}$ by dividing instead of solving."],
+              },
+            },
+            {
+              id: "edm10-u5-grfns-q5", difficulty: "challenge", tier: "higher", totalMarks: 7,
+              stem: "The graph of $y=x^2-2x-3$ is drawn.",
+              parts: [
+                { label: "a", prompt: "Factorise $x^2-2x-3$ and write down the $x$-intercepts.", marks: 2 },
+                { label: "b", prompt: "Find the coordinates of the vertex of the parabola.", marks: 2 },
+                { label: "c", prompt: "Write down the $y$-intercept.", marks: 1 },
+                { label: "d", prompt: "Solve $x^2-2x-3=5$, giving your answers exactly.", marks: 2 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "method", name: "Factorising quadratics", statement: "$x^2-2x-3=(x-3)(x+1)$." },
+                  { kind: "method", name: "Vertex", statement: "Axis of symmetry midway between roots; substitute to find $y$." },
+                ],
+                steps: [
+                  { part: "a", reasoning: "Factorise.", working: "(x-3)(x+1)", marks: 1, markCode: "M" },
+                  { part: "a", reasoning: "State the $x$-intercepts.", working: "x=3 \\text{ and } x=-1", marks: 1, markCode: "A" },
+                  { part: "b", reasoning: "Axis of symmetry is midway between the roots: $x=\\frac{3+(-1)}{2}=1$.", working: "x=1", marks: 1, markCode: "M" },
+                  { part: "b", reasoning: "Substitute $x=1$: $y=1-2-3=-4$.", working: "(1,\\ -4)", marks: 1, markCode: "A" },
+                  { part: "c", reasoning: "Set $x=0$.", working: "y=-3", marks: 1, markCode: "B" },
+                  { part: "d", reasoning: "Rearrange to $x^2-2x-8=0$ and factorise.", working: "(x-4)(x+2)=0", marks: 1, markCode: "M" },
+                  { part: "d", reasoning: "Solve.", working: "x=4 \\text{ or } x=-2", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "(a) $(x-3)(x+1)$; $x=3,-1$ (b) $(1,-4)$ (c) $y=-3$ (d) $x=4$ or $x=-2$",
+                commonErrors: ["In (d) solving $x^2-2x-3=0$ again instead of $=5$."],
+              },
+            },
+            {
+              id: "edm10-u5-grfns-q6", difficulty: "challenge", tier: "higher", totalMarks: 10,
+              stem: "The graph of $y=x^2-4x+3$ is drawn.",
+              parts: [
+                { label: "a", prompt: "Factorise the quadratic and write down the $x$-intercepts and the $y$-intercept.", marks: 3 },
+                { label: "b", prompt: "Find the coordinates of the vertex and state the minimum value of $y$.", marks: 3 },
+                { label: "c", prompt: "Solve $x^2-4x+3=0$.", marks: 2 },
+                { label: "d", prompt: "Solve $x^2-4x+3=5$, giving your answers in surd form.", marks: 2 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "method", name: "Factorising quadratics", statement: "$x^2-4x+3=(x-1)(x-3)$." },
+                  { kind: "method", name: "Quadratic formula", statement: "$x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}$." },
+                ],
+                steps: [
+                  { part: "a", reasoning: "Factorise.", working: "(x-1)(x-3)", marks: 1, markCode: "M" },
+                  { part: "a", reasoning: "State the $x$-intercepts.", working: "x=1 \\text{ and } x=3", marks: 1, markCode: "A" },
+                  { part: "a", reasoning: "State the $y$-intercept.", working: "(0,\\ 3)", marks: 1, markCode: "A" },
+                  { part: "b", reasoning: "Axis of symmetry midway between roots: $x=2$.", working: "x=\\frac{1+3}{2}=2", marks: 1, markCode: "M" },
+                  { part: "b", reasoning: "Substitute: $y=4-8+3=-1$.", working: "y=-1", marks: 1, markCode: "M" },
+                  { part: "b", reasoning: "State vertex and minimum.", working: "(2,\\ -1),\\ \\min y=-1", marks: 1, markCode: "A" },
+                  { part: "c", reasoning: "Use the factorisation from (a).", working: "(x-1)(x-3)=0", marks: 1, markCode: "M" },
+                  { part: "c", reasoning: "Solve.", working: "x=1 \\text{ or } x=3", marks: 1, markCode: "A" },
+                  { part: "d", reasoning: "Rearrange to $x^2-4x-2=0$ and apply the formula: $x=\\frac{4\\pm\\sqrt{16+8}}{2}=\\frac{4\\pm\\sqrt{24}}{2}$.", working: "x=\\frac{4\\pm2\\sqrt{6}}{2}", marks: 1, markCode: "M" },
+                  { part: "d", reasoning: "Simplify.", working: "x=2\\pm\\sqrt{6}", marks: 1, markCode: "A" },
+                ],
+                finalAnswer: "(a) $(x-1)(x-3)$; $x=1,3$; $y$-intercept $3$ (b) vertex $(2,-1)$, minimum $-1$ (c) $x=1$ or $3$ (d) $x=2\\pm\\sqrt{6}$",
+                commonErrors: ["In (d) forgetting to halve $\\sqrt{24}$ correctly.", "Giving decimal approximations when surd form is requested."],
+              },
+            },
+          ],
+        },
+      ],
+    },
+    notes: {
+      id: "edm10-u5-functions-graphs-notes", title: "Functions and graphs — notes",
+      summary: "f(x) notation, inverse of linear functions, and features of quadratic, cubic and reciprocal graphs.",
+      sections: [
+        { heading: "Key idea", body: "$f^{-1}$ undoes $f$; for $f(x)=mx+c$, $f^{-1}(x)=\\frac{x-c}{m}$." },
+        { heading: "Quadratics", body: "Vertex form $y=(x-h)^2+k$ gives vertex $(h,k)$ and axis $x=h$; factorise for roots." },
+        { heading: "Reciprocals", body: "$y=\\frac{a}{x}$ has asymptotes on both axes; check points with $xy=a$." },
+      ],
+    },
+  },
+];

@@ -7,6 +7,7 @@ export const unit1: Unit = {
   id: "phys11-u1",
   code: "1",
   title: "Motion and Forces",
-  description: "Describe motion with displacement, velocity and acceleration, use graphs and the constant-acceleration equations, apply Newton's laws with weight, friction and tension, and use impulse and conservation of momentum to analyze collisions and explosions.",
+  description:
+    "Describe motion with displacement, velocity and acceleration, use graphs and the constant-acceleration equations, apply Newton's laws with weight, friction and tension, and use impulse and conservation of momentum to analyze collisions and explosions.",
   lessons: [lesson11, lesson12, lesson13],
 };

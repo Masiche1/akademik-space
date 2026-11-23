@@ -9,6 +9,8 @@ import {
 import { EDEXCEL_SUBJECT_NAME } from "./edexcel.ts";
 import { courseLabel } from "./ib.ts";
 import {
+  isUsElementary,
+  isUsHighSchool,
   isUsMiddleSchool,
   type Course,
   type EdexcelInfo,
@@ -116,6 +118,12 @@ const edexcelLabel = (c: Course) =>
     ? `Year ${c.edexcel.year}`
     : yearLabel(c);
 
+const US_ELEMENTARY_GROUPS: { subject: UsInfo["subject"]; heading: string }[] = [
+  { subject: "math", heading: "Elementary Math" },
+  { subject: "science", heading: "Elementary Science" },
+  { subject: "ela", heading: "Elementary English Language Arts" },
+];
+
 const US_MIDDLE_GROUPS: { subject: UsInfo["subject"]; heading: string }[] = [
   { subject: "math", heading: "Middle School Math" },
   { subject: "science", heading: "Middle School Science" },
@@ -129,17 +137,26 @@ const US_HIGH_SCIENCES: UsInfo["subject"][] = [
   "physics",
 ];
 
+const usElementary = (subject: UsInfo["subject"]) =>
+  US_COURSES.filter(
+    (c) => c.us && isUsElementary(c.us) && c.us.subject === subject,
+  );
 const usMiddle = (subject: UsInfo["subject"]) =>
   US_COURSES.filter(
     (c) => c.us && isUsMiddleSchool(c.us) && c.us.subject === subject,
   );
 const usHigh = (subjects: UsInfo["subject"][]) =>
   US_COURSES.filter(
-    (c) => c.us && !isUsMiddleSchool(c.us) && subjects.includes(c.us.subject),
+    (c) => c.us && isUsHighSchool(c.us) && subjects.includes(c.us.subject),
   );
 
-/** Grades 7-8 by subject, then high school maths, sciences and ELA. Empty groups are hidden. */
+/** Grades K-6 by subject, then Grades 7-8 by subject, then high school maths, sciences and ELA. Empty groups are hidden. */
 const usGroups: CourseGroup[] = [
+  ...US_ELEMENTARY_GROUPS.map((g) => ({
+    heading: g.heading,
+    courses: usElementary(g.subject),
+    label: yearLabel,
+  })),
   ...US_MIDDLE_GROUPS.map((g) => ({
     heading: g.heading,
     courses: usMiddle(g.subject),
@@ -147,7 +164,11 @@ const usGroups: CourseGroup[] = [
   })),
   {
     heading: "High School Math",
-    courses: US_COURSES.filter((c) => !c.us),
+    courses: US_COURSES.filter(
+      (c) =>
+        (!c.us && !c.ap && !c.sat) ||
+        (c.us !== undefined && c.us.subject === "math" && isUsHighSchool(c.us)),
+    ),
     label: (c: Course) => c.title,
   },
   {
@@ -159,6 +180,16 @@ const usGroups: CourseGroup[] = [
     heading: "High School English Language Arts",
     courses: usHigh(["ela"]),
     label: yearLabel,
+  },
+  {
+    heading: "Advanced Placement (AP)",
+    courses: US_COURSES.filter((c) => c.ap !== undefined),
+    label: (c: Course) => c.title,
+  },
+  {
+    heading: "SAT",
+    courses: US_COURSES.filter((c) => c.sat !== undefined),
+    label: (c: Course) => c.title,
   },
 ].filter((g) => g.courses.length > 0);
 
@@ -204,13 +235,13 @@ export const CURRICULA: Curriculum[] = [
   {
     id: "us",
     slug: "us",
-    navLabel: "US Grades 7-12",
-    title: "US Grades 7-12",
+    navLabel: "US Pre-K-12",
+    title: "US Pre-K-12",
     eyebrow: "Common Core and NGSS",
     summary:
-      "Grades 7-8 Math, Science and ELA, then high school Math, Sciences and ELA.",
+      "Pre-K-6 Math, ELA and Science, Grades 7-8 Math, Science and ELA, then high school Math, Sciences and ELA, plus AP and SAT prep.",
     description:
-      "Middle school Math, Science and English Language Arts for Grades 7 and 8, then high school Algebra 1 to Precalculus, Biology, Earth and Space Science, Chemistry, Physics and English Language Arts, aligned to Common Core and NGSS. Every lesson is mapped to its standards.",
+      "Pre-K-6 Math, English Language Arts and Science, middle school Math, Science and English Language Arts for Grades 7 and 8, then high school Algebra 1 to Precalculus, Biology, Earth and Space Science, Chemistry, Physics and English Language Arts, aligned to Common Core and NGSS. Every lesson is mapped to its standards. Advanced Placement exam prep and SAT section courses round out the sequence for college readiness.",
     groups: usGroups,
   },
   {

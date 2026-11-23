@@ -7,6 +7,7 @@ export const unit3: Unit = {
   id: "ess9-u3",
   code: "3",
   title: "Earth and Human Activity",
-  description: "Investigate how the uneven distribution of natural resources shapes human activity, how to evaluate hazards and sustainability with data, and how evidence and models explain climate change and the options for responding.",
+  description:
+    "Investigate how the uneven distribution of natural resources shapes human activity, how to evaluate hazards and sustainability with data, and how evidence and models explain climate change and the options for responding.",
   lessons: [lesson31, lesson32, lesson33],
 };

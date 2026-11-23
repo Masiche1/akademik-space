@@ -1,0 +1,1476 @@
+{
+ "edx-biology-y10": {
+  "unit-1": [
+   "Living Organisms and Cells",
+   "Biological Molecules and Enzymes",
+   "Movement of Substances and Surface Area"
+  ],
+  "unit-2": [
+   "Photosynthesis and Leaves",
+   "Diet, Digestion and Energy in Food",
+   "Transport in Animals and Plants"
+  ],
+  "unit-3": [
+   "Respiration",
+   "Gas Exchange",
+   "The Kidney and Osmoregulation"
+  ],
+  "unit-4": [
+   "Biology Practical Skills I: Microscopy and Food Tests",
+   "Biology Practical Skills II: Enzymes and Ecology",
+   "Biology Practical Skills III: Circulation and Respiration"
+  ]
+ },
+ "edx-biology-y11": {
+  "unit-1": [
+   "The Nervous System and the Eye",
+   "Hormones, Blood Glucose and Temperature Control",
+   "Plant Responses and Homeostasis"
+  ],
+  "unit-2": [
+   "Reproduction in Plants and Humans",
+   "DNA, Cell Division and Inheritance",
+   "Variation, Mutation and Natural Selection"
+  ],
+  "unit-3": [
+   "Ecosystems and Energy Flow",
+   "Nutrient Cycles and Human Impact",
+   "Food Production and Biotechnology"
+  ],
+  "unit-4": [
+   "Investigating Coordination and Response",
+   "Investigating Reproduction and Inheritance",
+   "Investigating Ecology and Evolution"
+  ]
+ },
+ "edx-btec-engineering": {
+  "unit-1": [
+   "Engineering Data and Calculations",
+   "Mechanical Principles",
+   "Electrical Principles"
+  ],
+  "unit-2": [
+   "Modern Engineering Technology",
+   "Engineering Materials and Processes",
+   "Sustainable Engineering Solutions"
+  ],
+  "unit-3": [
+   "The Engineering Design Process",
+   "2D Engineering Drawings",
+   "3D CAD Modelling and Simulation"
+  ],
+  "unit-4": [
+   "Project Planning and Specification",
+   "Risk, Quality and Communication",
+   "Evaluation and Project Handover"
+  ]
+ },
+ "edx-btec-health-social-care": {
+  "unit-1": [
+   "Stages of the Lifespan and Development",
+   "Theories of Development",
+   "Developmental Domains Across the Lifespan"
+  ],
+  "unit-2": [
+   "Body Systems and Health",
+   "Lifestyle Factors and Health",
+   "Health Across the Lifespan"
+  ],
+  "unit-3": [
+   "Values and Person-Centred Care",
+   "Consent, Confidentiality and Safeguarding",
+   "Care Settings and the Workforce"
+  ],
+  "unit-4": [
+   "Health Policy and Legislation",
+   "Social Determinants of Health",
+   "Promoting Health and Wellbeing"
+  ]
+ },
+ "edx-btec-information-technology": {
+  "unit-1": [
+   "IT System Components",
+   "Operating Systems and Software",
+   "Networks and System Performance"
+  ],
+  "unit-2": [
+   "Cyber Threats and Attacks",
+   "Security Controls and Protection",
+   "Legal, Ethical Issues and Incident Management"
+  ],
+  "unit-3": [
+   "Website Planning and Design",
+   "HTML and CSS Fundamentals",
+   "Scripting, Hosting and Testing"
+  ],
+  "unit-4": [
+   "Relational Database Concepts",
+   "SQL Queries",
+   "Database Design, Testing and Deployment"
+  ]
+ },
+ "edx-business-y10": {
+  "unit-1": [
+   "Enterprise and Business Objectives",
+   "Types of Business and Enterprise",
+   "Stakeholders and Social Responsibility"
+  ],
+  "unit-2": [
+   "Marketing and Market Research",
+   "The Marketing Mix",
+   "Promotion and Digital Marketing"
+  ],
+  "unit-3": [
+   "Operations and Production",
+   "Inventory and Supply Chain",
+   "Technology in Operations"
+  ]
+ },
+ "edx-business-y11": {
+  "unit-4": [
+   "Sources of Finance",
+   "Financial Documents and Ratios",
+   "Cash Flow and Break-Even"
+  ],
+  "unit-5": [
+   "Human Resources: Recruitment and Training",
+   "Motivation and Leadership",
+   "Industrial Relations and Employment Law"
+  ],
+  "unit-6": [
+   "External Influences: Economic and Government",
+   "Market and Competitive Influences",
+   "Business Decisions and Ethics"
+  ]
+ },
+ "edx-chemistry-y10": {
+  "unit-1": [
+   "States of Matter and Separating Mixtures",
+   "Atomic Structure and the Periodic Table",
+   "Formulae, Equations and Relative Formula Mass"
+  ],
+  "unit-2": [
+   "The Mole and Reacting Quantities",
+   "Concentration, Gas Volumes and Titration",
+   "Ionic, Covalent and Metallic Bonding"
+  ],
+  "unit-3": [
+   "Groups 1 and 7, and the Atmosphere",
+   "Metals: Reactivity, Extraction and Rusting",
+   "Acids, Salts and Chemical Tests"
+  ],
+  "unit-4": [
+   "Titration Technique",
+   "Investigating Rates of Reaction",
+   "Investigating Electrolysis and Reactions"
+  ]
+ },
+ "edx-chemistry-y11": {
+  "unit-1": [
+   "Energetics",
+   "Rates of Reaction",
+   "Equilibrium"
+  ],
+  "unit-2": [
+   "Electrolysis",
+   "Industrial Processes",
+   "Metals and Industrial Evaluation"
+  ],
+  "unit-3": [
+   "Crude Oil, Fuels and Cracking",
+   "Alkanes, Alkenes and Isomers",
+   "Alcohols, Acids, Esters and Polymers"
+  ],
+  "unit-4": [
+   "Quantitative Chemical Analysis",
+   "Investigating Equilibrium and Rates",
+   "Investigating Materials and Polymers"
+  ]
+ },
+ "edx-computerscience-y10": {
+  "unit-1": [
+   "Data Representation",
+   "Networks and Connectivity",
+   "Online Safety and Security"
+  ],
+  "unit-2": [
+   "Algorithms and Decomposition",
+   "Variables and Data Types",
+   "String Manipulation and Functions"
+  ],
+  "unit-3": [
+   "Files and File Formats",
+   "Data Representation in Practice",
+   "Data Transmission"
+  ]
+ },
+ "edx-computerscience-y11": {
+  "unit-4": [
+   "Memory Types and Virtual Memory",
+   "Input and Output Devices",
+   "Embedded Systems and IoT"
+  ],
+  "unit-5": [
+   "Network Security",
+   "Network Protocols",
+   "Data Security and Privacy"
+  ],
+  "unit-6": [
+   "Data Structures",
+   "File Handling",
+   "Advanced Programming Concepts"
+  ]
+ },
+ "edx-economics-y10": {
+  "unit-1": [
+   "The Basic Economic Problem",
+   "Economic Systems",
+   "Production Possibility and Growth"
+  ],
+  "unit-2": [
+   "Demand",
+   "Price Mechanism and Equilibrium",
+   "Market Failure and Government Intervention"
+  ],
+  "unit-3": [
+   "Government Spending and Taxation",
+   "Unemployment and Inflation",
+   "International Trade"
+  ]
+ },
+ "edx-economics-y11": {
+  "unit-4": [
+   "National Income and Economic Growth",
+   "Aggregate Demand and Supply",
+   "Macroeconomic Objectives and Conflicts"
+  ],
+  "unit-5": [
+   "Exchange Rates",
+   "International Trade and Protection",
+   "Economic Development"
+  ],
+  "unit-6": [
+   "Sustainable Development",
+   "Economic Integration",
+   "Trade, Aid and Globalisation"
+  ]
+ },
+ "edx-englang-y10": {
+  "unit-1": [
+   "The Last Ferry",
+   "Night Shift at the Lighthouse",
+   "Two Accounts of Working Nights"
+  ],
+  "unit-2": [
+   "Letter to a Headteacher",
+   "Homework Should Be Optional",
+   "A First Draft"
+  ],
+  "unit-3": [
+   "London",
+   "The Salt Road",
+   "Three Openings"
+  ]
+ },
+ "edx-englang-y11": {
+  "unit-1": [
+   "The Shed",
+   "The Gettysburg Address (opening)",
+   "Two accounts of the first day on a Himalayan trek"
+  ],
+  "unit-2": [
+   "Three openings to an article on phones in schools",
+   "Town to trial a four-day school week",
+   "Two drafts of a paragraph on city noise"
+  ],
+  "unit-3": [
+   "The Last Tram",
+   "Opening of a story: The Orchard",
+   "A model description: The Night Market"
+  ]
+ },
+ "edx-englang-y7": {
+  "unit-1": [
+   "Comprehension and Inference",
+   "Text Structure and Non-Fiction",
+   "Comparing Texts and Purposes"
+  ],
+  "unit-2": [
+   "Analytical Writing",
+   "Persuasive and Formal Writing",
+   "Creative and Descriptive Writing"
+  ],
+  "unit-3": [
+   "Effective Speaking and Listening",
+   "Analysing Media Texts",
+   "Presentations and Debates"
+  ]
+ },
+ "edx-englang-y8": {
+  "unit-1": [
+   "The Last Ferry",
+   "Night Watch",
+   "The Lost Key"
+  ],
+  "unit-2": [
+   "Join the Riverside Clean-up",
+   "Speech to the School Assembly",
+   "Text A and Text B: Two Views of Home"
+  ],
+  "unit-3": [
+   "The Market at Closing Time",
+   "Model formal letter",
+   "Student draft: A Trip to the Museum"
+  ]
+ },
+ "edx-englang-y9": {
+  "unit-1": [
+   "The Counting-House",
+   "The Lamplighter's Round",
+   "The Last Train to Aldermoor"
+  ],
+  "unit-2": [
+   "Over the Pass",
+   "The Tyranny of the Timetable",
+   "Two Accounts of a Sea Crossing"
+  ],
+  "unit-3": [
+   "The Key in the Orchard",
+   "Should Homework Be Abolished?",
+   "A Draft Letter to be Proofread"
+  ]
+ },
+ "edx-englit-y10": {
+  "unit-1": [
+   "She dwelt among the untrodden ways",
+   "Sonnet 116",
+   "Anthem for Doomed Youth (lines 1-8)"
+  ],
+  "unit-2": [
+   "The Birlings, Gerald and the Inspector",
+   "Themes and Context in An Inspector Calls",
+   "Dramatic Methods and the Essay"
+  ],
+  "unit-3": [
+   "Macbeth and Lady Macbeth",
+   "The Supernatural, Guilt, Kingship and Context",
+   "Extract Analysis and the Whole Play"
+  ]
+ },
+ "edx-englit-y11": {
+  "unit-1": [
+   "Characters in Of Mice and Men",
+   "Themes and Context in Of Mice and Men",
+   "Steinbeck's Methods and the Essay"
+  ],
+  "unit-2": [
+   "Darcy's first proposal (Darcy) and Elizabeth's reply (Elizabeth)",
+   "Themes and Regency Context in Pride and Prejudice",
+   "The opening of the novel"
+  ],
+  "unit-3": [
+   "Ozymandias",
+   "Argument: Thesis, Conclusions and Interpretations",
+   "Context (AO4) and Full Exam-style Questions"
+  ]
+ },
+ "edx-englit-y8": {
+  "unit-1": [
+   "A Poison Tree",
+   "The Charge of the Light Brigade (opening)",
+   "The Old Oak"
+  ],
+  "unit-2": [
+   "A Christmas Carol, Stave One (description of Scrooge)",
+   "A Christmas Carol, Stave One (the charity collectors)",
+   "A Christmas Carol, Stave One (Marley's ghost)"
+  ],
+  "unit-3": [
+   "Romeo and Juliet, Prologue",
+   "Romeo and Juliet, Act 1 Scene 1 (Tybalt)",
+   "Romeo and Juliet, Act 1 Scene 5 (the sonnet)"
+  ]
+ },
+ "edx-englit-y9": {
+  "unit-1": [
+   "The House on Harrow Fell",
+   "The Tell-Tale Heart (opening)",
+   "The Night Experiment"
+  ],
+  "unit-2": [
+   "I wandered lonely as a cloud (extract)",
+   "Anthem for Doomed Youth (opening)",
+   "The Tyger (opening)"
+  ],
+  "unit-3": [
+   "Antony's funeral speech",
+   "Beware the ides of March",
+   "Brutus in his orchard"
+  ]
+ },
+ "edx-ial-biology": {
+  "unit-1": [
+   "Cell Structure and Organisation",
+   "Biological Molecules and Water",
+   "Enzymes and Cell Division"
+  ],
+  "unit-2": [
+   "Diffusion, Osmosis and Active Transport",
+   "Gas Exchange",
+   "Transport in Plants and Animals"
+  ],
+  "unit-3": [
+   "Classification and Biodiversity",
+   "Evolution by Natural Selection",
+   "Disease and Immunity"
+  ],
+  "unit-4": [
+   "Metabolism and Enzyme Regulation",
+   "Photosynthesis and Respiration",
+   "Nervous and Hormonal Coordination"
+  ],
+  "unit-5": [],
+  "unit-6": []
+ },
+ "edx-ial-chemistry": {
+  "unit-1": [
+   "Atomic Structure and the Periodic Table",
+   "Bonding and Structure",
+   "Stoichiometry and Energetics"
+  ],
+  "unit-2": [
+   "Inorganic Chemistry — Groups and Reactivity",
+   "Redox Reactions",
+   "Equilibrium and Reaction Rates"
+  ],
+  "unit-3": [
+   "Organic Chemistry — Introduction and Alkanes",
+   "Alcohols, Carboxylic Acids and Esters",
+   "Polymers and Macromolecules"
+  ],
+  "unit-4": [
+   "Aromatic Chemistry",
+   "Analysis and Identification",
+   "Organic Synthesis"
+  ],
+  "unit-5": [],
+  "unit-6": []
+ },
+ "edx-ial-further-maths": {
+  "unit-1": [
+   "Complex Numbers",
+   "The Parabola and Rectangular Hyperbola",
+   "Proof by Mathematical Induction"
+  ],
+  "unit-2": [
+   "Hyperbolic Functions",
+   "Polar Coordinates",
+   "Areas and Arc Lengths in Polar Form"
+  ],
+  "unit-3": [
+   "Matrices and Eigenvalues",
+   "3D Vectors and Complex Loci",
+   "Vector Geometry and Modulus-Argument Loci"
+  ],
+  "unit-4": [
+   "Vectors and Kinematics in One Dimension",
+   "Dynamics: Forces, Friction and Momentum",
+   "Statics and Moments"
+  ],
+  "unit-5": [
+   "Kinematics with Variable Acceleration",
+   "Work, Energy and Power",
+   "Impulse, Momentum and Collisions"
+  ],
+  "unit-6": [
+   "Circular Motion",
+   "Simple Harmonic Motion and Elasticity",
+   "Moments of Inertia and Equilibrium of Strings"
+  ],
+  "unit-7": [
+   "Summarising Data and Probability",
+   "Correlation, Regression and Discrete Random Variables",
+   "The Normal Distribution"
+  ],
+  "unit-8": [
+   "Discrete Probability Distributions",
+   "The Normal Distribution and Hypothesis Testing",
+   "Sampling, Estimators and Confidence Intervals"
+  ],
+  "unit-9": [
+   "Chi-Squared Goodness of Fit",
+   "Correlation and Regression Inference",
+   "Poisson Tests and t-Tests"
+  ],
+  "unit-10": [
+   "Algorithms and Networks",
+   "Linear Programming",
+   "Project Management and Simulation"
+  ]
+ },
+ "edx-ial-maths": {
+  "unit-1": [
+   "Completing the Square and the Vertex Form",
+   "Straight Lines and Radian Trigonometry",
+   "Differentiation and Integration"
+  ],
+  "unit-2": [
+   "The Factor Theorem and Algebraic Proof",
+   "Sequences, Series and Exponentials",
+   "Advanced Calculus, Trigonometry and Numerical Methods"
+  ],
+  "unit-3": [
+   "Trigonometric Identities and Equations",
+   "Exponentials, Logarithms and the Binomial Series",
+   "Calculus Techniques"
+  ],
+  "unit-4": [
+   "Vectors in Three Dimensions",
+   "Polar Coordinates and Parametric Equations",
+   "Differential Equations, Hyperbolic Functions and Improper Integrals"
+  ],
+  "unit-5": [
+   "Vectors and Kinematics in One Dimension",
+   "Dynamics: Forces, Friction and Momentum",
+   "Statics and Moments"
+  ],
+  "unit-6": [
+   "Summarising Data and Probability",
+   "Correlation, Regression and Discrete Random Variables",
+   "The Normal Distribution"
+  ],
+  "unit-7": [
+   "Algorithms and Networks",
+   "Linear Programming",
+   "Project Management and Simulation"
+  ]
+ },
+ "edx-ial-physics": {
+  "unit-1": [
+   "Measurements and Uncertainties",
+   "Particles and Quantum Phenomena",
+   "Electricity — Current, Voltage and Resistance"
+  ],
+  "unit-2": [
+   "Wave Properties",
+   "Interference and Superposition",
+   "Geometric Optics"
+  ],
+  "unit-3": [],
+  "unit-4": [
+   "Gravitational and Electric Fields",
+   "Momentum, Energy and Circular Motion",
+   "Magnetic Fields and Particle Physics"
+  ],
+  "unit-5": [
+   "Thermodynamics and Radiation",
+   "Oscillations and Nuclear Decay",
+   "Astrophysics and Cosmology"
+  ],
+  "unit-6": []
+ },
+ "edx-ial-pure-maths": {
+  "unit-1": [
+   "Completing the Square and the Vertex Form",
+   "Straight Lines and Radian Trigonometry",
+   "Differentiation and Integration"
+  ],
+  "unit-2": [
+   "The Factor Theorem and Algebraic Proof",
+   "Sequences, Series and Exponentials",
+   "Advanced Calculus, Trigonometry and Numerical Methods"
+  ],
+  "unit-3": [
+   "Trigonometric Identities and Equations",
+   "Exponentials, Logarithms and the Binomial Series",
+   "Calculus Techniques"
+  ],
+  "unit-4": [
+   "Vectors in Three Dimensions",
+   "Polar Coordinates and Parametric Equations",
+   "Differential Equations, Hyperbolic Functions and Improper Integrals"
+  ],
+  "unit-5": [
+   "Complex Numbers",
+   "The Parabola and Rectangular Hyperbola",
+   "Proof by Mathematical Induction"
+  ],
+  "unit-6": [
+   "Hyperbolic Functions",
+   "Polar Coordinates",
+   "Areas and Arc Lengths in Polar Form"
+  ],
+  "unit-7": [
+   "Matrices and Eigenvalues",
+   "3D Vectors and Complex Loci",
+   "Vector Geometry and Modulus-Argument Loci"
+  ]
+ },
+ "edx-ias-accounting": {
+  "unit-1": [
+   "Introduction to Accounting",
+   "Bookkeeping Basics",
+   "Financial Statements"
+  ],
+  "unit-2": [
+   "Sources of Accounting Information",
+   "Inventory, Depreciation and Bad Debts",
+   "Bank Reconciliation and Analysis"
+  ],
+  "unit-3": [
+   "Sole Trader Accounts",
+   "Partnership Accounts",
+   "Interpretation of Accounts"
+  ],
+  "unit-4": [
+   "Partnership Changes",
+   "Limited Companies",
+   "Cash Flow and Interpretation"
+  ],
+  "unit-5": [
+   "Profitability Ratios",
+   "Interpreting Financial Statements",
+   "Accounting for Clubs and Non-Profit Organisations"
+  ],
+  "unit-6": [
+   "Accounting Ethics",
+   "International Accounting",
+   "Accounting Career and Skills"
+  ]
+ },
+ "edx-ias-biology": {
+  "unit-1": [
+   "Cell Structure and Organisation",
+   "Biological Molecules and Water",
+   "Enzymes and Cell Division"
+  ],
+  "unit-2": [
+   "Diffusion, Osmosis and Active Transport",
+   "Gas Exchange",
+   "Transport in Plants and Animals"
+  ],
+  "unit-3": []
+ },
+ "edx-ias-business": {
+  "unit-1": [
+   "Business Objectives and Types",
+   "Enterprise and Business Plans",
+   "Business Ethics and Social Responsibility"
+  ],
+  "unit-2": [
+   "Recruitment and Selection",
+   "Reward, Pay and Communication",
+   "Teamwork and Leadership"
+  ],
+  "unit-3": [
+   "Market Research and Segmentation",
+   "Product, Branding and Packaging",
+   "Distribution and Marketing Ethics"
+  ],
+  "unit-4": [
+   "Production Methods and Quality",
+   "Location and Facilities Management",
+   "Health and Safety in Operations"
+  ],
+  "unit-5": [
+   "Financial Statements",
+   "Costs, Revenue and Break-Even",
+   "Investment Appraisal and Financial Planning"
+  ],
+  "unit-6": [
+   "Economic and Political Influences",
+   "Competition and Globalisation",
+   "Business Ethics and Stakeholders"
+  ]
+ },
+ "edx-ias-chemistry": {
+  "unit-1": [
+   "Atomic Structure and the Periodic Table",
+   "Bonding and Structure",
+   "Stoichiometry and Energetics"
+  ],
+  "unit-2": [
+   "Inorganic Chemistry — Groups and Reactivity",
+   "Redox Reactions",
+   "Equilibrium and Reaction Rates"
+  ],
+  "unit-3": []
+ },
+ "edx-ias-computerscience": {
+  "unit-1": [
+   "Computer Components and CPU",
+   "Input, Output and Storage Devices",
+   "Computer Types and System Design"
+  ],
+  "unit-2": [
+   "Algorithms and Flowcharts",
+   "Variables, Data Types and Operators",
+   "Functions and Programming Practice"
+  ],
+  "unit-3": [
+   "Binary Representation",
+   "Boolean Logic and Data Types",
+   "File Formats and Data Integrity"
+  ],
+  "unit-4": [
+   "Programming Languages",
+   "Programming Paradigms and Styles",
+   "Programming Project Development"
+  ],
+  "unit-5": [
+   "Networks and Communication",
+   "System Architecture and Performance",
+   "System Integration and Future Trends"
+  ]
+ },
+ "edx-ias-economics": {
+  "unit-1": [
+   "Demand, Supply and Market Equilibrium",
+   "Market Structures",
+   "Government Intervention in Markets"
+  ],
+  "unit-2": [
+   "Externalities",
+   "Correcting Market Failure",
+   "Inequality and Poverty"
+  ],
+  "unit-3": [
+   "Economic Growth and Development",
+   "Balance of Payments and Living Standards",
+   "Macroeconomic Objectives and Trade-offs"
+  ],
+  "unit-4": [
+   "Fiscal Policy",
+   "Monetary Policy",
+   "Supply-Side Policies"
+  ],
+  "unit-5": [
+   "International Trade",
+   "Exchange Rates",
+   "Multinationals and Globalisation Impacts"
+  ],
+  "unit-6": [
+   "Business Objectives and Costs",
+   "Market Structures and Game Theory",
+   "Quantitative Methods"
+  ]
+ },
+ "edx-ias-further-maths": {
+  "unit-1": [
+   "Complex Numbers",
+   "The Parabola and Rectangular Hyperbola",
+   "Proof by Mathematical Induction"
+  ],
+  "unit-2": [
+   "Hyperbolic Functions",
+   "Polar Coordinates",
+   "Areas and Arc Lengths in Polar Form"
+  ],
+  "unit-3": [
+   "Matrices and Eigenvalues",
+   "3D Vectors and Complex Loci",
+   "Vector Geometry and Modulus-Argument Loci"
+  ],
+  "unit-4": [
+   "Vectors and Kinematics in One Dimension",
+   "Dynamics: Forces, Friction and Momentum",
+   "Statics and Moments"
+  ],
+  "unit-5": [
+   "Kinematics with Variable Acceleration",
+   "Work, Energy and Power",
+   "Impulse, Momentum and Collisions"
+  ],
+  "unit-6": [
+   "Circular Motion",
+   "Simple Harmonic Motion and Elasticity",
+   "Moments of Inertia and Equilibrium of Strings"
+  ],
+  "unit-7": [
+   "Summarising Data and Probability",
+   "Correlation, Regression and Discrete Random Variables",
+   "The Normal Distribution"
+  ],
+  "unit-8": [
+   "Discrete Probability Distributions",
+   "The Normal Distribution and Hypothesis Testing",
+   "Sampling, Estimators and Confidence Intervals"
+  ],
+  "unit-9": [
+   "Chi-Squared Goodness of Fit",
+   "Correlation and Regression Inference",
+   "Poisson Tests and t-Tests"
+  ],
+  "unit-10": [
+   "Algorithms and Networks",
+   "Linear Programming",
+   "Project Management and Simulation"
+  ]
+ },
+ "edx-ias-maths": {
+  "unit-1": [
+   "Completing the Square and the Vertex Form",
+   "Straight Lines and Radian Trigonometry",
+   "Differentiation and Integration"
+  ],
+  "unit-2": [
+   "The Factor Theorem and Algebraic Proof",
+   "Sequences, Series and Exponentials",
+   "Advanced Calculus, Trigonometry and Numerical Methods"
+  ],
+  "unit-3": [
+   "Vectors and Kinematics in One Dimension",
+   "Dynamics: Forces, Friction and Momentum",
+   "Statics and Moments"
+  ],
+  "unit-4": [
+   "Summarising Data and Probability",
+   "Correlation, Regression and Discrete Random Variables",
+   "The Normal Distribution"
+  ],
+  "unit-5": [
+   "Algorithms and Networks",
+   "Linear Programming",
+   "Project Management and Simulation"
+  ]
+ },
+ "edx-ias-physics": {
+  "unit-1": [
+   "Measurements and Uncertainties",
+   "Particles and Quantum Phenomena",
+   "Electricity — Current, Voltage and Resistance"
+  ],
+  "unit-2": [
+   "Wave Properties",
+   "Interference and Superposition",
+   "Geometric Optics"
+  ],
+  "unit-3": []
+ },
+ "edx-ias-psychology": {
+  "unit-1": [
+   "Conformity and Obedience",
+   "Social Roles and Situational Behaviour",
+   "Social Identity and Group Behaviour"
+  ],
+  "unit-2": [
+   "Memory Models and Encoding",
+   "Memory Improvement and Eyewitness Testimony",
+   "Memory in Everyday Life"
+  ],
+  "unit-3": [
+   "Attachment Theories and Types",
+   "Attachment in Childhood and Adulthood",
+   "Attachment Applications and Evaluation"
+  ],
+  "unit-4": [
+   "Defining and Classifying Mental Disorders",
+   "Specific Disorders: Depression and Anxiety",
+   "Schizophrenia and Treatment Evaluation"
+  ],
+  "unit-5": [
+   "Research Design and Variables",
+   "Non-Experimental Methods",
+   "Research Evaluation"
+  ]
+ },
+ "edx-ias-pure-maths": {
+  "unit-1": [
+   "Completing the Square and the Vertex Form",
+   "Straight Lines and Radian Trigonometry",
+   "Differentiation and Integration"
+  ],
+  "unit-2": [
+   "The Factor Theorem and Algebraic Proof",
+   "Sequences, Series and Exponentials",
+   "Advanced Calculus, Trigonometry and Numerical Methods"
+  ],
+  "unit-3": [
+   "Complex Numbers",
+   "The Parabola and Rectangular Hyperbola",
+   "Proof by Mathematical Induction"
+  ]
+ },
+ "edx-ias-sociology": {
+  "unit-1": [
+   "Socialisation and Socialisation Agents",
+   "Socialisation Theories",
+   "Evaluating Socialisation Theory"
+  ],
+  "unit-2": [
+   "Culture and Subcultures",
+   "Class and Cultural Identity",
+   "Multiculturalism and Ethnic Identity"
+  ],
+  "unit-3": [
+   "Religion and Its Functions",
+   "Fundamentalism and New Religious Movements",
+   "Evaluating Beliefs in Society"
+  ],
+  "unit-4": [
+   "Crime, Deviance and Social Control",
+   "Types of Crime",
+   "Gender, Ethnicity and Crime"
+  ],
+  "unit-5": [
+   "Research Design and Methods",
+   "Qualitative Methods",
+   "Ethics and Research Reports"
+  ]
+ },
+ "edx-maths-y10": {
+  "unit-1": [
+   "Number Properties and Surds",
+   "Percentages and Ratio",
+   "Standard Form and Bounds"
+  ],
+  "unit-2": [
+   "Algebraic Manipulation",
+   "Equations",
+   "Inequalities"
+  ],
+  "unit-3": [
+   "Polygons and Circle Theorems",
+   "Trigonometry",
+   "Mensuration"
+  ],
+  "unit-4": [
+   "Representing Data",
+   "Probability",
+   "Sets"
+  ]
+ },
+ "edx-maths-y11": {
+  "unit-1": [
+   "Sequences",
+   "Functions and Graphs",
+   "Calculus"
+  ],
+  "unit-2": [
+   "Transformations",
+   "Vectors",
+   "Similarity and Loci"
+  ],
+  "unit-3": [
+   "Proportion and Formulae",
+   "Quadratics in Depth",
+   "Indices and Proof"
+  ],
+  "unit-4": [
+   "Three-Dimensional Problems",
+   "Compound Measures and Growth",
+   "Multi-step Problem Solving"
+  ]
+ },
+ "edx-maths-y7": {
+  "unit-1": [
+   "Integers and Negative Numbers",
+   "Factors, Multiples and Primes",
+   "Number Problems and Contexts"
+  ],
+  "unit-2": [
+   "Equivalent Fractions and Adding",
+   "Multiplying Fractions and Decimals",
+   "Percentages"
+  ],
+  "unit-3": [
+   "Algebraic Expressions",
+   "Simple Equations",
+   "Ratio and Proportion"
+  ],
+  "unit-4": [
+   "Angles and Shape Properties",
+   "Area, Perimeter and Measure",
+   "Statistics and Probability"
+  ]
+ },
+ "edx-maths-y8": {
+  "unit-1": [
+   "Integers, Powers and Roots",
+   "Fractions, Decimals and Percentages",
+   "Ratio and Proportion"
+  ],
+  "unit-2": [
+   "Expressions and Formulae",
+   "Equations and Inequalities",
+   "Sequences and Graphs"
+  ],
+  "unit-3": [
+   "Angles",
+   "Area and Volume",
+   "Transformations and Constructions"
+  ],
+  "unit-4": [
+   "Averages and Charts",
+   "Scatter Graphs and Comparing Data",
+   "Probability"
+  ]
+ },
+ "edx-maths-y9": {
+  "unit-1": [
+   "Indices and Standard Form",
+   "Accuracy and Estimation",
+   "Percentages and Finance"
+  ],
+  "unit-2": [
+   "Expanding and Factorising",
+   "Equations and Formulae",
+   "Graphs"
+  ],
+  "unit-3": [
+   "Pythagoras and Trigonometry",
+   "Circles and Cylinders",
+   "Congruence and Similarity"
+  ],
+  "unit-4": [
+   "Grouped Data",
+   "Combined Probability",
+   "Collecting and Interpreting Data"
+  ]
+ },
+ "edx-physics-y10": {
+  "unit-1": [
+   "Describing Motion",
+   "Forces and Newton's Laws",
+   "Momentum, Moments and Springs"
+  ],
+  "unit-2": [
+   "Current, Voltage, Resistance and Circuits",
+   "I-V Graphs, Electrical Power and Energy",
+   "Mains Electricity and Static Electricity"
+  ],
+  "unit-3": [
+   "Wave Properties, Reflection and Refraction",
+   "Electromagnetic Spectrum and Total Internal Reflection",
+   "Sound Waves and Oscilloscope Traces"
+  ],
+  "unit-4": [
+   "Practical Skills: Measurement and Uncertainty",
+   "Practical Skills: Motion, Forces and Energy",
+   "Practical Skills: Waves, Light and Radioactivity"
+  ]
+ },
+ "edx-physics-y11": {
+  "unit-1": [
+   "Energy, Work and Power",
+   "Thermal Energy Transfer, Density and Pressure",
+   "Specific Heat Capacity, Changes of State and Gases"
+  ],
+  "unit-2": [
+   "Magnetic Fields, Electromagnets and the Motor Effect",
+   "Electromagnetic Induction, Generators and Transformers",
+   "Electricity Generation and Energy Resources"
+  ],
+  "unit-3": [
+   "Atomic Structure, Radioactive Decay and Half-life",
+   "Uses and Dangers of Radiation, Fission and Fusion",
+   "The Solar System, Stars and the Universe"
+  ],
+  "unit-4": [
+   "Investigating Thermal Physics and Gases",
+   "Investigating Electromagnetism",
+   "Investigating Energy and Domestic Electricity"
+  ]
+ },
+ "edx-primary-english-y1": {
+  "unit-1": [
+   "Letter Sounds and Blending",
+   "Tricky Words and Reading Sentences",
+   "Initial Sounds and CVC Reading"
+  ],
+  "unit-2": [
+   "Story Elements: Characters and Settings",
+   "Sequencing and Story Order",
+   "Non-Fiction and Information Texts"
+  ],
+  "unit-3": [
+   "Sentences: Capital Letters and Full Stops",
+   "Spelling and Handwriting",
+   "Writing About Pictures and Stories"
+  ]
+ },
+ "edx-primary-english-y2": {
+  "unit-1": [
+   "Alternative Spellings and Sounds",
+   "Homophones and Tricky Words",
+   "Longer Words and Reading Fluency"
+  ],
+  "unit-2": [
+   "Inference: Reading Between the Lines",
+   "Non-Fiction Comprehension",
+   "Summarising and Answering Questions"
+  ],
+  "unit-3": [
+   "Sentence Types and Conjunctions",
+   "Expanded Noun Phrases and Punctuation",
+   "Planning and Writing Stories"
+  ]
+ },
+ "edx-primary-english-y3": {
+  "unit-1": [
+   "Prefixes and Suffixes",
+   "Compound Words and Word Families",
+   "Spelling Rules and Patterns"
+  ],
+  "unit-2": [
+   "Author's Purpose and Text Types",
+   "Inference and Deduction",
+   "Non-Fiction Deep Reading"
+  ],
+  "unit-3": [
+   "Paragraphs and Text Structure",
+   "Grammar: Nouns, Adjectives and Verbs",
+   "Writing a Complete Story"
+  ]
+ },
+ "edx-primary-english-y4": {
+  "unit-1": [
+   "Complex Prefixes and Suffixes",
+   "Homophones and Commonly Misspelt Words",
+   "Word Patterns and Etymology"
+  ],
+  "unit-2": [
+   "Retrieval and Inference in Longer Texts",
+   "Predicting and Connecting Ideas",
+   "Poetry and Non-Fiction Deep Reading"
+  ],
+  "unit-3": [
+   "Formal and Persuasive Writing",
+   "Sentence Variety and Paragraphing",
+   "Story Writing and Editing"
+  ]
+ },
+ "edx-primary-english-y5": {
+  "unit-1": [
+   "Advanced Spelling and Word Choice",
+   "Prefixes, Suffixes and Word Building",
+   "Idioms, Phrases and Figurative Language"
+  ],
+  "unit-2": [
+   "Inference and Author's Craft",
+   "Non-Fiction Analysis and Evaluation",
+   "Poetry Analysis and Complex Texts"
+  ],
+  "unit-3": [
+   "Formal and Transactional Writing",
+   "Persuasive Writing",
+   "Editing, Revising and Improving Writing"
+  ]
+ },
+ "edx-primary-english-y6": {
+  "unit-1": [
+   "Spelling Strategies and Academic Vocabulary",
+   "Nuanced Language and Connotation",
+   "Figurative Language and Rhetorical Devices"
+  ],
+  "unit-2": [
+   "Evaluative Reading",
+   "Inference and Implied Meaning",
+   "Comparative and Thematic Reading"
+  ],
+  "unit-3": [
+   "Formal and Persuasive Writing",
+   "Narrative Writing",
+   "Editing and Revising"
+  ]
+ },
+ "edx-primary-maths-y1": {
+  "unit-1": [
+   "Counting, Ordering and Place Value to 100",
+   "Addition and Subtraction within 20",
+   "Doubling, Halving and Number Bonds"
+  ],
+  "unit-2": [
+   "Fractions of Shapes and Amounts",
+   "Length, Height, Time and Money",
+   "Patterns, Sequences and Days of the Week"
+  ],
+  "unit-3": [
+   "Multiplication: Equal Groups",
+   "Division: Sharing and Grouping",
+   "Data Handling: Pictograms and Tally Charts"
+  ]
+ },
+ "edx-primary-maths-y2": {
+  "unit-1": [
+   "Counting in Steps and Place Value to 100",
+   "Addition within 100",
+   "Subtraction within 100"
+  ],
+  "unit-2": [
+   "Multiplication and Division Facts",
+   "Fractions: Halves, Quarters and Thirds",
+   "Multiplication and Division Problems"
+  ],
+  "unit-3": [
+   "2D and 3D Shapes",
+   "Telling the Time and Using Money",
+   "Measuring and Handling Data"
+  ]
+ },
+ "edx-primary-maths-y3": {
+  "unit-1": [
+   "Place Value to 1000",
+   "Addition to 1000",
+   "Subtraction to 1000"
+  ],
+  "unit-2": [
+   "Times Tables to 12 × 12",
+   "Fractions: Unit and Non-Unit",
+   "Fractions on a Number Line"
+  ],
+  "unit-3": [
+   "2D and 3D Shapes",
+   "Measuring Length, Mass and Capacity",
+   "Time, Money and Data"
+  ]
+ },
+ "edx-primary-maths-y4": {
+  "unit-1": [
+   "Place Value to 10 000 and Rounding",
+   "Addition and Subtraction to 10 000",
+   "Factors, Multiples, Primes and Square Numbers"
+  ],
+  "unit-2": [
+   "Multiplication and Division Methods",
+   "Equivalent, Comparing and Ordering Fractions",
+   "Decimals: Tenths and Hundredths"
+  ],
+  "unit-3": [
+   "Area, Perimeter and Angles",
+   "The 24-Hour Clock and Roman Numerals",
+   "Statistics: Line Graphs and Data"
+  ]
+ },
+ "edx-primary-maths-y5": {
+  "unit-1": [
+   "Place Value to 1 000 000 and Negative Numbers",
+   "Multiplication and Division of Larger Numbers",
+   "Factors, Multiples and the Highest Common Factor"
+  ],
+  "unit-2": [
+   "Adding and Subtracting Fractions",
+   "Decimals and Percentages",
+   "Fractions of Amounts and Mixed Numbers"
+  ],
+  "unit-3": [
+   "Area and Volume",
+   "Angles and Lines",
+   "Time, Roman Numerals and Statistics"
+  ]
+ },
+ "edx-primary-maths-y6": {
+  "unit-1": [
+   "Place Value to 10 Million and Order of Operations",
+   "Formal Multiplication and Division",
+   "Fractions and Decimals: Operations"
+  ],
+  "unit-2": [
+   "Fractions: All Operations",
+   "Ratio and Proportion",
+   "Problem Solving with Fractions, Decimals and Percentages"
+  ],
+  "unit-3": [
+   "Area of Triangles and Parallelograms",
+   "Statistics: Mean, Median, Mode and Range",
+   "Measurement and Money Problems"
+  ]
+ },
+ "edx-primary-science-y1": {
+  "unit-1": [
+   "Working Scientifically: Observing",
+   "The Human Body",
+   "Animals and Plants"
+  ],
+  "unit-2": [
+   "Everyday Materials",
+   "Light and Sound",
+   "Forces and Motion"
+  ],
+  "unit-3": [
+   "Seasons",
+   "Plants and What They Need",
+   "Keeping Healthy"
+  ]
+ },
+ "edx-primary-science-y2": {
+  "unit-1": [
+   "Classifying Living Things",
+   "The Human Body",
+   "Plants: Parts, Needs and Growth"
+  ],
+  "unit-2": [
+   "Material Properties",
+   "Grouping Materials",
+   "States of Matter and Mixing"
+  ],
+  "unit-3": [
+   "Forces and Movement",
+   "Light, Shadows and Reflection",
+   "Sound and Seasonal Change"
+  ]
+ },
+ "edx-primary-science-y3": {
+  "unit-1": [
+   "Classifying Living Things",
+   "Life Cycles",
+   "Habitats and Food Chains"
+  ],
+  "unit-2": [
+   "The Skeleton and Muscles",
+   "Teeth and Digestion",
+   "Plant Parts and Growth"
+  ],
+  "unit-3": [
+   "Materials and Changes",
+   "Forces and Magnets",
+   "Sound and Earth & Space"
+  ]
+ },
+ "edx-primary-science-y4": {
+  "unit-1": [
+   "Living Things: Classification and Life Cycles",
+   "Food Webs and Habitats",
+   "Seasonal Adaptations"
+  ],
+  "unit-2": [
+   "The Digestive System",
+   "Skeleton, Muscles and Movement",
+   "Plant Reproduction and Seed Dispersal"
+  ],
+  "unit-3": [
+   "Grouping Materials and Uses",
+   "Electricity: Circuits",
+   "Light, Sound and Earth & Space"
+  ]
+ },
+ "edx-primary-science-y5": {
+  "unit-1": [
+   "Food Chains and Ecosystems",
+   "Life Cycles: Animals, Plants and Fungi",
+   "Classification Keys and Variation"
+  ],
+  "unit-2": [
+   "Balanced Diet and Nutrition",
+   "Skeleton, Muscles and Circulation",
+   "Breathing and the Nervous System"
+  ],
+  "unit-3": [
+   "Separating Mixtures",
+   "Forces and Simple Machines",
+   "Light, Sound and Earth & Space"
+  ]
+ },
+ "edx-primary-science-y6": {
+  "unit-1": [
+   "Classification and Adaptation",
+   "Food Webs and Ecosystems",
+   "Habitats, Adaptation and Survival"
+  ],
+  "unit-2": [
+   "Nutrition and Digestion",
+   "Circulation and Breathing",
+   "Nervous, Excretory and Reproductive Systems"
+  ],
+  "unit-3": [
+   "Separating Mixtures and Solutions",
+   "Forces, Machines and Electricity",
+   "Light, Sound and Earth & Space"
+  ]
+ },
+ "edx-science-y10": {
+  "unit-1": [
+   "Cell Structure and Organisation",
+   "Biological Molecules",
+   "Photosynthesis and Respiration"
+  ],
+  "unit-2": [
+   "Atoms, Elements and the Periodic Table",
+   "Chemical Reactions and Rates",
+   "Acids, Alkalis, Metals and Reversible Reactions"
+  ],
+  "unit-3": [
+   "Forces, Motion and Energy",
+   "Light and Electricity",
+   "Radioactivity, Pressure and Moments"
+  ],
+  "unit-4": [
+   "Planning Scientific Investigations",
+   "Data Handling and Analysis",
+   "Investigative Skills in Practice"
+  ]
+ },
+ "edx-science-y11": {
+  "unit-1": [
+   "Coordination and Response",
+   "Reproduction",
+   "Microorganisms, Disease and Biotechnology"
+  ],
+  "unit-2": [
+   "Quantitative Chemistry: The Mole",
+   "Rates of Reaction",
+   "Chemical Calculations and Reactions"
+  ],
+  "unit-3": [
+   "Electricity: Power and Domestic Circuits",
+   "Light, Sound and Ultrasound",
+   "Pressure, Density and Floating"
+  ],
+  "unit-4": [
+   "Advanced Investigation Design",
+   "Error Analysis and Uncertainty",
+   "Practical Assessment Skills"
+  ]
+ },
+ "edx-science-y7": {
+  "unit-1": [
+   "Cells and Microscopy",
+   "Ecosystems and Food Chains",
+   "Human Body Systems"
+  ],
+  "unit-2": [
+   "States of Matter and Particle Theory",
+   "Chemical Reactions and Acids",
+   "Elements, Compounds and the Periodic Table"
+  ],
+  "unit-3": [
+   "Forces and Motion",
+   "Energy, Sound and Light",
+   "Electricity and Circuits"
+  ]
+ },
+ "edx-science-y8": {
+  "unit-1": [
+   "Cells",
+   "Organisation and Diffusion",
+   "Ecosystems"
+  ],
+  "unit-2": [
+   "Particle Model",
+   "Elements, Compounds and Mixtures",
+   "Chemical Reactions"
+  ],
+  "unit-3": [
+   "Forces",
+   "Energy",
+   "Electricity"
+  ]
+ },
+ "edx-science-y9": {
+  "unit-1": [
+   "Nutrition and Digestion",
+   "Breathing and Respiration",
+   "Inheritance and Variation"
+  ],
+  "unit-2": [
+   "Atomic Structure",
+   "The Periodic Table",
+   "Reactions of Metals"
+  ],
+  "unit-3": [
+   "Waves",
+   "Pressure and Moments",
+   "Space and Magnetism"
+  ]
+ }
+}

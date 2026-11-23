@@ -277,13 +277,16 @@ export type EdexcelInfo = {
     | "computer-science"
     | "engineering"
     | "health-social-care"
-    | "information-technology";
+    | "information-technology"
+    | "computing"
+    | "geography"
+    | "history";
   /** Primary: school year 1-6. Lower secondary / IGCSE: 8-11. IAS/IAL: year of study 1 or 2. */
   year: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13;
 };
 
 /**
- * US Common Core / NGSS courses: middle school (Grades 7-8) and high school sciences and ELA (Grades 9-11).
+ * US Common Core / NGSS courses: elementary (Grades K-6), middle school (Grades 7-8) and high school sciences and ELA (Grades 9-12).
  * The original high school maths sequence (Algebra 1 to Precalculus) has no `us` field.
  */
 export type UsInfo = {
@@ -295,11 +298,25 @@ export type UsInfo = {
     | "chemistry"
     | "physics"
     | "earth-space";
-  grade: 7 | 8 | 9 | 10 | 11;
+  /** US grade level. -1 = Pre-K, 0 = Kindergarten, 1-12 = Grades 1-12. */
+  grade: -1 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12;
 };
 
-/** Grades 7-8 are middle school; 9 and above are high school. */
-export const isUsMiddleSchool = (us: UsInfo) => us.grade <= 8;
+/** Grades Pre-K-6 (-1 to 6) are elementary; 7-8 are middle school; 9+ are high school. */
+export const isUsPreK = (us: UsInfo) => us.grade === -1;
+export const isUsElementary = (us: UsInfo) => us.grade <= 6;
+export const isUsMiddleSchool = (us: UsInfo) => us.grade >= 7 && us.grade <= 8;
+export const isUsHighSchool = (us: UsInfo) => us.grade >= 9;
+
+/** College Board Advanced Placement course, e.g. "calculus-ab" or "english-literature". */
+export type ApInfo = {
+  exam: string;
+};
+
+/** SAT course focus area. */
+export type SatInfo = {
+  section: "reading-writing" | "math" | "practice";
+};
 
 /** IB Middle Years Programme: integrated Sciences in MYP 1-3, separate sciences and Standard/Extended maths in MYP 4-5. Language and Literature / Language Acquisition are per-year courses like the other MYP subjects. */
 export type MypInfo = {
@@ -355,8 +372,12 @@ export type Course = {
   ib?: IbInfo;
   /** Present for Pearson Edexcel courses. */
   edexcel?: EdexcelInfo;
-  /** Present for US Common Core / NGSS courses (Grades 7-11). */
+  /** Present for US Common Core / NGSS courses (Grades 7-12). */
   us?: UsInfo;
+  /** Present for College Board Advanced Placement courses. */
+  ap?: ApInfo;
+  /** Present for SAT prep courses. */
+  sat?: SatInfo;
   /** Present for IB Middle Years Programme courses. */
   myp?: MypInfo;
   /** Present for IB Primary Years Programme courses. */

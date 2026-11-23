@@ -1,0 +1,1088 @@
+module.exports = [
+  {
+    file: "lesson-5-1.ts", exportName: "lesson51",
+    lesson: {
+      id: "el11-u5-lesson-5-1", code: "5-1",
+      title: "Bias and Loaded Language in Media Texts",
+      goal: "I CAN identify biased and loaded language in texts and explain how writers position readers through word choice.",
+      standards: ["4EA1 AO2", "4EA1 AO3", "4EA1 Paper 1"],
+      vocabulary: [
+        { term: "Bias", definition: "A writer's tendency to present one side of an issue favourably, often through selective or emotive language." },
+        { term: "Loaded language", definition: "Words chosen for their emotional associations rather than neutral description." },
+        { term: "Pejorative", definition: "A word with negative connotations, e.g. 'regime' vs 'government'." },
+        { term: "Euphemism", definition: "A mild or indirect word used to soften an unpleasant reality, e.g. 'collateral damage'." },
+        { term: "Spin", definition: "Presenting information in a way that favours a particular interpretation." },
+        { term: "One-sided reporting", definition: "Covering an issue from a single viewpoint while omitting or minimising others." },
+      ],
+      concepts: [
+        {
+          id: "el11-u5-loaded-language",
+          title: "Loaded language and emotive writing",
+          skill: "Spot loaded, pejorative and euphemistic language and explain its persuasive effect on readers.",
+          sections: [
+            { heading: "How loaded language works", body: "Every word carries **connotations** — emotional associations beyond its dictionary meaning. A writer creates bias by choosing words with strong connotations: 'regime' (negative) instead of 'government' (neutral), 'thugs' instead of 'protesters', 'freedom fighter' instead of 'insurgent'. The facts may be identical; the emotional colouring is not." },
+            { heading: "Pejoratives and euphemisms", body: "A **pejorative** loads a word negatively to attack a person or group. A **euphemism** does the opposite — it softens an unpleasant idea: 'downsizing' for 'sacking', 'collateral damage' for 'civilian deaths', 'passed away' for 'died'. Euphemism can be polite or can deliberately obscure a harsh reality." },
+            { heading: "Spotting bias in a sentence", body: "Ask: is this word neutral or loaded? What does it make the reader feel? Then check what is omitted — bias often lives in what a text does NOT say. 'The minister made the announcement' is neutral; 'The minister grandstandingly announced' adds judgement through a loaded adverb." },
+          ],
+          keyFormulas: [
+            { name: "Loaded language", statement: "Word choice carrying emotional connotations that steer the reader's response." },
+            { name: "Pejorative", statement: "Negative-loaded word used to disparage: 'thug', 'extremist', 'so-called'." },
+            { name: "Euphemism", statement: "Softening word that may obscure reality: 'downsizing', 'collateral damage'." },
+          ],
+          workedExample: {
+            problem: "Compare: 'The crowd cheered as the troops withdrew.' vs 'The mob jeered as the soldiers fled.' Which is more loaded and why?",
+            solution: "Both describe the same scene but with opposite connotations. 'Crowd' is neutral-positive; 'mob' suggests disorder and threat. 'Cheered' is positive; 'jeered' is hostile. 'Troops' is neutral-military; 'soldiers' humanises them. 'Withdrew' is neutral; 'fled' suggests cowardice. The second sentence loads every noun and verb to make the soldiers look weak and the crowd hostile — a classic biased presentation.",
+          },
+          questions: [
+            {
+              id: "el11-u5-loaded-language-q1",
+              difficulty: "foundation",
+              totalMarks: 1,
+              stem: "Which word is a PEJORATIVE term for a government?",
+              response: {
+                type: "mcq",
+                choices: [
+                  { id: "a", text: "administration" },
+                  { id: "b", text: "regime" },
+                  { id: "c", text: "cabinet" },
+                  { id: "d", text: "leadership" },
+                ],
+                correctChoiceId: "b",
+              },
+              markscheme: {
+                principles: [{ kind: "definition", name: "Pejorative", statement: "A word with negative connotations used to disparage." }],
+                steps: [{ reasoning: "'Regime' carries hostile connotations; the others are relatively neutral.", marks: 1, markCode: "AO2" }],
+                finalAnswer: "**(b)** regime.",
+                commonErrors: ["Choosing a formal but neutral term (a, c)."],
+              },
+            },
+            {
+              id: "el11-u5-loaded-language-q2",
+              difficulty: "foundation",
+              totalMarks: 2,
+              stem: "Define 'loaded language' and give one example.",
+              response: { type: "open" },
+              markscheme: {
+                principles: [{ kind: "definition", name: "Loaded language", statement: "Word choice carrying emotional associations beyond literal meaning." }],
+                steps: [
+                  { reasoning: "Defines loaded language as emotionally coloured word choice.", marks: 1, markCode: "AO2" },
+                  { reasoning: "Valid example, e.g. 'thug' for protester or 'downsizing' for sacking.", marks: 1, markCode: "AO2" },
+                ],
+                finalAnswer: "Loaded language = words chosen for emotional effect; e.g. 'so-called expert'.",
+                commonErrors: ["Confusing loaded language with formal/informal register."],
+              },
+            },
+            {
+              id: "el11-u5-loaded-language-q3",
+              difficulty: "core",
+              totalMarks: 3,
+              extract: {
+                title: "Two reports on the same protest",
+                author: "Written for Akademik Space",
+                source: "Comparative news extracts",
+                text: "EXTRACT A: 'A large, peaceful demonstration gathered in the city centre to voice concerns about the new development.'\nEXTRACT B: 'A mob of activists descended on the city centre to disrupt the new development.'",
+              },
+              stem: "Identify the loaded words in Extract B and explain the effect of each.",
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "technique", name: "Loaded lexis", statement: "Word choice steers emotional response." },
+                  { kind: "skill", name: "Comparative analysis", statement: " contrasting neutral and loaded presentation." },
+                ],
+                steps: [
+                  { reasoning: "'Mob' replaces 'demonstration' — suggests disorder, violence, loss of control.", evidence: "A mob of activists", marks: 1, markCode: "AO2" },
+                  { reasoning: "'Descended on' suggests invasion/aggression; 'disrupt' suggests harm rather than 'voice concerns'.", evidence: "descended on the city centre", marks: 1, markCode: "AO2" },
+                  { reasoning: "Overall effect: identical event framed as threatening rather than legitimate expression of concern.", marks: 1, markCode: "AO3" },
+                ],
+                finalAnswer: "'Mob', 'descended' and 'disrupt' load the extract negatively, turning a peaceful demonstration into a threatening mob action.",
+                commonErrors: ["Identifying words without explaining their connotations."],
+              },
+            },
+            {
+              id: "el11-u5-loaded-language-q4",
+              difficulty: "challenge",
+              totalMarks: 5,
+              stem: "Explain how euphemism can be both polite and manipulative, using 'downsizing' and 'collateral damage' as examples.",
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "definition", name: "Euphemism", statement: "A mild term softening an unpleasant reality." },
+                  { kind: "skill", name: "Evaluative analysis", statement: "Weighing politeness against obfuscation." },
+                ],
+                steps: [
+                  { reasoning: "Euphemism replaces harsh words with mild ones to reduce discomfort.", marks: 1, markCode: "AO2" },
+                  { reasoning: "'Downsizing' politely reframes job losses — polite but also hides scale and impact.", marks: 1, markCode: "AO3" },
+                  { reasoning: "'Collateral damage' clinicalises civilian deaths in warfare — bureaucratic distance obscures human cost.", marks: 1, markCode: "AO3" },
+                  { reasoning: "Polite use: 'passed away' softens grief; manipulative use: 'enhanced interrogation' for torture.", marks: 1, markCode: "AO3" },
+                  { reasoning: "Judgement: the effect depends on whether the euphemism serves the audience or hides the truth from them.", marks: 1, markCode: "AO1" },
+                ],
+                finalAnswer: "Euphemisms soften unpleasant realities — sometimes politely ('passed away'), sometimes manipulatively ('collateral damage') when they obscure the true scale of harm.",
+                commonErrors: ["Only defining euphemism without evaluating."],
+              },
+            },
+            {
+              id: "el11-u5-loaded-language-q5",
+              difficulty: "challenge",
+              totalMarks: 6,
+              parts: [
+                { label: "a", prompt: "Rewrite 'The company sacked 200 workers' in two different loaded versions — one sympathetic to workers, one to the company.", marks: 3 },
+                { label: "b", prompt: "Explain how your word choices position the reader differently.", marks: 3 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "technique", name: "Loaded rewriting", statement: "Synonym choice steers sympathy." },
+                  { kind: "skill", name: "Persuasive writing", statement: "Positioning readers through lexis." },
+                ],
+                steps: [
+                  { part: "a", reasoning: "Worker-sympathetic version, e.g. 'The company ruthlessly dumped 200 workers'.", marks: 2, markCode: "AO4" },
+                  { part: "a", reasoning: "Company-sympathetic version, e.g. 'The company streamlined its workforce, making 200 roles redundant'.", marks: 1, markCode: "AO4" },
+                  { part: "b", reasoning: "'Ruthlessly dumped' triggers anger at the company; 'streamlined/redundant' sounds corporate and inevitable.", marks: 2, markCode: "AO4" },
+                  { part: "b", reasoning: "Same facts, opposite emotional framing — demonstrating how loaded language creates bias.", marks: 1, markCode: "AO3" },
+                ],
+                finalAnswer: "(a) E.g. 'ruthlessly dumped 200 workers' vs 'streamlined workforce with 200 redundancies'. (b) The first provokes sympathy for workers; the second distances and justifies the company.",
+                  levels: [
+                  { level: "Level 3", marks: "5-6", descriptor: "Perceptive, secure and well-developed answer with precise terminology and integrated evidence." },
+                  { level: "Level 2", marks: "3-4", descriptor: "Clear, relevant points with some development and supporting detail." },
+                  { level: "Level 1", marks: "1-2", descriptor: "Simple or partial points; limited development or relevance." },
+                  ],
+                commonErrors: ["Both versions equally loaded or equally neutral.", "Not explaining the effect."],
+              },
+            },
+            {
+              id: "el11-u5-loaded-language-q6",
+              difficulty: "challenge",
+              totalMarks: 9,
+              stem: "Write about 200 words analysing how loaded language creates bias in a text. Use at least two examples of loaded words or phrases and explain their effect on the reader.",
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "technique", name: "Loaded language", statement: "Emotional connotations steer reader response." },
+                  { kind: "skill", name: "Analytical writing", statement: "Coherent explanation with evidence." },
+                ],
+                steps: [
+                  { reasoning: "Defines loaded language/bias clearly.", marks: 1, markCode: "AO3" },
+                  { reasoning: "Example 1 with connotation explained.", marks: 2, markCode: "AO2" },
+                  { reasoning: "Example 2 with connotation explained.", marks: 2, markCode: "AO2" },
+                  { reasoning: "Explains cumulative effect on reader's judgement.", marks: 2, markCode: "AO3" },
+                  { reasoning: "Clear organisation and conclusion.", marks: 2, markCode: "AO4" },
+                ],
+                finalAnswer: "Loaded language uses emotionally coloured words to steer readers toward a particular judgement, often by appealing to fear, sympathy or outrage.",
+                levels: [
+                  { level: "Level 3", marks: "8-9", descriptor: "Clear definition, two apt examples, effect well explained." },
+                  { level: "Level 2", marks: "5-7", descriptor: "Examples present but effect partially explained." },
+                  { level: "Level 1", marks: "1-4", descriptor: "Vague account with few examples." },
+                ],
+                commonErrors: ["Listing words without connotations.", "No mention of reader effect."],
+              },
+            },
+          ],
+        },
+        {
+          id: "el11-u5-persuasive-techniques",
+          title: "Persuasive techniques in media writing",
+          skill: "Identify and analyse the rhetorical techniques writers use to persuade readers in journalism and opinion pieces.",
+          sections: [
+            { heading: "The persuasion toolkit", body: "Writers persuade through: **rhetorical questions** ('Do we really want this?'), **rule of three** ('stronger, faster, smarter'), **direct address** ('you know what happens next'), **appeal to authority** ('experts agree'), **appeal to emotion** (fear, anger, hope) and **repetition** for emphasis. Each technique bypasses logic and works on feeling." },
+            { heading: "Statistics and authority", body: "Numbers and expert opinions make claims feel objective. '9 out of 10 dentists recommend' borrows credibility. Watch for: statistics without context ('crime rose 200%' from 1 to 3 incidents), unnamed 'experts', and cherry-picked studies. The technique is sound; the selection is biased." },
+            { heading: "Reading persuasion critically", body: "To analyse persuasion: name the technique, quote it, explain what emotion or reaction it targets, then evaluate whether it substitutes for evidence. A persuasive writer often tells you how to feel; a balanced writer shows you the facts and lets you decide." },
+          ],
+          keyFormulas: [
+            { name: "Rhetorical question", statement: "A question asked for effect, not answer — guides reader to desired conclusion." },
+            { name: "Rule of three", statement: "Grouping ideas in threes for memorability and rhythm." },
+            { name: "Appeal to authority", statement: "Citing experts or statistics to borrow credibility." },
+          ],
+          workedExample: {
+            problem: "Analyse: 'Do we really want another delay? The council says 'soon', but soon never comes. You deserve better — and so do our children.'",
+            solution: "The rhetorical question 'Do we really want another delay?' positions the reader to answer 'no'. 'Soon never comes' uses repetition and cynicism to undermine the council. 'You deserve better' uses direct address and appeal to emotion (injustice). 'And so do our children' adds a rule-of-three-like extension to guilt-trip parents. Every technique targets feeling rather than presenting evidence — classic persuasive journalism.",
+          },
+          questions: [
+            {
+              id: "el11-u5-persuasive-techniques-q1",
+              difficulty: "foundation",
+              totalMarks: 1,
+              stem: "What is a rhetorical question?",
+              response: {
+                type: "mcq",
+                choices: [
+                  { id: "a", text: "A question the writer expects an answer to" },
+                  { id: "b", text: "A question asked for effect, guiding the reader to a conclusion" },
+                  { id: "c", text: "A question in a speech only" },
+                  { id: "d", text: "A question with no words" },
+                ],
+                correctChoiceId: "b",
+              },
+              markscheme: {
+                principles: [{ kind: "definition", name: "Rhetorical question", statement: "Asked for effect, not answer." }],
+                steps: [{ reasoning: "The writer does not want an answer; the question implies the desired response.", marks: 1, markCode: "AO2" }],
+                finalAnswer: "**(b)** A question asked for effect, guiding the reader to a conclusion.",
+                commonErrors: ["Thinking it requires a real answer (a)."],
+              },
+            },
+            {
+              id: "el11-u5-persuasive-techniques-q2",
+              difficulty: "foundation",
+              totalMarks: 2,
+              stem: "Name two persuasive techniques writers use in journalism or opinion pieces.",
+              response: { type: "open" },
+              markscheme: {
+                principles: [{ kind: "definition", name: "Persuasive techniques", statement: "Rhetorical devices that steer reader response." }],
+                steps: [
+                  { reasoning: "Any two valid techniques: rhetorical question, rule of three, direct address, appeal to authority/emotion, repetition.", marks: 1, markCode: "AO2" },
+                  { reasoning: "Second valid technique.", marks: 1, markCode: "AO2" },
+                ],
+                finalAnswer: "E.g. rhetorical questions and appeal to authority (or rule of three, direct address, repetition).",
+                commonErrors: ["Listing techniques without naming them precisely."],
+              },
+            },
+            {
+              id: "el11-u5-persuasive-techniques-q3",
+              difficulty: "core",
+              totalMarks: 3,
+              extract: {
+                title: "An opinion column opening",
+                author: "Written for Akademik Space",
+                source: "Newspaper column",
+                text: "'They promise change. They promise hope. They promise everything — except the one thing that matters: your future. Think about it. When did a politician last tell you the truth?'",
+              },
+              stem: "Identify two persuasive techniques in this extract and explain their effect.",
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "technique", name: "Rule of three and rhetorical question", statement: "Repetition and questioning steer emotional response." },
+                  { kind: "skill", name: "Persuasion analysis", statement: "Explaining technique and target emotion." },
+                ],
+                steps: [
+                  { reasoning: "Rule of three: 'promise change... promise hope... promise everything' — rhythmic repetition builds momentum and cynicism.", evidence: "They promise change. They promise hope.", marks: 1, markCode: "AO2" },
+                  { reasoning: "Rhetorical question: 'When did a politician last tell you the truth?' — direct address forces reader to agree implicitly.", evidence: "When did a politician last tell you the truth?", marks: 1, markCode: "AO2" },
+                  { reasoning: "Effect: both target distrust and anger, positioning the reader against politicians before evidence is offered.", marks: 1, markCode: "AO3" },
+                ],
+                finalAnswer: "The rule of three creates rhythmic cynicism; the rhetorical question uses direct address to make readers complicit in the writer's distrust of politicians.",
+                commonErrors: ["Naming techniques without explaining effect."],
+              },
+            },
+            {
+              id: "el11-u5-persuasive-techniques-q4",
+              difficulty: "challenge",
+              totalMarks: 5,
+              extract: {
+                title: "A campaign leaflet",
+                author: "Written for Akademik Space",
+                source: "Political leaflet",
+                text: "'Independent surveys show 78% of residents support the new cycle lanes. Experts agree: safer streets mean healthier communities. Don't let this opportunity slip away. Your street. Your choice. Your future.'",
+              },
+              stem: "Analyse how this leaflet uses authority, statistics and direct address to persuade, and evaluate whether these techniques substitute for evidence.",
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "technique", name: "Appeal to authority", statement: "Citing surveys and experts borrows credibility." },
+                  { kind: "skill", name: "Critical evaluation", statement: "Distinguishing technique from evidence." },
+                ],
+                steps: [
+                  { reasoning: "'Independent surveys show 78%' uses statistics for apparent objectivity — but the survey's independence is unverifiable.", evidence: "Independent surveys show 78%", marks: 1, markCode: "AO2" },
+                  { reasoning: "'Experts agree' invokes unnamed authority — no sources given, no dissent acknowledged.", evidence: "Experts agree", marks: 1, markCode: "AO2" },
+                  { reasoning: "Rule of three + direct address: 'Your street. Your choice. Your future.' — personalises stakes and pressures action.", evidence: "Your street. Your choice. Your future.", marks: 1, markCode: "AO2" },
+                  { reasoning: "'Don't let this opportunity slip away' creates urgency/FOMO.", marks: 1, markCode: "AO3" },
+                  { reasoning: "Judgement: techniques create impression of evidence without providing verifiable proof — classic persuasive substitution.", marks: 1, markCode: "AO1" },
+                ],
+                finalAnswer: "The leaflet borrows credibility through unverifiable statistics and unnamed experts, then personalises with direct address and urgency — technique substituting for evidence.",
+                commonErrors: ["Accepting statistics at face value.", "Not evaluating whether evidence is real."],
+              },
+            },
+            {
+              id: "el11-u5-persuasive-techniques-q5",
+              difficulty: "challenge",
+              totalMarks: 6,
+              parts: [
+                { label: "a", prompt: "Identify the persuasive technique in 'Your street. Your choice. Your future.'", marks: 2 },
+                { label: "b", prompt: "Explain how a writer could use the SAME facts to persuade FOR and AGAINST a policy, using different techniques.", marks: 4 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "technique", name: "Rule of three", statement: "Tricolon for rhythm and memorability." },
+                  { kind: "skill", name: "Framing", statement: "Same facts, different persuasive packaging." },
+                ],
+                steps: [
+                  { part: "a", reasoning: "Rule of three (tricolon) with direct address.", marks: 2, markCode: "AO2" },
+                  { part: "b", reasoning: "FOR version: positive statistics, expert quotes, aspirational language.", marks: 1, markCode: "AO3" },
+                  { part: "b", reasoning: "AGAINST version: same numbers framed as costs/risks, emotive anecdotes, fear appeals.", marks: 1, markCode: "AO3" },
+                  { part: "b", reasoning: "Explains that technique selection reveals the writer's stance, not the facts' neutrality.", marks: 1, markCode: "AO3" },
+                  { part: "b", reasoning: "Example given of at least one specific technique difference.", marks: 1, markCode: "AO4" },
+                ],
+                finalAnswer: "(a) Rule of three with direct address. (b) Same statistics can be framed positively (aspiration, authority) or negatively (cost, fear) — technique reveals bias.",
+                  levels: [
+                  { level: "Level 3", marks: "5-6", descriptor: "Perceptive, secure and well-developed answer with precise terminology and integrated evidence." },
+                  { level: "Level 2", marks: "3-4", descriptor: "Clear, relevant points with some development and supporting detail." },
+                  { level: "Level 1", marks: "1-2", descriptor: "Simple or partial points; limited development or relevance." },
+                  ],
+                commonErrors: ["Only describing one side.", "No specific technique named."],
+              },
+            },
+            {
+              id: "el11-u5-persuasive-techniques-q6",
+              difficulty: "challenge",
+              totalMarks: 9,
+              stem: "Write about 200 words analysing how a writer uses persuasive techniques to influence readers. Name at least three techniques, explain what each does, and evaluate whether they strengthen or weaken the argument.",
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "technique", name: "Persuasive devices", statement: "Rhetorical tools that steer emotion and judgement." },
+                  { kind: "skill", name: "Critical analysis", statement: "Evaluating technique vs evidence." },
+                ],
+                steps: [
+                  { reasoning: "Three or more techniques identified and named.", marks: 2, markCode: "AO2" },
+                  { reasoning: "Each technique's effect explained.", marks: 3, markCode: "AO2" },
+                  { reasoning: "Evaluation: do techniques persuade or manipulate?", marks: 2, markCode: "AO3" },
+                  { reasoning: "Clear organisation and conclusion.", marks: 2, markCode: "AO4" },
+                ],
+                finalAnswer: "Persuasive techniques (rhetorical questions, rule of three, appeals to authority/emotion, direct address) steer readers through feeling rather than evidence; their effectiveness depends on whether they supplement or substitute for proof.",
+                levels: [
+                  { level: "Level 3", marks: "8-9", descriptor: "Three techniques well explained and evaluated." },
+                  { level: "Level 2", marks: "5-7", descriptor: "Techniques identified with partial evaluation." },
+                  { level: "Level 1", marks: "1-4", descriptor: "Few techniques, little evaluation." },
+                ],
+                commonErrors: ["Listing without effect.", "No evaluation of effectiveness."],
+              },
+            },
+          ],
+        },
+      ],
+    },
+    notes: {
+      id: "el11-u5-bias-notes", title: "Bias and persuasion — notes",
+      summary: "Loaded language, pejoratives, euphemisms and rhetorical techniques all steer readers emotionally. Bias lives in word choice AND omission.",
+      sections: [
+        { heading: "Key terms", body: "Bias, loaded language, pejorative, euphemism, spin, one-sided reporting." },
+        { heading: "Techniques", body: "Rhetorical questions, rule of three, direct address, appeal to authority, statistics without context." },
+        { heading: "Exam tip", body: "Name the technique, quote it, explain the emotion it targets, then evaluate whether evidence supports it." },
+      ],
+    },
+  },
+  {
+    file: "lesson-5-2.ts", exportName: "lesson52",
+    lesson: {
+      id: "el11-u5-lesson-5-2", code: "5-2",
+      title: "Representation: How Texts Present People and Places",
+      goal: "I CAN analyse how texts represent individuals, groups and places, and identify stereotyping and selective presentation.",
+      standards: ["4EA1 AO2", "4EA1 AO3", "4EA1 Paper 1"],
+      vocabulary: [
+        { term: "Representation", definition: "The way a text presents a person, group or place — never neutral, always a constructed version." },
+        { term: "Stereotype", definition: "A simplified, fixed image of a group that reduces individuals to assumed traits." },
+        { term: "Selection", definition: "The choice of which details to include — a key tool of representation." },
+        { term: "Omission", definition: "What a text leaves out; often as telling as what it includes." },
+        { term: "Sympathetic portrayal", definition: "Representation designed to make the subject appealing or deserving of empathy." },
+        { term: "Antagonistic portrayal", definition: "Representation designed to make the subject threatening or blameworthy." },
+      ],
+      concepts: [
+        {
+          id: "el11-u5-representation",
+          title: "How texts represent people and places",
+          skill: "Analyse the techniques writers use to construct representations of people, groups and settings.",
+          sections: [
+            { heading: "Representation is construction", body: "No text shows 'reality' — it shows a **constructed** version. A writer chooses which details to include (**selection**) and which to leave out (**omission**). A politician can be represented as 'a tireless campaigner' or 'a desperate has-been' depending entirely on word choice. The same person, two different representations." },
+            { heading: "Techniques of representation", body: "Writers represent through: **lexis** ('angel' vs 'fiend'), **imagery** (a leader photographed/shown as 'lion-like' or 'weasel-like'), **narrative framing** (whose story gets told, who gets blamed), **juxtaposition** (placing two images side by side for contrast) and **silence** (never mentioning a counter-argument)." },
+            { heading: "Stereotyping", body: "A **stereotype** reduces a group to fixed traits: 'all teenagers are lazy', 'all lawyers are dishonest'. Stereotypes feel 'true' because they're familiar, but they erase individual difference. Writers use them for instant characterisation — and readers should question whether the text challenges or reinforces them." },
+          ],
+          keyFormulas: [
+            { name: "Representation", statement: "A constructed version of reality shaped by selection and omission." },
+            { name: "Selection/omission", statement: "What is included and excluded creates the representation." },
+            { name: "Stereotype", statement: "Fixed, simplified image of a group replacing individual complexity." },
+          ],
+          workedExample: {
+            problem: "A travel article describes a city as 'a riot of colour, where every street tells a story.' A news report describes it as 'an overcrowded metropolis struggling with infrastructure.' How do these represent the same place differently?",
+            solution: "The travel article selects positive sensory details (colour, storytelling) and omits problems — representing the city as vibrant and welcoming. The news report selects infrastructure and crowding and omits culture — representing it as a problem to be managed. Neither is 'false'; both are selective constructions serving different purposes (attracting tourists vs reporting problems).",
+          },
+          questions: [
+            {
+              id: "el11-u5-representation-q1",
+              difficulty: "foundation",
+              totalMarks: 1,
+              stem: "What is 'representation' in the context of text analysis?",
+              response: {
+                type: "mcq",
+                choices: [
+                  { id: "a", text: "A picture in a magazine" },
+                  { id: "b", text: "The constructed version of a person, group or place presented by a text" },
+                  { id: "c", text: "A list of facts" },
+                  { id: "d", text: "The writer's opinion only" },
+                ],
+                correctChoiceId: "b",
+              },
+              markscheme: {
+                principles: [{ kind: "definition", name: "Representation", statement: "A constructed version of reality in a text." }],
+                steps: [{ reasoning: "Representation is how texts present subjects — always constructed, never neutral.", marks: 1, markCode: "AO2" }],
+                finalAnswer: "**(b)** The constructed version of a person, group or place presented by a text.",
+                commonErrors: ["Thinking representation means only visual images (a)."],
+              },
+            },
+            {
+              id: "el11-u5-representation-q2",
+              difficulty: "foundation",
+              totalMarks: 2,
+              stem: "Explain what is meant by 'selection and omission' in representation.",
+              response: { type: "open" },
+              markscheme: {
+                principles: [{ kind: "definition", name: "Selection and omission", statement: "Inclusion/exclusion of details shapes representation." }],
+                steps: [
+                  { reasoning: "Selection = choosing which details to include.", marks: 1, markCode: "AO3" },
+                  { reasoning: "Omission = leaving out details — often as significant as inclusion for shaping the reader's view.", marks: 1, markCode: "AO3" },
+                ],
+                finalAnswer: "Selection includes chosen details; omission excludes others — together they construct the representation.",
+                commonErrors: ["Only mentioning selection, not omission."],
+              },
+            },
+            {
+              id: "el11-u5-representation-q3",
+              difficulty: "core",
+              totalMarks: 3,
+              extract: {
+                title: "Two descriptions of a teacher",
+                author: "Written for Akademik Space",
+                source: "Pupil testimonial vs staff newsletter",
+                text: "STUDENT REVIEW: 'Ms Khan is the only teacher who actually listens. She stays late every day and remembers your name.'\nSTAFF NEWSLETTER: 'Ms Khan's innovative pedagogy has been recognised with a regional teaching award.'",
+              },
+              stem: "Explain how each text represents Ms Khan differently and what each chooses to include or omit.",
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "technique", name: "Selection/omission", statement: "Different details create different representations." },
+                  { kind: "skill", name: "Comparative analysis", statement: "Identifying what each version foregrounds." },
+                ],
+                steps: [
+                  { reasoning: "Student review selects personal qualities: 'listens', 'stays late', 'remembers your name' — human, caring representation.", evidence: "stays late every day and remembers your name", marks: 1, markCode: "AO2" },
+                  { reasoning: "Newsletter selects professional achievement: 'innovative pedagogy', 'regional teaching award' — institutional, accomplished representation.", evidence: "innovative pedagogy has been recognised", marks: 1, markCode: "AO2" },
+                  { reasoning: "Each omits the other's focus: review omits formal recognition; newsletter omits personal warmth.", marks: 1, markCode: "AO3" },
+                ],
+                finalAnswer: "The student represents Ms Khan as personally caring; the newsletter represents her as professionally accomplished. Each selects details serving its purpose and omits the other dimension.",
+                commonErrors: ["Saying both are 'true' without analysing the construction."],
+              },
+            },
+            {
+              id: "el11-u5-representation-q4",
+              difficulty: "challenge",
+              totalMarks: 5,
+              stem: "Explain how stereotyping works in texts and why it can be problematic, using a specific example.",
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "definition", name: "Stereotype", statement: "Fixed, simplified image of a group." },
+                  { kind: "skill", name: "Critical analysis", statement: "Evaluating representation's social effect." },
+                ],
+                steps: [
+                  { reasoning: "Stereotypes reduce groups to fixed traits, erasing individual complexity.", marks: 1, markCode: "AO3" },
+                  { reasoning: "Example given: 'all teenagers are lazy' or 'all bankers are greedy'.", marks: 1, markCode: "AO3" },
+                  { reasoning: "Problem 1: feels 'true' through familiarity, so readers accept it uncritically.", marks: 1, markCode: "AO3" },
+                  { reasoning: "Problem 2: reinforces prejudice and can influence real-world attitudes.", marks: 1, markCode: "AO3" },
+                  { reasoning: "Texts can challenge stereotypes too — good analysis notes which the text does.", marks: 1, markCode: "AO1" },
+                ],
+                finalAnswer: "Stereotyping fixes groups to simplified traits, feels familiar enough to accept uncritically, and can reinforce real prejudice — though texts can also challenge stereotypes.",
+                commonErrors: ["Defining without evaluating."],
+              },
+            },
+            {
+              id: "el11-u5-representation-q5",
+              difficulty: "challenge",
+              totalMarks: 6,
+              parts: [
+                { label: "a", prompt: "Rewrite this neutral sentence to represent the subject SYMPATHETICALLY: 'The politician missed the deadline.'", marks: 3 },
+                { label: "b", prompt: "Rewrite it to represent the subject ANTAGONISTICALLY.", marks: 3 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "technique", name: "Loaded representation", statement: "Lexical choices create sympathy or antagonism." },
+                  { kind: "skill", name: "Framing", statement: "Same fact, different constructed image." },
+                ],
+                steps: [
+                  { part: "a", reasoning: "Sympathetic version, e.g. 'The dedicated politician was thwarted by an impossible deadline.'", marks: 3, markCode: "AO4" },
+                  { part: "b", reasoning: "Antagonistic version, e.g. 'The incompetent politician carelessly missed the deadline.'", marks: 3, markCode: "AO4" },
+                ],
+                finalAnswer: "(a) E.g. 'thwarted by circumstances' — sympathetic. (b) E.g. 'carelessly failed' — antagonistic. Same fact, opposite representations.",
+                  levels: [
+                  { level: "Level 3", marks: "5-6", descriptor: "Perceptive, secure and well-developed answer with precise terminology and integrated evidence." },
+                  { level: "Level 2", marks: "3-4", descriptor: "Clear, relevant points with some development and supporting detail." },
+                  { level: "Level 1", marks: "1-2", descriptor: "Simple or partial points; limited development or relevance." },
+                  ],
+                commonErrors: ["Both versions similarly neutral or similarly loaded.", "Changing facts rather than framing."],
+              },
+            },
+            {
+              id: "el11-u5-representation-q6",
+              difficulty: "challenge",
+              totalMarks: 9,
+              stem: "Write about 200 words explaining how texts construct representations of people or places. Use at least two techniques (selection, loaded language, juxtaposition, omission) and evaluate the effect on the reader.",
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "technique", name: "Representation techniques", statement: "Selection, loaded lexis, framing, omission." },
+                  { kind: "skill", name: "Analytical writing", statement: "Technique + effect + evaluation." },
+                ],
+                steps: [
+                  { reasoning: "Explains representation as construction.", marks: 1, markCode: "AO3" },
+                  { reasoning: "Technique 1 explained with effect.", marks: 2, markCode: "AO2" },
+                  { reasoning: "Technique 2 explained with effect.", marks: 2, markCode: "AO2" },
+                  { reasoning: "Evaluates effect on reader (sympathy, prejudice, belief).", marks: 2, markCode: "AO3" },
+                  { reasoning: "Clear organisation and conclusion.", marks: 2, markCode: "AO4" },
+                ],
+                finalAnswer: "Texts construct representations through selection, loaded language, framing and omission, shaping reader sympathy or antagonism — never neutral.",
+                levels: [
+                  { level: "Level 3", marks: "8-9", descriptor: "Two techniques well explained and evaluated." },
+                  { level: "Level 2", marks: "5-7", descriptor: "Techniques present, partial evaluation." },
+                  { level: "Level 1", marks: "1-4", descriptor: "Vague account." },
+                ],
+                commonErrors: ["No techniques named.", "No reader effect."],
+              },
+            },
+          ],
+        },
+        {
+          id: "el11-u5-reading-representations",
+          title: "Analysing representations in texts",
+          skill: "Analyse how specific texts represent their subjects and evaluate whether the representation is fair, biased or stereotypical.",
+          sections: [
+            { heading: "A reading routine for representation", body: "When analysing representation: (1) identify the subject — person, group, place; (2) note the **dominant impression** — what feeling does the text create?; (3) find the **techniques** — which words, images, details create that impression?; (4) check the **omissions** — what isn't mentioned?; (5) judge — is this representation fair, biased or stereotypical, and why?" },
+            { heading: "Evaluating fairness", body: "A 'fair' representation acknowledges complexity — it shows a subject with strengths and weaknesses, or presents multiple perspectives. A 'biased' one consistently favours one side. A 'stereotypical' one reduces to fixed traits. Most real texts sit between — analyse where on this spectrum the text falls and why." },
+            { heading: "Writing about representation", body: "Structure your analysis: overview of the representation → evidence of techniques → effect on reader → judgement of fairness. Quote specific words and explain their connotations. Avoid simply saying 'the writer is biased' — show HOW the bias is constructed through language." },
+          ],
+          keyFormulas: [
+            { name: "Reading routine", statement: "Subject → dominant impression → techniques → omissions → judgement." },
+            { name: "Spectrum", statement: "Fair (complex) ↔ biased (one-sided) ↔ stereotypical (reductive)." },
+            { name: "Evidence rule", statement: "Always quote the specific word/image that creates the representation." },
+          ],
+          workedExample: {
+            problem: "A charity leaflet says: 'Every day, vulnerable children go hungry while politicians dine on taxpayers' money.' Analyse the representation of children and politicians.",
+            solution: "Children are represented as 'vulnerable' and 'hungry' — passive victims deserving sympathy. Politicians are represented as dining on 'taxpayers' money' — corrupt elites. The juxtaposition creates a stark moral contrast. Techniques: loaded adjectives ('vulnerable'), emotive imagery ('go hungry'), guilt-inducing detail ('dine on taxpayers' money'). The representation is highly biased — it selects only details supporting the charity's agenda and omits any complexity.",
+          },
+          questions: [
+            {
+              id: "el11-u5-reading-representations-q1",
+              difficulty: "foundation",
+              totalMarks: 1,
+              stem: "What is the FIRST step in analysing how a text represents its subject?",
+              response: {
+                type: "mcq",
+                choices: [
+                  { id: "a", text: "Count the adjectives" },
+                  { id: "b", text: "Identify who or what is being represented" },
+                  { id: "c", text: "Write the conclusion" },
+                  { id: "d", text: "Check the spelling" },
+                ],
+                correctChoiceId: "b",
+              },
+              markscheme: {
+                principles: [{ kind: "skill", name: "Analytical routine", statement: "Identify subject before analysing techniques." }],
+                steps: [{ reasoning: "You must know WHAT is being represented before HOW.", marks: 1, markCode: "AO2" }],
+                finalAnswer: "**(b)** Identify who or what is being represented.",
+                commonErrors: ["Jumping to techniques before identifying the subject."],
+              },
+            },
+            {
+              id: "el11-u5-reading-representations-q2",
+              difficulty: "foundation",
+              totalMarks: 2,
+              stem: "Explain what 'dominant impression' means in representation analysis.",
+              response: { type: "open" },
+              markscheme: {
+                principles: [{ kind: "skill", name: "Dominant impression", statement: "The overall feeling a text creates about its subject." }],
+                steps: [
+                  { reasoning: "Defines dominant impression as the cumulative emotional effect.", marks: 1, markCode: "AO2" },
+                  { reasoning: "E.g. a politician might be represented with a 'sympathetic' or 'antagonistic' dominant impression.", marks: 1, markCode: "AO1" },
+                ],
+                finalAnswer: "Dominant impression = the overall feeling (sympathetic, hostile, neutral) the text creates about its subject.",
+                commonErrors: ["Confusing with first impression or plot summary."],
+              },
+            },
+            {
+              id: "el11-u5-reading-representations-q3",
+              difficulty: "core",
+              totalMarks: 3,
+              extract: {
+                title: "A local newspaper article",
+                author: "Written for Akademik Space",
+                source: "Local news",
+                text: "The new recycling centre opened on Monday to praise from residents. 'It's transformed the area,' said one mother, who had 'given up hope' of easy recycling. However, some shopkeepers complained about increased traffic and the loss of a popular car park.",
+              },
+              stem: "Analyse how this article represents the recycling centre, noting both positive and negative representations.",
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "technique", name: "Balanced representation", statement: "Text can show multiple perspectives." },
+                  { kind: "skill", name: "Evidence-based analysis", statement: "Quote specific details for each representation." },
+                ],
+                steps: [
+                  { reasoning: "Positive: 'opened to praise', 'transformed the area', 'given up hope' — creates sympathetic, successful representation.", evidence: "It's transformed the area", marks: 1, markCode: "AO2" },
+                  { reasoning: "Negative: 'complained', 'loss of a popular car park' — introduces criticism and cost.", evidence: "some shopkeepers complained about increased traffic", marks: 1, markCode: "AO2" },
+                  { reasoning: "The 'however' signals balanced representation — both benefits and drawbacks acknowledged.", marks: 1, markCode: "AO3" },
+                ],
+                finalAnswer: "The article represents the centre positively overall (transformation, praise) but includes shopkeeper complaints — a relatively balanced, fair representation.",
+                commonErrors: ["Only noting positive or only negative."],
+              },
+            },
+            {
+              id: "el11-u5-reading-representations-q4",
+              difficulty: "challenge",
+              totalMarks: 5,
+              extract: {
+                title: "Two film reviews of the same movie",
+                author: "Written for Akademik Space",
+                source: "Comparative reviews",
+                text: "REVIEW A: 'A masterpiece of modern cinema — visually stunning, emotionally devastating, a triumph of storytelling.'\nREVIEW B: 'An overlong, self-indulgent mess that mistakes noise for meaning.'",
+              },
+              stem: "Analyse how each review represents the film and evaluate which is more fair.",
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "technique", name: "Loaded evaluation", statement: "Adjectives and nouns create positive or negative representation." },
+                  { kind: "skill", name: "Fairness judgement", statement: "Evaluating balance and evidence." },
+                ],
+                steps: [
+                  { reasoning: "Review A represents film as 'masterpiece', 'stunning', 'devastating', 'triumph' — exclusively positive superlatives.", evidence: "A masterpiece of modern cinema", marks: 1, markCode: "AO2" },
+                  { reasoning: "Review B represents it as 'overlong', 'self-indulgent mess', 'noise for meaning' — exclusively negative.", evidence: "An overlong, self-indulgent mess", marks: 1, markCode: "AO2" },
+                  { reasoning: "Neither shows complexity — both are one-sided, though A is more effusive.", marks: 1, markCode: "AO3" },
+                  { reasoning: "B's 'mistakes noise for meaning' offers a specific criticism (style over substance) — slightly more analytical.", marks: 1, markCode: "AO3" },
+                  { reasoning: "Judgement: both are biased; neither is 'fair' as they omit any balanced assessment.", marks: 1, markCode: "AO1" },
+                ],
+                finalAnswer: "Both reviews are one-sided representations — A purely celebratory, B purely hostile. Neither acknowledges complexity, so both are biased rather than fair.",
+                commonErrors: ["Declaring one 'fair' without evidence of balance."],
+              },
+            },
+            {
+              id: "el11-u5-reading-representations-q5",
+              difficulty: "challenge",
+              totalMarks: 6,
+              parts: [
+                { label: "a", prompt: "Identify the dominant impression created by 'The village was a forgotten backwater, its streets muddy and its people suspicious of strangers.'", marks: 2 },
+                { label: "b", prompt: "Explain how the writer's word choices create this impression.", marks: 4 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "technique", name: "Atmospheric lexis", statement: "Words create mood and judgement." },
+                  { kind: "skill", name: "Close analysis", statement: "Linking specific words to impression." },
+                ],
+                steps: [
+                  { part: "a", reasoning: "Negative/hostile dominant impression — village as isolated, unattractive, untrusting.", marks: 2, markCode: "AO1" },
+                  { part: "b", reasoning: "'Forgotten backwater' — pejorative, suggests decline and insignificance.", evidence: "forgotten backwater", marks: 1, markCode: "AO2" },
+                  { part: "b", reasoning: "'muddy' streets — sensory detail reinforcing neglect.", evidence: "streets muddy", marks: 1, markCode: "AO2" },
+                  { part: "b", reasoning: "'suspicious of strangers' — negative characterisation of inhabitants.", evidence: "suspicious of strangers", marks: 1, markCode: "AO2" },
+                  { part: "b", reasoning: "Overall: the writer selects only negative details to create an unfavourable representation.", marks: 1, markCode: "AO3" },
+                ],
+                finalAnswer: "(a) Negative/hostile impression. (b) 'Forgotten backwater', 'muddy', 'suspicious' all select negative details to represent the village as isolated and unwelcoming.",
+                  levels: [
+                  { level: "Level 3", marks: "5-6", descriptor: "Perceptive, secure and well-developed answer with precise terminology and integrated evidence." },
+                  { level: "Level 2", marks: "3-4", descriptor: "Clear, relevant points with some development and supporting detail." },
+                  { level: "Level 1", marks: "1-2", descriptor: "Simple or partial points; limited development or relevance." },
+                  ],
+                commonErrors: ["Identifying impression without quoting evidence."],
+              },
+            },
+            {
+              id: "el11-u5-reading-representations-q6",
+              difficulty: "challenge",
+              totalMarks: 9,
+              stem: "Write about 200 words analysing how a text represents its subject. Identify the techniques used, explain their effect on the reader, and evaluate whether the representation is fair, biased or stereotypical.",
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "technique", name: "Representation techniques", statement: "Selection, loaded lexis, framing." },
+                  { kind: "skill", name: "Analytical judgement", statement: "Technique + effect + fairness evaluation." },
+                ],
+                steps: [
+                  { reasoning: "Identifies subject and dominant impression.", marks: 1, markCode: "AO1" },
+                  { reasoning: "Two or more techniques with quoted evidence.", marks: 3, markCode: "AO2" },
+                  { reasoning: "Explains effect on reader.", marks: 2, markCode: "AO3" },
+                  { reasoning: "Evaluates fairness/bias/stereotype with justification.", marks: 1, markCode: "AO3" },
+                  { reasoning: "Clear organisation and conclusion.", marks: 2, markCode: "AO4" },
+                ],
+                finalAnswer: "Texts construct representations through selection and loaded language; analysis should identify techniques, explain effects, and judge whether the representation is fair or biased.",
+                levels: [
+                  { level: "Level 3", marks: "8-9", descriptor: "Subject identified, techniques evidenced, effect and fairness evaluated." },
+                  { level: "Level 2", marks: "5-7", descriptor: "Techniques present, partial evaluation." },
+                  { level: "Level 1", marks: "1-4", descriptor: "Vague or unsupported." },
+                ],
+                commonErrors: ["No quoted evidence.", "No fairness judgement."],
+              },
+            },
+          ],
+        },
+      ],
+    },
+    notes: {
+      id: "el11-u5-representation-notes", title: "Representation — notes",
+      summary: "Texts construct versions of reality through selection and omission. Analyse techniques, effects, and judge fairness.",
+      sections: [
+        { heading: "Key idea", body: "Representation is never neutral — every text selects and omits details to create an impression." },
+        { heading: "Spectrum", body: "Fair (complex, balanced) ↔ biased (one-sided) ↔ stereotypical (reductive)." },
+        { heading: "Exam tip", body: "Subject → impression → techniques (quoted) → omissions → judgement of fairness." },
+      ],
+    },
+  },
+  {
+    file: "lesson-5-3.ts", exportName: "lesson53",
+    lesson: {
+      id: "el11-u5-lesson-5-3", code: "5-3",
+      title: "Comparing Accounts and Evaluating Sources",
+      goal: "I CAN compare how different texts present the same event and evaluate the reliability and purpose of sources.",
+      standards: ["4EA1 AO1", "4EA1 AO3", "4EA1 Paper 1"],
+      vocabulary: [
+        { term: "Source", definition: "The origin of information — who produced it, when, and for what purpose." },
+        { term: "Point of view", definition: "The perspective from which a text presents events." },
+        { term: "Reliability", definition: "Whether a source can be trusted — based on evidence, balance and transparency." },
+        { term: "Corroboration", definition: "Confirming information across multiple independent sources." },
+        { term: "Editorial line", definition: "A publication's consistent stance or bias across its coverage." },
+        { term: "Framing", definition: "The context a source provides that shapes how events are interpreted." },
+      ],
+      concepts: [
+        {
+          id: "el11-u5-comparing-accounts",
+          title: "Comparing accounts of the same event",
+          skill: "Compare how different sources present the same event and analyse the differences in framing and emphasis.",
+          sections: [
+            { heading: "Same event, different stories", body: "Every account of an event is a selection. A protest can be 'a demonstration of public anger' or 'a violent riot'. A fire can be 'a tragic accident' or 'a preventable disaster'. The facts may overlap; the framing — which facts are foregrounded, which language is used — creates completely different stories." },
+            { heading: "What to compare", body: "When comparing accounts: (1) identify the **core facts** both share; (2) note **differences in emphasis** — what each foregrounds; (3) analyse **language choices** — loaded vs neutral words; (4) consider **omissions** — what each leaves out; (5) evaluate which account is more reliable or balanced." },
+            { heading: "Framing and agenda", body: "Every source has an **agenda** — what it wants readers to believe or do. A government statement aims to reassure; an opposition statement aims to criticise; a tabloid aims to sell papers. Recognising the agenda helps you read 'between' the accounts to find the underlying event." },
+          ],
+          keyFormulas: [
+            { name: "Comparison method", statement: "Shared facts → different emphasis → language choices → omissions → agenda." },
+            { name: "Framing", statement: "The context a source provides that shapes interpretation." },
+            { name: "Agenda", statement: "What a source wants readers to believe or do." },
+          ],
+          workedExample: {
+            problem: "Account A: 'The storm caused widespread disruption.' Account B: 'Residents pulled together to support each other through the storm.' Compare the representations.",
+            solution: "Both acknowledge the storm but frame it differently. A foregrounds 'disruption' — the problem, the cost. B foregrounds 'pulled together' — community, resilience. A uses impersonal 'widespread' language; B uses warm collective language. Neither is false; each selects details serving its purpose. A might serve insurance/political purposes; B might serve community-building or human-interest journalism.",
+          },
+          questions: [
+            {
+              id: "el11-u5-comparing-accounts-q1",
+              difficulty: "foundation",
+              totalMarks: 1,
+              stem: "What does 'framing' mean in source analysis?",
+              response: {
+                type: "mcq",
+                choices: [
+                  { id: "a", text: "The physical picture in an article" },
+                  { id: "b", text: "The context a source provides that shapes interpretation" },
+                  { id: "c", text: "The writer's handwriting" },
+                  { id: "d", text: "The number of words used" },
+                ],
+                correctChoiceId: "b",
+              },
+              markscheme: {
+                principles: [{ kind: "definition", name: "Framing", statement: "Context that shapes interpretation." }],
+                steps: [{ reasoning: "Framing is the interpretive context a source creates around events.", marks: 1, markCode: "AO3" }],
+                finalAnswer: "**(b)** The context a source provides that shapes interpretation.",
+                commonErrors: ["Confusing framing with visual imagery (a)."],
+              },
+            },
+            {
+              id: "el11-u5-comparing-accounts-q2",
+              difficulty: "foundation",
+              totalMarks: 2,
+              stem: "Explain what an 'agenda' is in the context of media sources.",
+              response: { type: "open" },
+              markscheme: {
+                principles: [{ kind: "definition", name: "Agenda", statement: "What a source wants readers to believe or do." }],
+                steps: [
+                  { reasoning: "Defines agenda as the source's underlying purpose or desired outcome.", marks: 1, markCode: "AO3" },
+                  { reasoning: "Example: a government wants to reassure; a tabloid wants to sell papers; a charity wants donations.", marks: 1, markCode: "AO3" },
+                ],
+                finalAnswer: "Agenda = what a source wants readers to believe or do — its underlying purpose.",
+                commonErrors: ["Confusing agenda with plot or schedule."],
+              },
+            },
+            {
+              id: "el11-u5-comparing-accounts-q3",
+              difficulty: "core",
+              totalMarks: 3,
+              extract: {
+                title: "Two reports on a factory closure",
+                author: "Written for Akademik Space",
+                source: "Local paper vs national business journal",
+                text: "LOCAL PAPER: 'Devastating blow as town's last factory closes, leaving 400 families facing an uncertain future.'\nBUSINESS JOURNAL: 'The closure reflects shifting market demands; the company is relocating operations to reduce costs and improve competitiveness.'",
+              },
+              stem: "Compare how these two reports represent the same event and explain what each foregrounds.",
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "technique", name: "Framing", statement: "Different emphasis creates different stories." },
+                  { kind: "skill", name: "Comparative analysis", statement: "Identifying foregrounded details." },
+                ],
+                steps: [
+                  { reasoning: "Local paper foregrounds human impact: 'devastating', '400 families', 'uncertain future' — emotional, community-focused.", evidence: "Devastating blow as town's last factory closes", marks: 1, markCode: "AO2" },
+                  { reasoning: "Business journal foregrounds economic logic: 'market demands', 'relocating', 'competitiveness' — analytical, impersonal.", evidence: "shifting market demands", marks: 1, markCode: "AO2" },
+                  { reasoning: "Each omits the other's focus: local paper ignores business rationale; journal ignores human cost.", marks: 1, markCode: "AO3" },
+                ],
+                finalAnswer: "The local paper frames closure as human tragedy affecting families; the business journal frames it as economic necessity. Each foregrounds details serving its audience's concerns.",
+                commonErrors: ["Saying one is 'right' rather than analysing framing."],
+              },
+            },
+            {
+              id: "el11-u5-comparing-accounts-q4",
+              difficulty: "challenge",
+              totalMarks: 5,
+              extract: {
+                title: "Two accounts of a school trip",
+                author: "Written for Akademik Space",
+                source: "Student blog vs teacher's report",
+                text: "STUDENT BLOG: 'The trip was amazing! We got to explore the castle, had a great lunch, and Mr Davies was so funny the whole time.'\nTEACHER'S REPORT: 'The visit proceeded according to plan. Students demonstrated appropriate behaviour throughout. One minor incident was resolved without disruption.'",
+              },
+              stem: "Analyse how these accounts differ in what they include, omit and emphasise, and suggest why.",
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "technique", name: "Selection/omission", statement: "Different purposes select different details." },
+                  { kind: "skill", name: "Purpose analysis", statement: "Audience and purpose drive representation." },
+                ],
+                steps: [
+                  { reasoning: "Student blog selects enjoyment: 'amazing', 'explore', 'great lunch', 'so funny' — experiential, personal.", evidence: "The trip was amazing!", marks: 1, markCode: "AO2" },
+                  { reasoning: "Teacher's report selects procedure and control: 'according to plan', 'appropriate behaviour', 'minor incident resolved' — institutional, risk-managed.", evidence: "proceeded according to plan", marks: 1, markCode: "AO2" },
+                  { reasoning: "Student omits the 'minor incident'; teacher omits the fun — each serves its audience.", marks: 1, markCode: "AO3" },
+                  { reasoning: "Blog aims to entertain/share experience; report aims to document compliance and manage risk.", marks: 1, markCode: "AO3" },
+                  { reasoning: "Neither is false; together they give a fuller picture than either alone.", marks: 1, markCode: "AO1" },
+                ],
+                finalAnswer: "The blog represents the trip as enjoyable experience; the report represents it as managed procedure. Each selects details for its audience and omits the other's focus.",
+                commonErrors: ["Assuming one account is lying."],
+              },
+            },
+            {
+              id: "el11-u5-comparing-accounts-q5",
+              difficulty: "challenge",
+              totalMarks: 6,
+              parts: [
+                { label: "a", prompt: "Identify two words in the BUSINESS JOURNAL extract that create a neutral/analytical tone.", marks: 2 },
+                { label: "b", prompt: "Explain how the local paper's language creates an emotional response.", marks: 4 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "technique", name: "Register and tone", statement: "Word choice creates emotional or analytical distance." },
+                  { kind: "skill", name: "Close analysis", statement: "Linking specific words to effect." },
+                ],
+                steps: [
+                  { part: "a", reasoning: "'Market demands', 'competitiveness', 'relocating' — economic jargon, impersonal.", marks: 2, markCode: "AO2" },
+                  { part: "b", reasoning: "'Devastating' — strong negative adjective triggering sympathy.", evidence: "Devastating blow", marks: 1, markCode: "AO2" },
+                  { part: "b", reasoning: "'Last factory' — emphasises finality and loss.", evidence: "town's last factory", marks: 1, markCode: "AO2" },
+                  { part: "b", reasoning: "'400 families facing an uncertain future' — humanises scale, creates anxiety.", evidence: "400 families facing an uncertain future", marks: 1, markCode: "AO2" },
+                  { part: "b", reasoning: "Overall effect: reader feels personal loss and anger rather than analytical understanding.", marks: 1, markCode: "AO3" },
+                ],
+                finalAnswer: "(a) 'Market demands', 'competitiveness', 'relocating' create neutral analytical tone. (b) 'Devastating', 'last factory', '400 families' create emotional response of loss and sympathy.",
+                  levels: [
+                  { level: "Level 3", marks: "5-6", descriptor: "Perceptive, secure and well-developed answer with precise terminology and integrated evidence." },
+                  { level: "Level 2", marks: "3-4", descriptor: "Clear, relevant points with some development and supporting detail." },
+                  { level: "Level 1", marks: "1-2", descriptor: "Simple or partial points; limited development or relevance." },
+                  ],
+                commonErrors: ["Identifying tone without quoting words."],
+              },
+            },
+            {
+              id: "el11-u5-comparing-accounts-q6",
+              difficulty: "challenge",
+              totalMarks: 9,
+              stem: "Write about 200 words comparing how two sources present the same event differently. Identify what each foregrounds, analyse language choices, and evaluate which account is more reliable.",
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "skill", name: "Comparative source analysis", statement: "Foregrounding, language, omissions, reliability." },
+                  { kind: "skill", name: "Evaluative writing", statement: "Balanced judgement supported by evidence." },
+                ],
+                steps: [
+                  { reasoning: "Identifies shared core facts.", marks: 1, markCode: "AO1" },
+                  { reasoning: "Analyses differences in emphasis/foregrounding.", marks: 2, markCode: "AO2" },
+                  { reasoning: "Analyses language choices (loaded vs neutral).", marks: 2, markCode: "AO2" },
+                  { reasoning: "Notes omissions.", marks: 1, markCode: "AO3" },
+                  { reasoning: "Evaluates reliability with justification.", marks: 1, markCode: "AO3" },
+                  { reasoning: "Clear organisation and conclusion.", marks: 2, markCode: "AO4" },
+                ],
+                finalAnswer: "Different sources frame the same event through selection, emphasis and language; reliability depends on balance, evidence and transparency.",
+                levels: [
+                  { level: "Level 3", marks: "8-9", descriptor: "Shared facts, differences analysed, reliability judged." },
+                  { level: "Level 2", marks: "5-7", descriptor: "Differences noted, partial analysis." },
+                  { level: "Level 1", marks: "1-4", descriptor: "Vague comparison." },
+                ],
+                commonErrors: ["Only describing one source.", "No reliability judgement."],
+              },
+            },
+          ],
+        },
+        {
+          id: "el11-u5-evaluating-sources",
+          title: "Evaluating reliability and purpose",
+          skill: "Evaluate sources for reliability, purpose and potential bias, and use corroboration to verify information.",
+          sections: [
+            { heading: "Questions to ask of a source", body: "**Who** produced it? What's their expertise or agenda? **When** was it produced — is it current? **Why** was it produced — to inform, persuade, sell, attack? **What evidence** does it provide — data, named sources, or just assertion? **What is omitted** — does it acknowledge counter-arguments? These questions reveal reliability." },
+            { heading: "Types of sources", body: "**Primary sources**: eyewitness accounts, official documents, raw data — closest to events. **Secondary sources**: news reports, analysis, textbooks — interpret primary sources. **Tertiary sources**: encyclopedias, summaries — distil others. Each has different reliability: primary is most direct but may be biased by involvement; secondary offers perspective but adds interpretation." },
+            { heading: "Corroboration", body: "No single source should be trusted alone. **Corroboration** means confirming information across multiple independent sources. If three unrelated sources report the same fact, it's more reliable than one source's claim. Look for: do sources agree? Do they cite the same original source (then they're not independent)? Do any contradict?" },
+          ],
+          keyFormulas: [
+            { name: "Source checklist", statement: "Who? When? Why? What evidence? What's omitted?" },
+            { name: "Source types", statement: "Primary (direct) → Secondary (interpreted) → Tertiary (summarised)." },
+            { name: "Corroboration", statement: "Confirmation across multiple independent sources." },
+          ],
+          workedExample: {
+            problem: "A claim: 'This supplement cures cancer.' Evaluate the source: a company website with no scientific citations, selling the supplement for 50 pounds.",
+            solution: "Highly unreliable. Agenda: profit — the company benefits from the claim. Evidence: none — no studies, no named researchers, no peer review. Omission: no mention of risks, side effects, or medical consensus. Type: promotional/tertiary at best. Corroboration: none offered. Red flags: unverifiable claim, commercial interest, absence of balanced evidence. A reliable source would cite independent research and acknowledge limitations.",
+          },
+          questions: [
+            {
+              id: "el11-u5-evaluating-sources-q1",
+              difficulty: "foundation",
+              totalMarks: 1,
+              stem: "What is a 'primary source'?",
+              response: {
+                type: "mcq",
+                choices: [
+                  { id: "a", text: "A summary of other sources" },
+                  { id: "b", text: "A source closest to the original event or data" },
+                  { id: "c", text: "The first source alphabetically" },
+                  { id: "d", text: "A biased source" },
+                ],
+                correctChoiceId: "b",
+              },
+              markscheme: {
+                principles: [{ kind: "definition", name: "Primary source", statement: "Closest to original event/data." }],
+                steps: [{ reasoning: "Primary sources are direct: eyewitness accounts, documents, raw data.", marks: 1, markCode: "AO3" }],
+                finalAnswer: "**(b)** A source closest to the original event or data.",
+                commonErrors: ["Confusing with 'first published' (c)."],
+              },
+            },
+            {
+              id: "el11-u5-evaluating-sources-q2",
+              difficulty: "foundation",
+              totalMarks: 2,
+              stem: "Explain what 'corroboration' means and why it matters.",
+              response: { type: "open" },
+              markscheme: {
+                principles: [{ kind: "definition", name: "Corroboration", statement: "Confirmation across independent sources." }],
+                steps: [
+                  { reasoning: "Defines corroboration as confirmation from multiple independent sources.", marks: 1, markCode: "AO3" },
+                  { reasoning: "Matters because it reduces reliance on any single possibly-biased source.", marks: 1, markCode: "AO3" },
+                ],
+                finalAnswer: "Corroboration = confirming info across independent sources; it increases reliability by cross-checking.",
+                commonErrors: ["Thinking corroboration means repeating the same source."],
+              },
+            },
+            {
+              id: "el11-u5-evaluating-sources-q3",
+              difficulty: "core",
+              totalMarks: 3,
+              extract: {
+                title: "Evaluating a claim",
+                author: "Written for Akademik Space",
+                source: "Study summary vs news report",
+                text: "RESEARCH PAPER (peer-reviewed journal): 'Study of 5,000 participants found a 15% reduction in symptoms with treatment X. Limitations: 6-month duration, self-reported data.'\nNEWS HEADLINE: 'MIRACLE CURE FOUND! Scientists prove treatment X works!'",
+              },
+              stem: "Evaluate the reliability of each source and explain what the news report omits.",
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "skill", name: "Source evaluation", statement: "Assessing evidence, balance and transparency." },
+                  { kind: "technique", name: "Headline exaggeration", statement: "Sensationalism distorts findings." },
+                ],
+                steps: [
+                  { reasoning: "Research paper is reliable: peer-reviewed, large sample (5,000), acknowledges limitations — transparent about uncertainty.", evidence: "Limitations: 6-month duration", marks: 1, markCode: "AO3" },
+                  { reasoning: "News headline is unreliable: 'MIRACLE CURE', 'prove' — exaggerates modest findings (15% symptom reduction, not cure).", evidence: "MIRACLE CURE FOUND!", marks: 1, markCode: "AO2" },
+                  { reasoning: "News omits: limitations, modest effect size, self-reported data — all the caveats that make the paper trustworthy.", marks: 1, markCode: "AO3" },
+                ],
+                finalAnswer: "The research paper is reliable (peer-reviewed, transparent limitations); the news headline is unreliable (exaggerates '15% reduction' to 'miracle cure', omits caveats).",
+                commonErrors: ["Trusting the headline because it cites 'scientists'."],
+              },
+            },
+            {
+              id: "el11-u5-evaluating-sources-q4",
+              difficulty: "challenge",
+              totalMarks: 5,
+              extract: {
+                title: "Three sources on a new drug",
+                author: "Written for Akademik Space",
+                source: "Source evaluation exercise",
+                text: "SOURCE A (pharmaceutical company press release): 'Our revolutionary drug has been proven safe and effective.'\nSOURCE B (independent medical journal): 'Trial of 2,000 patients showed modest improvement; side effects reported in 12% of cases.'\nSOURCE C (patient forum post): 'This drug saved my life — no side effects at all!'",
+              },
+              stem: "Evaluate the reliability of each source and explain why corroboration across sources matters here.",
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "skill", name: "Source evaluation", statement: "Agenda, evidence, transparency." },
+                  { kind: "definition", name: "Corroboration", statement: "Cross-source verification." },
+                ],
+                steps: [
+                  { reasoning: "Source A unreliable: company agenda (profit), 'proven safe and effective' without data — promotional.", evidence: "proven safe and effective", marks: 1, markCode: "AO3" },
+                  { reasoning: "Source B most reliable: independent, specific data (2,000 patients, 12% side effects), balanced — acknowledges both benefit and risk.", evidence: "modest improvement; side effects reported in 12%", marks: 1, markCode: "AO3" },
+                  { reasoning: "Source C unreliable alone: anecdotal, single experience, 'no side effects' contradicts trial data — not representative.", evidence: "saved my life — no side effects at all", marks: 1, markCode: "AO3" },
+                  { reasoning: "Corroboration matters: B's data is independent and specific; A and C are interested parties. Only B can be verified against trial evidence.", marks: 1, markCode: "AO3" },
+                  { reasoning: "Conclusion: B is most reliable; A and C illustrate why single interested sources cannot be trusted.", marks: 1, markCode: "AO1" },
+                ],
+                finalAnswer: "Source B (independent journal with data and balanced reporting) is most reliable; A (company PR) and C (anecdote) are interested/unrepresentative. Corroboration across independent sources is essential.",
+                commonErrors: ["Trusting the company or the testimonial."],
+              },
+            },
+            {
+              id: "el11-u5-evaluating-sources-q5",
+              difficulty: "challenge",
+              totalMarks: 6,
+              parts: [
+                { label: "a", prompt: "List three questions you should ask when evaluating a source's reliability.", marks: 3 },
+                { label: "b", prompt: "A source says 'Studies prove this works' without naming the studies. Explain why this is a reliability problem.", marks: 3 },
+              ],
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "skill", name: "Source checklist", statement: "Who? When? Why? What evidence? What's omitted?" },
+                  { kind: "skill", name: "Verifiability", statement: "Claims must be checkable." },
+                ],
+                steps: [
+                  { part: "a", reasoning: "Any three valid questions: Who produced it? What's their agenda? What evidence is given? Is it current? What's omitted?", marks: 3, markCode: "AO3" },
+                  { part: "b", reasoning: "'Studies prove' is vague — no titles, authors, journals, dates.", marks: 1, markCode: "AO3" },
+                  { part: "b", reasoning: "Cannot be verified or corroborated — reader must take claim on faith.", marks: 1, markCode: "AO3" },
+                  { part: "b", reasoning: "Reliable sources cite specific, checkable evidence; vague appeals to authority are a red flag.", marks: 1, markCode: "AO3" },
+                ],
+                finalAnswer: "(a) Who? What's the agenda? What evidence? Is it current? What's omitted? (b) Unnamed 'studies' cannot be verified — vague authority is a reliability red flag.",
+                  levels: [
+                  { level: "Level 3", marks: "5-6", descriptor: "Perceptive, secure and well-developed answer with precise terminology and integrated evidence." },
+                  { level: "Level 2", marks: "3-4", descriptor: "Clear, relevant points with some development and supporting detail." },
+                  { level: "Level 1", marks: "1-2", descriptor: "Simple or partial points; limited development or relevance." },
+                  ],
+                commonErrors: ["Accepting 'studies prove' at face value."],
+              },
+            },
+            {
+              id: "el11-u5-evaluating-sources-q6",
+              difficulty: "challenge",
+              totalMarks: 9,
+              stem: "Write about 200 words on how to evaluate the reliability of a source. Cover at least three criteria and explain how corroboration strengthens or weakens a claim.",
+              response: { type: "open" },
+              markscheme: {
+                principles: [
+                  { kind: "skill", name: "Source evaluation", statement: "Agenda, evidence, transparency, currency." },
+                  { kind: "skill", name: "Corroboration", statement: "Cross-source verification." },
+                ],
+                steps: [
+                  { reasoning: "Three or more criteria explained (who/agenda, evidence, omissions, currency).", marks: 3, markCode: "AO3" },
+                  { reasoning: "Corroboration explained with example.", marks: 2, markCode: "AO3" },
+                  { reasoning: "Connects evaluation to reliability judgement.", marks: 1, markCode: "AO1" },
+                  { reasoning: "Clear organisation and conclusion.", marks: 3, markCode: "AO4" },
+                ],
+                finalAnswer: "Evaluate sources by asking who produced them, their agenda, the evidence given, what's omitted, and whether claims are corroborated across independent sources.",
+                levels: [
+                  { level: "Level 3", marks: "8-9", descriptor: "Three criteria explained, corroboration illustrated." },
+                  { level: "Level 2", marks: "5-7", descriptor: "Criteria present, partial corroboration." },
+                  { level: "Level 1", marks: "1-4", descriptor: "Vague checklist." },
+                ],
+                commonErrors: ["No criteria named.", "Corroboration not explained."],
+              },
+            },
+          ],
+        },
+      ],
+    },
+    notes: {
+      id: "el11-u5-sources-notes", title: "Comparing sources — notes",
+      summary: "Same event, different framings. Evaluate sources by agenda, evidence, omissions and corroboration.",
+      sections: [
+        { heading: "Comparison method", body: "Shared facts → different emphasis → language choices → omissions → agenda." },
+        { heading: "Source checklist", body: "Who? When? Why? What evidence? What's omitted?" },
+        { heading: "Corroboration", body: "Independent sources agreeing = more reliable; interested parties agreeing = less so." },
+      ],
+    },
+  },
+];

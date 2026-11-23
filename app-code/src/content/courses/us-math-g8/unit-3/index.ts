@@ -7,6 +7,7 @@ export const unit3: Unit = {
   id: "m8-u3",
   code: "3",
   title: "Geometry",
-  description: "Transform figures with translations, reflections, rotations and dilations, use angle relationships and the Pythagorean Theorem, and find the volume of cylinders, cones, spheres and composite solids.",
+  description:
+    "Transform figures with translations, reflections, rotations and dilations, use angle relationships and the Pythagorean Theorem, and find the volume of cylinders, cones, spheres and composite solids.",
   lessons: [lesson31, lesson32, lesson33],
 };

@@ -1,0 +1,1213 @@
+[
+ {
+  "course": "edx-chemistry-y11",
+  "dir": "src/content/courses/edx-chemistry-y11",
+  "units": [
+   11,
+   12,
+   13
+  ]
+ },
+ {
+  "course": "edx-computerscience-y10",
+  "dir": "src/content/courses/edx-computerscience-y10",
+  "units": [
+   11,
+   12
+  ]
+ },
+ {
+  "course": "edx-economics-y11",
+  "dir": "src/content/courses/edx-economics-y11",
+  "units": [
+   14,
+   15
+  ]
+ },
+ {
+  "course": "edx-englang-y10",
+  "dir": "src/content/courses/edx-englang-y10",
+  "units": [
+   8,
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-englang-y10",
+  "dir": "src/content/courses/edx-englang-y10",
+  "units": [
+   11,
+   12
+  ]
+ },
+ {
+  "course": "edx-englang-y10",
+  "dir": "src/content/courses/edx-englang-y10",
+  "units": [
+   13,
+   14
+  ]
+ },
+ {
+  "course": "edx-englang-y11",
+  "dir": "src/content/courses/edx-englang-y11",
+  "units": [
+   10,
+   11,
+   12
+  ]
+ },
+ {
+  "course": "edx-englang-y11",
+  "dir": "src/content/courses/edx-englang-y11",
+  "units": [
+   13,
+   14
+  ]
+ },
+ {
+  "course": "edx-englang-y11",
+  "dir": "src/content/courses/edx-englang-y11",
+  "units": [
+   15,
+   16
+  ]
+ },
+ {
+  "course": "edx-englang-y7",
+  "dir": "src/content/courses/edx-englang-y7",
+  "units": [
+   11,
+   12,
+   13
+  ]
+ },
+ {
+  "course": "edx-englang-y7",
+  "dir": "src/content/courses/edx-englang-y7",
+  "units": [
+   14,
+   15
+  ]
+ },
+ {
+  "course": "edx-englang-y7",
+  "dir": "src/content/courses/edx-englang-y7",
+  "units": [
+   16,
+   17
+  ]
+ },
+ {
+  "course": "edx-englang-y8",
+  "dir": "src/content/courses/edx-englang-y8",
+  "units": [
+   11,
+   12,
+   13
+  ]
+ },
+ {
+  "course": "edx-englang-y8",
+  "dir": "src/content/courses/edx-englang-y8",
+  "units": [
+   14,
+   15
+  ]
+ },
+ {
+  "course": "edx-englang-y8",
+  "dir": "src/content/courses/edx-englang-y8",
+  "units": [
+   16,
+   17
+  ]
+ },
+ {
+  "course": "edx-englang-y9",
+  "dir": "src/content/courses/edx-englang-y9",
+  "units": [
+   4,
+   5,
+   6
+  ]
+ },
+ {
+  "course": "edx-englang-y9",
+  "dir": "src/content/courses/edx-englang-y9",
+  "units": [
+   7,
+   8
+  ]
+ },
+ {
+  "course": "edx-englang-y9",
+  "dir": "src/content/courses/edx-englang-y9",
+  "units": [
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-englit-y10",
+  "dir": "src/content/courses/edx-englit-y10",
+  "units": [
+   4,
+   5,
+   6
+  ]
+ },
+ {
+  "course": "edx-englit-y10",
+  "dir": "src/content/courses/edx-englit-y10",
+  "units": [
+   7,
+   8
+  ]
+ },
+ {
+  "course": "edx-englit-y10",
+  "dir": "src/content/courses/edx-englit-y10",
+  "units": [
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-englit-y11",
+  "dir": "src/content/courses/edx-englit-y11",
+  "units": [
+   4,
+   5,
+   6
+  ]
+ },
+ {
+  "course": "edx-englit-y11",
+  "dir": "src/content/courses/edx-englit-y11",
+  "units": [
+   7,
+   8
+  ]
+ },
+ {
+  "course": "edx-englit-y11",
+  "dir": "src/content/courses/edx-englit-y11",
+  "units": [
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-englit-y8",
+  "dir": "src/content/courses/edx-englit-y8",
+  "units": [
+   4,
+   5,
+   6
+  ]
+ },
+ {
+  "course": "edx-englit-y8",
+  "dir": "src/content/courses/edx-englit-y8",
+  "units": [
+   7,
+   8
+  ]
+ },
+ {
+  "course": "edx-englit-y8",
+  "dir": "src/content/courses/edx-englit-y8",
+  "units": [
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-englit-y9",
+  "dir": "src/content/courses/edx-englit-y9",
+  "units": [
+   4,
+   5,
+   6
+  ]
+ },
+ {
+  "course": "edx-englit-y9",
+  "dir": "src/content/courses/edx-englit-y9",
+  "units": [
+   7,
+   8
+  ]
+ },
+ {
+  "course": "edx-englit-y9",
+  "dir": "src/content/courses/edx-englit-y9",
+  "units": [
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-ial-biology",
+  "dir": "src/content/courses/edx-ial-biology",
+  "units": [
+   7,
+   8,
+   9
+  ]
+ },
+ {
+  "course": "edx-ial-biology",
+  "dir": "src/content/courses/edx-ial-biology",
+  "units": [
+   10,
+   11
+  ]
+ },
+ {
+  "course": "edx-ial-chemistry",
+  "dir": "src/content/courses/edx-ial-chemistry",
+  "units": [
+   7,
+   8,
+   9
+  ]
+ },
+ {
+  "course": "edx-ial-chemistry",
+  "dir": "src/content/courses/edx-ial-chemistry",
+  "units": [
+   10,
+   11
+  ]
+ },
+ {
+  "course": "edx-ial-further-maths",
+  "dir": "src/content/courses/edx-ial-further-maths",
+  "units": [
+   11,
+   12
+  ]
+ },
+ {
+  "course": "edx-ial-maths",
+  "dir": "src/content/courses/edx-ial-maths",
+  "units": [
+   8,
+   9
+  ]
+ },
+ {
+  "course": "edx-ial-maths",
+  "dir": "src/content/courses/edx-ial-maths",
+  "units": [
+   10,
+   11
+  ]
+ },
+ {
+  "course": "edx-ial-physics",
+  "dir": "src/content/courses/edx-ial-physics",
+  "units": [
+   7,
+   8,
+   9
+  ]
+ },
+ {
+  "course": "edx-ial-physics",
+  "dir": "src/content/courses/edx-ial-physics",
+  "units": [
+   10,
+   11
+  ]
+ },
+ {
+  "course": "edx-ial-pure-maths",
+  "dir": "src/content/courses/edx-ial-pure-maths",
+  "units": [
+   8,
+   9
+  ]
+ },
+ {
+  "course": "edx-ial-pure-maths",
+  "dir": "src/content/courses/edx-ial-pure-maths",
+  "units": [
+   10,
+   11
+  ]
+ },
+ {
+  "course": "edx-ias-accounting",
+  "dir": "src/content/courses/edx-ias-accounting",
+  "units": [
+   7
+  ]
+ },
+ {
+  "course": "edx-ias-biology",
+  "dir": "src/content/courses/edx-ias-biology",
+  "units": [
+   8,
+   9
+  ]
+ },
+ {
+  "course": "edx-ias-biology",
+  "dir": "src/content/courses/edx-ias-biology",
+  "units": [
+   10,
+   11
+  ]
+ },
+ {
+  "course": "edx-ias-business",
+  "dir": "src/content/courses/edx-ias-business",
+  "units": [
+   7,
+   8,
+   9
+  ]
+ },
+ {
+  "course": "edx-ias-chemistry",
+  "dir": "src/content/courses/edx-ias-chemistry",
+  "units": [
+   4,
+   5,
+   6
+  ]
+ },
+ {
+  "course": "edx-ias-chemistry",
+  "dir": "src/content/courses/edx-ias-chemistry",
+  "units": [
+   7,
+   8
+  ]
+ },
+ {
+  "course": "edx-ias-chemistry",
+  "dir": "src/content/courses/edx-ias-chemistry",
+  "units": [
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-ias-computerscience",
+  "dir": "src/content/courses/edx-ias-computerscience",
+  "units": [
+   6,
+   7,
+   8
+  ]
+ },
+ {
+  "course": "edx-ias-economics",
+  "dir": "src/content/courses/edx-ias-economics",
+  "units": [
+   7,
+   8,
+   9
+  ]
+ },
+ {
+  "course": "edx-ias-economics",
+  "dir": "src/content/courses/edx-ias-economics",
+  "units": [
+   10,
+   11
+  ]
+ },
+ {
+  "course": "edx-ias-further-maths",
+  "dir": "src/content/courses/edx-ias-further-maths",
+  "units": [
+   11,
+   12
+  ]
+ },
+ {
+  "course": "edx-ias-maths",
+  "dir": "src/content/courses/edx-ias-maths",
+  "units": [
+   6,
+   7,
+   8
+  ]
+ },
+ {
+  "course": "edx-ias-maths",
+  "dir": "src/content/courses/edx-ias-maths",
+  "units": [
+   9,
+   10,
+   11
+  ]
+ },
+ {
+  "course": "edx-ias-physics",
+  "dir": "src/content/courses/edx-ias-physics",
+  "units": [
+   4,
+   5,
+   6
+  ]
+ },
+ {
+  "course": "edx-ias-physics",
+  "dir": "src/content/courses/edx-ias-physics",
+  "units": [
+   7,
+   8
+  ]
+ },
+ {
+  "course": "edx-ias-physics",
+  "dir": "src/content/courses/edx-ias-physics",
+  "units": [
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-ias-psychology",
+  "dir": "src/content/courses/edx-ias-psychology",
+  "units": [
+   6,
+   7,
+   8
+  ]
+ },
+ {
+  "course": "edx-ias-psychology",
+  "dir": "src/content/courses/edx-ias-psychology",
+  "units": [
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-ias-pure-maths",
+  "dir": "src/content/courses/edx-ias-pure-maths",
+  "units": [
+   4,
+   5,
+   6
+  ]
+ },
+ {
+  "course": "edx-ias-pure-maths",
+  "dir": "src/content/courses/edx-ias-pure-maths",
+  "units": [
+   7,
+   8
+  ]
+ },
+ {
+  "course": "edx-ias-pure-maths",
+  "dir": "src/content/courses/edx-ias-pure-maths",
+  "units": [
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-ias-sociology",
+  "dir": "src/content/courses/edx-ias-sociology",
+  "units": [
+   6,
+   7
+  ]
+ },
+ {
+  "course": "edx-ias-sociology",
+  "dir": "src/content/courses/edx-ias-sociology",
+  "units": [
+   8,
+   9
+  ]
+ },
+ {
+  "course": "edx-maths-y10",
+  "dir": "src/content/courses/edx-maths-y10",
+  "units": [
+   8,
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-maths-y11",
+  "dir": "src/content/courses/edx-maths-y11",
+  "units": [
+   5,
+   6,
+   7
+  ]
+ },
+ {
+  "course": "edx-maths-y11",
+  "dir": "src/content/courses/edx-maths-y11",
+  "units": [
+   8,
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-maths-y7",
+  "dir": "src/content/courses/edx-maths-y7",
+  "units": [
+   5,
+   6,
+   7
+  ]
+ },
+ {
+  "course": "edx-maths-y7",
+  "dir": "src/content/courses/edx-maths-y7",
+  "units": [
+   8,
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-maths-y8",
+  "dir": "src/content/courses/edx-maths-y8",
+  "units": [
+   5,
+   6,
+   7
+  ]
+ },
+ {
+  "course": "edx-maths-y8",
+  "dir": "src/content/courses/edx-maths-y8",
+  "units": [
+   8,
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-maths-y9",
+  "dir": "src/content/courses/edx-maths-y9",
+  "units": [
+   5,
+   6,
+   7
+  ]
+ },
+ {
+  "course": "edx-maths-y9",
+  "dir": "src/content/courses/edx-maths-y9",
+  "units": [
+   8,
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-physics-y10",
+  "dir": "src/content/courses/edx-physics-y10",
+  "units": [
+   5,
+   6,
+   7
+  ]
+ },
+ {
+  "course": "edx-physics-y10",
+  "dir": "src/content/courses/edx-physics-y10",
+  "units": [
+   8,
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-physics-y11",
+  "dir": "src/content/courses/edx-physics-y11",
+  "units": [
+   5,
+   6,
+   7
+  ]
+ },
+ {
+  "course": "edx-physics-y11",
+  "dir": "src/content/courses/edx-physics-y11",
+  "units": [
+   8,
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-primary-english-y1",
+  "dir": "src/content/courses/edx-primary-english-y1",
+  "units": [
+   4,
+   5,
+   6
+  ]
+ },
+ {
+  "course": "edx-primary-english-y1",
+  "dir": "src/content/courses/edx-primary-english-y1",
+  "units": [
+   7,
+   8
+  ]
+ },
+ {
+  "course": "edx-primary-english-y1",
+  "dir": "src/content/courses/edx-primary-english-y1",
+  "units": [
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-primary-english-y2",
+  "dir": "src/content/courses/edx-primary-english-y2",
+  "units": [
+   4,
+   5,
+   6
+  ]
+ },
+ {
+  "course": "edx-primary-english-y2",
+  "dir": "src/content/courses/edx-primary-english-y2",
+  "units": [
+   7,
+   8
+  ]
+ },
+ {
+  "course": "edx-primary-english-y2",
+  "dir": "src/content/courses/edx-primary-english-y2",
+  "units": [
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-primary-english-y3",
+  "dir": "src/content/courses/edx-primary-english-y3",
+  "units": [
+   4,
+   5,
+   6
+  ]
+ },
+ {
+  "course": "edx-primary-english-y3",
+  "dir": "src/content/courses/edx-primary-english-y3",
+  "units": [
+   7,
+   8
+  ]
+ },
+ {
+  "course": "edx-primary-english-y3",
+  "dir": "src/content/courses/edx-primary-english-y3",
+  "units": [
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-primary-english-y4",
+  "dir": "src/content/courses/edx-primary-english-y4",
+  "units": [
+   4,
+   5,
+   6
+  ]
+ },
+ {
+  "course": "edx-primary-english-y4",
+  "dir": "src/content/courses/edx-primary-english-y4",
+  "units": [
+   7,
+   8
+  ]
+ },
+ {
+  "course": "edx-primary-english-y4",
+  "dir": "src/content/courses/edx-primary-english-y4",
+  "units": [
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-primary-english-y5",
+  "dir": "src/content/courses/edx-primary-english-y5",
+  "units": [
+   4,
+   5,
+   6
+  ]
+ },
+ {
+  "course": "edx-primary-english-y5",
+  "dir": "src/content/courses/edx-primary-english-y5",
+  "units": [
+   7,
+   8
+  ]
+ },
+ {
+  "course": "edx-primary-english-y5",
+  "dir": "src/content/courses/edx-primary-english-y5",
+  "units": [
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-primary-english-y6",
+  "dir": "src/content/courses/edx-primary-english-y6",
+  "units": [
+   4,
+   5,
+   6
+  ]
+ },
+ {
+  "course": "edx-primary-english-y6",
+  "dir": "src/content/courses/edx-primary-english-y6",
+  "units": [
+   7,
+   8
+  ]
+ },
+ {
+  "course": "edx-primary-english-y6",
+  "dir": "src/content/courses/edx-primary-english-y6",
+  "units": [
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-primary-maths-y1",
+  "dir": "src/content/courses/edx-primary-maths-y1",
+  "units": [
+   4,
+   5,
+   6
+  ]
+ },
+ {
+  "course": "edx-primary-maths-y1",
+  "dir": "src/content/courses/edx-primary-maths-y1",
+  "units": [
+   7,
+   8
+  ]
+ },
+ {
+  "course": "edx-primary-maths-y1",
+  "dir": "src/content/courses/edx-primary-maths-y1",
+  "units": [
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-primary-maths-y2",
+  "dir": "src/content/courses/edx-primary-maths-y2",
+  "units": [
+   4,
+   5,
+   6
+  ]
+ },
+ {
+  "course": "edx-primary-maths-y2",
+  "dir": "src/content/courses/edx-primary-maths-y2",
+  "units": [
+   7,
+   8
+  ]
+ },
+ {
+  "course": "edx-primary-maths-y2",
+  "dir": "src/content/courses/edx-primary-maths-y2",
+  "units": [
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-primary-maths-y3",
+  "dir": "src/content/courses/edx-primary-maths-y3",
+  "units": [
+   4,
+   5,
+   6
+  ]
+ },
+ {
+  "course": "edx-primary-maths-y3",
+  "dir": "src/content/courses/edx-primary-maths-y3",
+  "units": [
+   7,
+   8
+  ]
+ },
+ {
+  "course": "edx-primary-maths-y3",
+  "dir": "src/content/courses/edx-primary-maths-y3",
+  "units": [
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-primary-maths-y4",
+  "dir": "src/content/courses/edx-primary-maths-y4",
+  "units": [
+   4,
+   5,
+   6
+  ]
+ },
+ {
+  "course": "edx-primary-maths-y4",
+  "dir": "src/content/courses/edx-primary-maths-y4",
+  "units": [
+   7,
+   8
+  ]
+ },
+ {
+  "course": "edx-primary-maths-y4",
+  "dir": "src/content/courses/edx-primary-maths-y4",
+  "units": [
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-primary-maths-y5",
+  "dir": "src/content/courses/edx-primary-maths-y5",
+  "units": [
+   4,
+   5,
+   6
+  ]
+ },
+ {
+  "course": "edx-primary-maths-y5",
+  "dir": "src/content/courses/edx-primary-maths-y5",
+  "units": [
+   7,
+   8
+  ]
+ },
+ {
+  "course": "edx-primary-maths-y5",
+  "dir": "src/content/courses/edx-primary-maths-y5",
+  "units": [
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-primary-maths-y6",
+  "dir": "src/content/courses/edx-primary-maths-y6",
+  "units": [
+   4,
+   5,
+   6
+  ]
+ },
+ {
+  "course": "edx-primary-maths-y6",
+  "dir": "src/content/courses/edx-primary-maths-y6",
+  "units": [
+   7,
+   8
+  ]
+ },
+ {
+  "course": "edx-primary-maths-y6",
+  "dir": "src/content/courses/edx-primary-maths-y6",
+  "units": [
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-primary-science-y1",
+  "dir": "src/content/courses/edx-primary-science-y1",
+  "units": [
+   4,
+   5,
+   6
+  ]
+ },
+ {
+  "course": "edx-primary-science-y1",
+  "dir": "src/content/courses/edx-primary-science-y1",
+  "units": [
+   7,
+   8
+  ]
+ },
+ {
+  "course": "edx-primary-science-y1",
+  "dir": "src/content/courses/edx-primary-science-y1",
+  "units": [
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-primary-science-y2",
+  "dir": "src/content/courses/edx-primary-science-y2",
+  "units": [
+   4,
+   5,
+   6
+  ]
+ },
+ {
+  "course": "edx-primary-science-y2",
+  "dir": "src/content/courses/edx-primary-science-y2",
+  "units": [
+   7,
+   8
+  ]
+ },
+ {
+  "course": "edx-primary-science-y2",
+  "dir": "src/content/courses/edx-primary-science-y2",
+  "units": [
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-primary-science-y3",
+  "dir": "src/content/courses/edx-primary-science-y3",
+  "units": [
+   4,
+   5,
+   6
+  ]
+ },
+ {
+  "course": "edx-primary-science-y3",
+  "dir": "src/content/courses/edx-primary-science-y3",
+  "units": [
+   7,
+   8
+  ]
+ },
+ {
+  "course": "edx-primary-science-y3",
+  "dir": "src/content/courses/edx-primary-science-y3",
+  "units": [
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-primary-science-y4",
+  "dir": "src/content/courses/edx-primary-science-y4",
+  "units": [
+   4,
+   5,
+   6
+  ]
+ },
+ {
+  "course": "edx-primary-science-y4",
+  "dir": "src/content/courses/edx-primary-science-y4",
+  "units": [
+   7,
+   8
+  ]
+ },
+ {
+  "course": "edx-primary-science-y4",
+  "dir": "src/content/courses/edx-primary-science-y4",
+  "units": [
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-primary-science-y5",
+  "dir": "src/content/courses/edx-primary-science-y5",
+  "units": [
+   4,
+   5,
+   6
+  ]
+ },
+ {
+  "course": "edx-primary-science-y5",
+  "dir": "src/content/courses/edx-primary-science-y5",
+  "units": [
+   7,
+   8
+  ]
+ },
+ {
+  "course": "edx-primary-science-y5",
+  "dir": "src/content/courses/edx-primary-science-y5",
+  "units": [
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-primary-science-y6",
+  "dir": "src/content/courses/edx-primary-science-y6",
+  "units": [
+   4,
+   5,
+   6
+  ]
+ },
+ {
+  "course": "edx-primary-science-y6",
+  "dir": "src/content/courses/edx-primary-science-y6",
+  "units": [
+   7,
+   8
+  ]
+ },
+ {
+  "course": "edx-primary-science-y6",
+  "dir": "src/content/courses/edx-primary-science-y6",
+  "units": [
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-science-y10",
+  "dir": "src/content/courses/edx-science-y10",
+  "units": [
+   5,
+   6,
+   7
+  ]
+ },
+ {
+  "course": "edx-science-y10",
+  "dir": "src/content/courses/edx-science-y10",
+  "units": [
+   8,
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-science-y11",
+  "dir": "src/content/courses/edx-science-y11",
+  "units": [
+   5,
+   6,
+   7
+  ]
+ },
+ {
+  "course": "edx-science-y11",
+  "dir": "src/content/courses/edx-science-y11",
+  "units": [
+   8,
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-science-y7",
+  "dir": "src/content/courses/edx-science-y7",
+  "units": [
+   4,
+   5,
+   6
+  ]
+ },
+ {
+  "course": "edx-science-y7",
+  "dir": "src/content/courses/edx-science-y7",
+  "units": [
+   7,
+   8
+  ]
+ },
+ {
+  "course": "edx-science-y7",
+  "dir": "src/content/courses/edx-science-y7",
+  "units": [
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-science-y8",
+  "dir": "src/content/courses/edx-science-y8",
+  "units": [
+   4,
+   5,
+   6
+  ]
+ },
+ {
+  "course": "edx-science-y8",
+  "dir": "src/content/courses/edx-science-y8",
+  "units": [
+   7,
+   8
+  ]
+ },
+ {
+  "course": "edx-science-y8",
+  "dir": "src/content/courses/edx-science-y8",
+  "units": [
+   9,
+   10
+  ]
+ },
+ {
+  "course": "edx-science-y9",
+  "dir": "src/content/courses/edx-science-y9",
+  "units": [
+   4,
+   5,
+   6
+  ]
+ },
+ {
+  "course": "edx-science-y9",
+  "dir": "src/content/courses/edx-science-y9",
+  "units": [
+   7,
+   8
+  ]
+ },
+ {
+  "course": "edx-science-y9",
+  "dir": "src/content/courses/edx-science-y9",
+  "units": [
+   9,
+   10
+  ]
+ }
+]

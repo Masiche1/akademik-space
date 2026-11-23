@@ -239,11 +239,14 @@ async function runCourse(spec) {
     const r = rng((spec.seed ?? 12345) + i * 977 + spec.course.length * 31);
     const topic = spec.topicFor ? spec.topicFor(u, i) : u.title;
     const standards = spec.standardsFor ? spec.standardsFor(u, i) : [];
+    // continue numbering after any previously generated -x lessons so re-runs append, not overwrite
+    const unitDirPath = path.join(courseDir, u.dir);
+    const xOffset = fs.readdirSync(unitDirPath).filter((f) => /-x\d+\.ts$/.test(f)).length;
 
     for (let k = 0; k < nLessons; k++) {
       const need = Math.min(perLesson, want - k * perLesson);
       if (need <= 0) break;
-      const lessonIdx = k + 1;
+      const lessonIdx = xOffset + k + 1;
       const lessonId = `${u.id}-exam${lessonIdx}`;
       const exportName = `exam${u.code.replace(/\W/g, "")}${lessonIdx}`;
       const file = `lesson-${u.dir.replace("unit-", "")}-x${lessonIdx}.ts`;

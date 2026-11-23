@@ -1,0 +1,371 @@
+// AP Biology — cells/energy, heredity/evolution, ecology/physiology. Spec for scripts/gen-us-elementary.cjs.
+const P = (kind, name, statement) => [kind, name, statement];
+const S = (reasoning, marks, markCode = "A", working) => ({ reasoning, marks, markCode, ...(working ? { working } : {}) });
+const mcq = (difficulty, totalMarks, stem, choices, correct, principles, steps, finalAnswer, commonErrors) => ({
+  difficulty, totalMarks, stem, choices, correct, principles, steps, finalAnswer, ...(commonErrors ? { commonErrors } : {}),
+});
+const num = (difficulty, totalMarks, stem, numeric, principles, steps, finalAnswer, commonErrors) => ({
+  difficulty, totalMarks, stem, numeric, principles, steps, finalAnswer, ...(commonErrors ? { commonErrors } : {}),
+});
+const op = (difficulty, totalMarks, stem, principles, steps, finalAnswer, commonErrors) => ({
+  difficulty, totalMarks, stem, principles, steps, finalAnswer, ...(commonErrors ? { commonErrors } : {}),
+});
+const lesson = (slug, title, goal, standards, vocab, concept) => ({ slug, title, goal, standards, vocab, concept });
+
+const apBiology = {
+  id: "ap-biology",
+  exportName: "apBiology",
+  prefix: "apbio",
+  title: "AP Biology",
+  shortTitle: "AP Bio",
+  grade: "AP",
+  framework: "College Board Advanced Placement",
+  description:
+    "Cell structure and energetics, heredity and evolution, gene expression, and ecology — the full AP Biology curriculum in exam-style questions.",
+  ap: { exam: "biology" },
+  units: [
+    {
+      id: "apbio-u1",
+      title: "Cells, Chemistry of Life, and Energy",
+      description: "Macromolecules, cell structure, membrane transport, photosynthesis, and cellular respiration.",
+      lessons: [
+        lesson("macromolecules", "Macromolecules", "I CAN identify the four classes of biological macromolecules and their building blocks.", ["BIOCH-1"],
+          [["Monomer", "A single building-block molecule, e.g., a monosaccharide or amino acid."], ["Polymer", "A chain of many monomers linked by dehydration synthesis."], ["Dehydration synthesis", "Joining monomers by removing a water molecule."], ["Hydrolysis", "Breaking polymers apart by adding water."], ["Functional group", "A specific atom arrangement (e.g., $-OH$, $-COOH$) that determines chemical reactivity."]],
+          {
+            title: "The four macromolecules",
+            skill: "Classify macromolecules by structure, monomers, and function.",
+            sections: [
+              ["Carbohydrates", "Sugars and starches built from monosaccharides ($C_6H_{12}O_6$ glucose). Monosaccharides join by glycosidic bonds into disaccharides (sucrose) and polysaccharides (starch, glycogen, cellulose). Functions: quick energy (glucose), energy storage (glycogen/starch), structure (cellulose)."],
+              ["Proteins, lipids, nucleic acids", "Proteins are amino-acid polymers folded into shapes that determine function (enzymes, structure, transport). Lipids (fats, phospholipids, steroids) are hydrophobic energy stores and membrane components. Nucleic acids (DNA, RNA) are nucleotide polymers storing genetic information."],
+            ],
+            formulas: [
+              ["Dehydration synthesis", "Monomers $+$ remove $H_2O \\to$ polymer"],
+              ["Hydrolysis", "Polymer $+ H_2O \\to$ monomers"],
+            ],
+            worked: {
+              problem: "A polymer breaks into monomers when water is added. What process is this and what class of molecule is likely involved?",
+              solution: "Adding water to split a polymer is **hydrolysis**. Any of the four macromolecule classes could undergo it, but the reaction itself is defined by water breaking bonds.",
+            },
+            questions: [
+              mcq("foundation", 1, "The monomer of a protein is ___.", [["a", "a monosaccharide"], ["b", "an amino acid"], ["c", "a nucleotide"], ["d", "a fatty acid"]], "b",
+                [P("definition", "Protein structure", "Proteins are polymers of amino acids.")],
+                [S("Amino acids link by peptide bonds to form polypeptides/proteins.", 1, "M")], "Amino acid", ["Confusing protein monomers with nucleotide or sugar monomers."]),
+              mcq("core", 1, "Cellulose is a polysaccharide made of glucose monomers. Its primary biological role is ___.", [["a", "energy storage"], ["b", "structural support in plant cell walls"], ["c", "genetic information"], ["d", "enzymatic catalysis"]], "b",
+                [P("concept", "Polysaccharide function", "Cellulose's $\\beta$-linkages make it rigid and indigestible to most animals.")],
+                [S("Cellulose provides structural rigidity in plant cell walls.", 1, "M")], "Structural support", ["Assuming all glucose polymers serve as energy storage."]),
+              num("core", 2, "A disaccharide forms when two monosaccharides join. How many water molecules are released per disaccharide formed? Enter the number.", [{ label: "Water molecules", answer: 1 }],
+                [P("concept", "Dehydration synthesis", "Each bond formation releases one $H_2O$.")],
+                [S("Two monomers $\\to$ one disaccharide releases exactly $1$ water molecule.", 1, "M"), S("Answer: $1$.", 1, "B")], "$1$", ["Thinking two waters are released (one per monomer)."]),
+              op("challenge", 3, "Explain why lipids are hydrophobic and describe two biological roles of phospholipids in cells.",
+                [P("concept", "Hydrophobicity", "Nonpolar hydrocarbon tails repel water."), P("structure", "Phospholipid bilayer", "Amphipathic molecules self-assemble with heads out, tails in.")],
+                [S("Lipids' long hydrocarbon chains are nonpolar, so they do not dissolve in water — hydrophobic.", 1, "M"), S("Phospholipids form the bilayer of cell membranes (barrier + fluid mosaic) and create compartments like organelle boundaries.", 1, "M"), S("Two distinct roles stated clearly.", 1, "B")], "Hydrophobic tails; membrane bilayer and compartmentalization", ["Saying lipids are hydrophilic or ignoring the amphipathic structure."]),
+            ],
+          }),
+        lesson("cell-structure", "Cell Structure and Membrane Transport", "I CAN compare prokaryotic and eukaryotic cells and describe membrane transport mechanisms.", ["CELL-1"],
+          [["Prokaryote", "Cell without a nucleus or membrane-bound organelles (bacteria, archaea)."], ["Eukaryote", "Cell with a nucleus and membrane-bound organelles (protists, fungi, plants, animals)."], ["Selectively permeable", "Membrane allows some substances to pass but not others."], ["Passive transport", "Movement down the concentration gradient without energy: diffusion, osmosis, facilitated diffusion."], ["Active transport", "Movement against the gradient using energy, e.g., the sodium-potassium pump."]],
+          {
+            title: "Cells and transport",
+            skill: "Compare cell types and classify transport across membranes.",
+            sections: [
+              ["Cell organization", "Prokaryotes lack a nucleus — DNA floats in the nucleoid — and have no membrane-bound organelles. Eukaryotes compartmentalize functions: nucleus (DNA), mitochondria (respiration), chloroplasts (photosynthesis in plants/algae), ER and Golgi (protein processing)."],
+              ["Transport across membranes", "The phospholipid bilayer is selectively permeable. **Passive** transport (diffusion, osmosis, facilitated diffusion through channel/carrier proteins) moves down gradients without ATP. **Active** transport (pumps, endocytosis, exocytosis) moves against gradients using energy."],
+            ],
+            formulas: [
+              ["Diffusion", "Net movement from high to low concentration"],
+              ["Osmosis", "Diffusion of water across a selectively permeable membrane"],
+            ],
+            worked: {
+              problem: "A cell is placed in a hypertonic solution. What happens and why?",
+              solution: "Hypertonic = higher solute concentration outside. Water leaves the cell by osmosis, so the cell shrinks (crenates in animal cells, plasmolyzes in plant cells).",
+            },
+            questions: [
+              mcq("foundation", 1, "Which cell type has membrane-bound organelles?", [["a", "Prokaryote"], ["b", "Eukaryote"], ["c", "Both equally"], ["d", "Neither"]], "b",
+                [P("definition", "Eukaryote", "Membrane-bound nucleus and organelles.")],
+                [S("Eukaryotes have a true nucleus and organelles; prokaryotes do not.", 1, "M")], "Eukaryote", ["Reversing the definitions of pro- and eukaryote."]),
+              mcq("core", 1, "Oxygen moving from alveoli into blood is an example of ___.", [["a", "active transport"], ["b", "simple diffusion"], ["c", "endocytosis"], ["d", "facilitated diffusion"]], "b",
+                [P("concept", "Diffusion", "Small nonpolar molecules cross membranes down their gradient without help.")],
+                [S("$O_2$ is small and nonpolar — it diffuses directly through the bilayer.", 1, "M")], "Simple diffusion", ["Overcomplicating with protein-mediated transport."]),
+              num("core", 2, "The sodium-potassium pump moves $3$ Na$^+$ out and $2$ K$^+$ in per cycle. How many ions move per cycle in total? Enter the number.", [{ label: "Ions", answer: 5 }],
+                [P("concept", "Pump stoichiometry", "$3 + 2 = 5$ ions per cycle.")],
+                [S("$3 + 2 = 5$ ions moved per ATP-powered cycle.", 1, "M"), S("Answer: $5$.", 1, "B")], "$5$", ["Subtracting instead of adding the ion counts."]),
+              op("challenge", 3, "Distinguish between facilitated diffusion and active transport, giving one example of each.",
+                [P("definition", "Facilitated diffusion", "Protein-mediated, down gradient, no energy."), P("definition", "Active transport", "Against gradient, requires energy.")],
+                [S("Facilitated diffusion uses channel/carrier proteins but moves WITH the gradient — no ATP needed. Example: glucose entering cells via GLUT transporters.", 1, "M"), S("Active transport moves AGAINST the gradient using energy. Example: sodium-potassium pump using ATP.", 1, "M"), S("Both mechanisms correctly contrasted.", 1, "B")], "Facilitated = with gradient/no ATP; active = against gradient/ATP", ["Saying facilitated diffusion requires energy."]),
+            ],
+          }),
+        lesson("photosynthesis-respiration", "Photosynthesis and Cellular Respiration", "I CAN compare the inputs, outputs, and locations of photosynthesis and respiration.", ["ENER-1"],
+          [["Photosynthesis", "$6CO_2 + 6H_2O + \\text{light} \\to C_6H_{12}O_6 + 6O_2$ — stores energy in glucose."], ["Chloroplast", "Organelle where photosynthesis occurs; contains thylakoids and stroma."], ["Calvin cycle", "Light-independent reactions in the stroma fixing $CO_2$ into sugar."], ["Cellular respiration", "$C_6H_{12}O_6 + 6O_2 \\to 6CO_2 + 6H_2O + \\text{ATP}$ — releases energy."], ["ATP", "Adenosine triphosphate — the cell's energy currency."]],
+          {
+            title: "Energy flow in cells",
+            skill: "Relate photosynthesis and respiration as complementary processes.",
+            sections: [
+              ["Photosynthesis", "In chloroplasts: light reactions in thylakoid membranes capture light energy to make ATP and NADPH; the Calvin cycle in the stroma uses them to fix $CO_2$ into glucose. Net equation: $6CO_2 + 6H_2O \\to C_6H_{12}O_6 + 6O_2$."],
+              ["Respiration", "In mitochondria (and cytoplasm for glycolysis): glucose is oxidized stepwise — glycolysis, Krebs cycle, oxidative phosphorylation — producing ATP. The processes are near-mirror images: photosynthesis stores energy, respiration releases it. C$_3$, C$_4$, and CAM plants are adaptations to minimize photorespiration."],
+            ],
+            formulas: [
+              ["Photosynthesis", "$6CO_2 + 6H_2O + \\text{light} \\to C_6H_{12}O_6 + 6O_2$"],
+              ["Respiration", "$C_6H_{12}O_6 + 6O_2 \\to 6CO_2 + 6H_2O + \\text{ATP}$"],
+            ],
+            worked: {
+              problem: "Where do the light reactions and Calvin cycle occur, and what do they produce?",
+              solution: "Light reactions occur in thylakoid membranes producing ATP, NADPH, and $O_2$. The Calvin cycle occurs in the stroma using ATP and NADPH to fix $CO_2$ into G3P (then glucose).",
+            },
+            questions: [
+              mcq("foundation", 1, "The light reactions of photosynthesis occur in the ___.", [["a", "stroma"], ["b", "thylakoid membranes"], ["c", "cytoplasm"], ["d", "mitochondria"]], "b",
+                [P("definition", "Thylakoid", "Membrane discs inside chloroplasts housing photosystems.")],
+                [S("Light-dependent reactions happen in thylakoids; Calvin cycle in stroma.", 1, "M")], "Thylakoid membranes", ["Mixing up thylakoid and stroma locations."]),
+              mcq("core", 1, "Which gas is a product of the light reactions and a reactant of respiration?", [["a", "$CO_2$"], ["b", "$O_2$"], ["c", "$N_2$"], ["d", "$H_2$"]], "b",
+                [P("concept", "Gas exchange", "Photosynthesis releases $O_2$; respiration consumes it.")],
+                [S("$O_2$ is produced by photolysis of water in light reactions and consumed in oxidative phosphorylation.", 1, "M")], "$O_2$", ["Thinking $CO_2$ is the shared gas — it goes the other direction."]),
+              num("core", 2, "How many $CO_2$ molecules are fixed to produce one glucose molecule in the Calvin cycle? Enter the number.", [{ label: "$CO_2$ molecules", answer: 6 }],
+                [P("concept", "Calvin cycle", "Each turn fixes one $CO_2$; glucose needs six turns.")],
+                [S("$6CO_2$ per glucose — matching the photosynthesis equation.", 1, "M"), S("Answer: $6$.", 1, "B")], "$6$", ["Forgetting each turn fixes only one carbon."]),
+              op("challenge", 3, "Compare aerobic respiration and photosynthesis in terms of location, reactants, products, and energy flow.",
+                [P("concept", "Complementary processes", "Near-reverse equations."), P("concept", "Energy", "Photosynthesis stores; respiration releases.")],
+                [S("Photosynthesis: chloroplasts, uses $CO_2 + H_2O + light$, produces glucose + $O_2$, stores energy. Respiration: mitochondria/cytoplasm, uses glucose + $O_2$, produces $CO_2 + H_2O + ATP$, releases energy.", 1, "M"), S("They are essentially reverse reactions — the $O_2$ and $CO_2$ swap roles.", 1, "M"), S("Correct comparison covering all four aspects.", 1, "B")], "Reverse processes; chloroplasts vs mitochondria; store vs release energy", ["Listing only the equations without locations or energy flow."]),
+            ],
+          }),
+      ],
+    },
+    {
+      id: "apbio-u2",
+      title: "Heredity, Gene Expression, and Evolution",
+      description: "Meiosis, Mendelian and molecular genetics, natural selection, and phylogenetics.",
+      lessons: [
+        lesson("meiosis-inheritance", "Meiosis and Mendelian Inheritance", "I CAN predict offspring ratios and explain the sources of genetic variation.", ["GEN-1"],
+          [["Meiosis", "Two divisions producing four haploid gametes with half the chromosomes."], ["Crossing over", "Exchange of chromosome segments in prophase I creating new allele combinations."], ["Independent assortment", "Random alignment of homologous pairs in metaphase I."], ["Homozygous", "Two identical alleles ($AA$ or $aa$)."], ["Heterozygous", "Two different alleles ($Aa$)."], ["Punnett square", "Grid predicting offspring genotypes from parental alleles."]],
+          {
+            title: "Meiosis and inheritance",
+            skill: "Predict genetic outcomes and explain variation sources.",
+            sections: [
+              ["Meiosis", "Diploid cells ($2n$) divide twice to produce four haploid ($n$) gametes. Crossing over in prophase I and independent assortment in metaphase I shuffle alleles — together with random fertilization, these generate nearly infinite genetic variation."],
+              ["Mendelian genetics", "Dominant alleles mask recessive ones in heterozygotes. A monohybrid cross $Aa \\times Aa$ yields $1 AA : 2 Aa : 1 aa$ — the classic $3:1$ phenotype ratio when $A$ is dominant. Test crosses ($Aa \\times aa$) reveal hidden recessive alleles via $1:1$ ratios."],
+            ],
+            formulas: [
+              ["Monohybrid ratio", "$Aa \\times Aa \\to 1:2:1$ genotype, $3:1$ phenotype"],
+              ["Dihybrid ratio", "$AaBb \\times AaBb \\to 9:3:3:1$ phenotype"],
+            ],
+            worked: {
+              problem: "Tall ($T$) is dominant to short ($t$). Two heterozygous parents cross. What fraction of offspring are short?",
+              solution: "$Tt \\times Tt \\to 1 TT : 2 Tt : 1 tt$. Only $tt$ is short: fraction $= \\frac{1}{4} = 25\\%$.",
+            },
+            questions: [
+              mcq("foundation", 1, "Crossing over occurs during ___.", [["a", "anaphase II"], ["b", "prophase I of meiosis"], ["c", "metaphase II"], ["d", "interphase"]], "b",
+                [P("concept", "Crossing over", "Homologous chromosomes exchange segments early in meiosis I.")],
+                [S("Crossing over happens in prophase I when homologs pair as tetrads.", 1, "M")], "Prophase I", ["Placing crossing over in meiosis II where no homologs exist."]),
+              mcq("core", 1, "$Aa \\times Aa$ where $A$ is dominant. What fraction shows the dominant phenotype?", [["a", "$\\frac{1}{4}$"], ["b", "$\\frac{1}{2}$"], ["c", "$\\frac{3}{4}$"], ["d", "$1$"]], "c",
+                [P("method", "Punnett ratio", "$AA + Aa$ show dominant = $1 + 2 = 3$ of $4$.")],
+                [S("Dominant phenotype appears in $AA$ and $Aa$ — $\\frac{3}{4} = 75\\%$.", 1, "M")], "$\\frac{3}{4}$", ["Counting only $AA$ as dominant phenotype."]),
+              num("core", 2, "In a dihybrid cross $AaBb \\times AaBb$, what fraction of offspring show both dominant traits? Enter as a decimal.", [{ label: "Fraction", answer: 0.5625 }],
+                [P("method", "Dihybrid ratio", "Both dominant = $\\frac{3}{4} \\times \\frac{3}{4}$.")],
+                [S("$\\frac{9}{16} = 0.5625$ — the $9$ in the $9:3:3:1$ ratio.", 1, "M"), S("$0.5625$ or $\\frac{9}{16}$.", 1, "B")], "$0.5625$", ["Adding probabilities instead of multiplying independent traits."]),
+              op("challenge", 3, "Explain three mechanisms that generate genetic variation in sexually reproducing organisms.",
+                [P("concept", "Crossing over", "New allele combinations on chromosomes."), P("concept", "Independent assortment", "Random homolog alignment."), P("concept", "Random fertilization", "Any sperm can meet any egg.")],
+                [S("Crossing over in prophase I creates recombinant chromosomes with novel allele combinations.", 1, "M"), S("Independent assortment in metaphase I gives $2^n$ possible gamete combinations for $n$ chromosome pairs.", 1, "M"), S("Random fertilization ensures each zygote gets a unique combination of parental gametes.", 1, "B")], "Crossing over, independent assortment, random fertilization", ["Listing only one mechanism or confusing them with mutation."]),
+            ],
+          }),
+        lesson("molecular-genetics", "Molecular Genetics: DNA to Protein", "I CAN explain DNA replication, transcription, translation, and gene regulation.", ["GEN-2"],
+          [["DNA", "Double helix of nucleotides (A-T, G-C) storing genetic information."], ["Replication", "Semiconservative copying of DNA before cell division."], ["Transcription", "RNA polymerase makes mRNA from a DNA template."], ["Translation", "Ribosomes read mRNA codons to assemble amino acids into protein."], ["Codon", "Three-nucleotide mRNA sequence specifying one amino acid."], ["Gene regulation", "Control of when and how much a gene is expressed, e.g., the lac operon."]],
+          {
+            title: "From DNA to protein",
+            skill: "Trace the flow of genetic information and its regulation.",
+            sections: [
+              ["Central dogma", "DNA $\\to$ RNA $\\to$ protein. **Replication** copies DNA semiconservatively (each strand templates a new one). **Transcription** uses RNA polymerase to make mRNA complementary to a gene's template strand. **Translation** at ribosomes reads mRNA codons via tRNA anticodons, building polypeptides."],
+              ["Gene regulation", "Cells express only needed genes. In prokaryotes, **operons** like the lac operon use repressors/inducers: lactose present removes the repressor, turning genes ON. In eukaryotes, regulation is more complex — transcription factors, enhancers, and epigenetic marks control expression."],
+            ],
+            formulas: [
+              ["Codon", "3 mRNA nucleotides = 1 amino acid"],
+              ["Start/stop", "AUG = start (Met); UAA/UAG/UGA = stop"],
+            ],
+            worked: {
+              problem: "mRNA codon sequence: AUG CCU GAC UAA. How many amino acids are coded (ignoring stop)?",
+              solution: "AUG = Met (start), CCU = Pro, GAC = Asp, UAA = stop. Three amino acids coded before the stop codon.",
+            },
+            questions: [
+              mcq("foundation", 1, "The enzyme that synthesizes mRNA during transcription is ___.", [["a", "DNA polymerase"], ["b", "RNA polymerase"], ["c", "Ribosome"], ["d", "Helicase"]], "b",
+                [P("definition", "Transcription", "RNA polymerase builds mRNA from the DNA template.")],
+                [S("RNA polymerase catalyzes transcription; DNA polymerase handles replication.", 1, "M")], "RNA polymerase", ["Mixing up the polymerases' roles."]),
+              mcq("core", 1, "In the lac operon, lactose acts as ___.", [["a", "a repressor"], ["b", "an inducer that removes the repressor"], ["c", "a promoter"], ["d", "a terminator"]], "b",
+                [P("concept", "Lac operon", "Lactose binds the repressor, freeing the operator so genes transcribe.")],
+                [S("Lactose is the inducer — its presence turns the operon ON by disabling the repressor.", 1, "M")], "Inducer", ["Thinking lactose directly activates RNA polymerase."]),
+              num("core", 2, "A gene has 300 nucleotides in its coding region. Ignoring start/stop, how many amino acids does it code for? Enter the number.", [{ label: "Amino acids", answer: 100 }],
+                [P("method", "Codon counting", "3 nucleotides per codon.")],
+                [S("$300 / 3 = 100$ codons $=$ up to $100$ amino acids (minus start/stop adjustments in reality).", 1, "M"), S("$100$.", 1, "B")], "$100$", ["Dividing by $2$ or $4$ instead of $3$."]),
+              op("challenge", 3, "Compare DNA replication and transcription in terms of template, product, enzyme, and when they occur.",
+                [P("comparison", "Replication", "Whole DNA, two strands, DNA polymerase, before division."), P("comparison", "Transcription", "One gene, mRNA, RNA polymerase, for protein synthesis.")],
+                [S("Replication: entire DNA molecule, both strands template, DNA polymerase, semiconservative, occurs in S phase.", 1, "M"), S("Transcription: single gene, DNA template strand, RNA polymerase, produces mRNA, occurs continuously as needed.", 1, "M"), S("All four aspects correctly contrasted.", 1, "B")], "Replication = DNA/DNA pol/S phase; transcription = gene/mRNA/RNA pol", ["Saying transcription uses DNA polymerase."]),
+            ],
+          }),
+        lesson("evolution-natural-selection", "Evolution and Natural Selection", "I CAN explain mechanisms of evolution and interpret evidence.", ["EVO-1"],
+          [["Evolution", "Change in allele frequencies in a population over generations."], ["Natural selection", "Differential survival/reproduction of phenotypes better suited to the environment."], ["Genetic drift", "Random change in allele frequencies, especially strong in small populations."], ["Gene flow", "Transfer of alleles between populations via migration."], ["Speciation", "Formation of new species, typically via reproductive isolation."], ["Evidence", "Fossil record, comparative anatomy, embryology, molecular biology, observed selection."]],
+          {
+            title: "Mechanisms of evolution",
+            skill: "Distinguish evolutionary mechanisms and evaluate evidence.",
+            sections: [
+              ["Mechanisms", "**Natural selection** favors advantageous alleles systematically. **Genetic drift** changes frequencies randomly — bottlenecks and founder effects are extreme cases. **Gene flow** homogenizes populations. **Mutation** and **recombination** supply new variation. Non-random mating (assortative, inbreeding) changes genotype frequencies without changing allele frequencies."],
+              ["Evidence and speciation", "The fossil record shows transitional forms; homologous structures (same bones, different functions) reveal common ancestry; DNA similarities confirm relationships; observed cases like antibiotic resistance and Darwin's finches demonstrate selection in action. Speciation requires reproductive isolation — geographic, behavioral, or temporal barriers."],
+            ],
+            formulas: [
+              ["Hardy-Weinberg", "$p^2 + 2pq + q^2 = 1$ — no evolution when allele frequencies stable"],
+              ["Selection", "Fitness differences change allele frequencies over time"],
+            ],
+            worked: {
+              problem: "In a population, $p = 0.6$ (dominant allele). Under Hardy-Weinberg, what fraction is heterozygous?",
+              solution: "$2pq = 2(0.6)(0.4) = 0.48$ — $48\\%$ of the population is heterozygous.",
+            },
+            questions: [
+              mcq("foundation", 1, "Antibiotic resistance spreading in bacteria is an example of ___.", [["a", "genetic drift"], ["b", "natural selection"], ["c", "gene flow"], ["d", "speciation"]], "b",
+                [P("concept", "Natural selection", "Antibiotic creates selective pressure favoring resistant variants.")],
+                [S("Resistant bacteria survive and reproduce more — classic directional selection.", 1, "M")], "Natural selection", ["Calling it random drift — selection is directional, not random."]),
+              mcq("core", 1, "A population crashes from $10{,}000$ to $50$ individuals, then recovers. Allele frequencies change randomly. This is ___.", [["a", "the bottleneck effect"], ["b", "gene flow"], ["c", "natural selection"], ["d", "adaptive radiation"]], "a",
+                [P("definition", "Bottleneck", "Severe population reduction amplifies drift.")],
+                [S("The crash is a bottleneck — surviving alleles are a random sample, shifting frequencies drastically.", 1, "M")], "Bottleneck effect", ["Attributing frequency shifts to selection when they're random."]),
+              num("core", 2, "Under Hardy-Weinberg, $q = 0.3$ for a recessive allele. What fraction shows the recessive phenotype? Enter the decimal.", [{ label: "Fraction", answer: 0.09 }],
+                [P("method", "H-W", "Recessive phenotype = $q^2$.")],
+                [S("$q^2 = 0.3^2 = 0.09$ — $9\\%$ show the recessive trait.", 1, "M"), S("$0.09$.", 1, "B")], "$0.09$", ["Using $2pq$ (heterozygotes) instead of $q^2$."]),
+              op("challenge", 3, "Describe how geographic isolation can lead to speciation, naming the key steps.",
+                [P("concept", "Reproductive isolation", "Barrier prevents gene flow."), P("concept", "Divergence", "Populations evolve independently.")],
+                [S("A physical barrier (river, mountain) splits a population into two groups.", 1, "M"), S("With no gene flow, mutations, drift, and different selection pressures cause the groups' allele frequencies to diverge independently.", 1, "M"), S("Over time they become so different that even if the barrier disappears, they cannot interbreed successfully — new species formed.", 1, "B")], "Isolation $\\to$ divergence $\\to$ reproductive incompatibility", ["Skipping the divergence step or assuming instant speciation."]),
+            ],
+          }),
+      ],
+    },
+    {
+      id: "apbio-u3",
+      title: "Ecology, Physiology, and the Immune System",
+      description: "Energy flow and nutrient cycles, population dynamics, animal physiology, and immune response.",
+      lessons: [
+        lesson("energy-flow-ecosystems", "Energy Flow and Ecosystem Ecology", "I CAN describe trophic levels, productivity, and biogeochemical cycles.", ["ECO-1"],
+          [["Trophic level", "Position in a food chain: producers, primary/secondary/tertiary consumers, decomposers."], ["Gross primary productivity", "Total energy captured by producers via photosynthesis."], ["Net primary productivity", "GPP minus respiration — energy available to consumers."], ["10% rule", "Only about $10\\%$ of energy transfers between trophic levels."], ["Biogeochemical cycle", "Movement of nutrients (carbon, nitrogen, water) through organisms and environment."]],
+          {
+            title: "Energy and matter in ecosystems",
+            skill: "Trace energy flow and nutrient cycling through ecosystems.",
+            sections: [
+              ["Energy flow", "Producers capture solar energy; energy flows one way through trophic levels — producers $\\to$ herbivores $\\to$ carnivores $\\to$ decomposers. Only $\\sim 10\\%$ transfers each level; the rest is lost as heat through respiration. This is why food chains rarely exceed $4$-$5$ levels."],
+              ["Nutrient cycles", "Unlike energy, matter is recycled. **Carbon** cycles via photosynthesis/respiration/combustion; **nitrogen** via fixation, nitrification, denitrification (only bacteria fix $N_2$); **water** cycles through evaporation, condensation, precipitation. Decomposers return nutrients to soil."],
+            ],
+            formulas: [
+              ["10% rule", "$E_{n+1} \\approx 0.1 \\, E_n$ between trophic levels"],
+              ["NPP", "$NPP = GPP - R_a$ (respiration)"],
+            ],
+            worked: {
+              problem: "Producers capture $10{,}000$ kcal. Approximately how much reaches tertiary consumers?",
+              solution: "$10{,}000 \\times 0.1 \\times 0.1 \\times 0.1 = 10$ kcal — three transfers of $10\\%$ each.",
+            },
+            questions: [
+              mcq("foundation", 1, "Energy in an ecosystem flows ___.", [["a", "in cycles like nutrients"], ["b", "one direction from producers to consumers"], ["c", "from consumers to producers"], ["d", "randomly"]], "b",
+                [P("concept", "Energy flow", "Energy is lost as heat — it cannot be recycled.")],
+                [S("Energy enters as sunlight and flows one way, dissipating as heat at each level.", 1, "M")], "One direction", ["Confusing energy flow with nutrient cycling."]),
+              mcq("core", 1, "Which organisms are primarily responsible for nitrogen fixation?", [["a", "Plants"], ["b", "Nitrogen-fixing bacteria"], ["c", "Fungi"], ["d", "Herbivores"]], "b",
+                [P("concept", "Nitrogen cycle", "Only certain bacteria convert $N_2$ to usable forms.")],
+                [S("Rhizobium and other diazotrophs fix atmospheric $N_2$ into ammonia/nitrates.", 1, "M")], "Nitrogen-fixing bacteria", ["Thinking plants can fix $N_2$ directly."]),
+              num("core", 2, "If GPP $= 5000$ kcal/m$^2$/yr and producers respire $2000$ kcal/m$^2$/yr, what is NPP? Enter the value.", [{ label: "NPP", answer: 3000 }],
+                [P("method", "NPP", "$NPP = GPP - R_a$.")],
+                [S("$NPP = 5000 - 2000 = 3000$ kcal/m$^2$/yr.", 1, "M"), S("$3000$.", 1, "B")], "$3000$ kcal/m$^2$/yr", ["Adding respiration instead of subtracting."]),
+              op("challenge", 3, "Explain why food chains rarely exceed four or five trophic levels, using the 10% rule.",
+                [P("theorem", "10% rule", "Only $\\sim 10\\%$ of energy transfers up each level.")],
+                [S("Each trophic transfer loses $\\sim 90\\%$ of energy as heat via respiration.", 1, "M"), S("After $4$-$5$ transfers, too little energy remains to support a viable population of top predators.", 1, "M"), S("Pyramids of energy always decrease upward — unlike biomass pyramids which can invert.", 1, "R")], "Energy loss limits chain length to $\\sim$4-5 levels", ["Ignoring energy loss or claiming matter is also lost."]),
+            ],
+          }),
+        lesson("population-dynamics", "Population Dynamics", "I CAN model population growth and explain density-dependent factors.", ["ECO-2"],
+          [["Exponential growth", "$N(t) = N_0 e^{rt}$ — unlimited growth at rate $r$."], ["Carrying capacity", "$K$ — maximum population an environment sustains."], ["Logistic growth", "S-shaped growth slowing as $N \\to K$: $\\frac{dN}{dt} = rN\\left(1 - \\frac{N}{K}\\right)$."], ["Density-dependent", "Factors whose effect intensifies with density: competition, disease, predation."], ["Density-independent", "Factors affecting all densities equally: storms, fires, floods."], ["r-selected / K-selected", "Many offspring, fast growth (r) vs few offspring, heavy parental care (K)."]],
+          {
+            title: "Population growth",
+            skill: "Distinguish growth models and limiting factors.",
+            sections: [
+              ["Growth models", "**Exponential** $N = N_0 e^{rt}$ assumes unlimited resources — unrealistic long-term. **Logistic** growth adds carrying capacity $K$: fast early growth that levels off as $N$ approaches $K$, producing the classic S-curve. Real populations often overshoot then crash."],
+              ["Limiting factors", "**Density-dependent** factors (competition for food/space, disease spread, predation) intensify as $N$ grows — they regulate populations near $K$. **Density-independent** factors (drought, fire, floods) kill regardless of density. Life-history strategies reflect these: $r$-selected species produce many cheap offspring; $K$-selected produce few, cared-for offspring."],
+            ],
+            formulas: [
+              ["Exponential", "$N(t) = N_0 e^{rt}$"],
+              ["Logistic", "$\\frac{dN}{dt} = rN(1 - N/K)$"],
+            ],
+            worked: {
+              problem: "A population of $100$ grows at $r = 0.1$/yr with $K = 1000$. Describe early vs late growth.",
+              solution: "Early ($N \\ll K$): nearly exponential, $\\frac{dN}{dt} \\approx 0.1N$ — fast growth. Late ($N \\to K$): the $(1 - N/K)$ term $\\to 0$, growth slows and stabilizes near $K = 1000$.",
+            },
+            questions: [
+              mcq("foundation", 1, "The logistic growth equation includes the term ___.", [["a", "$e^{rt}$"], ["b", "$\\left(1 - \\frac{N}{K}\\right)$"], ["c", "$N_0$"], ["d", "$rN$"]], "b",
+                [P("definition", "Logistic model", "Carrying capacity slows growth near $K$.")],
+                [S("The $(1 - N/K)$ factor is what distinguishes logistic from exponential growth.", 1, "M")], "$(1 - N/K)$", ["Thinking logistic is just exponential with different constants."]),
+              mcq("core", 1, "Disease spreading faster in crowded populations is a ___.", [["a", "density-independent factor"], ["b", "density-dependent factor"], ["c", "r-selected trait"], ["d", "carrying capacity"]], "b",
+                [P("definition", "Density-dependent", "Effect strengthens with population density.")],
+                [S("Disease transmission increases with crowding — classic density-dependent regulation.", 1, "M")], "Density-dependent", ["Confusing with density-independent disasters."]),
+              num("core", 2, "Exponential growth: $N_0 = 50$, $r = 0.2$, $t = 5$. Compute $N(5) = 50e^{0.2 \\times 5}$. Enter rounded to nearest whole number.", [{ label: "$N(5)$", answer: 136 }],
+                [P("method", "Exponential model", "$N = 50e^{1.0}$.")],
+                [S("$e^{1.0} \\approx 2.718$; $N \\approx 50 \\times 2.718 = 135.9 \\approx 136$.", 1, "M"), S("$\\approx 136$ individuals.", 1, "B")], "$136$", ["Using $e^{rt}$ with $r$ and $t$ swapped or mis-multiplying."]),
+              op("challenge", 3, "Contrast r-selected and K-selected species, giving one example of each.",
+                [P("concept", "r-strategy", "Many offspring, little care, early reproduction, variable environments."), P("concept", "K-strategy", "Few offspring, heavy parental investment, late reproduction, stable environments.")],
+                [S("r-selected: many small offspring, little parental care, reproduce early/often — e.g., weeds, insects, mice.", 1, "M"), S("K-selected: few large offspring, extended care, reproduce late — e.g., elephants, albatrosses, primates.", 1, "M"), S("Correct examples and trait contrasts for both strategies.", 1, "B")], "r = many/cheap (weeds); K = few/cared (elephants)", ["Reversing the strategies or giving no examples."]),
+            ],
+          }),
+        lesson("animal-physiology", "Animal Physiology: Homeostasis and Transport", "I CAN explain homeostatic mechanisms and compare circulatory and gas exchange systems.", ["PHYS-1"],
+          [["Homeostasis", "Maintaining stable internal conditions despite external change."], ["Negative feedback", "Response opposes the stimulus — the main homeostatic mechanism."], ["Positive feedback", "Response amplifies the stimulus — rare, e.g., childbirth contractions."], ["Open circulatory system", "Blood bathes organs directly in a hemocoel — insects, most mollusks."], ["Closed circulatory system", "Blood stays in vessels — vertebrates, earthworms."], ["Countercurrent exchange", "Flowing fluids in opposite directions maximize gradient — efficient gas exchange."]],
+          {
+            title: "Homeostasis and transport",
+            skill: "Explain feedback loops and compare circulatory designs.",
+            sections: [
+              ["Homeostasis", "Internal variables (temperature, pH, glucose, $CO_2$) are held within narrow ranges by **negative feedback** loops: a sensor detects deviation, a control center activates effectors that reverse the change. Thermoregulation, osmoregulation, and blood glucose control are classic examples."],
+              ["Circulation and gas exchange", "**Closed** systems keep blood in vessels (arteries, capillaries, veins) allowing higher pressure and precise delivery. **Open** systems release hemolymph into a body cavity. Gas exchange surfaces maximize area and minimize diffusion distance — alveoli in lungs, gills in fish (countercurrent flow gives near-complete $O_2$ extraction), tracheal systems in insects."],
+            ],
+            formulas: [
+              ["Negative feedback", "Stimulus $\\to$ response opposes stimulus"],
+              ["Fick's law", "Diffusion rate $\\propto$ area $\\times$ gradient / distance"],
+            ],
+            worked: {
+              problem: "Body temperature rises above set point. Trace the negative feedback response.",
+              solution: "Hypothalamus (control) detects heat $\\to$ activates sweat glands and vasodilation (effectors) $\\to$ heat loss increases $\\to$ temperature returns to set point — stimulus reversed.",
+            },
+            questions: [
+              mcq("foundation", 1, "Most homeostatic mechanisms use ___.", [["a", "positive feedback"], ["b", "negative feedback"], ["c", "random fluctuation"], ["d", "open loops"]], "b",
+                [P("definition", "Negative feedback", "Response opposes the stimulus to restore set point.")],
+                [S("Negative feedback is stabilizing; positive feedback amplifies and is rare.", 1, "M")], "Negative feedback", ["Confusing the two feedback types."]),
+              mcq("core", 1, "Fish gills achieve high $O_2$ extraction because of ___.", [["a", "countercurrent exchange"], ["b", "open circulation"], ["c", "alveoli"], ["d", "positive feedback"]], "a",
+                [P("concept", "Countercurrent", "Blood and water flow oppositely, maintaining gradient along entire gill.")],
+                [S("Countercurrent exchange keeps the $O_2$ gradient steep along the whole gill filament — far more efficient than concurrent flow.", 1, "M")], "Countercurrent exchange", ["Thinking gills work like lungs."]),
+              num("core", 2, "An open circulatory system has blood pressure approximately ___. Enter 0 for 'low' or 1 for 'high'.", [{ label: "Pressure", answer: 0 }],
+                [P("concept", "Open system", "No vessels means no pressure buildup.")],
+                [S("Open systems have low pressure since blood isn't confined to vessels — answer: low (0).", 1, "M"), S("$0$ (low).", 1, "B")], "$0$ (low)", ["Applying closed-system pressure reasoning to open systems."]),
+              op("challenge", 3, "Compare open and closed circulatory systems in terms of structure, pressure, and which animal groups use each.",
+                [P("comparison", "Open", "Hemolymph bathes organs in hemocoel, low pressure — insects, most mollusks."), P("comparison", "Closed", "Blood confined to vessels, high pressure — vertebrates, earthworms.")],
+                [S("Open: blood leaves vessels into body cavity, low pressure, slower delivery — insects, most mollusks.", 1, "M"), S("Closed: blood stays in arteries/capillaries/veins, high pressure, faster precise delivery — vertebrates, annelids.", 1, "M"), S("Correct groups and functional trade-offs for both systems.", 1, "B")], "Open = hemocoel/low pressure/insects; closed = vessels/high pressure/vertebrates", ["Swapping the animal groups or pressure levels."]),
+            ],
+          }),
+        lesson("immune-system", "The Immune System", "I CAN distinguish innate and adaptive immunity and explain antibody response.", ["IMM-1"],
+          [["Innate immunity", "Nonspecific first-line defenses: barriers, phagocytes, inflammation, fever."], ["Adaptive immunity", "Specific, memory-forming response: B cells (antibodies) and T cells (cell-mediated)."], ["Antigen", "Any molecule recognized as foreign by the immune system."], ["Antibody", "Y-shaped protein that binds specific antigens — produced by plasma B cells."], ["Memory cell", "Long-lived immune cell enabling faster secondary response."], ["Vaccination", "Controlled exposure to antigen generating memory without disease."]],
+          {
+            title: "Immune defense",
+            skill: "Compare immune branches and explain immunological memory.",
+            sections: [
+              ["Two branches", "**Innate immunity** is immediate and nonspecific: skin/mucosa barriers, phagocytes (neutrophils, macrophages), natural killer cells, inflammation, fever. **Adaptive immunity** is slower but specific: B cells produce antibodies against particular antigens; helper T cells coordinate; cytotoxic T cells kill infected/cancerous cells."],
+              ["Memory and vaccination", "First exposure produces a primary response (slow, IgM then IgG). **Memory B and T cells** persist; on re-exposure the **secondary response** is faster and stronger (mostly IgG). Vaccines exploit this — presenting antigen without disease so memory forms. Autoimmune disease = self-attack; allergies = overreaction to harmless antigens."],
+            ],
+            formulas: [
+              ["Secondary response", "Faster and stronger than primary due to memory cells"],
+              ["Antibody types", "IgM (first responder), IgG (memory/main), IgA (mucosa), IgE (allergies)"],
+            ],
+            worked: {
+              problem: "Why does a second infection with the same pathogen cause milder symptoms?",
+              solution: "Memory B/T cells from the first exposure mount a faster, stronger secondary response — more antibody produced sooner, pathogens cleared before symptoms develop.",
+            },
+            questions: [
+              mcq("foundation", 1, "Antibodies are produced by ___.", [["a", "T cells"], ["b", "B cells (plasma cells)"], ["c", "red blood cells"], ["d", "platelets"]], "b",
+                [P("definition", "Plasma B cells", "Differentiated B cells secreting antibodies.")],
+                [S("B cells differentiate into plasma cells that secrete antigen-specific antibodies.", 1, "M")], "Plasma B cells", ["Attributing antibody production to T cells (they help coordinate, don't secrete antibodies)."]),
+              mcq("core", 1, "Skin and stomach acid are examples of ___.", [["a", "adaptive immunity"], ["b", "innate immunity barriers"], ["c", "antibody response"], ["d", "memory cells"]], "b",
+                [P("concept", "Innate defenses", "Physical/chemical barriers act first, nonspecifically.")],
+                [S("Barriers like skin, mucus, and stomach acid are nonspecific innate defenses.", 1, "M")], "Innate immunity", ["Classifying barriers as adaptive — they aren't specific or memory-forming."]),
+              num("core", 2, "A vaccine contains a weakened pathogen. What does it primarily generate? Enter 1 for 'antibodies directly', 2 for 'memory cells', 3 for 'antigens only'.", [{ label: "Result", answer: 2 }],
+                [P("concept", "Vaccination", "Controlled antigen exposure builds immunological memory.")],
+                [S("Vaccines stimulate B/T cell activation producing antibodies AND long-lived memory cells — best answer is memory cells (2).", 1, "M"), S("$2$.", 1, "B")], "$2$ (memory cells)", ["Thinking vaccines provide antibodies directly like a serum."]),
+              op("challenge", 3, "Distinguish between the primary and secondary immune responses, and explain how vaccines exploit this.",
+                [P("comparison", "Primary", "First exposure: slow, IgM-heavy, lower antibody levels."), P("comparison", "Secondary", "Re-exposure: fast, IgG-heavy, higher levels.")],
+                [S("Primary response: takes days, IgM then IgG, moderate antibody production — symptoms may occur.", 1, "M"), S("Secondary: memory cells enable rapid, massive IgG response — pathogens cleared before illness.", 1, "M"), S("Vaccines present harmless antigen so the body builds memory cells — real infection later triggers fast secondary response.", 1, "B")], "Memory cells enable faster/stronger secondary response; vaccines pre-build it", ["Saying vaccines inject ready-made antibodies."]),
+            ],
+          }),
+      ],
+    },
+  ],
+};
+
+module.exports = { courses: [apBiology] };
